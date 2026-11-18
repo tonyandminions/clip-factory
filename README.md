@@ -1,4 +1,17 @@
-# clip-factory
+# clip-factory — Tony & Minions
+
+## READ FIRST — hard rules (every chat and scheduled task)
+1. **No reposts.** Check `posted_sources.json` with `scripts/dedupe_check.py` before building or scheduling; register every clip you schedule. "rejected" entries are banned forever.
+2. **Retention.** Best line in the first second, 15–30 s, cut dead air with `segments`.
+3. **Cap.** Feed posts: 6/day per platform through Sun 11/22, 4/day after; 90+ min apart; paid clips only in :10 slots. Stories: separate, 6/day, 40+ min apart.
+4. **Variety.** Never the same streamer twice in a row; max 2 per streamer per day; Part 2 never before Part 1.
+5. **Safety.** No nudity, sexual jokes, slurs, crude humor, or cutscene-only clips. No bots, no passwords, never join campaigns without Justin.
+6. **Credits.** ClipSpeed has ~127 one-time credits (~36/hour live). Use only for YourRAGE live on GTA 6, max 45 min/session, keep 30 in reserve, never its Generate/AI tools. Free sources first: Twitch clips, `scan`, `record`. Don't spend vidIQ or Metricool AI credits.
+7. **Git.** `git pull --rebase` before every push; retry on conflict. Job files in `jobs/` trigger builds — never move or rewrite old ones.
+8. **Chrome.** Close every tab you open. Never click Delete on posts (ask Justin).
+9. **PC files.** Write edited copies to a NEW filename in outputs before committing back; check the byte size.
+10. **Paid submissions** within 30 min of posting (Submitter task runs at :18 after each :10 slot).
+
 
 Tony & Minions clip pipeline. Commit a job file to `jobs/` and the `clip` workflow:
 

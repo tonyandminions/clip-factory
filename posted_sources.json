@@ -373,6 +373,36 @@
    "date": "2026-11-22 20:10",
    "caption": "jet ski ramps race",
    "note": "ClipSpeed ref 19:18 UTC (LACY_N03)"
+  },
+  {
+   "name": "LACY_LuciaFirstTime_otherchat",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 3020,
+   "end": 3050,
+   "clip": "SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5",
+   "status": "posted",
+   "date": "2026-11-18 morning",
+   "caption": "LACY seeing Lucia for the first time",
+   "note": "Posted by the other chat (OpusClip) on TikTok 7709526870198455582 + YT t9O_aG6GhXk"
+  },
+  {
+   "name": "LACY_BankJob_otherchat",
+   "streamer": "lacy",
+   "status": "posted",
+   "date": "2026-11-18 morning",
+   "caption": "LACY first GTA 6 bank job",
+   "note": "Posted by the other chat (OpusClip) on TikTok 7709534333035384095 + YT ciGQYfWe5mg; VOD offset unknown \u2014 treat any LACY bank-job clip as used"
+  },
+  {
+   "name": "LACY_ReleaseOfGTAVI_otherchat",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 2900,
+   "end": 2950,
+   "status": "rejected",
+   "caption": "the release of GTA VI opening reaction",
+   "note": "OpusClip version sits in Downloads from the other chat; don't build a second one"
   }
  ]
 }
