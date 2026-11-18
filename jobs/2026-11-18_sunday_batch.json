@@ -1,0 +1,79 @@
+[
+ {
+  "name": "LACY_StrayDog",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_5e2c7c16-f751-48e8-97c2-5ee15b19b7ca_1795033944386.mp4",
+   "gen_utc": "2026-11-18T20:32:24Z",
+   "back": 100,
+   "pad": "4,3"
+  },
+  "segments": [
+   [
+    27.5,
+    31.8
+   ],
+   [
+    35.8,
+    39.0
+   ],
+   [
+    40.8,
+    44.4
+   ],
+   [
+    59.8,
+    77.2
+   ]
+  ],
+  "style": 6,
+  "title": [
+   "LACY tried to adopt",
+   "*a stray dog in GTA 6"
+  ],
+  "captions": "auto",
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "LACY_JetSki",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_27127de4-8352-4dc3-b662-d7c80ffcd2bf_1795029515389.mp4",
+   "gen_utc": "2026-11-18T19:18:35Z",
+   "back": 100,
+   "pad": "4,3"
+  },
+  "segments": [
+   [
+    44.0,
+    74.0
+   ]
+  ],
+  "style": 0,
+  "title": [
+   "LACY hit every ramp",
+   "*on a jet ski in GTA 6"
+  ],
+  "captions": "auto",
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "KATIE_WorstGameplay",
+  "url": "https://www.twitch.tv/realkatieb/clip/TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE",
+  "ss": 0.0,
+  "to": 20.0,
+  "style": 2,
+  "title": [
+   "realkatieb's bike crash",
+   "*in GTA 6"
+  ],
+  "captions": "auto",
+  "cam": "60,0,960,878",
+  "camfit": true,
+  "game": "0,1138,1080,608"
+ }
+]

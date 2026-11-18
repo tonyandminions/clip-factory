@@ -337,6 +337,15 @@
    "end": 32525,
    "status": "rejected",
    "caption": "likely nudity ('banned', 'little peak') - never use"
+  },
+  {
+   "name": "SKIP_BP_NakedWall",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 34680,
+   "end": 34725,
+   "status": "rejected",
+   "caption": "naked woman on the wall - never use"
   }
  ]
 }
