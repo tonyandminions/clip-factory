@@ -1,0 +1,31 @@
+[
+ {
+  "name": "CLIX_PlaneCrash",
+  "url": "https://www.twitch.tv/clix/clip/JollyObeseApeBigBrother-iLeo_6jckIEFQGGq",
+  "title": [
+   "Clix tried to fly a plane",
+   "*in GTA 6"
+  ],
+  "cam": "0,0,476,266",
+  "camfit": true,
+  "game": "480,280,1200,675",
+  "captions": "auto",
+  "to": 23.5,
+  "setup": "Clix's first time flying in GTA 6...",
+  "setup_dur": 1.5,
+  "style": 2
+ },
+ {
+  "name": "JASON_RoadRage",
+  "url": "https://www.twitch.tv/jasontheween/clip/ManlyProudPidgeonBloodTrail-PjN9TVhQ1zqg3GPr",
+  "title": [
+   "JasonTheWeen vs",
+   "*GTA 6 road rage"
+  ],
+  "cam": "1500,486,412,276",
+  "camfit": true,
+  "game": "300,280,1200,675",
+  "captions": "auto",
+  "style": 5
+ }
+]
