@@ -1,0 +1,8 @@
+[
+ {"name": "LACY_Live2", "probe": true, "title": ["LACY", "*GTA 6"],
+  "live": {"channel": "lacy", "vod": "https://www.twitch.tv/videos/2932194507", "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_37764855-c1d3-4fda-a4ae-ac824ccf9549_1795019658157.mp4", "gen_utc": "2026-11-18T16:34:18Z", "back": 240, "pad": "4,3"}},
+ {"name": "LACY_Live3", "probe": true, "title": ["LACY", "*GTA 6"],
+  "live": {"channel": "lacy", "vod": "https://www.twitch.tv/videos/2932194507", "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_703f0b5f-647f-4a74-91e4-ada73afb16e2_1795019850074.mp4", "gen_utc": "2026-11-18T16:37:30Z", "back": 240, "pad": "4,3"}},
+ {"name": "LACY_Live4", "probe": true, "title": ["LACY", "*GTA 6"],
+  "live": {"channel": "lacy", "vod": "https://www.twitch.tv/videos/2932194507", "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_4965e2ed-be8b-4fec-8524-5bb98511d59b_1795019976296.mp4", "gen_utc": "2026-11-18T16:39:36Z", "back": 240, "pad": "4,3"}}
+]

@@ -20,15 +20,28 @@ def pcm(path, sr=8000):
 ap = argparse.ArgumentParser()
 ap.add_argument("channel"); ap.add_argument("ref"); ap.add_argument("gen"); ap.add_argument("od")
 ap.add_argument("--back", type=float, default=240); ap.add_argument("--pad", default="0,0")
+ap.add_argument("--vod", help="VOD url (skip lookup of the newest archive)")
 a = ap.parse_args()
 os.makedirs(a.od, exist_ok=True)
 ref = os.path.join(a.od, "ref.mp4")
 sh("curl", "-sSL", "--retry", "3", "-o", ref, a.ref)
-lst = json.loads(subprocess.check_output(["yt-dlp", "-J", "--flat-playlist", "--playlist-items", "1",
-      f"https://www.twitch.tv/{a.channel}/videos?filter=archives&sort=time"]))
-vurl = lst["entries"][0]["url"]
-meta = json.loads(subprocess.check_output(["yt-dlp", "-J", vurl]))
-vts = meta.get("timestamp")
+import time
+cache = f"/tmp/vod_{a.channel}.json"
+if os.path.exists(cache) and not a.vod:
+    vurl, vts = json.load(open(cache))
+else:
+    vurl = a.vod
+    for attempt in range(4):
+        try:
+            if not vurl:
+                lst = json.loads(subprocess.check_output(["yt-dlp", "-J", "--flat-playlist", "--playlist-items", "1",
+                      f"https://www.twitch.tv/{a.channel}/videos?filter=archives&sort=time"]))
+                vurl = lst["entries"][0]["url"]
+            vts = json.loads(subprocess.check_output(["yt-dlp", "-J", vurl])).get("timestamp")
+            break
+        except Exception as e:
+            print("vod lookup retry", attempt, e, flush=True); time.sleep(10 * (attempt + 1))
+    json.dump([vurl, vts], open(cache, "w"))
 gen = datetime.datetime.fromisoformat(a.gen.replace("Z", "+00:00")).timestamp()
 end = gen - vts + 20
 start = max(0, end - a.back - 20)

@@ -36,7 +36,8 @@ def run(job):
     if job.get("live"):  # ClipSpeed live moment -> raw VOD window, aligned by audio
         L = job["live"]
         sh(sys.executable, os.path.join(HERE, "live_fetch.py"), L["channel"], L["ref"], L["gen_utc"], od,
-           "--back", str(L.get("back", 240)), "--pad", L.get("pad", "0,0"))
+           "--back", str(L.get("back", 240)), "--pad", L.get("pad", "0,0"),
+           *(["--vod", L["vod"]] if L.get("vod") else []))
         info = json.load(open(os.path.join(od, "live.json")))
         os.replace(info["src"], src)
         if info["match"] < 0.3:
