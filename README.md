@@ -48,3 +48,10 @@ Each job gets its own runner (matrix), so push many probes at once.
 - Before scheduling anything: `python3 scripts/dedupe_check.py --vod <id> --start <s> --end <e>` (or `--clip <slug>`). It fails if the moment is within 45s of anything already used. Then add the new entry.
 - One moment = one post per platform, ever. Two viewers' Twitch clips of the same moment count as the same moment.
 - Other chats post directly in the TikTok/YouTube apps — check TikTok Studio + YouTube Studio scheduled lists too, not just Metricool.
+
+## Cap, slots, rotation, parts (launch week + after)
+- Cap per platform, counting every post (incl. Speed posted natively): **6/day Thu 11/19–Sun 11/22**, **4/day from Mon 11/23**. 90+ min apart.
+- Slots ET — launch week: 9:10, 11:10, 13:20 (Speed, native), 15:40, 18:10, 20:40. From 11/23: 10:10, 13:20, 17:10, 20:40.
+- Rotation: never the same streamer back-to-back; max 2/streamer/day; aim for 2 LACY, 1 Clix or Jason, 1 BP, 1 Speed, 1 women streamer/YourRAGE. Paid clips get 11:10, 18:10, 20:40.
+- Part 1 / Part 2: setup → payoff moments get split. Same `style`, title accent "PART 1"/"PART 2", caption "(Part 1)"/"(Part 2)". Part 2 goes 2–6 h after Part 1 or next day same slot; pin "Part 2 is up 👀" on Part 1.
+- Shared schedule doc on the PC: Documents/Side Business/Posting Schedule 11-18.md (every chat reads/updates it).
