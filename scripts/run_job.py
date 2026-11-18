@@ -12,7 +12,8 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "ss": null, "to": null,                 # trim (seconds in source)
   "captions": "auto",                     # "auto" (whisper), "none", or [[s,e,"TEXT"],...]
   "credit": null,                         # small credit line in the caption band when captions are none
-  "probe": false                          # true = only download, transcribe, contact sheet
+  "probe": false,                         # true = only download, transcribe, contact sheet
+  "post": false                           # true = also make a <3.6 MB copy for browser uploads
 }
 Outputs go to out/<name>/: source.mp4, transcript.txt, caps.json, <name>_HQ.mp4, <name>_post.mp4, sheet.jpg
 """
@@ -63,7 +64,8 @@ def run(job):
     if capsfile:
         cmd += ["--caps", capsfile]
     sh(*cmd)
-    sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
+    if job.get("post", False):  # browser-upload copy (<3.6 MB); Metricool uses the HQ file
+        sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
     # preview strip of the finished edit
     d2 = dur(hq)
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
