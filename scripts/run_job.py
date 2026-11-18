@@ -34,7 +34,7 @@ def run(job):
     if job.get("file"):
         sh("cp", job["file"], src)
     else:
-        sh("yt-dlp", "-q", "--no-warnings", "-f", "best[ext=mp4]/best", "--merge-output-format", "mp4", "-o", src, job["url"])
+        sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4", "-o", src, job["url"])
     D = dur(src)
     # contact sheet of the raw source (to check cam / overlay positions)
     sh("ffmpeg", "-v", "error", "-y", "-i", src, "-vf",

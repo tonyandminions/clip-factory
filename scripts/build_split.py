@@ -63,7 +63,7 @@ if a.caps:
                   f"enable='between(t,{s},{e})'")
 
 fc = (
-    f"[0:v]fps=30,split=3[b][c][g];"
+    f"[0:v]scale=1920:1080:flags=lanczos,setsar=1,fps=30,split=3[b][c][g];"
     f"[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.32[bg];"
     f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale},setsar=1[cam];"
     f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H},setsar=1[game];"
