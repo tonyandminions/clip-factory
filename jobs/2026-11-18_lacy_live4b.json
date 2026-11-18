@@ -1,0 +1,101 @@
+[
+ {
+  "name": "LACY_BarFight",
+  "title": [
+   "LACY took on 4 guys",
+   "*with Lucia in GTA 6"
+  ],
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "captions": [
+   [
+    0.0,
+    1.41,
+    "*LET'S DO IT"
+   ],
+   [
+    1.41,
+    3.4,
+    "COME ON"
+   ],
+   [
+    3.65,
+    6.2,
+    "*I'M 1V3"
+   ],
+   [
+    7.41,
+    8.29,
+    "1V4"
+   ],
+   [
+    8.29,
+    10.35,
+    "*YEAH, LUCIA!"
+   ],
+   [
+    10.35,
+    10.89,
+    "HOP ON HIM"
+   ],
+   [
+    10.89,
+    12.17,
+    "*COME AT ME"
+   ],
+   [
+    12.19,
+    14.6,
+    "COME AT ME"
+   ],
+   [
+    16.99,
+    18.9,
+    "HUSH, HUSH"
+   ],
+   [
+    27.45,
+    30.0,
+    "*THAT'S MY BOY"
+   ],
+   [
+    34.19,
+    36.4,
+    "TIME TO GO"
+   ],
+   [
+    37.65,
+    40.09,
+    "*OOH"
+   ],
+   [
+    41.0,
+    41.77,
+    "*WHERE DO YOU THINK"
+   ],
+   [
+    41.77,
+    43.2,
+    "YOU'RE GOING?"
+   ],
+   [
+    43.31,
+    45.0,
+    "*SIRENS"
+   ],
+   [
+    45.25,
+    46.65,
+    "WHY ARE WE RUNNING"
+   ]
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_4965e2ed-be8b-4fec-8524-5bb98511d59b_1795019976296.mp4",
+   "gen_utc": "2026-11-18T16:39:36Z",
+   "back": 240,
+   "pad": "4,3"
+  }
+ }
+]
