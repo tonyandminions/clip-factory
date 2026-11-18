@@ -51,7 +51,13 @@ Each job gets its own runner (matrix), so push many probes at once.
 
 ## Cap, slots, rotation, parts (launch week + after)
 - Cap per platform, counting every post (incl. Speed posted natively): **6/day Thu 11/19–Sun 11/22**, **4/day from Mon 11/23**. 90+ min apart.
-- Slots ET — launch week: 9:10, 11:10, 13:20 (Speed, native), 15:40, 18:10, 20:40. From 11/23: 10:10, 13:20, 17:10, 20:40.
-- Rotation: never the same streamer back-to-back; max 2/streamer/day; aim for 2 LACY, 1 Clix or Jason, 1 BP, 1 Speed, 1 women streamer/YourRAGE. Paid clips get 11:10, 18:10, 20:40.
+- Slots ET — launch week: 9:10, 11:10, 13:20 (Speed, native), 15:10, 18:10, 20:10. From 11/23: 9:10, 13:20, 18:10, 20:10. Paid clips ONLY in :10 slots (the Submitter task runs at :18 after each).
+- Rotation: never the same streamer back-to-back; max 2/streamer/day; aim for 2 LACY, 1 Clix or Jason, 1 BP, 1 Speed, 1 women streamer/YourRAGE. Paid clips get 11:10, 18:10, 20:10.
 - Part 1 / Part 2: setup → payoff moments get split. Same `style`, title accent "PART 1"/"PART 2", caption "(Part 1)"/"(Part 2)". Part 2 goes 2–6 h after Part 1 or next day same slot; pin "Part 2 is up 👀" on Part 1.
 - Shared schedule doc on the PC: Documents/Side Business/Posting Schedule 11-18.md (every chat reads/updates it).
+
+## Ready queue (queue.json)
+Clip Finder appends finished clips; Scheduler pops them into open slots. Each item:
+`{"name","streamer","campaign":"LACY|Clix|JasonTheWeen|YourRAGE|growth","media":"https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-N/NAME/NAME_HQ.mp4","caption","yt_title","cover_ms","part":null|{"series","n"},"vod","start","end","clip","status":"ready|scheduled","slot":null,"added"}`
+- Part 2 is never scheduled before its Part 1. Same series = same style.
+- Metricool payload: providers tiktok+instagram+youtube+facebook; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE).
