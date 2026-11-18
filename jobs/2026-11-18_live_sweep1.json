@@ -1,0 +1,432 @@
+[
+ {
+  "name": "LACY_N01",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_bbde47c8-6292-4d64-b7bb-36b4b0325119_1795029404981.mp4",
+   "gen_utc": "2026-11-18T19:16:44Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N02",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_65f4547c-1569-4cb4-82cd-dfbdeb26595e_1795029500566.mp4",
+   "gen_utc": "2026-11-18T19:18:20Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N03",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_27127de4-8352-4dc3-b662-d7c80ffcd2bf_1795029515389.mp4",
+   "gen_utc": "2026-11-18T19:18:35Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N04",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_ab66b7ca-787e-4e0f-9356-025af5d02cd8_1795030081974.mp4",
+   "gen_utc": "2026-11-18T19:28:01Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N05",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_f2cbbd4f-3c14-4a41-88cb-d1255dedd6a2_1795030232126.mp4",
+   "gen_utc": "2026-11-18T19:30:32Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N06",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_243d0174-d0a6-4ece-9df2-cb61b83002c2_1795030383384.mp4",
+   "gen_utc": "2026-11-18T19:33:03Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N07",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_3cb7ef84-784b-4397-b721-010bf8b4a066_1795030643906.mp4",
+   "gen_utc": "2026-11-18T19:37:23Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N08",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_5e404d2c-1cf5-4c53-96f8-1f8ec523e9c7_1795030766166.mp4",
+   "gen_utc": "2026-11-18T19:39:26Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N09",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_40e7bb34-a740-4221-bd75-bc7673b4f563_1795030806755.mp4",
+   "gen_utc": "2026-11-18T19:40:06Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N10",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_7d923c0e-4ac8-491b-aae2-dc4139ede306_1795031201531.mp4",
+   "gen_utc": "2026-11-18T19:46:41Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N11",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_8648d2cb-9cb4-4f07-8cf6-df4d8de9f009_1795031286991.mp4",
+   "gen_utc": "2026-11-18T19:48:06Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N12",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_d5de5ee3-9343-45e7-9aab-5f0200de49ab_1795031444391.mp4",
+   "gen_utc": "2026-11-18T19:50:44Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N13",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_79be509b-ebbe-438d-ac98-b9a97de519bc_1795031651877.mp4",
+   "gen_utc": "2026-11-18T19:54:11Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N14",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_dce20d40-f958-4b83-91ab-0b5db541a29c_1795031972400.mp4",
+   "gen_utc": "2026-11-18T19:59:32Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N15",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_368f24a5-36fe-44b5-b613-bf928e1902b6_1795032148217.mp4",
+   "gen_utc": "2026-11-18T20:02:28Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N16",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_f6c82b4d-174d-471e-b8d8-4b6f6522aaa0_1795032482269.mp4",
+   "gen_utc": "2026-11-18T20:08:02Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N17",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_7fb2452a-0322-40b6-939a-3a21d000f695_1795032810763.mp4",
+   "gen_utc": "2026-11-18T20:13:30Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N18",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_a4404bb9-54ae-4462-a069-ff18dc63f9c5_1795032821050.mp4",
+   "gen_utc": "2026-11-18T20:13:41Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N19",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_ab051dbb-57c7-4eab-9b74-814c366a31df_1795033162383.mp4",
+   "gen_utc": "2026-11-18T20:19:22Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N20",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_db06183e-d8bc-4bfb-be1f-e0164e7c5ab9_1795033243428.mp4",
+   "gen_utc": "2026-11-18T20:20:43Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N21",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_56c0f60e-233a-4ac3-958f-a05faed3323c_1795033653390.mp4",
+   "gen_utc": "2026-11-18T20:27:33Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N22",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_daf68232-119e-49e6-a240-eb5c9334be63_1795033845021.mp4",
+   "gen_utc": "2026-11-18T20:30:45Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N23",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_5e2c7c16-f751-48e8-97c2-5ee15b19b7ca_1795033944386.mp4",
+   "gen_utc": "2026-11-18T20:32:24Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N24",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_5faa9a00-66c6-48c5-bbd3-c9146ce0b7ac_1795034260756.mp4",
+   "gen_utc": "2026-11-18T20:37:40Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N25",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_a7d42067-2ffb-4e46-ae14-e14ff5c52c77_1795034350280.mp4",
+   "gen_utc": "2026-11-18T20:39:10Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N26",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_b5951231-e476-474d-b3ea-9577ebc793cd_1795034422118.mp4",
+   "gen_utc": "2026-11-18T20:40:22Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N27",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_1658d8c6-1652-44ea-9d21-71d28f829169_1795034609120.mp4",
+   "gen_utc": "2026-11-18T20:43:29Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N28",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_9dccb18a-5ba9-4001-9d2f-fac3bf6945bc_1795034770510.mp4",
+   "gen_utc": "2026-11-18T20:46:10Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N29",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_bc439211-a1b4-4b28-96d0-d0a6c27dbb2e_1795035070035.mp4",
+   "gen_utc": "2026-11-18T20:51:10Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_N30",
+  "probe": true,
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_e2ae1e35-25ce-4314-957f-cbbfbca15a66_1795035370215.mp4",
+   "gen_utc": "2026-11-18T20:56:10Z",
+   "back": 100,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "BP_N_BigJobs",
+  "probe": true,
+  "url": "https://www.twitch.tv/theburntpeanut/clip/LivelyObliqueMangetoutPartyTime--sPkk1kMup-5SpU7"
+ },
+ {
+  "name": "BP_N_AlmostLost",
+  "probe": true,
+  "url": "https://www.twitch.tv/theburntpeanut/clip/CogentLightLampKreygasm-hNtzG6z-7X1-TmQd"
+ },
+ {
+  "name": "CLIX_N_dhc",
+  "probe": true,
+  "url": "https://www.twitch.tv/clix/clip/AgreeableCrispySowLitFam-1kdaofm7vwVkyU-4"
+ },
+ {
+  "name": "CLIX_N_l",
+  "probe": true,
+  "url": "https://www.twitch.tv/clix/clip/WittyRoundChowderHeyGirl-OzvMSnOERIqgqOgp"
+ },
+ {
+  "name": "CLIX_N_dot",
+  "probe": true,
+  "url": "https://www.twitch.tv/clix/clip/CourageousJazzyCheddarDancingBanana--b8iXZo78E09gIT1"
+ },
+ {
+  "name": "JASON_N_Playing",
+  "probe": true,
+  "url": "https://www.twitch.tv/jasontheween/clip/SincereCoySwallowTwitchRPG-8Guq8lUaPBtFXRsu"
+ },
+ {
+  "name": "JASON_N_Ayooo",
+  "probe": true,
+  "url": "https://www.twitch.tv/jasontheween/clip/AbrasivePatientMageRaccAttack-buWjiUiqf-LAh40B"
+ },
+ {
+  "name": "MIKKAA_N_Face",
+  "probe": true,
+  "url": "https://www.twitch.tv/missmikkaa/clip/NimbleGentleSpaghettiSoBayed--eDF4o99GX6nc5fa"
+ },
+ {
+  "name": "MIKKAA_N_OhShit",
+  "probe": true,
+  "url": "https://www.twitch.tv/missmikkaa/clip/DirtyRenownedTarsierKevinTurtle-EFcJIVKYi2pMk52p"
+ },
+ {
+  "name": "MIKKAA_N_lol",
+  "probe": true,
+  "url": "https://www.twitch.tv/missmikkaa/clip/BitterBoringJaguarRiPepperonis-abQUzLW1EpJW4u2M"
+ },
+ {
+  "name": "KATIE_N_Stunt",
+  "probe": true,
+  "url": "https://www.twitch.tv/realkatieb/clip/TenaciousAgreeableMushroomChocolateRain-0qzIhAJX9xdcD2-L"
+ },
+ {
+  "name": "KATIE_N_RidingDirty",
+  "probe": true,
+  "url": "https://www.twitch.tv/realkatieb/clip/TransparentMoldyDiscFailFish-kOEIphXlY2qnlJVV"
+ },
+ {
+  "name": "KATIE_N_Worst",
+  "probe": true,
+  "url": "https://www.twitch.tv/realkatieb/clip/FuriousQuaintOysterHotPokket-g11mkunwuzc2qs9k"
+ },
+ {
+  "name": "KATIE_N_Rocked",
+  "probe": true,
+  "url": "https://www.twitch.tv/realkatieb/clip/TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE"
+ }
+]
