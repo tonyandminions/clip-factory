@@ -1,0 +1,34 @@
+[
+ {
+  "name": "LACY_Live14",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_f1ef439c-6921-489d-8e25-2c15cfe8890b_1795022657804.mp4",
+   "gen_utc": "2026-11-18T17:24:17Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_Live15",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_fbaccc97-5161-4fdd-b1ea-f0983388083f_1795022822754.mp4",
+   "gen_utc": "2026-11-18T17:27:02Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ }
+]
