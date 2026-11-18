@@ -1,0 +1,73 @@
+{
+ "_note": "Ready queue \u2014 Clip Finder appends status ready; Scheduler sets scheduled + slot. See README 'Ready queue'.",
+ "items": [
+  {
+   "name": "LACY_Gator_P1",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-18 18:05",
+   "part": {
+    "series": "LACY gator",
+    "n": 1
+   }
+  },
+  {
+   "name": "LACY_LostAllMoney_P2",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-18 20:25",
+   "part": {
+    "series": "LACY gator",
+    "n": 2
+   }
+  },
+  {
+   "name": "MIKKAA_Gains",
+   "streamer": "missmikkaa",
+   "status": "scheduled",
+   "slot": "2026-11-20 15:10",
+   "part": null
+  },
+  {
+   "name": "CLIX_FirstMission",
+   "streamer": "clix",
+   "status": "scheduled",
+   "slot": "2026-11-20 18:10",
+   "part": null
+  },
+  {
+   "name": "LACY_Robbery",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-20 20:10",
+   "part": null
+  },
+  {
+   "name": "LACY_Seaplane_P1",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-21 09:10",
+   "part": {
+    "series": "LACY seaplane",
+    "n": 1
+   }
+  },
+  {
+   "name": "LACY_Seaplane_P2",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-21 15:10",
+   "part": {
+    "series": "LACY seaplane",
+    "n": 2
+   }
+  },
+  {
+   "name": "MIKKAA_WomanDriver",
+   "streamer": "missmikkaa",
+   "status": "scheduled",
+   "slot": "2026-11-21 18:10",
+   "part": null
+  }
+ ]
+}
