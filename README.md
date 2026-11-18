@@ -10,7 +10,7 @@
 7. **Git.** `git pull --rebase` before every push; retry on conflict. Job files in `jobs/` trigger builds — never move or rewrite old ones.
 8. **Chrome.** Close every tab you open. Never click Delete on posts (ask Justin).
 9. **PC files.** Write edited copies to a NEW filename in outputs before committing back; check the byte size.
-10. **Paid submissions** within 30 min of posting (Submitter task runs at :18 after each :10 slot).
+10. **Paid submissions** within 30 min of posting (Submitter task runs at :18 after each :10 slot). Content Rewards auto-detects TikTok + Instagram cards only: tick them and submit first (pasting a link switches the dialog to single-link mode), then reopen Submit clip, paste the YouTube Shorts link, tick the box and submit it on its own.
 
 
 Tony & Minions clip pipeline. Commit a job file to `jobs/` and the `clip` workflow:
