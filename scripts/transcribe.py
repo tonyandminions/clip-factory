@@ -9,7 +9,7 @@ import argparse, json, os, re, subprocess
 import numpy as np
 from faster_whisper import WhisperModel
 
-SWEARS = re.compile(r"^(fuck\w*|f\*+\w*|shit\w*|bitch\w*|ass(hole)?s?|dick\w*|pussy|cunt\w*|nigg\w*|fag\w*|retard\w*|damn|goddamn|bastard\w*|cock\w*|whore\w*|slut\w*)$", re.I)
+SWEARS = re.compile(r"^(fuck\w*|f\*+\w*|shit\w*|bitch\w*|ass(hole)?s?|dick\w*|puss(y|ies)|cunt\w*|nigg\w*|fag\w*|retard\w*|damn|goddamn|bastard\w*|cock\w*|whore\w*|slut\w*)$", re.I)
 MAX_WORDS, MAX_CHARS, GAP = 4, 24, 0.35
 
 ap = argparse.ArgumentParser()
