@@ -1,0 +1,132 @@
+[
+ {
+  "name": "LACY_Gator_P1",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cf35e646-de09-474f-8d9b-4fce4ea0ac0e_1795027753686.mp4",
+   "gen_utc": "2026-11-18T18:49:13Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 30.5,
+  "to": 77.5,
+  "style": 7,
+  "title": [
+   "LACY tried to pet",
+   "*an alligator - PART 1"
+  ],
+  "setup": "He thought the gator was friendly...",
+  "setup_dur": 2.6,
+  "captions": "auto"
+ },
+ {
+  "name": "LACY_LostAllMoney_P2",
+  "probe": false,
+  "title": [
+   "LACY lost ALL his money",
+   "*PART 2"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cbc5a8e8-51aa-4c6f-a6d3-3dd67c7bd40c_1795027869889.mp4",
+   "gen_utc": "2026-11-18T18:51:09Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 181.5,
+  "to": 203.0,
+  "style": 7,
+  "setup": "PART 2: he didn't know dying takes ALL your money...",
+  "setup_dur": 3.2,
+  "captions": [
+   [
+    3.2,
+    5.8,
+    "WHY DIDN'T I SHOOT IT?"
+   ],
+   [
+    10.8,
+    11.8,
+    "*GET IT BACK"
+   ],
+   [
+    11.8,
+    13.0,
+    "WAIT, HOW DO I GET IT BACK?"
+   ],
+   [
+    13.0,
+    14.8,
+    "*HOW DO I GET IT BACK?"
+   ],
+   [
+    17.1,
+    18.8,
+    "I DON'T EVEN HAVE ENOUGH"
+   ],
+   [
+    18.8,
+    21.4,
+    "*MONEY TO FILL MY GAS TANK"
+   ]
+  ]
+ },
+ {
+  "name": "MIKKAA_Gains",
+  "url": "https://github.com/tonyandminions/clip-factory/releases/download/raw-clips/MIKKAA_Rec2_cut1.mp4",
+  "cam": "1430,450,490,560",
+  "camfit": true,
+  "game": "40,140,1300,731",
+  "ss": 6.0,
+  "to": 30.0,
+  "style": 1,
+  "title": [
+   "MissMikkaa lost her gains",
+   "*in GTA 6"
+  ],
+  "setup": "GTA 6 tracks your gym gains now...",
+  "setup_dur": 2.6,
+  "captions": "auto"
+ },
+ {
+  "name": "LACY_P3_Lucia",
+  "probe": true,
+  "url": "https://www.twitch.tv/lacy/clip/SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5"
+ },
+ {
+  "name": "LACY_P3_Wtf",
+  "probe": true,
+  "url": "https://www.twitch.tv/lacy/clip/CredulousKawaiiTriangleFUNgineer-Zys54vtw1G4OmIkN"
+ },
+ {
+  "name": "LACY_P3_Yooo",
+  "probe": true,
+  "url": "https://www.twitch.tv/lacy/clip/CloudyLivelyHareCharlieBitMe-8lGWQ2aObfK8dyAR"
+ },
+ {
+  "name": "JASON_P3_PutWhat",
+  "probe": true,
+  "url": "https://www.twitch.tv/jasontheween/clip/FurryAntsyRamenJonCarnage-ZcZa5r607qBCjERF"
+ },
+ {
+  "name": "JASON_P3_GTA6",
+  "probe": true,
+  "url": "https://www.twitch.tv/jasontheween/clip/GrossSmoggyLadiesFUNgineer-ke4af90JEX91EDuX"
+ },
+ {
+  "name": "BP_P3_Banned",
+  "probe": true,
+  "url": "https://www.twitch.tv/theburntpeanut/clip/TenaciousAttractiveBearSMOrc-UuJCZFqVB-yIqC70"
+ },
+ {
+  "name": "CLIX_P3_LOL",
+  "probe": true,
+  "url": "https://www.twitch.tv/clix/clip/TiredSecretiveChipmunkUncleNox-DfMhl81_JzpEi5pi"
+ }
+]
