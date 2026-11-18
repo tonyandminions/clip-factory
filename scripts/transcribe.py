@@ -5,7 +5,8 @@ usage: transcribe.py SRC OUTDIR [--ss S] [--to T]
 writes OUTDIR/transcript.txt (timestamped lines) and OUTDIR/caps.json ([[start, end, TEXT], ...])
 Swear words are dropped from captions (the audio is untouched).
 """
-import argparse, json, os, re
+import argparse, json, os, re, subprocess
+import numpy as np
 from faster_whisper import WhisperModel
 
 SWEARS = re.compile(r"^(fuck\w*|f\*+\w*|shit\w*|bitch\w*|ass(hole)?s?|dick\w*|pussy|cunt\w*|nigg\w*|fag\w*|retard\w*|damn|goddamn|bastard\w*|cock\w*|whore\w*|slut\w*)$", re.I)
@@ -19,7 +20,10 @@ a = ap.parse_args()
 os.makedirs(a.outdir, exist_ok=True)
 
 model = WhisperModel(a.model, device="cpu", compute_type="int8")
-segs, _ = model.transcribe(a.src, word_timestamps=True, vad_filter=True, language="en")
+pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", a.src, "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                     check=True, capture_output=True).stdout
+audio = np.frombuffer(pcm, dtype=np.float32)
+segs, _ = model.transcribe(audio, word_timestamps=True, vad_filter=True, language="en")
 
 words, lines = [], []
 for s in segs:

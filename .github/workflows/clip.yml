@@ -13,6 +13,9 @@ concurrency:
   group: clip-${{ github.sha }}
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   clip:
     runs-on: ubuntu-latest
@@ -33,6 +36,11 @@ jobs:
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
           echo "Jobs: $FILES"
 
+      - uses: actions/setup-python@v5
+        if: steps.pick.outputs.files != ''
+        with:
+          python-version: "3.12"
+
       - name: Install tools
         if: steps.pick.outputs.files != ''
         run: |
@@ -51,6 +59,20 @@ jobs:
       - name: Run jobs
         if: steps.pick.outputs.files != ''
         run: python3 scripts/run_job.py ${{ steps.pick.outputs.files }}
+
+      - name: Publish small outputs to the 'out' branch
+        if: steps.pick.outputs.files != ''
+        run: |
+          RUN="run-${{ github.run_number }}"
+          mkdir -p /tmp/pub/$RUN
+          for d in out/*/; do n=$(basename "$d"); mkdir -p /tmp/pub/$RUN/$n
+            cp "$d"/*_post.mp4 "$d"/sheet.jpg "$d"/preview.jpg "$d"/transcript.txt "$d"/caps.json /tmp/pub/$RUN/$n/ 2>/dev/null || true; done
+          git config user.name "clip-factory-bot"; git config user.email "actions@users.noreply.github.com"
+          git fetch -q --depth=1 origin out || true
+          if git rev-parse -q --verify origin/out >/dev/null; then git checkout -q -B out origin/out; else git checkout -q --orphan out; git rm -rq --cached . ; rm -rf jobs scripts fonts README.md .github; fi
+          cp -r /tmp/pub/$RUN ./$RUN
+          git add "$RUN" && git commit -qm "outputs $RUN" && git push -q origin out
+          echo "Published to branch out/$RUN"
 
       - name: Upload outputs
         if: steps.pick.outputs.files != ''
