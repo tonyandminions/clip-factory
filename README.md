@@ -33,3 +33,12 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
 `gen_utc` = the 10-digit epoch in ClipSpeed's `captioned_<id>_<epoch-ms>.mp4` filename.
 Each job gets its own runner (matrix), so push many probes at once.
+
+## Posting playbook (anti-spam, 11-18)
+- 4–5 posts/day per platform, ≥75–90 min apart; prime slots 11a–1p and 6–10p ET.
+- One post per moment, ever. Check TikTok Studio for posts made by other chats before scheduling (BP "worst driver" was already up).
+- Every clip: style variant (--style) + story setup line (--setup) + title in our words. No identical caption templates; 2–4 specific hashtags.
+- Hook in the first 1–2 s; 15–35 s; end on the payoff.
+- Never: bots/bought followers/views (strike = removed from every Reach campaign), sexualised covers or framing,
+  AI voice/footage, logos, links in captions, "follow for part 2" bait.
+- Paid campaigns need the streamer's name in caption/on-screen + #Name, English, ≥50% US/CA/UK/AU/NZ audience, submit ≤30 min.
