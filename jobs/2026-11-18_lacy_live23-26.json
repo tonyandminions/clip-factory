@@ -1,0 +1,66 @@
+[
+ {
+  "name": "LACY_L23_TakeOff",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_db8da671-384e-4068-8918-dfd7229ab7b6_1795025731835.mp4",
+   "gen_utc": "2026-11-18T18:15:31Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L24_Roast",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_99b65519-32eb-4868-b986-1d3d27fe3986_1795025875749.mp4",
+   "gen_utc": "2026-11-18T18:17:55Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L25_WildTurn",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_6653d368-2fb8-4239-881f-9a5bc9ae57c4_1795026101604.mp4",
+   "gen_utc": "2026-11-18T18:21:41Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L26_System",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_6905b079-718e-42bc-ad89-cd39fe4b7d7e_1795026534077.mp4",
+   "gen_utc": "2026-11-18T18:28:54Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ }
+]
