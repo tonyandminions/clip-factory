@@ -1,5 +1,5 @@
 {
- "_note": "Ready queue \u2014 Clip Finder appends status ready; Scheduler sets scheduled + slot. See README 'Ready queue'.",
+ "_note": "Ready queue — Clip Finder appends status ready; Scheduler sets scheduled + slot. See README 'Ready queue'.",
  "items": [
   {
    "name": "LACY_Gator_P1",
@@ -91,7 +91,7 @@
    "name": "LACY_N29_Helicopter",
    "streamer": "lacy",
    "status": "candidate",
-   "note": "helicopter flight/crash 'I swear that wasn't me' \u2014 sweep run-41"
+   "note": "helicopter flight/crash 'I swear that wasn't me' — sweep run-41"
   },
   {
    "name": "CLIX_N_dhc",
@@ -101,7 +101,26 @@
    "start": 2817,
    "end": 2847,
    "clip": "AgreeableCrispySowLitFam-1kdaofm7vwVkyU-4",
-   "note": "'not diving in there\u2026 bull sharks and barracudas'"
+   "note": "'not diving in there… bull sharks and barracudas'"
+  },
+  {
+   "name": "JASON_GTA6Instagram",
+   "streamer": "jasontheween",
+   "campaign": "JasonTheWeen",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-49/JASON_GTA6Instagram_v2/JASON_GTA6Instagram_v2_HQ.mp4",
+   "caption": "JasonTheWeen found out GTA 6 has its own Instagram 😭 \"we got Instagram in GTA?!\" #JasonTheWeen #gta6 #gta6gameplay",
+   "yt_title": "JasonTheWeen Found Out GTA 6 Has Its Own Instagram 😭 #shorts #JasonTheWeen #gta6",
+   "cover_ms": 2500,
+   "part": null,
+   "hook_type": "mechanic",
+   "vod": "2932190650",
+   "start": 6137,
+   "end": 6166,
+   "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-18T22:12Z",
+   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text)."
   }
  ]
 }
