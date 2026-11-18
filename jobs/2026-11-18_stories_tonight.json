@@ -1,0 +1,57 @@
+[
+ {
+  "name": "STORY_LeftLucia",
+  "story": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-28/LACY_LeftLuciaHanging/LACY_LeftLuciaHanging_HQ.mp4",
+   "ss": 0,
+   "to": 10,
+   "top": "NEW CLIP",
+   "bottom": "full video on our page"
+  }
+ },
+ {
+  "name": "STORY_GatorP1",
+  "story": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-40/LACY_Gator_P1/LACY_Gator_P1_HQ.mp4",
+   "ss": 0,
+   "to": 10,
+   "top": "PART 1 IS UP",
+   "bottom": "Part 2 drops 8:25 PM"
+  }
+ },
+ {
+  "name": "STORY_GatorCountdown",
+  "story": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-38/LACY_LostAllMoney_P2/LACY_LostAllMoney_P2_HQ.mp4",
+   "card": true,
+   "t": 3,
+   "lines": [
+    "LACY vs THE ALLIGATOR",
+    "PART 2",
+    "8:25 PM tonight"
+   ],
+   "bottom": "on our page"
+  }
+ },
+ {
+  "name": "STORY_GatorP2",
+  "story": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-38/LACY_LostAllMoney_P2/LACY_LostAllMoney_P2_HQ.mp4",
+   "ss": 0,
+   "to": 10,
+   "top": "PART 2 IS UP",
+   "bottom": "full video on our page"
+  }
+ },
+ {
+  "name": "STORY_BPDriving",
+  "story": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-28/BP_GoodAtDriving/BP_GoodAtDriving_HQ.mp4",
+   "ss": 0,
+   "to": 10,
+   "top": "NEW CLIP",
+   "bottom": "full video on our page",
+   "accent": "#FFD84D"
+  }
+ }
+]

@@ -33,6 +33,16 @@ def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
     src = os.path.join(od, "source.mp4")
+    if job.get("story"):  # IG/FB Story from a finished clip: {"src","ss","to","top","bottom"} or {"src","card":true,"lines":[..],"t"}
+        S = job["story"]; local = os.path.join(od, "in.mp4")
+        sh("curl", "-sSL", "--retry", "3", "-o", local, S["src"])
+        args = [sys.executable, os.path.join(HERE, "make_story.py"), "--src", local, "--out", os.path.join(od, f"{name}_story.mp4"),
+                "--top", S.get("top", "NEW CLIP"), "--bottom", S.get("bottom", "full video on our page")]
+        if S.get("accent"): args += ["--accent", S["accent"]]
+        if S.get("card"): args += ["--card", "--lines", "|".join(S.get("lines", [])), "--t", str(S.get("t", 3)), "--dur", str(S.get("dur", 6))]
+        else: args += ["--ss", str(S.get("ss", 0)), "--to", str(S.get("to", 12))]
+        sh(*args); os.remove(local)
+        return
     if job.get("record"):  # record a live stream: {"channel","minutes","top"}
         R = job["record"]
         sh(sys.executable, os.path.join(HERE, "record_live.py"), R["channel"], str(R.get("minutes", 10)), od, "--top", str(R.get("top", 5)),
