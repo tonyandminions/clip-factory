@@ -33,6 +33,10 @@ def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
     src = os.path.join(od, "source.mp4")
+    if job.get("record"):  # record a live stream: {"channel","minutes","top"}
+        R = job["record"]
+        sh(sys.executable, os.path.join(HERE, "record_live.py"), R["channel"], str(R.get("minutes", 12)), od, "--top", str(R.get("top", 5)))
+        return
     if job.get("scan"):  # loudness scan of a VOD: {"channel","minutes","top"}
         S = job["scan"]
         sh(sys.executable, os.path.join(HERE, "scan_vod.py"), S["channel"], str(S.get("minutes", 30)), od,

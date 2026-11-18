@@ -85,6 +85,8 @@ jobs:
           key: whisper-small-en
 
       - name: Run job
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python3 -c "import json,sys; d=json.load(open('${{ matrix.file }}')); d=d if isinstance(d,list) else [d]; json.dump(d[${{ matrix.i }}], open('/tmp/job.json','w'))"
           CLIP_WORKERS=1 python3 scripts/run_job.py /tmp/job.json
