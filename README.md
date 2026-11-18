@@ -19,3 +19,17 @@ Crop presets (1920x1080 sources):
 | TheBurntPeanut (peanut avatar, bottom left) | 336,770,220,310 | yes | 480,100,1200,675 |
 
 Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Guide).
+
+## What performs (update as numbers come in)
+- 11-18, first ~80 min on IG: Burnt Peanut "vs GTA 6 traffic" 646 views vs LACY clips 127–277.
+  Why it likely won: relatable everyday-GTA frustration (driving/traffic), loud reaction in the first
+  2 seconds, ~30 s, simple "<streamer> vs GTA 6 ___" title.
+- Apply to LACY picks: favour driving/cops/relatable "first time playing" frustration and big reactions;
+  cold-open on the loudest line (trim dead air at the start); 15–30 s; titles like "LACY vs GTA 6 ___".
+- Skip: long cutscene dialogue, map scrolling, real-life just-chatting, anything crude/sexual/drug.
+
+## Live route (ClipSpeed → VOD)
+`"live": {"channel","vod","ref","gen_utc","back","pad"}` downloads the VOD window and finds the
+ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
+`gen_utc` = the 10-digit epoch in ClipSpeed's `captioned_<id>_<epoch-ms>.mp4` filename.
+Each job gets its own runner (matrix), so push many probes at once.
