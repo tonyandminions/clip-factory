@@ -33,7 +33,15 @@ def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
     src = os.path.join(od, "source.mp4")
-    if job.get("live"):  # ClipSpeed live moment -> raw VOD window, aligned by audio
+    if job.get("scan"):  # loudness scan of a VOD: {"channel","minutes","top"}
+        S = job["scan"]
+        sh(sys.executable, os.path.join(HERE, "scan_vod.py"), S["channel"], str(S.get("minutes", 30)), od,
+           "--top", str(S.get("top", 6)), *(["--vod", S["vod"]] if S.get("vod") else []))
+        return
+    if job.get("vod_start") is not None:  # explicit VOD section {"vod","vod_start","vod_end"}
+        sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4",
+           "--download-sections", f"*{job['vod_start']}-{job['vod_end']}", "-o", src, job["vod"])
+    elif job.get("live"):  # ClipSpeed live moment -> raw VOD window, aligned by audio
         L = job["live"]
         sh(sys.executable, os.path.join(HERE, "live_fetch.py"), L["channel"], L["ref"], L["gen_utc"], od,
            "--back", str(L.get("back", 240)), "--pad", L.get("pad", "0,0"),
