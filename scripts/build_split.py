@@ -29,9 +29,29 @@ ap.add_argument("--ss", type=float); ap.add_argument("--to", type=float)
 ap.add_argument("--tsize", type=int, default=48)
 ap.add_argument("--camfit", action="store_true", help="keep cam aspect, scale to band height, center (avatar cams)")
 ap.add_argument("--credit", help="small credit line under the title band, e.g. twitch.tv/name")
+ap.add_argument("--setup", help="story/context line shown in the caption band for the first seconds")
+ap.add_argument("--setup-dur", type=float, default=2.8)
+ap.add_argument("--style", default="auto", help="0-7 or auto (hash of output name): accent colour, stack order, look")
 a = ap.parse_args()
 import re as _re  # STRIP_EMOJI: Poppins has no emoji glyphs
 a.title = [_re.sub(r"[\U00010000-\U0010FFFF\u2600-\u27BF\uFE0F]", "", t).strip() for t in a.title]
+
+# --- style variants (so every clip doesn't share one template) ---
+ACCENTS = ["0xB8FF3B", "0xFFD84D", "0x5CE1FF", "0xFF9A3C"]
+if a.style == "auto":
+    import hashlib
+    st = int(hashlib.md5(os.path.basename(a.out).encode()).hexdigest(), 16) % 8
+else:
+    st = int(a.style) % 8
+LIME = ACCENTS[st % 4]
+GAME_FIRST = st in (1, 2, 5, 6)          # gameplay band on top, cam below
+BG_DARK = "-0.45" if st >= 4 else "-0.32"
+CAP_SIZE = 58 if st % 2 else 62
+if GAME_FIRST:
+    GAME_Y, CAP_Y, CAM_Y2 = 334, 334 + GAME_H, 334 + GAME_H + 126
+else:
+    CAM_Y2 = CAM_Y
+print("style", st, "accent", LIME, "game_first", GAME_FIRST)
 
 cx, cy, cw, ch = map(int, a.cam.split(","))
 gx, gy, gw, gh = map(int, a.game.split(","))
@@ -46,7 +66,7 @@ if a.alt:
     gxe = f"'if(between(t,{s0},{s1}),{ax},{gx})'"
     gye = f"'if(between(t,{s0},{s1}),{ay},{gy})'"
 line_h = int(a.tsize * 1.22)
-y0 = TITLE_TOP + (CAM_Y - TITLE_TOP - len(a.title) * line_h) // 2
+y0 = TITLE_TOP + (334 - TITLE_TOP - len(a.title) * line_h) // 2
 for i, l in enumerate(a.title):
     col = "white"
     if l.startswith("*"):
@@ -55,21 +75,42 @@ for i, l in enumerate(a.title):
               f"borderw=4:bordercolor=black:x=(w-text_w)/2:y={y0 + i * line_h}")
 if a.credit:
     dt.append(f"drawtext=fontfile={FONT}:text='{esc(a.credit)}':fontsize=30:fontcolor=white@0.85:borderw=3:bordercolor=black:x=(w-text_w)/2:y={CAP_Y}+(126-text_h)/2" + ("" if not a.caps else ":enable='lt(t,0)'"))
-if a.caps:
-    for s, e, t in json.load(open(a.caps)):
+caps = json.load(open(a.caps)) if a.caps else []
+if a.setup:
+    sd = a.setup_dur
+    words = esc(a.setup).split(" ")
+    lines = [" ".join(words)]
+    if len(a.setup) > 26:
+        best = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+        lines = [" ".join(words[:best]), " ".join(words[best:])]
+    fs = 50 if len(lines) == 1 else 42
+    for i, l in enumerate(lines):
+        yy = f"{CAP_Y}+(126-{len(lines)}*{int(fs*1.15)})/2+{i*int(fs*1.15)}"
+        dt.append(f"drawtext=fontfile={FONT}:text='{l}':fontsize={fs}:fontcolor=white:borderw=4:bordercolor=black:"
+                  f"x=(w-text_w)/2:y={yy}:enable='lt(t,{sd})'")
+    shifted = []
+    for c0, c1, t in caps:
+        if c0 < sd:
+            if c1 <= sd + 0.3:
+                continue
+            c0 = sd
+        shifted.append([c0, c1, t])
+    caps = shifted
+if caps:
+    for s, e, t in caps:
         col = "white"
         if t.startswith("*"):
             col, t = LIME, t[1:]
-        dt.append(f"drawtext=fontfile={FONT}:text='{esc(t)}':fontsize=62:fontcolor={col}:"
+        dt.append(f"drawtext=fontfile={FONT}:text='{esc(t)}':fontsize={CAP_SIZE}:fontcolor={col}:"
                   f"borderw=5:bordercolor=black:x=(w-text_w)/2:y={CAP_Y}+(126-text_h)/2-4:"
                   f"enable='between(t,{s},{e})'")
 
 fc = (
     f"[0:v]scale=1920:1080:flags=lanczos,setsar=1,fps=30,split=3[b][c][g];"
-    f"[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.32[bg];"
+    f"[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness={BG_DARK}[bg];"
     f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale},setsar=1[cam];"
     f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H},setsar=1[game];"
-    f"[bg][cam]overlay={camx}:{CAM_Y}[t1];[t1][game]overlay=0:{GAME_Y}[t2];"
+    f"[bg][cam]overlay={camx}:{CAM_Y2}[t1];[t1][game]overlay=0:{GAME_Y}[t2];"
     f"[t2]{','.join(dt)},setsar=1[v]"
 )
 cmd = ["ffmpeg", "-v", "error", "-y"]

@@ -68,9 +68,9 @@ def run(job):
         capsfile = os.path.join(od, "caps_manual.json"); json.dump(cap, open(capsfile, "w"))
     hq = os.path.join(od, f"{name}_HQ.mp4")
     cmd = [sys.executable, os.path.join(HERE, "build_split.py"), src, hq, "--title", *job["title"]]
-    for k in ("cam", "game", "alt", "ss", "to", "credit"):
+    for k in ("cam", "game", "alt", "ss", "to", "credit", "setup", "style", "setup_dur"):
         if job.get(k) is not None:
-            cmd += [f"--{k}", str(job[k])]
+            cmd += [f"--{k.replace('_', '-')}", str(job[k])]
     if job.get("camfit"):
         cmd += ["--camfit"]
     if capsfile:
