@@ -30,6 +30,8 @@ ap.add_argument("--tsize", type=int, default=48)
 ap.add_argument("--camfit", action="store_true", help="keep cam aspect, scale to band height, center (avatar cams)")
 ap.add_argument("--credit", help="small credit line under the title band, e.g. twitch.tv/name")
 a = ap.parse_args()
+import re as _re  # STRIP_EMOJI: Poppins has no emoji glyphs
+a.title = [_re.sub(r"[\U00010000-\U0010FFFF\u2600-\u27BF\uFE0F]", "", t).strip() for t in a.title]
 
 cx, cy, cw, ch = map(int, a.cam.split(","))
 gx, gy, gw, gh = map(int, a.game.split(","))
