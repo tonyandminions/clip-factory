@@ -13,7 +13,8 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "captions": "auto",                     # "auto" (whisper), "none", or [[s,e,"TEXT"],...]
   "credit": null,                         # small credit line in the caption band when captions are none
   "probe": false,                         # true = only download, transcribe, contact sheet
-  "post": false                           # true = also make a <3.6 MB copy for browser uploads
+  "post": false,                          # true = also make a <3.6 MB copy for browser uploads
+  "live": null                            # {"channel","ref","gen_utc","back":240,"pad":"0,0"} ClipSpeed live moment
 }
 Outputs go to out/<name>/: source.mp4, transcript.txt, caps.json, <name>_HQ.mp4, <name>_post.mp4, sheet.jpg
 """
@@ -32,7 +33,17 @@ def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
     src = os.path.join(od, "source.mp4")
-    if job.get("file"):
+    if job.get("live"):  # ClipSpeed live moment -> raw VOD window, aligned by audio
+        L = job["live"]
+        sh(sys.executable, os.path.join(HERE, "live_fetch.py"), L["channel"], L["ref"], L["gen_utc"], od,
+           "--back", str(L.get("back", 240)), "--pad", L.get("pad", "0,0"))
+        info = json.load(open(os.path.join(od, "live.json")))
+        os.replace(info["src"], src)
+        if info["match"] < 0.3:
+            print(f"WARNING low audio match {info['match']}", flush=True)
+        if job.get("ss") is None: job["ss"] = info["ss"]
+        if job.get("to") is None: job["to"] = info["to"]
+    elif job.get("file"):
         sh("cp", job["file"], src)
     else:
         sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4", "-o", src, job["url"])
