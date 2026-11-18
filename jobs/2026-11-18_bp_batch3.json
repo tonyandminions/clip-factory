@@ -1,0 +1,43 @@
+[
+ {
+  "cam": "336,770,220,310",
+  "camfit": true,
+  "game": "480,100,1200,675",
+  "captions": "auto",
+  "name": "BP_StolenCarMod",
+  "url": "https://www.twitch.tv/theburntpeanut/clip/ComfortableLachrymosePeppermintDendiFace-Aui_95KVt5WTgUSb",
+  "title": [
+   "Burnt Peanut tried to mod",
+   "*a stolen car in GTA 6"
+  ],
+  "ss": 21.8,
+  "to": 58.4
+ },
+ {
+  "cam": "336,770,220,310",
+  "camfit": true,
+  "game": "480,100,1200,675",
+  "captions": "auto",
+  "name": "BP_GoodAtDriving",
+  "url": "https://www.twitch.tv/theburntpeanut/clip/RelentlessSneakyPorcupineM4xHeh-7XksXXaQHXFQSsy2",
+  "title": [
+   "Burnt Peanut thinks he's",
+   "*good at driving now"
+  ],
+  "to": 27.0
+ },
+ {
+  "cam": "336,770,220,310",
+  "camfit": true,
+  "game": "480,100,1200,675",
+  "captions": "auto",
+  "name": "BP_OneFrame",
+  "url": "https://www.twitch.tv/theburntpeanut/clip/ShyUninterestedKangarooStrawBeary-obcmxt2flreroqBn",
+  "title": [
+   "Burnt Peanut rating",
+   "*his GTA 6 frame rate"
+  ],
+  "ss": 1.3,
+  "to": 25.6
+ }
+]
