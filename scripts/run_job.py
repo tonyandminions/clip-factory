@@ -61,6 +61,17 @@ def run(job):
         sh("cp", job["file"], src)
     else:
         sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4", "-o", src, job["url"])
+    # "segments": [[s,e],...] in source seconds — keep only these parts (cuts dead air), joined in order.
+    segs = job.get("segments")
+    if segs and not job.get("probe"):
+        fc = "".join(f"[0:v]trim={a}:{b},setpts=PTS-STARTPTS[v{i}];[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS[a{i}];"
+                     for i, (a, b) in enumerate(segs))
+        fc += "".join(f"[v{i}][a{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=1[v][a]"
+        cut = os.path.join(od, "cut.mp4")
+        sh("ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+           "-c:v", "libx264", "-preset", "veryfast", "-crf", "14", "-c:a", "aac", "-b:a", "192k", cut)
+        os.replace(cut, src)
+        job["ss"] = None; job["to"] = None
     D = dur(src)
     # contact sheet of the raw source (to check cam / overlay positions)
     sh("ffmpeg", "-v", "error", "-y", "-i", src, "-vf",

@@ -61,3 +61,9 @@ Clip Finder appends finished clips; Scheduler pops them into open slots. Each it
 `{"name","streamer","campaign":"LACY|Clix|JasonTheWeen|YourRAGE|growth","media":"https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-N/NAME/NAME_HQ.mp4","caption","yt_title","cover_ms","part":null|{"series","n"},"vod","start","end","clip","status":"ready|scheduled","slot":null,"added"}`
 - Part 2 is never scheduled before its Part 1. Same series = same style.
 - Metricool payload: providers tiktok+instagram+youtube+facebook; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE).
+
+## Retention rules (from TikTok Studio data, 11/18)
+- BP traffic (30s, loud reaction in second 1): 10.5s avg watch, 11% finished, 94% For You → 222 views.
+- LACY dog (47s, slow open): 1.8s avg watch, everyone gone by 0:01, 0% finished → 6 views.
+- So: the loudest/funniest line or the key visual in the FIRST SECOND; 15–30s (Part 1 ≤ 35s); no dead air.
+- Use `"segments": [[s,e],[s,e]]` (source seconds) to cut silent stretches; manual caption times are then relative to the joined clip. Skip the setup line when the first second already has a spoken line.

@@ -1,0 +1,147 @@
+[
+ {
+  "name": "LACY_Gator_P1",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cf35e646-de09-474f-8d9b-4fce4ea0ac0e_1795027753686.mp4",
+   "gen_utc": "2026-11-18T18:49:13Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "segments": [
+   [
+    38.5,
+    45.2
+   ],
+   [
+    56.5,
+    79.5
+   ]
+  ],
+  "style": 7,
+  "title": [
+   "LACY tried to pet",
+   "*an alligator - PART 1"
+  ],
+  "captions": [
+   [
+    0.3,
+    2.2,
+    "CUTEST THING EVER,"
+   ],
+   [
+    2.2,
+    4.2,
+    "*AREN'T YOU?"
+   ],
+   [
+    4.8,
+    5.6,
+    "CAN I PET YOU"
+   ],
+   [
+    5.6,
+    6.6,
+    "*LITTLE BUDDY?"
+   ],
+   [
+    8.1,
+    9.6,
+    "YOU WANNA GO?!"
+   ],
+   [
+    9.6,
+    11.5,
+    "*WHAT'S UP?!"
+   ],
+   [
+    24.9,
+    25.8,
+    "OH WAIT"
+   ],
+   [
+    25.8,
+    27.4,
+    "THE FIRST TIME I DIE"
+   ],
+   [
+    27.4,
+    29.5,
+    "*IS TO AN ALLIGATOR"
+   ]
+  ],
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "LACY_LuciaLoyal_Cut",
+  "probe": false,
+  "title": [
+   "LACY swears Lucia",
+   "*is loyal in GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_8bd620a1-e4df-41c6-b372-bf75895b207e_1795029184064.mp4",
+   "gen_utc": "2026-11-18T19:13:04Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "style": 1,
+  "captions": [
+   [
+    0.7,
+    1.5,
+    "SOMEBODY'S BEEN TEXTING"
+   ],
+   [
+    1.5,
+    2.6,
+    "*LUCIA?"
+   ],
+   [
+    2.6,
+    5.5,
+    "SHE'S BEEN COOPED UP"
+   ],
+   [
+    6.5,
+    8.7,
+    "*NOT GONNA LIE CHAT"
+   ],
+   [
+    10.0,
+    11.6,
+    "SHE'S LOYAL"
+   ],
+   [
+    12.5,
+    14.4,
+    "*SHE'S LOYAL"
+   ],
+   [
+    15.8,
+    18.4,
+    "*IT'S HER SECOND PHONE"
+   ]
+  ],
+  "segments": [
+   [
+    122.3,
+    128.3
+   ],
+   [
+    144.1,
+    152.9
+   ],
+   [
+    168.3,
+    172.4
+   ]
+  ]
+ }
+]
