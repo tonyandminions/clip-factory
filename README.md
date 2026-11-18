@@ -75,3 +75,11 @@ Use it when the payoff comes late in the clip (more than ~6 s in). Don't use it 
 
 ## Writing files back to the PC
 Re-committing the same /mnt/user-data/outputs path can push a cached older copy. Always write the edited file to a NEW filename in outputs (e.g. add a timestamp) before device_commit_files, then list the folder and check the byte size matches.
+
+## Stories (Instagram + Facebook)
+- Purpose: keep the story ring lit when new people land on the profile, and send followers to each new Reel. Stories don't go to For You/Explore and don't count toward the feed cap.
+- Cap: max 6 stories/day per platform, 40+ min apart. Story Crew task runs 8:41 AM (teasers for the day's Reels + Part 2 countdowns) and 2:41 PM (missed teasers + one "live now" card).
+- Types: teaser = first ~10 s of the Reel, banner "NEW CLIP" / "PART 1 IS UP" / "PART 2 IS UP", CTA "full video on our page"; countdown card 30 min before a Part 2; one "<STREAMER> IS LIVE" card a day.
+- Job: `{"name":"STORY_x","story":{"src":URL,"ss":0,"to":10,"top":"NEW CLIP","bottom":"full video on our page"}}` or `{"story":{"src":URL,"card":true,"t":3,"lines":[...],"bottom":"..."}}` → out/run-N/STORY_x/STORY_x_story.mp4.
+- Metricool: providers instagram + facebook only, instagramData {type STORY}, facebookData {type STORY}, no text. Teaser goes 40–70 min after its Reel; never before it.
+- Polls/questions/link stickers can't be added through the API. If Justin wants one, schedule that story with autoPublish:false so the Metricool app pings his phone to add the sticker and post it.
