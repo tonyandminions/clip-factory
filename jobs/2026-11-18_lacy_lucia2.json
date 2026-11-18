@@ -1,0 +1,54 @@
+[
+ {
+  "name": "LACY_LeftLuciaHanging",
+  "probe": false,
+  "title": [
+   "LACY forgot to meet",
+   "*Lucia at the bank"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_ed8d0634-eb41-4d1d-b18b-ef7c996e0546_1795023293008.mp4",
+   "gen_utc": "2026-11-18T17:34:53Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 182.5,
+  "to": 199.5,
+  "captions": [
+   [
+    3.1,
+    4.1,
+    "I MISSED THE BANK"
+   ],
+   [
+    5.0,
+    6.3,
+    "*NO, I MISSED THE"
+   ],
+   [
+    6.3,
+    7.1,
+    "BANK WITH LUCIA"
+   ],
+   [
+    7.1,
+    9.1,
+    "*I LEFT HER HANGING"
+   ],
+   [
+    9.1,
+    10.3,
+    "OH"
+   ],
+   [
+    10.5,
+    13.6,
+    "*I'M A TERRIBLE BOYFRIEND"
+   ]
+  ]
+ }
+]
