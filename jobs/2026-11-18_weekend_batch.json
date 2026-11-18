@@ -1,0 +1,229 @@
+[
+ {
+  "name": "LACY_Gator_P1",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cf35e646-de09-474f-8d9b-4fce4ea0ac0e_1795027753686.mp4",
+   "gen_utc": "2026-11-18T18:49:13Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "ss": 30.5,
+  "to": 79.5,
+  "style": 7,
+  "title": [
+   "LACY tried to pet",
+   "*an alligator - PART 1"
+  ],
+  "setup": "He thought the gator was friendly...",
+  "setup_dur": 2.6,
+  "captions": [
+   [
+    5.8,
+    8.4,
+    "YOU'RE JUST THE CUTEST"
+   ],
+   [
+    8.4,
+    11.2,
+    "*THING EVER, AREN'T YOU?"
+   ],
+   [
+    12.8,
+    14.2,
+    "CAN I PET YOU"
+   ],
+   [
+    14.2,
+    15.8,
+    "*LITTLE BUDDY?"
+   ],
+   [
+    27.4,
+    28.8,
+    "YOU WANNA GO?!"
+   ],
+   [
+    28.8,
+    30.4,
+    "*WHAT'S UP?!"
+   ],
+   [
+    44.2,
+    45.4,
+    "OH WAIT"
+   ],
+   [
+    45.4,
+    47.0,
+    "THE FIRST TIME I DIE"
+   ],
+   [
+    47.0,
+    49.0,
+    "*IS TO AN ALLIGATOR"
+   ]
+  ],
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "MIKKAA_Gains",
+  "url": "https://github.com/tonyandminions/clip-factory/releases/download/raw-clips/MIKKAA_Rec2_cut1.mp4",
+  "ss": 6.0,
+  "to": 30.0,
+  "style": 1,
+  "title": [
+   "MissMikkaa lost her gains",
+   "*in GTA 6"
+  ],
+  "setup": "GTA 6 tracks your gym gains now...",
+  "setup_dur": 2.6,
+  "captions": [
+   [
+    3.76,
+    4.58,
+    "HOW LONG BEFORE HE'S"
+   ],
+   [
+    4.58,
+    5.3,
+    "*DONE?"
+   ],
+   [
+    5.3,
+    5.96,
+    "OH, THERE WE GO"
+   ],
+   [
+    5.96,
+    6.8,
+    "HE'S DONE"
+   ],
+   [
+    15.16,
+    15.92,
+    "*GAINS LOST?"
+   ],
+   [
+    15.92,
+    17.74,
+    "WAIT, I LOST GAINS?"
+   ],
+   [
+    17.8,
+    18.6,
+    "BRUH"
+   ],
+   [
+    18.6,
+    19.5,
+    "*OH WELL"
+   ],
+   [
+    20.36,
+    20.98,
+    "I GUESS I'M NOT"
+   ],
+   [
+    20.98,
+    22.5,
+    "*WORKING OUT ENOUGH"
+   ]
+  ],
+  "cam": "1430,450,490,560",
+  "camfit": true,
+  "game": "40,140,1300,731"
+ },
+ {
+  "name": "MIKKAA_WomanDriver",
+  "url": "https://www.twitch.tv/missmikkaa/clip/ResourcefulFragileBeaverKeyboardCat-fFXH9uAplLYQMPGB",
+  "style": 6,
+  "title": [
+   "MissMikkaa stole",
+   "*Jason's truck in GTA 6"
+  ],
+  "setup": "Chat said women can't drive...",
+  "setup_dur": 2.6,
+  "captions": "auto",
+  "cam": "1400,420,520,560",
+  "camfit": true,
+  "game": "40,140,1300,731"
+ },
+ {
+  "name": "CLIX_FirstMission",
+  "url": "https://www.twitch.tv/clix/clip/HelpfulBlightedPotKlappa-w2czdgbNaQyhsNFO",
+  "style": 4,
+  "title": [
+   "Clix's first seconds",
+   "*playing GTA 6"
+  ],
+  "setup": "Clix finally gets into GTA 6...",
+  "setup_dur": 2.4,
+  "captions": "auto",
+  "cam": "0,0,476,266",
+  "camfit": true,
+  "game": "480,280,1200,675"
+ },
+ {
+  "name": "LACY_Robbery",
+  "url": "https://www.twitch.tv/lacy/clip/TiredCrepuscularLettuceTebowing-_ckSEJKNEXXBWDj1",
+  "style": 3,
+  "title": [
+   "LACY's first store",
+   "*robbery in GTA 6"
+  ],
+  "setup": "LACY robs his first store...",
+  "setup_dur": 2.2,
+  "captions": "auto",
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "LACY_Seaplane_P1",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_db8da671-384e-4068-8918-dfd7229ab7b6_1795025731835.mp4",
+   "gen_utc": "2026-11-18T18:15:31Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "ss": 17.5,
+  "to": 35.0,
+  "style": 5,
+  "title": [
+   "LACY's first drug drop",
+   "*PART 1"
+  ],
+  "setup": "LACY's first drug drop by seaplane...",
+  "setup_dur": 2.4,
+  "captions": "auto",
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ },
+ {
+  "name": "LACY_Seaplane_P2",
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_99b65519-32eb-4868-b986-1d3d27fe3986_1795025875749.mp4",
+   "gen_utc": "2026-11-18T18:17:55Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "ss": 8.5,
+  "to": 24.5,
+  "style": 5,
+  "title": [
+   "The cops noticed",
+   "*LACY's seaplane - PART 2"
+  ],
+  "setup": "PART 2: he kept landing on the water...",
+  "setup_dur": 2.4,
+  "captions": "auto",
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720"
+ }
+]
