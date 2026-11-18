@@ -11,10 +11,10 @@ import json, subprocess, sys, os, argparse, datetime
 import numpy as np
 
 def sh(*c):
-    print("+", " ".join(c), flush=True); subprocess.run(c, check=True)
+    print("+", " ".join(c), flush=True); subprocess.run(c, check=True, stdin=subprocess.DEVNULL, timeout=900)
 
 def pcm(path, sr=8000):
-    raw = subprocess.check_output(["ffmpeg", "-v", "error", "-i", path, "-vn", "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"])
+    raw = subprocess.check_output(["ffmpeg", "-nostdin", "-v", "error", "-i", path, "-vn", "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"])
     return np.frombuffer(raw, np.float32)
 
 ap = argparse.ArgumentParser()

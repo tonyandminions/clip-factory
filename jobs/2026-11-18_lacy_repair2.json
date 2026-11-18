@@ -1,0 +1,49 @@
+[
+ {
+  "name": "LACY_RepairBill",
+  "probe": false,
+  "title": [
+   "LACY's GTA 6 car",
+   "*repair bill hit $600"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_854bb884-3e8b-485d-a6fd-86f7b3a6cfe6_1795021894809.mp4",
+   "gen_utc": "2026-11-18T17:11:34Z",
+   "back": 240,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 17.5,
+  "to": 33.8,
+  "captions": [
+   [
+    0.96,
+    2.0,
+    "I DEFINITELY MEANT"
+   ],
+   [
+    2.0,
+    3.4,
+    "*TO THROW IT"
+   ],
+   [
+    8.45,
+    10.6,
+    "*$600 TO REPAIR IT"
+   ],
+   [
+    11.45,
+    12.6,
+    "OH MY GOD, BRO"
+   ],
+   [
+    12.6,
+    16.2,
+    "*IS THAT EVEN WORTH IT?"
+   ]
+  ]
+ }
+]
