@@ -66,7 +66,7 @@ jobs:
           RUN="run-${{ github.run_number }}"
           mkdir -p /tmp/pub/$RUN
           for d in out/*/; do n=$(basename "$d"); mkdir -p /tmp/pub/$RUN/$n
-            cp "$d"/*_post.mp4 "$d"/sheet.jpg "$d"/preview.jpg "$d"/transcript.txt "$d"/caps.json /tmp/pub/$RUN/$n/ 2>/dev/null || true; done
+            cp "$d"/*_post.mp4 "$d"/*_HQ.mp4 "$d"/sheet.jpg "$d"/preview.jpg "$d"/transcript.txt "$d"/caps.json /tmp/pub/$RUN/$n/ 2>/dev/null || true; done
           git config user.name "clip-factory-bot"; git config user.email "actions@users.noreply.github.com"
           git fetch -q --depth=1 origin out || true
           if git rev-parse -q --verify origin/out >/dev/null; then git checkout -q -B out origin/out; else git checkout -q --orphan out; git rm -rq --cached . ; rm -rf jobs scripts fonts README.md .github; fi
