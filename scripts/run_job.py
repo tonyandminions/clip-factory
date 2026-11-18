@@ -22,9 +22,9 @@ import json, os, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-def sh(*cmd):
+def sh(*cmd, timeout=900):
     print("+", " ".join(cmd), flush=True)
-    subprocess.run(cmd, check=True, stdin=subprocess.DEVNULL, timeout=900)
+    subprocess.run(cmd, check=True, stdin=subprocess.DEVNULL, timeout=timeout)
 
 def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
@@ -35,7 +35,8 @@ def run(job):
     src = os.path.join(od, "source.mp4")
     if job.get("record"):  # record a live stream: {"channel","minutes","top"}
         R = job["record"]
-        sh(sys.executable, os.path.join(HERE, "record_live.py"), R["channel"], str(R.get("minutes", 12)), od, "--top", str(R.get("top", 5)))
+        sh(sys.executable, os.path.join(HERE, "record_live.py"), R["channel"], str(R.get("minutes", 10)), od, "--top", str(R.get("top", 5)),
+           timeout=int(R.get("minutes", 10) * 60) + 600)
         return
     if job.get("scan"):  # loudness scan of a VOD: {"channel","minutes","top"}
         S = job["scan"]
