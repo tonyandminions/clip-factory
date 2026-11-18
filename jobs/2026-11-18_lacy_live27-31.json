@@ -1,0 +1,82 @@
+[
+ {
+  "name": "LACY_L27_Unstash",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cf35e646-de09-474f-8d9b-4fce4ea0ac0e_1795027753686.mp4",
+   "gen_utc": "2026-11-18T18:49:13Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L28_GetItBack",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cbc5a8e8-51aa-4c6f-a6d3-3dd67c7bd40c_1795027869889.mp4",
+   "gen_utc": "2026-11-18T18:51:09Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L29_Geyson",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_3499fce3-4a5f-455d-a005-6437b1966506_1795028037911.mp4",
+   "gen_utc": "2026-11-18T18:53:57Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L30_Abandoned",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_09321f6f-4c4e-4252-9749-8f04342ca8c0_1795028625760.mp4",
+   "gen_utc": "2026-11-18T19:03:45Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "LACY_L31_Bag",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_62aa1b39-3f3d-4d4f-a68c-a7714ab78a8b_1795027327437.mp4",
+   "gen_utc": "2026-11-18T18:42:07Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ }
+]
