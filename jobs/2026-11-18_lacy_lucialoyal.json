@@ -1,0 +1,62 @@
+[
+ {
+  "name": "LACY_LuciaLoyal",
+  "probe": false,
+  "title": [
+   "LACY swears Lucia",
+   "*is loyal in GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_8bd620a1-e4df-41c6-b372-bf75895b207e_1795029184064.mp4",
+   "gen_utc": "2026-11-18T19:13:04Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 121.5,
+  "to": 172.0,
+  "style": 1,
+  "setup": "Lucia's phone keeps buzzing...",
+  "setup_dur": 1.4,
+  "captions": [
+   [
+    1.5,
+    2.3,
+    "*SOMEBODY'S BEEN TEXTING"
+   ],
+   [
+    2.3,
+    3.4,
+    "LUCIA?"
+   ],
+   [
+    3.4,
+    6.3,
+    "*SHE'S BEEN COOPED UP"
+   ],
+   [
+    23.1,
+    25.3,
+    "*NOT GONNA LIE CHAT"
+   ],
+   [
+    26.6,
+    28.2,
+    "SHE'S LOYAL"
+   ],
+   [
+    29.1,
+    31.0,
+    "*SHE'S LOYAL"
+   ],
+   [
+    47.8,
+    50.4,
+    "*IT'S HER SECOND PHONE"
+   ]
+  ]
+ }
+]
