@@ -96,3 +96,12 @@ Re-committing the same /mnt/user-data/outputs path can push a cached older copy.
 - Job: `{"name":"STORY_x","story":{"src":URL,"ss":0,"to":10,"top":"NEW CLIP","bottom":"full video on our page"}}` or `{"story":{"src":URL,"card":true,"t":3,"lines":[...],"bottom":"..."}}` → out/run-N/STORY_x/STORY_x_story.mp4.
 - Metricool: providers instagram + facebook only, instagramData {type STORY}, facebookData {type STORY}, no text. Teaser goes 40–70 min after its Reel; never before it.
 - Polls/questions/link stickers can't be added through the API. If Justin wants one, schedule that story with autoPublish:false so the Metricool app pings his phone to add the sticker and post it.
+
+## Growth best practices (profiles + every post, set up 11-18)
+- **Profiles (keep them matching):** TikTok + IG bio "Daily GTA 6 streamer clips 🎮 / LACY • Burnt Peanut • Clix & more 👀"; FB Page bio says the same. YouTube channel description is a keyword paragraph (GTA 6, Grand Theft Auto VI, Vice City, Lucia, streamer names). Justin does NOT want "Part 2s on our page" (or similar plugs) in bios.
+- **Pins:** TikTok pins = LACY "can't steal cars" (247 views) + BP "vs traffic" (223). When a newer clip clearly beats them, re-pin it: TikTok Studio → Posts → ⋯ → Pin to top (max 3).
+- **YouTube playlists:** one per streamer, "<Name> GTA 6 Moments" (LACY, Burnt Peanut, Speed so far). The Engagement Crew adds new public Shorts and creates a playlist when a new streamer gets their first Short. Never add #Ad/SEGA posts.
+- **Captions:** first line = streamer + what happens (works as a search hook), one emoji, 2–4 specific hashtags (#streamer #gta6 + one topical). No links, no "follow for part 2" bait.
+- **First comment:** every Reel gets a short question in `firstCommentText` (queue field `first_comment`) — under 12 words, answerable in a word or two, one emoji max, no links/hashtags/self-promo. E.g. "Would you have tried to pet it? 🐊", "Rate Clix's landing 1-10 ✈️". Leave it empty on #Ad / sponsored posts.
+- **Covers:** `cover_ms` on the clearest reaction frame with the title band readable; never a sexualized frame.
+- **Reply window:** the first hour after posting decides reach. Engagement Crew (2:23, 7:23, 9:23 PM ET) likes and replies to real comments; skips trolls/spam (never deletes, hides or blocks); no DMs; flags brand/streamer/copyright messages to Justin.
