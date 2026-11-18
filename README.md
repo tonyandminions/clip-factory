@@ -72,3 +72,6 @@ Clip Finder appends finished clips; Scheduler pops them into open slots. Each it
 `segments` can be out of order: put a 1–2 s peak first, then the story from the start.
 Example: `"segments": [[75.0,77.0],[38.5,45.2],[56.5,79.5]]` shows the punchline, then replays it in context.
 Use it when the payoff comes late in the clip (more than ~6 s in). Don't use it on Part 2s; they already open on the payoff.
+
+## Writing files back to the PC
+Re-committing the same /mnt/user-data/outputs path can push a cached older copy. Always write the edited file to a NEW filename in outputs (e.g. add a timestamp) before device_commit_files, then list the folder and check the byte size matches.
