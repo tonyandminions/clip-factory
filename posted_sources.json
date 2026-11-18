@@ -403,6 +403,22 @@
    "status": "rejected",
    "caption": "the release of GTA VI opening reaction",
    "note": "OpusClip version sits in Downloads from the other chat; don't build a second one"
+  },
+  {
+   "name": "SEGA_Official2_Full",
+   "streamer": "sega",
+   "status": "scheduled",
+   "date": "2026-11-21 11:10",
+   "caption": "SEGA official Black Friday video (up to 85% off cut), full-screen",
+   "note": "SEGA campaign 1391fb95; only two official cuts exist \u2014 don't post a third"
+  },
+  {
+   "name": "SEGA_Official1_Full",
+   "streamer": "sega",
+   "status": "scheduled",
+   "date": "2026-11-25 09:10",
+   "caption": "SEGA official Black Friday video (per-game discounts cut), full-screen",
+   "note": "SEGA campaign 1391fb95; only two official cuts exist \u2014 don't post a third"
   }
  ]
 }
