@@ -83,11 +83,18 @@ def run(job):
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
        "-frames:v", "1", "-q:v", "3", os.path.join(od, "preview.jpg"))
 
+def safe(job):
+    try:
+        run(job)
+    except Exception as e:
+        print(f"JOB FAILED {job.get('name')}: {e}", flush=True)
+
 if __name__ == "__main__":
+    from concurrent.futures import ThreadPoolExecutor
+    jobs = []
     for path in sys.argv[1:]:
         data = json.load(open(path))
-        for job in (data if isinstance(data, list) else [data]):
-            try:
-                run(job)
-            except Exception as e:
-                print(f"JOB FAILED {job.get('name')}: {e}", flush=True)
+        jobs += data if isinstance(data, list) else [data]
+    # jobs are mostly download/network bound: run up to 3 at once (CLIP_WORKERS to change)
+    with ThreadPoolExecutor(int(os.environ.get("CLIP_WORKERS", "3"))) as ex:
+        list(ex.map(safe, jobs))
