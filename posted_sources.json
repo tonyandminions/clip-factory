@@ -346,6 +346,33 @@
    "end": 34725,
    "status": "rejected",
    "caption": "naked woman on the wall - never use"
+  },
+  {
+   "name": "LACY_StrayDog",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "date": "2026-11-22 09:10",
+   "caption": "tried to adopt a stray dog",
+   "note": "ClipSpeed ref 20:27 UTC (LACY_N23), approx VOD offset ~36000"
+  },
+  {
+   "name": "KATIE_WorstGameplay",
+   "streamer": "realkatieb",
+   "vod": "2932534214",
+   "start": 4141,
+   "end": 4185,
+   "clip": "TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE",
+   "status": "scheduled",
+   "date": "2026-11-22 15:10",
+   "caption": "bike crash / worst GTA 6 gameplay"
+  },
+  {
+   "name": "LACY_JetSki",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "date": "2026-11-22 20:10",
+   "caption": "jet ski ramps race",
+   "note": "ClipSpeed ref 19:18 UTC (LACY_N03)"
   }
  ]
 }

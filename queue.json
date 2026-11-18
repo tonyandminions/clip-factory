@@ -70,136 +70,38 @@
    "part": null
   },
   {
-   "name": "BP_N_BigJobs",
-   "streamer": "theburntpeanut",
-   "status": "probing",
-   "vod": "2932226282",
-   "start": 34694,
-   "end": 34721,
-   "clip": "LivelyObliqueMangetoutPartyTime--sPkk1kMup-5SpU7"
+   "name": "LACY_StrayDog",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-22 09:10"
   },
   {
-   "name": "BP_N_AlmostLost",
-   "streamer": "theburntpeanut",
-   "status": "probing",
-   "vod": "2932226282",
-   "start": 28623,
-   "end": 28653,
-   "clip": "CogentLightLampKreygasm-hNtzG6z-7X1-TmQd"
+   "name": "KATIE_WorstGameplay",
+   "streamer": "realkatieb",
+   "status": "scheduled",
+   "slot": "2026-11-22 15:10"
+  },
+  {
+   "name": "LACY_JetSki",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "slot": "2026-11-22 20:10"
+  },
+  {
+   "name": "LACY_N29_Helicopter",
+   "streamer": "lacy",
+   "status": "candidate",
+   "note": "helicopter flight/crash 'I swear that wasn't me' \u2014 sweep run-41"
   },
   {
    "name": "CLIX_N_dhc",
    "streamer": "clix",
-   "status": "probing",
+   "status": "candidate",
    "vod": "2932204601",
    "start": 2817,
    "end": 2847,
-   "clip": "AgreeableCrispySowLitFam-1kdaofm7vwVkyU-4"
-  },
-  {
-   "name": "CLIX_N_l",
-   "streamer": "clix",
-   "status": "probing",
-   "vod": "2932204601",
-   "start": 5149,
-   "end": 5179,
-   "clip": "WittyRoundChowderHeyGirl-OzvMSnOERIqgqOgp"
-  },
-  {
-   "name": "CLIX_N_dot",
-   "streamer": "clix",
-   "status": "probing",
-   "vod": "2932204601",
-   "start": 6248,
-   "end": 6308,
-   "clip": "CourageousJazzyCheddarDancingBanana--b8iXZo78E09gIT1"
-  },
-  {
-   "name": "JASON_N_Playing",
-   "streamer": "jasontheween",
-   "status": "probing",
-   "vod": "2932190650",
-   "start": 4540,
-   "end": 4600,
-   "clip": "SincereCoySwallowTwitchRPG-8Guq8lUaPBtFXRsu"
-  },
-  {
-   "name": "JASON_N_Ayooo",
-   "streamer": "jasontheween",
-   "status": "probing",
-   "vod": "2932190650",
-   "start": 30890,
-   "end": 30911,
-   "clip": "AbrasivePatientMageRaccAttack-buWjiUiqf-LAh40B"
-  },
-  {
-   "name": "MIKKAA_N_Face",
-   "streamer": "missmikkaa",
-   "status": "probing",
-   "vod": "2932348658",
-   "start": 12000,
-   "end": 12044,
-   "clip": "NimbleGentleSpaghettiSoBayed--eDF4o99GX6nc5fa"
-  },
-  {
-   "name": "MIKKAA_N_OhShit",
-   "streamer": "missmikkaa",
-   "status": "probing",
-   "vod": "2932348658",
-   "start": 23181,
-   "end": 23195,
-   "clip": "DirtyRenownedTarsierKevinTurtle-EFcJIVKYi2pMk52p"
-  },
-  {
-   "name": "MIKKAA_N_lol",
-   "streamer": "missmikkaa",
-   "status": "probing",
-   "vod": "2932348658",
-   "start": 20694,
-   "end": 20724,
-   "clip": "BitterBoringJaguarRiPepperonis-abQUzLW1EpJW4u2M"
-  },
-  {
-   "name": "KATIE_N_Stunt",
-   "streamer": "realkatieb",
-   "status": "probing",
-   "vod": "2932534214",
-   "start": 5000,
-   "end": 5030,
-   "clip": "TenaciousAgreeableMushroomChocolateRain-0qzIhAJX9xdcD2-L"
-  },
-  {
-   "name": "KATIE_N_RidingDirty",
-   "streamer": "realkatieb",
-   "status": "probing",
-   "vod": "2932534214",
-   "start": 6859,
-   "end": 6881,
-   "clip": "TransparentMoldyDiscFailFish-kOEIphXlY2qnlJVV"
-  },
-  {
-   "name": "KATIE_N_Worst",
-   "streamer": "realkatieb",
-   "status": "probing",
-   "vod": "2932534214",
-   "start": 4165,
-   "end": 4225,
-   "clip": "FuriousQuaintOysterHotPokket-g11mkunwuzc2qs9k"
-  },
-  {
-   "name": "KATIE_N_Rocked",
-   "streamer": "realkatieb",
-   "status": "probing",
-   "vod": "2932534214",
-   "start": 4141,
-   "end": 4164,
-   "clip": "TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE"
-  },
-  {
-   "name": "LACY_N01-N30",
-   "streamer": "lacy",
-   "status": "probing",
-   "note": "30 ClipSpeed refs 19:16\u201320:56 UTC on VOD 2932194507 (jobs/2026-11-18_live_sweep1.json)"
+   "clip": "AgreeableCrispySowLitFam-1kdaofm7vwVkyU-4",
+   "note": "'not diving in there\u2026 bull sharks and barracudas'"
   }
  ]
 }
