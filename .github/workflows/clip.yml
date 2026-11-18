@@ -47,7 +47,7 @@ jobs:
     needs: plan
     if: needs.plan.outputs.matrix != '[]'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       max-parallel: 12
@@ -61,10 +61,21 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache ffmpeg
+        uses: actions/cache@v4
+        with:
+          path: ~/ffmpeg
+          key: ffmpeg-btbn-gpl-v1
+
       - name: Install tools
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg > /dev/null
+          # static ffmpeg from GitHub (apt mirrors sometimes hang for 10+ min)
+          if [ ! -x ~/ffmpeg/bin/ffmpeg ]; then
+            mkdir -p ~/ffmpeg
+            curl -sSL --retry 3 https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz | tar -xJ -C ~/ffmpeg --strip-components=1
+          fi
+          echo "$HOME/ffmpeg/bin" >> "$GITHUB_PATH"
+          ~/ffmpeg/bin/ffmpeg -hide_banner -version | head -1
           pip install -q yt-dlp faster-whisper
 
       - name: Cache whisper model
