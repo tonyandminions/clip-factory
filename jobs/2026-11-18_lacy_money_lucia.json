@@ -1,0 +1,73 @@
+[
+ {
+  "name": "LACY_LostAllMoney",
+  "probe": false,
+  "title": [
+   "LACY lost all his money",
+   "*in GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_cbc5a8e8-51aa-4c6f-a6d3-3dd67c7bd40c_1795027869889.mp4",
+   "gen_utc": "2026-11-18T18:51:09Z",
+   "back": 300,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 181.5,
+  "to": 203.0,
+  "style": 7,
+  "setup": "He didn't know dying loses ALL your money...",
+  "setup_dur": 3.2,
+  "captions": [
+   [
+    3.2,
+    5.8,
+    "WHY DIDN'T I SHOOT IT?"
+   ],
+   [
+    10.8,
+    11.8,
+    "*GET IT BACK"
+   ],
+   [
+    11.8,
+    13.0,
+    "WAIT, HOW DO I GET IT BACK?"
+   ],
+   [
+    13.0,
+    14.8,
+    "*HOW DO I GET IT BACK?"
+   ],
+   [
+    17.1,
+    18.8,
+    "I DON'T EVEN HAVE ENOUGH"
+   ],
+   [
+    18.8,
+    21.4,
+    "*MONEY TO FILL MY GAS TANK"
+   ]
+  ]
+ },
+ {
+  "name": "LACY_L32_TextingLucia",
+  "probe": true,
+  "title": [
+   "LACY",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/clips/38120531-9b34-4225-883d-fce73cdbf08c/captioned_8bd620a1-e4df-41c6-b372-bf75895b207e_1795029184064.mp4",
+   "gen_utc": "2026-11-18T19:13:04Z",
+   "back": 300,
+   "pad": "4,3"
+  }
+ }
+]
