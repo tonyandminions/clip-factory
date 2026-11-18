@@ -1,0 +1,28 @@
+{
+  "_note": "Every source moment we have posted or scheduled. Run scripts/dedupe_check.py on a job before scheduling it. Offsets are seconds into the Twitch VOD; live-route ones are approximate (+-60s).",
+  "vod_starts_utc": {
+    "2932194507": "2026-11-18T10:11:50Z"
+  },
+  "entries": [
+    {"name": "LACY_SecuritySystems", "streamer": "lacy", "vod": "2932194507", "start": 7839, "end": 7854, "clip": "AbstruseGrossMetalMVGame-LfXvAGlp6PoHBBwk", "status": "posted", "date": "2026-11-18 11:20", "caption": "can't steal cars the old way"},
+    {"name": "LACY_BombCar", "streamer": "lacy", "vod": "2932194507", "start": 3998, "end": 4028, "clip": "MistyInventiveOwlPMSTwin-9wlgFHHodtTGoATJ", "status": "posted", "date": "2026-11-18 12:05", "caption": "bomb in his car"},
+    {"name": "LACY_Dog", "streamer": "lacy", "vod": "2932194507", "start": 7399, "end": 7446, "clip": "VenomousEasyKathyNerfBlueBlaster-xC8I-5tMYpWzdNaS", "status": "posted", "date": "2026-11-18 12:50", "caption": "just wanted a dog"},
+    {"name": "LACY_BarFight", "streamer": "lacy", "vod": "2932194507", "start": 23140, "end": 23360, "status": "posted", "date": "2026-11-18 13:32", "caption": "Lucia vs 4 guys outside the club", "approx": true},
+    {"name": "LACY_BeatTheGame", "streamer": "lacy", "vod": "2932194507", "start": 23506, "end": 23532, "status": "scheduled", "date": "2026-11-18 21:50", "approx": true},
+    {"name": "LACY_RepairBill", "streamer": "lacy", "vod": "2932194507", "start": 24961, "end": 24977, "status": "scheduled", "date": "2026-11-19 10:38", "approx": true},
+    {"name": "LACY_LeftLuciaHanging", "streamer": "lacy", "vod": "2932194507", "start": 26465, "end": 26482, "status": "scheduled", "date": "2026-11-18 16:45", "approx": true},
+    {"name": "LACY_LostAllMoney", "streamer": "lacy", "vod": "2932194507", "start": 31040, "end": 31061, "status": "scheduled", "date": "2026-11-18 20:25", "approx": true},
+    {"name": "LACY_LuciaLoyal", "streamer": "lacy", "vod": "2932194507", "start": 32295, "end": 32345, "status": "scheduled", "date": "2026-11-19 18:20", "approx": true},
+    {"name": "BP_HitTheGas", "streamer": "theburntpeanut", "vod": "2932226282", "start": 5744, "end": 5774, "clip": "StupidGiantGrasshopperBudBlast-S2jrqYRqUgEfiAFv", "status": "posted", "date": "2026-11-18 11:42", "caption": "zero patience for GTA 6 traffic", "note": "Second copy scheduled 9 PM in TikTok app by other chat - must be deleted; YouTube copy set to Private"},
+    {"name": "BP_WorstDriver", "streamer": "theburntpeanut", "vod": "2932226282", "start": 3745, "end": 3794, "clip": "HeadstrongClumsyMangetoutPunchTrees-6HgzNaewadxMiQya", "status": "posted", "date": "2026-11-18 11:32", "caption": "tried driving in GTA 6 / worst driver", "note": "Posted by other chat. Our Metricool copy is a draft - never publish it"},
+    {"name": "BP_GoodAtDriving", "streamer": "theburntpeanut", "vod": "2932226282", "start": 9142, "end": 9169, "clip": "RelentlessSneakyPorcupineM4xHeh-7XksXXaQHXFQSsy2", "status": "scheduled", "date": "2026-11-18 18:05"},
+    {"name": "BP_StolenCarMod", "streamer": "theburntpeanut", "vod": "2932226282", "start": 4472, "end": 4508, "clip": "ComfortableLachrymosePeppermintDendiFace-Aui_95KVt5WTgUSb", "status": "scheduled", "date": "2026-11-19 13:50"},
+    {"name": "BP_OneFrame", "streamer": "theburntpeanut", "vod": "2932226282", "start": 1427, "end": 1452, "clip": "ShyUninterestedKangarooStrawBeary-obcmxt2flreroqBn", "status": "scheduled", "date": "2026-11-19 16:40"},
+    {"name": "CLIX_PlaneCrash", "streamer": "clix", "vod": "2932204601", "start": 3894, "end": 3918, "clip": "JollyObeseApeBigBrother-iLeo_6jckIEFQGGq", "status": "scheduled", "date": "2026-11-19 08:52"},
+    {"name": "JASON_RoadRage", "streamer": "jasontheween", "vod": "2932190650", "start": 8280, "end": 8310, "clip": "ManlyProudPidgeonBloodTrail-PjN9TVhQ1zqg3GPr", "status": "scheduled", "date": "2026-11-19 15:12"},
+    {"name": "SPEED_Escape", "streamer": "ishowspeed", "status": "posted", "date": "2026-11-18 13:30", "caption": "trying to get away from the cops after first robbery", "note": "Other chat, posted direct in apps; source offsets unknown"},
+    {"name": "SPEED_Arrested", "streamer": "ishowspeed", "status": "scheduled", "date": "2026-11-18 15:30", "caption": "arrested right after first robbery", "note": "Other chat; same robbery story, different moment"},
+    {"name": "SPEED_Download", "streamer": "ishowspeed", "status": "scheduled", "date": "2026-11-18 19:30", "caption": "last 20 seconds of GTA 6 downloading", "note": "Other chat"},
+    {"name": "SPEED_FirstRobbery", "streamer": "ishowspeed", "status": "scheduled", "date": "2026-11-19 12:30", "caption": "first robbery like it's real life", "note": "Other chat; same robbery story, different moment"}
+  ]
+}

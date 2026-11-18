@@ -42,3 +42,9 @@ Each job gets its own runner (matrix), so push many probes at once.
 - Never: bots/bought followers/views (strike = removed from every Reach campaign), sexualised covers or framing,
   AI voice/footage, logos, links in captions, "follow for part 2" bait.
 - Paid campaigns need the streamer's name in caption/on-screen + #Name, English, ≥50% US/CA/UK/AU/NZ audience, submit ≤30 min.
+
+## No reposts (check before every schedule)
+- Every posted/scheduled source moment lives in `posted_sources.json` (VOD id + offsets, Twitch clip slug, caption).
+- Before scheduling anything: `python3 scripts/dedupe_check.py --vod <id> --start <s> --end <e>` (or `--clip <slug>`). It fails if the moment is within 45s of anything already used. Then add the new entry.
+- One moment = one post per platform, ever. Two viewers' Twitch clips of the same moment count as the same moment.
+- Other chats post directly in the TikTok/YouTube apps — check TikTok Studio + YouTube Studio scheduled lists too, not just Metricool.
