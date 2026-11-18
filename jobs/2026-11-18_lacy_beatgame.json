@@ -1,0 +1,54 @@
+[
+ {
+  "name": "LACY_BeatTheGame",
+  "probe": false,
+  "title": [
+   "LACY thinks he already",
+   "*beat GTA 6 \ud83d\ude2d"
+  ],
+  "live": {
+   "channel": "lacy",
+   "vod": "https://www.twitch.tv/videos/2932194507",
+   "ref": "https://cdn.clipspeed.ai/38120531-9b34-4225-883d-fce73cdbf08c/f1e05314-9b9e-4626-aab2-4f8feacb22c1_branding__r1795020335157.mp4",
+   "gen_utc": "2026-11-18T16:45:35Z",
+   "back": 240,
+   "pad": "4,3"
+  },
+  "cam": "0,8,493,246",
+  "game": "440,320,1280,720",
+  "ss": 121.0,
+  "to": 147.5,
+  "captions": [
+   [
+    3.4,
+    4.9,
+    "WAIT, DID I BEAT"
+   ],
+   [
+    4.9,
+    7.0,
+    "*THE GAME ALREADY?"
+   ],
+   [
+    15.5,
+    17.0,
+    "DID I BEAT THE GAME?"
+   ],
+   [
+    17.0,
+    18.6,
+    "*YO"
+   ],
+   [
+    21.3,
+    23.4,
+    "SO I BEAT"
+   ],
+   [
+    23.4,
+    26.3,
+    "*THE GAME, CHAT"
+   ]
+  ]
+ }
+]
