@@ -1,0 +1,60 @@
+{
+ "_what": "Per-platform strategy, learned from our own numbers. The Analyst updates it every night (Justin 11-19: learn after every post, keep adjusting each platform until it's mastered). The Scheduler uses 'route' to decide which clip goes to which platform; the Clip Finder uses 'want' to decide what to look for. Evidence lines are dated; small samples are marked as such.",
+ "_updated": "2026-11-19 17:30 ET, main chat (first review: 16 TikTok, 13 Instagram, 4 Facebook, 18 YouTube, 1 X post)",
+ "cross_platform": [
+  "The same clip lands very differently per platform, so routing matters more than volume: BP traffic = IG 1,385 / TT 227 / YT 1; LACY Part 2 (dying costs ALL your money) = IG 1,534 / FB 475 / YT 28 / TT 16; Speed download countdown = YT 1,366 / IG 153 / TT 0.",
+  "A slot may carry two different clips split by platform (e.g. 18:10: story clip to IG+FB, mechanic clip to TT+YT) when that fits better. Daily caps per platform still hold."
+ ],
+ "tiktok": {
+  "health_metric": "For You share per post (Metricool TKPO16). Healthy >= 0.7. Under 0.3 on most posts = account throttled.",
+  "status": "throttled: after ~13 posts on day one, 12 of the next 14 posts got 0-49 views with For You 0-20%.",
+  "what_works": [
+   "15-20 s clips with a GTA 6 mechanic/frustration stated plainly and a reaction in second 1: 'LACY can't steal cars the old way' (15 s, 250 views, 9 s avg watch, 93% For You); 'Burnt Peanut vs GTA 6 traffic' (30 s, 227 views, 10 s avg)."
+  ],
+  "avoid": ["reposting a moment (BP traffic repost: 8 views)", "Speed clips (0 views on TikTok, heavily clipped by others)", "slow opens and 30 s+ clips", "volume: more than 3 a day"],
+  "route": {"hook_types": ["mechanic"], "max_len_s": 22, "streamers_first": ["lacy", "theburntpeanut", "kreekcraft"], "skip_streamers": ["ishowspeed"], "per_day": 3, "throttled_per_day": 1},
+  "experiment": {"name": "recover reach", "plan": "While For You stays under 0.3: post only the single best mechanic clip a day (15-22 s) at 11:10 or 18:10. Back to 3 a day after 2 posts in a row with For You >= 0.6.", "baseline": "median 7 views since the throttle"}
+ },
+ "instagram": {
+  "health_metric": "Reel skip rate (IGRE30, swiped in first 3 s): target under 30%. Views + shares.",
+  "status": "best platform so far",
+  "what_works": [
+   "Relatable GTA 6 'pain' mechanics told as a plain fact: LACY Part 2 'dying in GTA 6 takes ALL your money' 1,534 views (25% skip, 12.9 s avg watch); BP 'zero patience for GTA 6 traffic' 1,385 (25% skip, 10 shares).",
+   "Shares drive it: the two clips with 10 shares are both top-3.",
+   "A Part 2 that works as a standalone beats its Part 1 (1,534 vs 152)."
+  ],
+  "avoid": ["openers that need context: 'LACY's first bank job' had 60% skip and 7 views"],
+  "route": {"hook_types": ["mechanic", "reaction"], "max_len_s": 25, "prime_slot": "18:10", "per_day": 4},
+  "experiment": {"name": "captions A/B", "plan": "Word-by-word vs phrase captions (split test running since 11-19, build.json). Compare skip rate and avg watch after ~20 Reels.", "baseline": "skip 25-44%, avg watch 9-13 s"}
+ },
+ "facebook": {
+  "health_metric": "Views per Reel and avg watch time (FBRE10, FBRE13).",
+  "status": "steady: every Reel with data got 344-589 views (4 Reels, small sample)",
+  "what_works": [
+   "Story and relationship moments: 'LACY forgot to meet Lucia at the bank' 589 views (\"I'm a terrible boyfriend\").",
+   "Part series carry on Facebook: Part 1 344, Part 2 475."
+  ],
+  "avoid": ["payoffs after ~10 s (avg watch 7-10 s)"],
+  "route": {"hook_types": ["story", "reaction"], "parts_ok": true, "max_len_s": 30, "per_day": 3},
+  "experiment": {"name": "series vs standalone", "plan": "Alternate Part series and standalone story clips; compare views per Reel after 6 Reels.", "baseline": "344-589 views"}
+ },
+ "youtube": {
+  "health_metric": "Views after 48 h per Short and any 'Potential limitation' label in YouTube Studio.",
+  "status": "one hit, most Shorts stuck at 0-28 views; 'Potential limitation' on BP driving",
+  "what_works": [
+   "Big name + big moment people search for: Speed counting down the GTA 6 download, 1,366 views (native upload by the Speed chat).",
+   "LACY's first Lucia reaction, 205 views (first upload)."
+  ],
+  "avoid": ["uploading the same moment twice (BP traffic went up twice)", "generic reactions without a searchable topic"],
+  "route": {"hook_types": ["mechanic", "story"], "title_style": "searchable: '<Streamer> <does/finds> <GTA 6 thing>' with the GTA 6 topic words people search", "streamers_first": ["ishowspeed", "kreekcraft", "lacy"], "per_day": 4},
+  "experiment": {"name": "search titles", "plan": "Titles that lead with the GTA 6 topic ('GTA 6 cars run out of gas? LACY found out') vs name-first. Compare 48 h views after 8 Shorts.", "baseline": "median 1 view"}
+ },
+ "x": {
+  "health_metric": "Views per post in the first 2 h (X weighs early engagement).",
+  "status": "just started (1 post: Clix plane, 38 views in 5 h)",
+  "what_works": [],
+  "avoid": ["links in posts"],
+  "route": {"use": "proven winners from IG/FB of the last 48 h that haven't been on X, plus live moments; campaigns that pay on X first (LACY, Clix, AsianJeff)", "per_day": 4},
+  "experiment": {"name": "proven winners vs fresh", "plan": "Alternate an IG winner and a fresh clip; compare 24 h views after 8 posts.", "baseline": "38 views"}
+ }
+}
