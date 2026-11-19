@@ -1,0 +1,94 @@
+[
+ {
+  "name": "JASON_PS5Off",
+  "vod": "https://www.twitch.tv/videos/2932190650",
+  "vod_start": 40560,
+  "vod_end": 40780,
+  "segments": [
+   [
+    208.3,
+    210.6
+   ],
+   [
+    23.5,
+    29.8
+   ],
+   [
+    61.7,
+    65.8
+   ],
+   [
+    162.0,
+    172.3
+   ],
+   [
+    211.1,
+    214.3
+   ]
+  ],
+  "title": [
+   "JASON turned off his PS5",
+   "*GTA 6 SAVE: PROLOGUE 1%"
+  ],
+  "cam": "1500,486,412,276",
+  "game": "0,120,1500,844",
+  "style": 6,
+  "captions": [
+   [
+    0.1,
+    2.2,
+    "OH MY GOD, BRO"
+   ],
+   [
+    2.5,
+    5.0,
+    "TURNED MY PS5 OFF"
+   ],
+   [
+    5.6,
+    8.5,
+    "*I'M BACK, I'M BACK"
+   ],
+   [
+    8.8,
+    10.3,
+    "BRO, WE'RE IN 2026"
+   ],
+   [
+    10.3,
+    11.4,
+    "*NO WAY THIS"
+   ],
+   [
+    11.4,
+    12.6,
+    "IS NOT AUTOSAVE"
+   ],
+   [
+    14.9,
+    15.9,
+    "NAH, BRO"
+   ],
+   [
+    16.0,
+    17.5,
+    "*I'M NOT DOING THIS"
+   ],
+   [
+    20.5,
+    21.6,
+    "NO, NO, NO"
+   ],
+   [
+    21.6,
+    23.0,
+    "*THERE'S NO WAY"
+   ],
+   [
+    23.1,
+    26.1,
+    "OH MY GOD, BRO"
+   ]
+  ]
+ }
+]
