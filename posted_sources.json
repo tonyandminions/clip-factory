@@ -615,6 +615,176 @@
    "clip": "SaltyTameWrenBatChest-yMa6Bgoi-Pc3cTIZ",
    "status": "rejected",
    "reason": "suggestive nightclub framing"
+  },
+  {
+   "name": "SKIP_JASON_StripClub",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 11766,
+   "end": 11826,
+   "clip": "TiredCovertCougarHeyGirl-RI7i3wdJxWw6RTWv",
+   "status": "rejected",
+   "reason": "strip club / nudity"
+  },
+  {
+   "name": "SKIP_JASON_Naaa",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 5671,
+   "end": 5709,
+   "clip": "RenownedPluckyLobsterAMPEnergyCherry-HtXWQiRZgUoIHZ-d",
+   "status": "rejected",
+   "reason": "no hook, unclear dialogue"
+  },
+  {
+   "name": "SKIP_KREEK_Chase",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 72137,
+   "end": 72197,
+   "clip": "LaconicWimpyGnatPanicVis-oxt4b_BVDXOxUKIX",
+   "status": "rejected",
+   "reason": "mission cutscene/NPC dialogue, no streamer reaction"
+  },
+  {
+   "name": "SKIP_CLIX_Aiming",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 2518,
+   "end": 2578,
+   "clip": "TriumphantInterestingEmuCurseLit-jQ6WZrwqrsl0xIIf",
+   "status": "rejected",
+   "reason": "weak, swearing, no hook"
+  },
+  {
+   "name": "SKIP_KREEK_Ayooo",
+   "streamer": "kreekcraft",
+   "vod": "2933758895",
+   "start": 3206,
+   "end": 3236,
+   "clip": "HumbleGleamingEelSpicyBoy-VZGNfwBodYR2NPSa",
+   "status": "rejected",
+   "reason": "explicit song lyrics (sexual)"
+  },
+  {
+   "name": "SKIP_KREEK_Slapped",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 28229,
+   "end": 28248,
+   "clip": "ChillySweetPlumFUNgineer-M6IkRb8DPYFHJVTd",
+   "status": "rejected",
+   "reason": "crude language"
+  },
+  {
+   "name": "SKIP_KREEK_K12",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 19541,
+   "end": 19601,
+   "clip": "ElatedSolidTardigradeANELE-IZ0eJblqUB87zvNx",
+   "status": "rejected",
+   "reason": "cutscene dialogue + swearing"
+  },
+  {
+   "name": "SKIP_LACY_Shocked",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 33857,
+   "end": 33900,
+   "clip": "JazzyPrettiestDogeDendiFace-61fOM3hM6Y_cOt1g",
+   "status": "rejected",
+   "reason": "sexual in-game scene"
+  },
+  {
+   "name": "SKIP_LACY_CivFight",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 31149,
+   "end": 31168,
+   "clip": "SuspiciousAgreeableHornetTheTarFu-OD_qVg9cj5S9UvmW",
+   "status": "rejected",
+   "reason": "crude language, no hook"
+  },
+  {
+   "name": "SKIP_RAGE_Kaysan",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 2437,
+   "end": 2467,
+   "clip": "PowerfulAmusedMooseHumbleLife-cXPqXMdK6bIBsaLV",
+   "status": "rejected",
+   "reason": "sexual jokes"
+  },
+  {
+   "name": "SKIP_JASON_ViStar",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 19908,
+   "end": 19923,
+   "clip": "AntediluvianFunMouseHeyGuys-TvlZEtG-RqchvuN-",
+   "status": "rejected",
+   "reason": "too short (8 s of content), shifting layout"
+  },
+  {
+   "name": "SKIP_JASON_Dd",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 9439,
+   "end": 9475,
+   "clip": "GoldenPeppyPoxTheThing-V7v3xZMbQ62cjtFe",
+   "status": "rejected",
+   "reason": "swearing, no hook"
+  },
+  {
+   "name": "SKIP_JASON_Wtf",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 6673,
+   "end": 6733,
+   "clip": "TrappedLachrymosePotPlanking-u1Z1kfApYZhWh572",
+   "status": "rejected",
+   "reason": "rambling, no hook"
+  },
+  {
+   "name": "SKIP_CLIX_Sbsbs",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 1524,
+   "end": 1539,
+   "clip": "SpicyVivaciousMoosePraiseIt-ehFyHMGA1NVwHpuY",
+   "status": "rejected",
+   "reason": "swearing, no hook"
+  },
+  {
+   "name": "SKIP_MIKKAA_PS5",
+   "streamer": "missmikkaa",
+   "vod": "2933682633",
+   "start": 1404,
+   "end": 1434,
+   "clip": "BusySullenJuiceThunBeast-H-yV1SOaWJaDEjgV",
+   "status": "rejected",
+   "reason": "real-life chat (tax bill), no GTA moment"
+  },
+  {
+   "name": "SKIP_KREEK_K3",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 14830,
+   "end": 14890,
+   "clip": "PeppyBravePhoneFloof-7zH7sD559J4Wq3m-",
+   "status": "rejected",
+   "reason": "giveaway talk, no hook"
+  },
+  {
+   "name": "SKIP_KREEK_Jic",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 10603,
+   "end": 10620,
+   "clip": "WrongGrossFungusStoneLightning-YFhtR1QrwMxmRA1L",
+   "status": "rejected",
+   "reason": "no reaction"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."

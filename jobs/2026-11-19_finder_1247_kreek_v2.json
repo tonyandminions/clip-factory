@@ -1,0 +1,89 @@
+[
+ {
+  "name": "KREEK_CCTV_v2",
+  "url": "https://www.twitch.tv/kreekcraft/clip/CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+  "segments": [
+   [
+    36.5,
+    39.0
+   ],
+   [
+    0.0,
+    1.5
+   ],
+   [
+    5.5,
+    11.6
+   ],
+   [
+    24.0,
+    27.0
+   ],
+   [
+    29.5,
+    36.0
+   ],
+   [
+    42.0,
+    46.0
+   ],
+   [
+    52.8,
+    56.8
+   ]
+  ],
+  "title": [
+   "KreekCraft found out you have to",
+   "*destroy the CCTV in GTA 6"
+  ],
+  "cam": "0,118,420,428",
+  "camfit": true,
+  "game": "440,180,1360,765",
+  "style": 4,
+  "setup": "GTA 6 robberies have real CCTV...",
+  "setup_dur": 1.8,
+  "captions": [
+   [
+    2.5,
+    4.0,
+    "HERE WE GO"
+   ],
+   [
+    4.8,
+    6.8,
+    "*WE GOT TO DESTROY"
+   ],
+   [
+    6.8,
+    10.0,
+    "THE CCTV FOOTAGE"
+   ],
+   [
+    10.3,
+    12.9,
+    "*(WIPING THE TAPES)"
+   ],
+   [
+    15.9,
+    17.8,
+    "*WHAT'S THE CODE?"
+   ],
+   [
+    17.8,
+    19.2,
+    "SCREW IT"
+   ],
+   [
+    23.7,
+    27.5,
+    "*LET'S GO, LET'S GO"
+   ]
+  ],
+  "overlay": {
+   "url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp",
+   "w": 640,
+   "x": "(main_w-overlay_w)/2",
+   "y": "1490"
+  }
+ }
+]
