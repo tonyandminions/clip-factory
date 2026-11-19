@@ -14,11 +14,13 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "credit": null,                         # small credit line in the caption band when captions are none
   "probe": false,                         # true = only download, transcribe, contact sheet
   "post": false,                          # true = also make a <3.6 MB copy for browser uploads
-  "live": null                            # {"channel","ref","gen_utc","back":240,"pad":"0,0"} ClipSpeed live moment
+  "live": null,                           # {"channel","ref","gen_utc","back":240,"pad":"0,0"} ClipSpeed live moment
+  "overlay": null                         # campaign logo/watermark on the WHOLE clip (KreekCraft, Clix x JBL):
+                                          # {"url": png/webp/Drive link, "w": 230, "x": "main_w-overlay_w-36", "y": "main_h*0.52", "alpha": 1.0}
 }
 Outputs go to out/<name>/: source.mp4, transcript.txt, caps.json, <name>_HQ.mp4, <name>_post.mp4, sheet.jpg
 """
-import json, os, subprocess, sys
+import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -110,12 +112,31 @@ def run(job):
     if capsfile:
         cmd += ["--caps", capsfile]
     sh(*cmd)
+    if job.get("overlay"):  # required campaign logo, visible start to finish
+        add_overlay(hq, job["overlay"], od)
     if job.get("post", False):  # browser-upload copy (<3.6 MB); Metricool uses the HQ file
         sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
     # preview strip of the finished edit
     d2 = dur(hq)
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
        "-frames:v", "1", "-q:v", "3", os.path.join(od, "preview.jpg"))
+
+def add_overlay(hq, ov, od):
+    url = ov["url"]
+    m = re.search(r"drive\.google\.com/(?:file/(?:u/\d+/)?d/|open\?id=)([\w-]+)", url)
+    if m:
+        url = f"https://drive.usercontent.google.com/download?id={m.group(1)}&export=download&confirm=t"
+    raw = os.path.join(od, "overlay_raw"); png = os.path.join(od, "overlay.png")
+    sh("curl", "-sSL", "--retry", "3", "-o", raw, url)
+    from PIL import Image  # handles webp (incl. first frame of animated), png, jpg
+    im = Image.open(raw); im.seek(0); im.convert("RGBA").save(png)
+    w = int(ov.get("w", 230)); x = str(ov.get("x", "main_w-overlay_w-36")); y = str(ov.get("y", "main_h*0.52"))
+    a = float(ov.get("alpha", 1.0))
+    tmp = hq.replace(".mp4", "_ov.mp4")
+    fc = f"[1:v]scale={w}:-1,format=rgba,colorchannelmixer=aa={a}[o];[0:v][o]overlay=x={x}:y={y}:format=auto,format=yuv420p[v]"
+    sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-loop", "1", "-i", png, "-filter_complex", fc, "-map", "[v]", "-map", "0:a?",
+       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "copy", "-movflags", "+faststart", tmp)
+    os.replace(tmp, hq); os.remove(raw)
 
 def safe(job):
     try:
