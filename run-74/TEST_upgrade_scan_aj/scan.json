@@ -1,0 +1,120 @@
+{
+ "vod": "https://www.twitch.tv/videos/2933231152",
+ "vod_duration": 15497.0,
+ "scanned_from": 13697.0,
+ "chat_used": true,
+ "chat_messages": 217,
+ "peaks": [
+  {
+   "vod_offset": 13879.0,
+   "vod_start": 13857.0,
+   "vod_end": 13893.0,
+   "picked_by": "both",
+   "loud_db_over_median": 12.7,
+   "text": "Oh my god, I just have to do everything on this team Oh my god, I could have saved him Twerk? Twerk could have saved him bro Did I sell, chat? Wait, did he just die? Cause of me?",
+   "chat_x_normal": 1.4,
+   "chat_reactions": {
+    "fail": 1
+   },
+   "chat_sample": [
+    "yooooo",
+    "Yeah right",
+    "L",
+    "thats a dolphin",
+    "u shot the dolphin"
+   ]
+  },
+  {
+   "vod_offset": 13986.0,
+   "vod_start": 13964.0,
+   "vod_end": 14000.0,
+   "picked_by": "both",
+   "loud_db_over_median": 14.7,
+   "text": "just a die of going well nobody i hope you and my good friend canted yo yo uh youtube what's good bro would be really bad for you if you weren't what's good youtube that's right who's enjoying the sheets of our my youtube stream chat man that thing stinks dude dude dude that square little cat i'll drive back chat i'm gonna i'm gonna probably get off and get on tomorrow chat i'm getting tired bro i knew it i knew there would be something down there just needed",
+   "chat_x_normal": 1.0,
+   "chat_reactions": {
+    "fail": 1
+   },
+   "chat_sample": [
+    "noooo"
+   ]
+  },
+  {
+   "vod_offset": 14706.0,
+   "vod_start": 14684.0,
+   "vod_end": 14720.0,
+   "picked_by": "both",
+   "loud_db_over_median": 12.8,
+   "text": "You could shower in GTA, butt booty ass naked? It said return to location later. So what's the next one I should do? How do I see it bro?",
+   "chat_x_normal": 1.4,
+   "chat_reactions": {
+    "clip": 1
+   },
+   "chat_sample": [
+    "Im a clipper bro Imm clip this",
+    "rob some stores around",
+    "Just in case you didn't know. This game does not have an auto save feature. You must press pause, game, and save. Trying to save my peeps some trouble."
+   ]
+  },
+  {
+   "vod_offset": 15002.0,
+   "vod_start": 14980.0,
+   "vod_end": 15016.0,
+   "picked_by": "both",
+   "loud_db_over_median": 14.0,
+   "text": "fuck bro i don't oh god i have it oh taught me to get some new shoes guys i haven't seen lucia i don't know when i'm gonna see her can i switch her or no how do i switch her how do you switch lucia",
+   "chat_x_normal": 1.0,
+   "chat_reactions": {
+    "funny": 1,
+    "huh": 1
+   },
+   "chat_sample": [
+    "vanilla unicorn now",
+    "Actually. We helped. Lol",
+    "All on you",
+    "dude so sa what happened to jasontheween",
+    "you arent close to getting here",
+    "vanilla unicorn time",
+    "her"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 13845.0,
+    "vod_start": 13823.0,
+    "vod_end": 13859.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.9,
+    "text": "UNBELIEVABLE, BRO! What the fu- UNBELIEVABLE, BRO! BRO! This squad is dogshit! My god, I just have to do it. I have to do it.",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": []
+   },
+   {
+    "vod_offset": 14188.0,
+    "vod_start": 14166.0,
+    "vod_end": 14202.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 17.1,
+    "text": "Guys we can't get off. Wait is there any more missions? Oh shit bro I need to get used to these key buttons bro. Cattle wants to hang out he's waiting in your place. Bet say no",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": []
+   },
+   {
+    "vod_offset": 14735.0,
+    "vod_start": 14713.0,
+    "vod_end": 14749.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.8,
+    "text": "How do I see it bro just so you know you must save the game You may press pause and save how do I save it?",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": []
+   }
+  ],
+  "chat_only": []
+ }
+}
