@@ -214,6 +214,42 @@
    "added": "2026-11-19T14:05Z",
    "platforms": "IG YT FB",
    "x_slot": "2026-11-21 11:10"
+  },
+  {
+   "name": "KREEK_CrocBet",
+   "streamer": "kreekcraft",
+   "campaign": "KreekCraft",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-63/KREEK_CrocBet/KREEK_CrocBet_HQ.mp4",
+   "caption": "KreekCraft bet a free copy of GTA 6 he wouldn't get eaten by a crocodile 🐊 \"there's no way I'm gonna get eaten by a crocodile\"\nWatch KreekCraft on YouTube and Twitch\n#GTA6 #KreekCraft #GrandTheftAutoVI",
+   "yt_title": "KreekCraft Bet He Wouldn't Get Eaten by a Crocodile in GTA 6 🐊 #shorts #KreekCraft #gta6",
+   "cover_ms": 3000,
+   "part": null,
+   "hook_type": "mechanic",
+   "clip": "TangentialFreezingTeaKlappa-3haneQVakbOUV_GJ",
+   "status": "scheduled",
+   "slot": "2026-11-19 15:10",
+   "added": "2026-11-19T15:57Z",
+   "platforms": "TT IG YT",
+   "x_slot": null,
+   "metricool_uuid": "-2570033201939398338"
+  },
+  {
+   "name": "KREEK_GrandpaScooter",
+   "streamer": "kreekcraft",
+   "campaign": "KreekCraft",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-63/KREEK_GrandpaScooter/KREEK_GrandpaScooter_HQ.mp4",
+   "caption": "KreekCraft stole a grandpa's scooter in GTA 6 and he chased him down the street 😭 \"this is elder abuse!\"\nWatch KreekCraft on YouTube and Twitch\n#GTA6 #KreekCraft #GrandTheftAutoVI",
+   "yt_title": "KreekCraft Stole a Grandpa's Scooter in GTA 6 😭 #shorts #KreekCraft #gta6",
+   "cover_ms": 12000,
+   "part": null,
+   "hook_type": "reaction",
+   "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
+   "status": "scheduled",
+   "slot": "2026-11-20 11:10",
+   "added": "2026-11-19T15:57Z",
+   "platforms": "TT IG YT",
+   "x_slot": null,
+   "metricool_uuid": "1461181023084758769"
   }
  ]
 }

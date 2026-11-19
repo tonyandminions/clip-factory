@@ -585,6 +585,36 @@
    "clip": "HeartlessStrongAdminKeyboardCat-wubwjmqCYJbpGgNG",
    "status": "rejected",
    "caption": "cutscene dialogue - skip"
+  },
+  {
+   "name": "KREEK_CrocBet",
+   "streamer": "kreekcraft",
+   "clip": "TangentialFreezingTeaKlappa-3haneQVakbOUV_GJ",
+   "status": "scheduled",
+   "date": "2026-11-19 15:10",
+   "caption": "croc bet, free copy giveaway"
+  },
+  {
+   "name": "KREEK_GrandpaScooter",
+   "streamer": "kreekcraft",
+   "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
+   "status": "scheduled",
+   "date": "2026-11-20 11:10",
+   "caption": "stole grandpa's scooter"
+  },
+  {
+   "name": "SKIP_KREEK_What",
+   "streamer": "kreekcraft",
+   "clip": "IronicSmellyCroissantLitty-y0qIlZxwrjNfiNGt",
+   "status": "rejected",
+   "reason": "sexual joke (shoe store ranking)"
+  },
+  {
+   "name": "SKIP_KREEK_Banned",
+   "streamer": "kreekcraft",
+   "clip": "SaltyTameWrenBatChest-yMa6Bgoi-Pc3cTIZ",
+   "status": "rejected",
+   "reason": "suggestive nightclub framing"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."
