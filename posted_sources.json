@@ -785,6 +785,48 @@
    "clip": "WrongGrossFungusStoneLightning-YFhtR1QrwMxmRA1L",
    "status": "rejected",
    "reason": "no reaction"
+  },
+  {
+   "name": "SKIP_KREEK_Bruh",
+   "streamer": "kreekcraft",
+   "clip": "FantasticFrigidAubergineBabyRage-kAc_ssX2V75xXnRE",
+   "status": "rejected",
+   "reason": "streamer says 'don't clip that'; bat brawl + swearing"
+  },
+  {
+   "name": "SKIP_KREEK_LuciaCamera",
+   "streamer": "kreekcraft",
+   "clip": "GoldenLachrymoseTofuRaccAttack-G7SRDOubDBegOIeV",
+   "status": "rejected",
+   "reason": "suggestive camera joke"
+  },
+  {
+   "name": "SKIP_KREEK_Boat",
+   "streamer": "kreekcraft",
+   "clip": "PricklyHedonisticWallabyRickroll-IdwUZcPsz3bqZfBe",
+   "status": "rejected",
+   "reason": "weak, no payoff"
+  },
+  {
+   "name": "SKIP_KREEK_RobberyCCTV2",
+   "streamer": "kreekcraft",
+   "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+   "status": "rejected",
+   "reason": "same moment as KREEK_CCTV_v2"
+  },
+  {
+   "name": "SKIP_JASON_Ayooo",
+   "streamer": "jasontheween",
+   "clip": "AbrasivePatientMageRaccAttack-buWjiUiqf-LAh40B",
+   "status": "rejected",
+   "reason": "crude/sexual swearing"
+  },
+  {
+   "name": "SKIP_JASON_Toast",
+   "streamer": "jasontheween",
+   "clip": "HandsomeVibrantDragonflyBlargNaut-sbUK_d4H79LtyxOI",
+   "status": "rejected",
+   "reason": "chat banter, no payoff"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."

@@ -118,7 +118,7 @@ Rules files on the PC: `Projects/2026/2026 11 NOV/11-19 KreekCraft GTA 6/01 Work
 - Skip: sexual/suggestive bits (shoe-store ranking, nightclub "about to get banned"), slurs, crude humor.
 - Queue item: `"campaign": "KreekCraft"`, streamer `kreekcraft`.
 
-**Clix x JBL** — Content Rewards `07b7f0ce-ca55-4a2f-9e91-0d57ca6d72c5`. ON HOLD: only footage from Clix's JBL Miami event (Nov 18 2 PM ET onward) counts, and we haven't found the event part yet. GTA 6 footage does not qualify. When we do build: JBL logo overlay (`"overlay": {"url": "https://drive.google.com/file/d/1xi8baBvFsHzt4MbR4zpza2aL4ETRX9LJ/view", ...}`) for the whole clip + `#Clix` in the caption, TT/IG/YT. One clip = one campaign — never submit a clip to both this and the Clix pool.
+**Clix x JBL** — Content Rewards `07b7f0ce-ca55-4a2f-9e91-0d57ca6d72c5`. LOW PRIORITY (pays only from 10K views/clip). Event footage found 11-19: in-store JBL Quantum event in Miami, Clix VOD 2932204601 Just Chatting block ~36178–48000 s (JBL Quantum backdrop + JBL headsets visible). Build only a standout moment (big reaction, Clix the focus, fans/minors not the focus). GTA 6 footage does not qualify. When we do build: JBL logo overlay (`"overlay": {"url": "https://drive.google.com/file/d/1xi8baBvFsHzt4MbR4zpza2aL4ETRX9LJ/view", ...}`) for the whole clip + `#Clix` in the caption, TT/IG/YT. One clip = one campaign — never submit a clip to both this and the Clix pool.
 
 **Checked and skipped:** Lauren Hamden GTA 6 — needs a dedicated Lauren-branded account + her bio link, 10K/clip minimum.
 
