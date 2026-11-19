@@ -33,6 +33,8 @@ Crop presets (1920x1080 sources):
 | Lacy (gameplay overlay) | 0,8,493,246 | no | 493,240,1200,675 |
 | Lacy (cutscene, larger cam) | 0,10,572,286 | no | 576,200,1100,619 |
 | TheBurntPeanut (peanut avatar, bottom left) | 336,770,220,310 | yes | 480,100,1200,675 |
+| KreekCraft (cam top-left, red frame; game crop cuts his on-stream captions) | 0,118,420,428 | yes | 440,180,1360,765 |
+| YourRAGE | 1590,700,330,380 | yes | 240,210,1300,731 |
 
 Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Guide).
 
@@ -100,13 +102,31 @@ Slot grid (ET) — each slot goes ONLY to the ✓ platforms:
 - Captions: first line = streamer + the moment, 1–2 hashtags (#Streamer #GTA6), **no links** (X suppresses links on free accounts; that includes twitch.tv), no "follow for part 2".
 - Limits: free accounts get 50 posts + 200 replies a day, in half-hour windows. We post 4 a day. No mass follow/unfollow.
 - A moment already on TT/IG/YT/FB can go on X once. Proven winners go first. Record it in `posted_sources.json` as `"x": "YYYY-MM-DD HH:MM"` and on the queue item as `x_slot`.
-- Paid on X: LACY and Clix campaigns accept X once the X account is linked in Content Rewards (Settings → Accounts — waiting on Justin's OK, 11-19). Submit X links on their own via "Paste a link".
+- Paid on X: LACY and Clix campaigns accept X — the X account is linked in Content Rewards (11-19). Submit X links on their own via "Paste a link". KreekCraft and Clix x JBL do NOT pay on X.
+
+## Per-view campaigns (joined 11-19) — pay from the first eligible view, no pool minimum
+Rules files on the PC: `Projects/2026/2026 11 NOV/11-19 KreekCraft GTA 6/01 Working Files/KreekCraft Rules.md` and `.../11-19 Clix x JBL/01 Working Files/Clix x JBL Rules.md`.
+
+**KreekCraft GTA 6** — Content Rewards `2eaa14fb-6927-4136-897e-b096e0d907d6`. $1/1K, $3 minimum per clip (3K views), max $300/clip.
+- Source: KreekCraft's own GTA 6 streams/replays only (twitch.tv/kreekcraft). Hook in the first 1–2 s, original edits only.
+- **Official logo on the whole clip** — every KreekCraft job needs:
+  `"overlay": {"url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp", "w": 640, "x": "(main_w-overlay_w)/2", "y": "1490"}`
+  and `"style"` 0, 3, 4 or 7 (cam on top) so the logo sits at the bottom of the gameplay band, clear of platform UI.
+- **Caption must include** `Watch KreekCraft on YouTube and Twitch` + `#GTA6 #KreekCraft #GrandTheftAutoVI`. **No links at all** (not even twitch.tv).
+- Platforms: **TikTok, Instagram, YouTube only** — use the 11:10 slot without X, or 18:10 / 20:10 without FB and X. Never Facebook or X.
+- Audience 40% Tier 1, engagement 0.8%+, likes visible. Same clip max 5 posts; keep public 30 days.
+- Skip: sexual/suggestive bits (shoe-store ranking, nightclub "about to get banned"), slurs, crude humor.
+- Queue item: `"campaign": "KreekCraft"`, streamer `kreekcraft`.
+
+**Clix x JBL** — Content Rewards `07b7f0ce-ca55-4a2f-9e91-0d57ca6d72c5`. ON HOLD: only footage from Clix's JBL Miami event (Nov 18 2 PM ET onward) counts, and we haven't found the event part yet. GTA 6 footage does not qualify. When we do build: JBL logo overlay (`"overlay": {"url": "https://drive.google.com/file/d/1xi8baBvFsHzt4MbR4zpza2aL4ETRX9LJ/view", ...}`) for the whole clip + `#Clix` in the caption, TT/IG/YT. One clip = one campaign — never submit a clip to both this and the Clix pool.
+
+**Checked and skipped:** Lauren Hamden GTA 6 — needs a dedicated Lauren-branded account + her bio link, 10K/clip minimum.
 
 ## Ready queue (queue.json)
 Clip Finder appends finished clips; Scheduler pops them into open slots. Each item:
-`{"name","streamer","campaign":"LACY|Clix|JasonTheWeen|YourRAGE|growth","media":"https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-N/NAME/NAME_HQ.mp4","caption","yt_title","cover_ms","part":null|{"series","n"},"vod","start","end","clip","status":"ready|scheduled","slot":null,"added"}`
+`{"name","streamer","campaign":"LACY|Clix|JasonTheWeen|YourRAGE|KreekCraft|growth","media":"https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-N/NAME/NAME_HQ.mp4","caption","yt_title","cover_ms","part":null|{"series","n"},"vod","start","end","clip","status":"ready|scheduled","slot":null,"added"}`
 - Part 2 is never scheduled before its Part 1. Same series = same style.
-- Metricool payload: providers = the slot's platforms from the grid (not all four); include networkData only for those providers; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE).
+- Metricool payload: providers = the slot's platforms from the grid (not all four); include networkData only for those providers; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE); KreekCraft captions need the exact line in "Per-view campaigns".
 
 ## Retention rules (from TikTok Studio data, 11/18)
 - BP traffic (30s, loud reaction in second 1): 10.5s avg watch, 11% finished, 94% For You → 222 views.
