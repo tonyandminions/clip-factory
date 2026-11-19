@@ -8,7 +8,7 @@
 3. **Per-platform caps (from Fri 11/20, Justin 11-19 "do what's right for each one").** TikTok 3 · Instagram 4 · YouTube 4 · Facebook 3 · X 4 per day, counting every post incl. native Speed ones. Each slot only goes to its platforms (grid below) — set Metricool `providers` per post, never all four by default. **A queue item with a `"platforms"` list (per-view campaigns: KreekCraft, AsianJeff, Bobby VanRiper) only goes to the slot's platforms that are also in its list** — e.g. AsianJeff in the 18:10 slot = TikTok, Instagram, YouTube, X (no Facebook). Paid clips only in :10 slots. Stories separate: 6/day, 40+ min apart.
 4. **Variety.** Never the same streamer twice in a row; max 2 per streamer per day; Part 2 never before Part 1.
 5. **Safety.** No nudity, sexual jokes, slurs, crude humor, or cutscene-only clips. No bots, no passwords, never join campaigns without Justin.
-6. **Credits.** ClipSpeed has ~127 one-time credits (~36/hour live). Use only for YourRAGE live on GTA 6, max 45 min/session, keep 30 in reserve, never its Generate/AI tools. Free sources first: Twitch clips, `scan`, `record`. Don't spend vidIQ or Metricool AI credits.
+6. **Credits.** ClipSpeed Starter = 300 credits a month (renews the 18th, ~36 credits per hour live). Since 11-19 (Justin: viral moments need to be found and posted within minutes) the **Live Hunter** uses it on whichever PAID streamer is live on GTA 6 and hottest right now, not only YourRAGE. Max 45 min per session; at most 1 session a day while under 150 credits (2 a day above that); always keep 30 in reserve; never its Generate/AI tools. Free sources first for everything else: Twitch clips, `scan` (chat-aware, also works on a VOD that's still live), `record`. Don't spend vidIQ or Metricool AI credits.
 7. **Git.** `git pull --rebase` before every push; retry on conflict. Job files in `jobs/` trigger builds — never move or rewrite old ones.
 8. **Chrome.** Close every tab you open. Never click Delete on posts (ask Justin).
 9. **PC files — never overwrite (Justin, 11-19).** Before changing any file in `Documents\Side Business`: stage the CURRENT file fresh, copy it into `Side Business\03 Versions\<file name>\<file name>_Vers-NN` (next number), make your change on top of it keeping every other section/row (other chats edit these files too), write it to a NEW filename in outputs, commit with `expectedMtimeMs` from the stage (changed? re-stage and merge — never force), check the byte size.
@@ -59,6 +59,14 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
 `gen_utc` = the 10-digit epoch in ClipSpeed's `captioned_<id>_<epoch-ms>.mp4` filename.
 Each job gets its own runner (matrix), so push many probes at once.
+
+## Live fast lane (Live Hunter, from 11-19)
+For a moment caught live by ClipSpeed, speed beats the slot grid:
+1. Build our own edit with the `live` route (campaign rules as usual: KreekCraft logo overlay + caption, #Name hashtags, no links). Check preview.jpg + caps.json.
+2. Post it NOW in place of the next paid slot that hasn't gone out yet today (11:10 / 18:10 / 20:10), on that slot's platforms (+ X natively for campaigns that pay on X). Move the clip that was in that slot to the next open 9:10 slot (Scheduler's FRESH FIRST rule), with its story teaser and any one-shot submit task. Never delete posts. Same number of posts per day, so the caps hold.
+3. No paid slot left today: post only on platforms still under today's cap; otherwise queue it as fresh for tomorrow's 11:10.
+4. Submit it on Content Rewards within 30 minutes yourself (the Submitter only runs at :18 after slots). Register it in posted_sources.json and the tracker.
+5. Max 2 fast-lane posts per session. The rest of the session's good moments go to queue.json as fresh clips.
 
 ## Posting playbook (anti-spam, 11-18)
 - Caps per platform and the slot grid: see "Cap, slots, rotation, parts" above (replaces the old 4–6/day rule). Prime slots 11a–1p and 6–10p ET.
