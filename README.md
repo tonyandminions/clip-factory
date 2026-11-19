@@ -34,11 +34,14 @@ Crop presets (1920x1080 sources):
 Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Guide).
 
 ## What performs (update as numbers come in)
-- 11-18, first ~80 min on IG: Burnt Peanut "vs GTA 6 traffic" 646 views vs LACY clips 127–277.
-  Why it likely won: relatable everyday-GTA frustration (driving/traffic), loud reaction in the first
-  2 seconds, ~30 s, simple "<streamer> vs GTA 6 ___" title.
-- Apply to LACY picks: favour driving/cops/relatable "first time playing" frustration and big reactions;
-  cold-open on the loudest line (trim dead air at the start); 15–30 s; titles like "LACY vs GTA 6 ___".
+- **11-18 launch day (Analyst, nightly 11-18 ~23:15 ET).** Sources: TikTok Studio, Metricool IG, Content Rewards view counts.
+  - TikTok: LACY "can't steal cars" 248 (9.6 s avg, **37% finished**, 15 s), BP "vs traffic" 226 (10.4 s, 11%, 30 s). Every evening post (4:45–9 PM) got 0–11 views; Speed "download" 0 views after 4 h.
+  - IG: BP traffic 1,316; LACY "lost all his money" PART 2 **1,452** (best clip); LACY clips 130–280; Gator P1 151.
+  - Part 1 → Part 2 did not carry viewers (TT 11→5); P2 won on IG as a standalone because its hook is relatable ("dying takes ALL your money").
+  - Followers: TikTok 4, IG ~4, YouTube +2, FB 0. Stories: no reply/tap data in Metricool yet.
+- Winning hook = a relatable GTA 6 **mechanic surprise/frustration** in second 1 (can't steal cars, traffic, lose all money). 15–21 s clips finish 3x better than 30 s.
+- Avoid: slow opens (LACY dog 1.8 s avg), cutscene dialogue, reposting a moment with a new cut (BP traffic went up twice on TikTok 11-18: 6 views, counts as a repost).
+- Earlier (11-18, first ~80 min IG): BP "vs GTA 6 traffic" 646 vs LACY 127–277; "<streamer> vs GTA 6 ___" titles work.
 - Skip: long cutscene dialogue, map scrolling, real-life just-chatting, anything crude/sexual/drug.
 
 ## Live route (ClipSpeed → VOD)
