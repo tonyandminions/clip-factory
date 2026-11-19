@@ -1,0 +1,51 @@
+[
+ {
+  "name": "CLIX_JBL_p40500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 40500,
+  "vod_end": 40560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p44500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 44500,
+  "vod_end": 44560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p48500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 48500,
+  "vod_end": 48560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p52500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 52500,
+  "vod_end": 52560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p56500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 56500,
+  "vod_end": 56560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p67500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 67500,
+  "vod_end": 67560,
+  "probe": true
+ },
+ {
+  "name": "CLIX_JBL_p70500",
+  "vod": "https://www.twitch.tv/videos/2932204601",
+  "vod_start": 70500,
+  "vod_end": 70560,
+  "probe": true
+ }
+]
