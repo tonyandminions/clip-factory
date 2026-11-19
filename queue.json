@@ -121,6 +121,46 @@
    "slot": null,
    "added": "2026-11-18T22:12Z",
    "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text)."
+  },
+  {
+   "name": "JASON_PS5Off",
+   "streamer": "jasontheween",
+   "campaign": "JasonTheWeen",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-56/JASON_PS5Off_v3/JASON_PS5Off_v3_HQ.mp4",
+   "caption": "JasonTheWeen accidentally turned off his PS5 mid GTA 6… and his only save said Prologue 😭 \"we're in 2026, there's no way this is not autosave\" #JasonTheWeen #gta6 #gta6gameplay",
+   "yt_title": "JasonTheWeen Turned Off His PS5 Mid GTA 6… Only Save Left: Prologue 😭 #shorts #JasonTheWeen #gta6",
+   "cover_ms": 25000,
+   "part": null,
+   "hook_type": "mechanic",
+   "first_comment": "Would you restart or quit forever? 💀",
+   "vod": "2932190650",
+   "start": 40583,
+   "end": 40746,
+   "clip": "PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+   "note": "27.5s flash-forward; Twitch 'Reset' clip 30K views + 'moments before disaster' (ModernClumsyBobaFloof-6H36OkNrTo9oo_Er) are the same moment. Later he switched PS accounts (chat: 'wrong account') - outcome unknown, so caption only claims what's on screen.",
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T04:20Z"
+  },
+  {
+   "name": "BP_ChopShop",
+   "streamer": "theburntpeanut",
+   "campaign": "growth",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-55/BP_ChopShop_v2/BP_ChopShop_v2_HQ.mp4",
+   "caption": "Burnt Peanut found out you can sell stolen cars in GTA 6 💰 \"this is free money\"… but it's not an infinite money glitch @theburntpeanut 🎬 twitch.tv/theburntpeanut #theburntpeanut #gta6",
+   "yt_title": "Burnt Peanut Found Out You Can Sell Stolen Cars in GTA 6 💰 #shorts #theburntpeanut #gta6",
+   "cover_ms": 4000,
+   "part": null,
+   "hook_type": "mechanic",
+   "first_comment": "How much would you sell it for? 🚗",
+   "vod": "2932226282",
+   "start": 45903,
+   "end": 45980,
+   "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
+   "note": "23.3s; Moses chop shop at Watkins Auto + 'come back later' cooldown. Skips the 'drive-by' line at the start of the Twitch clip. Different moment from BP_StolenCarMod (4472).",
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T04:20Z"
   }
  ]
 }
