@@ -250,6 +250,47 @@
    "platforms": "TT IG YT",
    "x_slot": null,
    "metricool_uuid": "1461181023084758769"
+  },
+  {
+   "name": "KREEK_CCTV_v2",
+   "streamer": "kreekcraft",
+   "campaign": "KreekCraft",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-67/KREEK_CCTV_v2/KREEK_CCTV_v2_HQ.mp4",
+   "caption": "KreekCraft found out you have to destroy the CCTV footage to rob a store in GTA 6 📼 \"We got to destroy the CCTV footage… what's the code? Screw it.\"\nWatch KreekCraft on YouTube and Twitch\n#GTA6 #KreekCraft #GrandTheftAutoVI",
+   "yt_title": "KreekCraft Found Out You Have to Destroy the CCTV in GTA 6 📼 #shorts #KreekCraft #gta6",
+   "cover_ms": 5000,
+   "part": null,
+   "hook_type": "mechanic",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "vod": "2932147800",
+   "start": 67183,
+   "end": 67243,
+   "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T18:07Z"
+  },
+  {
+   "name": "MIKKAA_GatorFight_v2",
+   "streamer": "missmikkaa",
+   "campaign": "growth",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-66/MIKKAA_GatorFight_v2/MIKKAA_GatorFight_v2_HQ.mp4",
+   "caption": "MissMikkaa found out GTA 6 alligators fight each other in the wild 🐊 Her nature-doc voice is perfect \"…the younger, more powerful male has been victorious\" 🎬 twitch.tv/missmikkaa #missmikkaa #gta6",
+   "yt_title": "MissMikkaa Found GTA 6 Alligators Fighting in the Wild 🐊 #shorts #missmikkaa #gta6",
+   "cover_ms": 1500,
+   "part": null,
+   "hook_type": "mechanic",
+   "vod": "2933682633",
+   "start": 3272,
+   "end": 3303,
+   "clip": "IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T18:07Z"
   }
  ]
 }
