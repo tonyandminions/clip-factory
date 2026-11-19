@@ -291,6 +291,78 @@
    "status": "ready",
    "slot": null,
    "added": "2026-11-19T18:07Z"
+  },
+  {
+   "name": "AJ_L3",
+   "streamer": "asianjeff",
+   "campaign": "AsianJeff",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-71/AJ_L3/AJ_L3_HQ.mp4",
+   "caption": "AsianJeff picked up a PS5 controller for GTA 6 and couldn't find L3 😭 \"what, I don't have L3\" #AsianJeff #gta6 #gta6gameplay",
+   "yt_title": "AsianJeff Couldn't Find L3 on a PS5 Controller in GTA 6 😭 #shorts #AsianJeff #gta6",
+   "cover_ms": 3500,
+   "part": null,
+   "hook_type": "reaction",
+   "vod": "2933231152",
+   "start": 1928,
+   "end": 1988,
+   "clip": "CulturedColdbloodedTriangleCoolStoryBob-CVvhH4OV8Rcf7Att",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube",
+    "x"
+   ],
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T18:40Z"
+  },
+  {
+   "name": "AJ_NotScared",
+   "streamer": "asianjeff",
+   "campaign": "AsianJeff",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-72/AJ_NotScared/AJ_NotScared_HQ.mp4",
+   "caption": "AsianJeff waited 10 years for GTA 6 and the guy isn't even scared of his gun 😭 then he couldn't figure out how to get in the car #AsianJeff #gta6 #gta6gameplay",
+   "yt_title": "AsianJeff Waited 10 Years for GTA 6 and the NPC Isn't Scared of His Gun 😭 #shorts #AsianJeff #gta6",
+   "cover_ms": 4500,
+   "part": null,
+   "hook_type": "mechanic",
+   "vod": "2933231152",
+   "start": 3990,
+   "end": 4048,
+   "clip": "TentativeOutstandingTaroAliens-9it_KQjYIGpwfPkh",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube",
+    "x"
+   ],
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T18:40Z"
+  },
+  {
+   "name": "AJ_Plane",
+   "streamer": "asianjeff",
+   "campaign": "AsianJeff",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-71/AJ_Plane/AJ_Plane_HQ.mp4",
+   "caption": "AsianJeff found out you hold L2 to slow down and land a seaplane in GTA 6 ✈️ \"smooth as butter\" #AsianJeff #gta6 #gta6gameplay",
+   "yt_title": "AsianJeff Landed a Seaplane in GTA 6 Smooth as Butter ✈️ #shorts #AsianJeff #gta6",
+   "cover_ms": 14000,
+   "part": null,
+   "hook_type": "mechanic",
+   "vod": "2933231152",
+   "start": 3701,
+   "end": 3731,
+   "clip": "HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube",
+    "x"
+   ],
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-19T18:40Z"
   }
  ]
 }
