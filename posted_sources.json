@@ -1,7 +1,8 @@
 {
  "_note": "Every source moment we have posted or scheduled. Run scripts/dedupe_check.py on a job before scheduling it. Offsets are seconds into the Twitch VOD; live-route ones are approximate (+-60s).",
  "vod_starts_utc": {
-  "2932194507": "2026-11-18T10:11:50Z"
+  "2932194507": "2026-11-18T10:11:50Z",
+  "2933174196": "2026-11-19T03:48:27Z"
  },
  "entries": [
   {
@@ -429,6 +430,145 @@
    "clip": "ImpossibleWrongPoxUnSane-KyA5yEzIgxdCpLnS",
    "status": "rejected",
    "caption": "sexual dialogue - never use"
+  },
+  {
+   "name": "JASON_PS5Off",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 40583,
+   "end": 40746,
+   "clip": "PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+   "status": "scheduled",
+   "slot": "2026-11-19 10:38",
+   "caption": "JasonTheWeen accidentally turned off his PS5 mid GTA 6"
+  },
+  {
+   "name": "BP_ChopShop",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 45903,
+   "end": 45980,
+   "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
+   "status": "scheduled",
+   "slot": "2026-11-19 15:10",
+   "caption": "Burnt Peanut found out you can sell stolen cars in GTA 6"
+  },
+  {
+   "name": "JASON_GTA6Instagram",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 6137,
+   "end": 6166,
+   "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
+   "status": "scheduled",
+   "slot": "2026-11-19 20:10",
+   "caption": "JasonTheWeen found out GTA 6 has its own Instagram"
+  },
+  {
+   "name": "RAGE_BrushTeeth",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 12078,
+   "end": 12100,
+   "status": "scheduled",
+   "slot": "2026-11-19 18:10",
+   "caption": "YourRAGE found out brushing your teeth in GTA 6 gives you a Focus buff"
+  },
+  {
+   "name": "RAGE_Workout",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 11328,
+   "end": 11401,
+   "clip": "CalmLazyMartenNerfBlueBlaster",
+   "status": "scheduled",
+   "slot": "2026-11-21 20:10",
+   "caption": "YourRAGE found out you can work out at home in GTA 6"
+  },
+  {
+   "name": "SKIP_RAGE_Dies",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 6697,
+   "end": 6726,
+   "clip": "EvilChillyClintmullinsPoooound-P_ZS6NqbRvPOkAki",
+   "status": "rejected",
+   "caption": "slur in audio - never use"
+  },
+  {
+   "name": "SKIP_RAGE_NPC",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 8742,
+   "end": 8767,
+   "clip": "RepleteCoySagePJSugar--G1Z6mwWiTS_sPs3",
+   "status": "rejected",
+   "caption": "tackling woman NPC + slurs in chat - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Shower",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 11752,
+   "end": 11781,
+   "clip": "AbstemiousPeacefulHorseTF2John-en1Qs2CZjf_oqfw2",
+   "status": "rejected",
+   "caption": "shower scene - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Doomscroll",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 9075,
+   "end": 9115,
+   "status": "rejected",
+   "caption": "sexual in-game post text - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Cycle",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 8600,
+   "end": 8665,
+   "status": "rejected",
+   "caption": "slurs - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Wylin",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 5170,
+   "end": 5220,
+   "status": "rejected",
+   "caption": "slurs + sexual - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Milk",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 14540,
+   "end": 14620,
+   "status": "rejected",
+   "caption": "sexual talk - never use"
+  },
+  {
+   "name": "SKIP_RAGE_J",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 14415,
+   "end": 14465,
+   "status": "rejected",
+   "caption": "sexual talk - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Lunch",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 6016,
+   "end": 6046,
+   "clip": "HeartlessStrongAdminKeyboardCat-wubwjmqCYJbpGgNG",
+   "status": "rejected",
+   "caption": "cutscene dialogue - skip"
   }
  ]
 }
