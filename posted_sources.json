@@ -2,7 +2,8 @@
  "_note": "Every source moment we have posted or scheduled. Run scripts/dedupe_check.py on a job before scheduling it. Offsets are seconds into the Twitch VOD; live-route ones are approximate (+-60s).",
  "vod_starts_utc": {
   "2932194507": "2026-11-18T10:11:50Z",
-  "2933174196": "2026-11-19T03:48:27Z"
+  "2933174196": "2026-11-19T03:48:27Z",
+  "2933231152": "2026-11-19T04:49:47Z"
  },
  "entries": [
   {
@@ -827,6 +828,83 @@
    "clip": "HandsomeVibrantDragonflyBlargNaut-sbUK_d4H79LtyxOI",
    "status": "rejected",
    "reason": "chat banter, no payoff"
+  },
+  {
+   "name": "SKIP_AJ_DidNotExpect",
+   "streamer": "asianjeff",
+   "clip": "OnerousArtsyKimchiStinkyCheese-pw3DaAkM0zTR4k-K",
+   "status": "rejected",
+   "reason": "swear-heavy driving, no clear payoff"
+  },
+  {
+   "name": "SKIP_AJ_Scared",
+   "streamer": "asianjeff",
+   "clip": "FilthyAliveGrasshopperArsonNoSexy-qlCwixvkI9_WnZ-B",
+   "status": "rejected",
+   "reason": "weak, mostly navigation talk"
+  },
+  {
+   "name": "SKIP_AJ_J",
+   "streamer": "asianjeff",
+   "clip": "CourteousVivaciousWaterPanicVis-IxXboU7ujGNU7Snh",
+   "status": "rejected",
+   "reason": "opens with a sexual line"
+  },
+  {
+   "name": "SKIP_AJ_Gta6",
+   "streamer": "asianjeff",
+   "clip": "BlatantExquisiteMonitorGrammarKing-KZJb61NKnli7x9PO",
+   "status": "rejected",
+   "reason": "crude opener; L3 follow-up covered by AJ_L3"
+  },
+  {
+   "name": "SKIP_AJ_Robbery",
+   "streamer": "asianjeff",
+   "clip": "PeppyAcceptablePrariedogOneHand-VVoAxrYolZNsiHzV",
+   "status": "rejected",
+   "reason": "hook is a swear, unclear mid line"
+  },
+  {
+   "name": "SKIP_AJ_CaughtIn4k",
+   "streamer": "asianjeff",
+   "clip": "ResoluteBlazingYamOSfrog-7_rVk6N6zeaIrCxt",
+   "status": "rejected",
+   "reason": "no usable speech"
+  },
+  {
+   "name": "SKIP_BOBBY_TrunkRun",
+   "streamer": "bobby_vanriper",
+   "clip": "AnnoyingLightLettuceWow-NfAG0IdopmzS28NR",
+   "status": "rejected",
+   "reason": "swearing, weak payoff"
+  },
+  {
+   "name": "SKIP_BOBBY_Tigers",
+   "streamer": "bobby_vanriper",
+   "clip": "ResoluteGrossPineapplePJSugar-foZmQUHh-1MwG1r9",
+   "status": "rejected",
+   "reason": "dark footage, weak reaction"
+  },
+  {
+   "name": "SKIP_BOBBY_Shark",
+   "streamer": "bobby_vanriper",
+   "clip": "DirtyHeartlessSharkEleGiggle-HaEOarVxhHEr9cqV",
+   "status": "rejected",
+   "reason": "no real reaction"
+  },
+  {
+   "name": "SKIP_BOBBY_SoReal",
+   "streamer": "bobby_vanriper",
+   "clip": "DelightfulBombasticTildePMSTwin-kC_I7gcj8nNdZNjs",
+   "status": "rejected",
+   "reason": "rambling, crude word"
+  },
+  {
+   "name": "SKIP_BOBBY_Realistic",
+   "streamer": "bobby_vanriper",
+   "clip": "AlluringSavoryAlligatorDoggo-2OvXcKq-SmwhBrjn",
+   "status": "rejected",
+   "reason": "cutscene dialogue"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."

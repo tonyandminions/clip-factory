@@ -1,0 +1,168 @@
+[
+ {
+  "name": "AJ_L3",
+  "url": "https://www.twitch.tv/asianjeff/clip/CulturedColdbloodedTriangleCoolStoryBob-CVvhH4OV8Rcf7Att",
+  "segments": [
+   [
+    15.0,
+    26.0
+   ],
+   [
+    28.0,
+    30.8
+   ],
+   [
+    37.4,
+    41.0
+   ]
+  ],
+  "title": [
+   "AsianJeff picked up a PS5 controller",
+   "*and couldn't find L3 in GTA 6"
+  ],
+  "cam": "0,316,588,338",
+  "camfit": false,
+  "game": "600,170,1300,731",
+  "style": 2,
+  "captions": [
+   [
+    0.16,
+    2.5,
+    "PRESS L3 TO RUN"
+   ],
+   [
+    2.86,
+    3.8,
+    "WHERE'S L3?"
+   ],
+   [
+    3.8,
+    5.02,
+    "*WHERE'S L3?"
+   ],
+   [
+    5.64,
+    7.04,
+    "WHAT'S L3?"
+   ],
+   [
+    8.72,
+    9.76,
+    "WHAT, I DON'T HAVE"
+   ],
+   [
+    9.76,
+    10.86,
+    "*L3"
+   ],
+   [
+    11.11,
+    12.83,
+    "LET'S TAKE JOYSTICK"
+   ],
+   [
+    12.83,
+    13.69,
+    "OKAY"
+   ],
+   [
+    13.94,
+    15.14,
+    "DUDE, THIS IS ACTUALLY"
+   ],
+   [
+    15.14,
+    15.72,
+    "HARD BRO"
+   ],
+   [
+    15.72,
+    17.3,
+    "*I'M SCARED BRO"
+   ]
+  ]
+ },
+ {
+  "name": "AJ_Plane",
+  "url": "https://www.twitch.tv/asianjeff/clip/HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
+  "segments": [
+   [
+    2.2,
+    12.5
+   ],
+   [
+    20.8,
+    28.5
+   ]
+  ],
+  "title": [
+   "AsianJeff tried landing a seaplane",
+   "*in GTA 6"
+  ],
+  "cam": "0,326,484,358",
+  "camfit": false,
+  "game": "560,140,1300,731",
+  "style": 5,
+  "captions": [
+   [
+    0.17,
+    1.27,
+    "HOLD L2"
+   ],
+   [
+    1.27,
+    1.93,
+    "SEE CHAT?"
+   ],
+   [
+    1.93,
+    2.49,
+    "YOU GOTTA BE LIKE"
+   ],
+   [
+    2.49,
+    3.25,
+    "*THIS BRO"
+   ],
+   [
+    3.25,
+    5.21,
+    "HOLD L2 TO SLOW"
+   ],
+   [
+    5.21,
+    7.35,
+    "*AS YOU DESCEND"
+   ],
+   [
+    7.65,
+    10.19,
+    "OKAY, HOLD L2"
+   ],
+   [
+    10.81,
+    13.15,
+    "SMOOTH AS BUTTER"
+   ],
+   [
+    13.15,
+    17.6,
+    "*SMOOTH AS BUTTER"
+   ]
+  ]
+ },
+ {
+  "name": "AJ_NotScared_src",
+  "vod": "https://www.twitch.tv/videos/2933231152",
+  "vod_start": 3990,
+  "vod_end": 4048,
+  "probe": true
+ },
+ {
+  "name": "AJ_ChatGPT_src",
+  "vod": "https://www.twitch.tv/videos/2933231152",
+  "vod_start": 6712,
+  "vod_end": 6752,
+  "probe": true
+ }
+]
