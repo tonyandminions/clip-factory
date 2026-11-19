@@ -1,0 +1,15 @@
+[
+ {"name": "KREEK_CCTV", "url": "https://www.twitch.tv/kreekcraft/clip/CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+  "segments": [[36.5, 39.0], [0.0, 1.5], [5.5, 11.6], [29.5, 36.0], [42.0, 46.0], [52.8, 56.8]],
+  "title": ["KreekCraft found out you have to", "*destroy the CCTV in GTA 6"],
+  "cam": "0,118,420,428", "camfit": true, "game": "440,180,1360,765", "style": 4,
+  "setup": "GTA 6 robberies have real CCTV...", "setup_dur": 1.8,
+  "captions": [[2.5,4.0,"HERE WE GO"],[4.8,6.8,"*WE GOT TO DESTROY"],[6.8,10.0,"THE CCTV FOOTAGE"],[12.9,14.8,"*WHAT'S THE CODE?"],[14.8,16.2,"SCREW IT"],[20.7,24.5,"*LET'S GO, LET'S GO"]],
+  "overlay": {"url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp", "w": 640, "x": "(main_w-overlay_w)/2", "y": "1490"}},
+ {"name": "MIKKAA_GatorFight_v2", "url": "https://www.twitch.tv/missmikkaa/clip/IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
+  "segments": [[3.0, 6.5], [8.9, 27.8], [29.9, 31.5]],
+  "title": ["MissMikkaa found GTA 6 gators", "*fighting in the wild"],
+  "cam": "1440,440,450,330", "camfit": true, "game": "100,140,1300,731", "style": 5,
+  "setup": "GTA 6 wildlife fights on its own...", "setup_dur": 1.8,
+  "captions": [[3.5,4.5,"AND HERE YOU CAN SEE"],[4.5,5.7,"*THE CROCODILE"],[5.7,6.8,"IN ITS NATURAL HABITAT"],[6.8,8.9,"THE MALES ARE FIGHTING"],[8.9,11.1,"*FOR THE RIGHT TO MATE"],[11.8,14.9,"NOW IT SEEMS THE YOUNGER,"],[15.0,17.7,"MORE POWERFUL MALE"],[17.7,19.9,"*HAS BEEN VICTORIOUS"],[20.3,21.2,"IT'S AN ALLIGATOR?"],[21.2,22.3,"*SHUT UP!"],[22.4,23.9,"*YOU'RE AN ALLIGATOR!"]]}
+]
