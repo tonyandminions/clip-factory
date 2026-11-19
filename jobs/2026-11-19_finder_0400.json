@@ -1,0 +1,16 @@
+[
+ {
+  "name": "JASON_P_PS5Off_VOD",
+  "vod": "https://www.twitch.tv/videos/2932190650",
+  "vod_start": 40560,
+  "vod_end": 40840,
+  "probe": true
+ },
+ {
+  "name": "BP_P_ChopShop_VOD",
+  "vod": "https://www.twitch.tv/videos/2932226282",
+  "vod_start": 45880,
+  "vod_end": 46000,
+  "probe": true
+ }
+]
