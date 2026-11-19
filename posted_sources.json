@@ -392,7 +392,7 @@
    "status": "posted",
    "date": "2026-11-18 morning",
    "caption": "LACY first GTA 6 bank job",
-   "note": "Posted by the other chat (OpusClip) on TikTok 7709534333035384095 + YT ciGQYfWe5mg; VOD offset unknown \u2014 treat any LACY bank-job clip as used"
+   "note": "Posted by the other chat (OpusClip) on TikTok 7709534333035384095 + YT ciGQYfWe5mg; VOD offset unknown — treat any LACY bank-job clip as used"
   },
   {
    "name": "LACY_ReleaseOfGTAVI_otherchat",
@@ -410,7 +410,7 @@
    "status": "scheduled",
    "date": "2026-11-21 11:10",
    "caption": "SEGA official Black Friday video (up to 85% off cut), full-screen",
-   "note": "SEGA campaign 1391fb95; only two official cuts exist \u2014 don't post a third"
+   "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
   },
   {
    "name": "SEGA_Official1_Full",
@@ -418,7 +418,17 @@
    "status": "scheduled",
    "date": "2026-11-25 09:10",
    "caption": "SEGA official Black Friday video (per-game discounts cut), full-screen",
-   "note": "SEGA campaign 1391fb95; only two official cuts exist \u2014 don't post a third"
+   "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
+  },
+  {
+   "name": "SKIP_MIKKAA_Fingers",
+   "streamer": "missmikkaa",
+   "vod": "2932348658",
+   "start": 19162,
+   "end": 19222,
+   "clip": "ImpossibleWrongPoxUnSane-KyA5yEzIgxdCpLnS",
+   "status": "rejected",
+   "caption": "sexual dialogue - never use"
   }
  ]
 }
