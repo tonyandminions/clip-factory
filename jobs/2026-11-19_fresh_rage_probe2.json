@@ -1,0 +1,8 @@
+[
+ {"name": "RAGE_P_Cycle", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 8600, "vod_end": 8665, "probe": true},
+ {"name": "RAGE_P_Laugh", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 7535, "vod_end": 7610, "probe": true},
+ {"name": "RAGE_P_Wylin", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 5170, "vod_end": 5220, "probe": true},
+ {"name": "RAGE_P_Milk", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 14540, "vod_end": 14620, "probe": true},
+ {"name": "RAGE_P_J", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 14415, "vod_end": 14465, "probe": true},
+ {"name": "RAGE_P_684", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 12072, "vod_end": 12122, "probe": true}
+]
