@@ -129,7 +129,12 @@ def add_overlay(hq, ov, od):
     raw = os.path.join(od, "overlay_raw"); png = os.path.join(od, "overlay.png")
     sh("curl", "-sSL", "--retry", "3", "-o", raw, url)
     from PIL import Image  # handles webp (incl. first frame of animated), png, jpg
-    im = Image.open(raw); im.seek(0); im.convert("RGBA").save(png)
+    im = Image.open(raw); im.seek(0); im = im.convert("RGBA")
+    bb = im.split()[3].getbbox()  # trim transparent padding so w/x/y place the visible logo itself
+    if bb and ov.get("trim", True):
+        p = 6; im = im.crop((max(bb[0]-p, 0), max(bb[1]-p, 0), min(bb[2]+p, im.width), min(bb[3]+p, im.height)))
+    print("overlay size after trim", im.size, flush=True)
+    im.save(png)
     w = int(ov.get("w", 230)); x = str(ov.get("x", "main_w-overlay_w-36")); y = str(ov.get("y", "main_h*0.52"))
     a = float(ov.get("alpha", 1.0))
     tmp = hq.replace(".mp4", "_ov.mp4")

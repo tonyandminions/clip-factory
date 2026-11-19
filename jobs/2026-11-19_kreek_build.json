@@ -1,0 +1,14 @@
+[
+ {"name": "KREEK_CrocBet", "url": "https://www.twitch.tv/kreekcraft/clip/TangentialFreezingTeaKlappa-3haneQVakbOUV_GJ",
+  "segments": [[3.0, 14.7], [17.6, 27.0]],
+  "title": ["KreekCraft bet a free GTA 6 copy", "*he wouldn't get eaten by a croc"],
+  "cam": "0,118,420,428", "camfit": true, "game": "440,180,1360,765", "style": 0,
+  "captions": [[0.1,1.4,"OKAY, IF I GET"],[1.4,2.5,"*EATEN BY A CROCODILE"],[2.5,3.2,"I'LL GIVE AWAY AN"],[3.2,4.6,"*EXTRA COPY OF THE GAME"],[4.6,5.2,"THERE'S NO WAY I'M"],[5.2,5.8,"GONNA GET EATEN BY"],[5.8,7.1,"*A CROCODILE"],[8.4,9.5,"THERE'S NO WAY I'M"],[9.5,10.2,"GONNA GET EATEN BY"],[10.2,11.7,"*A CROCODILE"],[12.2,13.6,"YOU SON OF..."],[13.6,14.9,"*YOU GOTTA BE KIDDING ME"],[14.9,16.8,"ARE YOU FREAKING KIDDING ME?"],[17.3,19.0,"*NO, NO, WE ARE NOT DOING THIS"],[19.0,21.1,"WE ARE NOT DOING THIS"]],
+  "overlay": {"url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp", "w": 640, "x": "(main_w-overlay_w)/2", "y": "1490"}},
+ {"name": "KREEK_GrandpaScooter", "url": "https://www.twitch.tv/kreekcraft/clip/GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
+  "segments": [[2.5, 19.0], [27.0, 33.0], [37.5, 41.5]],
+  "title": ["KreekCraft stole a grandpa's", "*scooter in GTA 6"],
+  "cam": "0,118,420,428", "camfit": true, "game": "440,180,1360,765", "style": 3,
+  "captions": [[0.5,3.0,"WHAT KIND OF SICKO"],[3.0,5.5,"*ARE YOU, HUH?"],[7.0,9.5,"YOU ARE A TERRIBLE PERSON"],[10.0,11.4,"*OH MY GOD"],[11.5,13.5,"MY SCOOTER!"],[13.5,16.0,"*MY SCOOTER!"],[17.0,19.3,"OW, MY HIP! IT HURTS!"],[19.3,22.0,"*I THINK IT'S BROKEN!"],[23.0,24.8,"HELP ME, SOMEBODY!"],[24.8,26.5,"*THIS IS ELDER ABUSE!"]],
+  "overlay": {"url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp", "w": 640, "x": "(main_w-overlay_w)/2", "y": "1490"}}
+]
