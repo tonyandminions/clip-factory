@@ -1,0 +1,8 @@
+[
+ {"name": "RAGE_P_Dies", "url": "https://www.twitch.tv/yourragegaming/clip/EvilChillyClintmullinsPoooound-P_ZS6NqbRvPOkAki", "probe": true},
+ {"name": "RAGE_P_NPC", "url": "https://www.twitch.tv/yourragegaming/clip/RepleteCoySagePJSugar--G1Z6mwWiTS_sPs3", "probe": true},
+ {"name": "RAGE_P_Lunch", "url": "https://www.twitch.tv/yourragegaming/clip/HeartlessStrongAdminKeyboardCat-wubwjmqCYJbpGgNG", "probe": true},
+ {"name": "RAGE_P_WTF", "url": "https://www.twitch.tv/yourragegaming/clip/AbstemiousPeacefulHorseTF2John-en1Qs2CZjf_oqfw2", "probe": true},
+ {"name": "RAGE_P_Workout", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 11320, "vod_end": 11400, "probe": true},
+ {"name": "RAGE_P_Doomscroll", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 9075, "vod_end": 9115, "probe": true}
+]
