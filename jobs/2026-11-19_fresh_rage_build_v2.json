@@ -1,0 +1,12 @@
+[
+ {"name": "RAGE_BrushTeeth_v2", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 12072, "vod_end": 12122,
+  "segments": [[6.4, 9.1], [13.8, 24.0], [25.9, 28.2]],
+  "title": ["YourRAGE found out", "*GTA 6 lets you brush your teeth"],
+  "cam": "1590,700,330,380", "camfit": true, "game": "240,210,1300,731", "style": 3,
+  "captions": [[0.2,1.2,"LET'S BRUSH OUR TEETH"],[1.2,2.5,"*FIRST, BRO"],[4.95,6.2,"FIRST THING I DO"],[6.2,7.0,"*I WAKE UP"],[7.0,8.3,"BRUSH THE TEETH, BRO"],[10.7,11.5,"*FOCUS"],[11.5,12.8,"LET'S DO IT"],[13.0,14.9,"*STRAIGHT TO THE GYM"]]},
+ {"name": "RAGE_Workout_v2", "vod": "https://www.twitch.tv/videos/2933174196", "vod_start": 11320, "vod_end": 11405,
+  "segments": [[75.9, 77.0], [8.0, 15.4], [57.8, 60.0], [72.9, 81.0]],
+  "title": ["YourRAGE coaching Jason's", "*home workout in GTA 6"],
+  "cam": "1590,700,330,380", "camfit": true, "game": "240,210,1300,731", "style": 5,
+  "captions": [[0.05,1.05,"*GREAT FORM, JASON"],[1.5,2.4,"LOW ON CONTROL"],[3.2,4.2,"*NO PAUSE"],[4.3,5.5,"PUSH! PUSH!"],[7.6,8.5,"*DO IT"],[9.2,10.2,"WILL I SEE ANY BENEFIT?"],[11.3,12.5,"*YOU'RE DOING FINE"],[13.7,14.8,"GREAT FORM, JASON"],[16.2,17.0,"*GREAT FORM"]]}
+]
