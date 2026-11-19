@@ -26,66 +26,82 @@
    "streamer": "missmikkaa",
    "status": "scheduled",
    "slot": "2026-11-20 15:10",
-   "part": null
+   "part": null,
+   "platforms": "FB"
   },
   {
    "name": "CLIX_FirstMission",
    "streamer": "clix",
    "status": "scheduled",
    "slot": "2026-11-20 18:10",
-   "part": null
+   "part": null,
+   "platforms": "TT IG YT FB",
+   "x_slot": "2026-11-20 18:10"
   },
   {
    "name": "LACY_Robbery",
    "streamer": "lacy",
    "status": "scheduled",
    "slot": "2026-11-20 20:10",
-   "part": null
+   "part": null,
+   "platforms": "TT IG",
+   "x_slot": "2026-11-20 20:10"
   },
   {
    "name": "LACY_Seaplane_P1",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-21 09:10",
+   "slot": "2026-11-21 18:10",
    "part": {
     "series": "LACY seaplane",
     "n": 1
-   }
+   },
+   "platforms": "TT IG YT FB",
+   "x_slot": "2026-11-21 18:10"
   },
   {
    "name": "LACY_Seaplane_P2",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-21 15:10",
+   "slot": "2026-11-21 20:10",
    "part": {
     "series": "LACY seaplane",
     "n": 2
-   }
+   },
+   "platforms": "TT IG",
+   "x_slot": "2026-11-21 20:10"
   },
   {
    "name": "MIKKAA_WomanDriver",
    "streamer": "missmikkaa",
    "status": "scheduled",
-   "slot": "2026-11-21 18:10",
-   "part": null
+   "slot": "2026-11-21 15:10",
+   "part": null,
+   "platforms": "FB",
+   "x_slot": "2026-11-21 15:10"
   },
   {
    "name": "LACY_StrayDog",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-22 09:10"
+   "slot": "2026-11-22 09:10",
+   "platforms": "IG YT FB"
   },
   {
    "name": "KATIE_WorstGameplay",
    "streamer": "realkatieb",
    "status": "scheduled",
-   "slot": "2026-11-22 15:10"
+   "slot": "2026-11-22 15:10",
+   "platforms": "FB",
+   "x_slot": "2026-11-22 15:10"
   },
   {
    "name": "LACY_JetSki",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-22 20:10"
+   "slot": "2026-11-22 20:10",
+   "platforms": "TT IG",
+   "x_slot": "2026-11-22 20:10"
   },
   {
    "name": "LACY_N29_Helicopter",
@@ -120,7 +136,9 @@
    "status": "scheduled",
    "slot": "2026-11-19 20:10",
    "added": "2026-11-18T22:12Z",
-   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text)."
+   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text).",
+   "platforms": "TT IG",
+   "x_slot": "2026-11-20 15:10"
   },
   {
    "name": "JASON_PS5Off",
@@ -139,7 +157,8 @@
    "note": "27.5s flash-forward; Twitch 'Reset' clip 30K views + 'moments before disaster' (ModernClumsyBobaFloof-6H36OkNrTo9oo_Er) are the same moment. Later he switched PS accounts (chat: 'wrong account') - outcome unknown, so caption only claims what's on screen.",
    "status": "scheduled",
    "slot": "2026-11-19 10:38",
-   "added": "2026-11-19T04:20Z"
+   "added": "2026-11-19T04:20Z",
+   "platforms": "IG YT"
   },
   {
    "name": "BP_ChopShop",
@@ -157,8 +176,10 @@
    "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
    "note": "23.3s; Moses chop shop at Watkins Auto + 'come back later' cooldown. Skips the 'drive-by' line at the start of the Twitch clip. Different moment from BP_StolenCarMod (4472).",
    "status": "scheduled",
-   "slot": "2026-11-19 15:10",
-   "added": "2026-11-19T04:20Z"
+   "slot": "2026-11-22 11:10",
+   "added": "2026-11-19T04:20Z",
+   "platforms": "TT IG YT",
+   "x_slot": "2026-11-22 11:10"
   },
   {
    "name": "RAGE_BrushTeeth",
@@ -173,7 +194,9 @@
    "vod": "2933174196",
    "status": "scheduled",
    "slot": "2026-11-19 18:10",
-   "added": "2026-11-19T14:05Z"
+   "added": "2026-11-19T14:05Z",
+   "platforms": "TT IG YT FB",
+   "x_slot": "2026-11-19 20:10"
   },
   {
    "name": "RAGE_Workout",
@@ -187,8 +210,10 @@
    "hook_type": "mechanic",
    "vod": "2933174196",
    "status": "scheduled",
-   "slot": "2026-11-21 20:10",
-   "added": "2026-11-19T14:05Z"
+   "slot": "2026-11-21 09:10",
+   "added": "2026-11-19T14:05Z",
+   "platforms": "IG YT FB",
+   "x_slot": "2026-11-21 11:10"
   }
  ]
 }

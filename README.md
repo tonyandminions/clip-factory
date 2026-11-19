@@ -1,9 +1,11 @@
 # clip-factory — Tony & Minions
 
 ## READ FIRST — hard rules (every chat and scheduled task)
+**Strategy source of truth:** `Documents\Side Business\Platform Playbook.md` on the PC (per-platform caps, slot grid, originality rules, 2026 research + sources). The schedule lives in `Posting Schedule 11-18.md` next to it.
+
 1. **No reposts.** Check `posted_sources.json` with `scripts/dedupe_check.py` before building or scheduling; register every clip you schedule. "rejected" entries are banned forever.
 2. **Retention.** Best line in the first second, 15–30 s, cut dead air with `segments`.
-3. **Cap.** Feed posts: 6/day per platform through Sun 11/22, 4/day after; 90+ min apart; paid clips only in :10 slots. Stories: separate, 6/day, 40+ min apart.
+3. **Per-platform caps (from Fri 11/20, Justin 11-19 "do what's right for each one").** TikTok 3 · Instagram 4 · YouTube 4 · Facebook 3 · X 4 per day, counting every post incl. native Speed ones. Each slot only goes to its platforms (grid below) — set Metricool `providers` per post, never all four by default. Paid clips only in :10 slots. Stories separate: 6/day, 40+ min apart.
 4. **Variety.** Never the same streamer twice in a row; max 2 per streamer per day; Part 2 never before Part 1.
 5. **Safety.** No nudity, sexual jokes, slurs, crude humor, or cutscene-only clips. No bots, no passwords, never join campaigns without Justin.
 6. **Credits.** ClipSpeed has ~127 one-time credits (~36/hour live). Use only for YourRAGE live on GTA 6, max 45 min/session, keep 30 in reserve, never its Generate/AI tools. Free sources first: Twitch clips, `scan`, `record`. Don't spend vidIQ or Metricool AI credits.
@@ -52,8 +54,9 @@ ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window m
 Each job gets its own runner (matrix), so push many probes at once.
 
 ## Posting playbook (anti-spam, 11-18)
-- 4–5 posts/day per platform, ≥75–90 min apart; prime slots 11a–1p and 6–10p ET.
-- One post per moment, ever. Check TikTok Studio for posts made by other chats before scheduling (BP "worst driver" was already up).
+- Caps per platform and the slot grid: see "Cap, slots, rotation, parts" above (replaces the old 4–6/day rule). Prime slots 11a–1p and 6–10p ET.
+- **Originality checklist (every clip needs 3+):** our own title band, a story edit (segments / flash-forward / Part arc), our own setup or context line, hand-checked captions, a caption written in our words. A crop + auto captions alone counts as a re-upload on YouTube and Facebook.
+- One post per moment per platform, ever. Check TikTok Studio for posts made by other chats before scheduling (BP "worst driver" was already up).
 - Every clip: style variant (--style) + story setup line (--setup) + title in our words. No identical caption templates; 2–4 specific hashtags.
 - Hook in the first 1–2 s; 15–35 s; end on the payoff.
 - Never: bots/bought followers/views (strike = removed from every Reach campaign), sexualised covers or framing,
@@ -66,18 +69,44 @@ Each job gets its own runner (matrix), so push many probes at once.
 - One moment = one post per platform, ever. Two viewers' Twitch clips of the same moment count as the same moment.
 - Other chats post directly in the TikTok/YouTube apps — check TikTok Studio + YouTube Studio scheduled lists too, not just Metricool.
 
-## Cap, slots, rotation, parts (launch week + after)
-- Cap per platform, counting every post (incl. Speed posted natively): **6/day Thu 11/19–Sun 11/22**, **4/day from Mon 11/23**. 90+ min apart.
-- Slots ET — launch week: 9:10, 11:10, 13:20 (Speed, native), 15:10, 18:10, 20:10. From 11/23: 9:10, 13:20, 18:10, 20:10. Paid clips ONLY in :10 slots (the Submitter task runs at :18 after each).
-- Rotation: never the same streamer back-to-back; max 2/streamer/day; aim for 2 LACY, 1 Clix or Jason, 1 BP, 1 Speed, 1 women streamer/YourRAGE. Paid clips get 11:10, 18:10, 20:10.
-- Part 1 / Part 2: setup → payoff moments get split. Same `style`, title accent "PART 1"/"PART 2", caption "(Part 1)"/"(Part 2)". Part 2 goes 2–6 h after Part 1 or next day same slot; pin "Part 2 is up 👀" on Part 1.
-- Shared schedule doc on the PC: Documents/Side Business/Posting Schedule 11-18.md (every chat reads/updates it).
+## Cap, slots, rotation, parts (from Fri 11/20)
+Slot grid (ET) — each slot goes ONLY to the ✓ platforms:
+
+| Slot | What goes here | TikTok | IG | YouTube | FB | X (native) |
+|---|---|:-:|:-:|:-:|:-:|:-:|
+| 9:10 | older / backlog clip | – | ✓ | ✓ | ✓ | – |
+| 11:10 | paid clip | ✓ | ✓ | ✓ | – | ✓ |
+| 13:20 | Speed (Speed chat, native) | – | – | ✓ | – | – |
+| 15:10 | growth clip (BP, women streamers) | – | – | – | ✓ | ✓ |
+| 18:10 | best fresh paid clip | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 20:10 | fresh paid clip | ✓ | ✓ | – | – | ✓ |
+| totals | | 3 | 4 | 4 | 3 | 4 |
+
+- Why: TikTok throttled our new account after ~13 posts on day one (1–3/day is the safe range). Instagram, YouTube (since 10/1/2026) and Facebook all cut reach for accounts that mostly re-post clips with only crops/captions, so fewer posts plus more original editing beats volume. Details and sources: Platform Playbook.
+- Exceptions: SEGA #Ad keeps TikTok+IG+YouTube. A Part 1 and Part 2 go on the same platforms (18:10 + 20:10 or 11:10 + 18:10). Speed: YouTube only until TikTok reach recovers.
+- Rotation: never the same streamer back-to-back (except P1→P2); max 2/streamer/day. Paid clips get 11:10, 18:10, 20:10; fresh clips (moment < 36 h) get 18:10/20:10 first.
+- Part 1 / Part 2: same `style`, title accent "PART 1"/"PART 2", caption "(Part 1)"/"(Part 2)". Part 2 goes 2–6 h after Part 1 on the same platforms. No "Part 2 is up" pins or comments.
+- Shared schedule doc on the PC: Documents/Side Business/Posting Schedule 11-18.md (every chat reads/updates it, never overwrite — see rule 9).
+
+## X (@tonyandminions) — native posting (set up 11-19)
+- Metricool's X add-on costs $10/month, so we don't use it. X's own composer can schedule posts on the free account.
+- Make the video: `scripts/make_x_copy.sh <run-N/NAME/NAME_HQ.mp4>` → `/mnt/user-data/uploads/xposts/x/NAME_X.mp4` (720x1280, under 3.6 MB; Claude in Chrome's file_upload caps at 3.8 MB).
+- Schedule it (Claude in Chrome, x.com/home):
+  1. `find` the home composer's file-input and run `file_upload` to it.
+  2. Click the "What's happening?" box and type the caption.
+  3. JS-click the visible `[aria-label="Schedule post"]`, then set Day/Hour/Minute/AM-PM with `form_input` and click Confirm.
+  4. JS-click `[data-testid="tweetButtonInline"]` (it reads "Schedule").
+  5. Check x.com/compose/post/unsent/scheduled.
+- Captions: first line = streamer + the moment, 1–2 hashtags (#Streamer #GTA6), **no links** (X suppresses links on free accounts; that includes twitch.tv), no "follow for part 2".
+- Limits: free accounts get 50 posts + 200 replies a day, in half-hour windows. We post 4 a day. No mass follow/unfollow.
+- A moment already on TT/IG/YT/FB can go on X once. Proven winners go first. Record it in `posted_sources.json` as `"x": "YYYY-MM-DD HH:MM"` and on the queue item as `x_slot`.
+- Paid on X: LACY and Clix campaigns accept X once the X account is linked in Content Rewards (Settings → Accounts — waiting on Justin's OK, 11-19). Submit X links on their own via "Paste a link".
 
 ## Ready queue (queue.json)
 Clip Finder appends finished clips; Scheduler pops them into open slots. Each item:
 `{"name","streamer","campaign":"LACY|Clix|JasonTheWeen|YourRAGE|growth","media":"https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-N/NAME/NAME_HQ.mp4","caption","yt_title","cover_ms","part":null|{"series","n"},"vod","start","end","clip","status":"ready|scheduled","slot":null,"added"}`
 - Part 2 is never scheduled before its Part 1. Same series = same style.
-- Metricool payload: providers tiktok+instagram+youtube+facebook; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE).
+- Metricool payload: providers = the slot's platforms from the grid (not all four); include networkData only for those providers; youtubeData short/GAMING/madeForKids false; facebookData REEL; instagramData REEL (TRIAL_REEL for BP growth tests); paid captions must include the streamer name + hashtag (#LACY, #Clix, #JasonTheWeen, #YourRAGE).
 
 ## Retention rules (from TikTok Studio data, 11/18)
 - BP traffic (30s, loud reaction in second 1): 10.5s avg watch, 11% finished, 94% For You → 222 views.
