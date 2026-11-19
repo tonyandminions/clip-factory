@@ -9,7 +9,8 @@
 6. **Credits.** ClipSpeed has ~127 one-time credits (~36/hour live). Use only for YourRAGE live on GTA 6, max 45 min/session, keep 30 in reserve, never its Generate/AI tools. Free sources first: Twitch clips, `scan`, `record`. Don't spend vidIQ or Metricool AI credits.
 7. **Git.** `git pull --rebase` before every push; retry on conflict. Job files in `jobs/` trigger builds — never move or rewrite old ones.
 8. **Chrome.** Close every tab you open. Never click Delete on posts (ask Justin).
-9. **PC files.** Write edited copies to a NEW filename in outputs before committing back; check the byte size.
+9. **PC files — never overwrite (Justin, 11-19).** Before changing any file in `Documents\Side Business`: stage the CURRENT file fresh, copy it into `Side Business\03 Versions\<file name>\<file name>_Vers-NN` (next number), make your change on top of it keeping every other section/row (other chats edit these files too), write it to a NEW filename in outputs, commit with `expectedMtimeMs` from the stage (changed? re-stage and merge — never force), check the byte size.
+11. **Log everything.** After any change (posts scheduled/moved, submissions, PC files, queue), append one line to `Side Business\Logs\Activity Log YYYY-MM.md`: `- YYYY-MM-DD HH:MM ET · <who> · <what> · <files/posts>`. Append only — never edit or delete earlier lines.
 10. **Paid submissions** within 30 min of posting (Submitter task runs at :18 after each :10 slot). Content Rewards auto-detects TikTok + Instagram cards only: tick them and submit first (pasting a link switches the dialog to single-link mode), then reopen Submit clip, paste the YouTube Shorts link, tick the box and submit it on its own.
 
 
