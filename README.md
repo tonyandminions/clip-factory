@@ -105,7 +105,7 @@ Slot grid (ET) — each slot goes ONLY to the ✓ platforms:
 - Paid on X: LACY and Clix campaigns accept X — the X account is linked in Content Rewards (11-19). Submit X links on their own via "Paste a link". KreekCraft and Clix x JBL do NOT pay on X.
 
 ## Per-view campaigns (joined 11-19) — pay from the first eligible view, no pool minimum
-Rules files on the PC: `Projects/2026/2026 11 NOV/11-19 KreekCraft GTA 6/01 Working Files/KreekCraft Rules.md` and `.../11-19 Clix x JBL/01 Working Files/Clix x JBL Rules.md`.
+Rules files on the PC: `Projects/2026/2026 11 NOV/<MM-DD Campaign>/01 Working Files/<Campaign> Rules.md` (KreekCraft, Clix x JBL, AsianJeff, Bobby VanRiper).
 
 **KreekCraft GTA 6** — Content Rewards `2eaa14fb-6927-4136-897e-b096e0d907d6`. $1/1K, $3 minimum per clip (3K views), max $300/clip.
 - Source: KreekCraft's own GTA 6 streams/replays only (twitch.tv/kreekcraft). Hook in the first 1–2 s, original edits only.
@@ -120,7 +120,28 @@ Rules files on the PC: `Projects/2026/2026 11 NOV/11-19 KreekCraft GTA 6/01 Work
 
 **Clix x JBL** — Content Rewards `07b7f0ce-ca55-4a2f-9e91-0d57ca6d72c5`. LOW PRIORITY (pays only from 10K views/clip). Event footage found 11-19: in-store JBL Quantum event in Miami, Clix VOD 2932204601 Just Chatting block ~36178–48000 s (JBL Quantum backdrop + JBL headsets visible). Build only a standout moment (big reaction, Clix the focus, fans/minors not the focus). GTA 6 footage does not qualify. When we do build: JBL logo overlay (`"overlay": {"url": "https://drive.google.com/file/d/1xi8baBvFsHzt4MbR4zpza2aL4ETRX9LJ/view", ...}`) for the whole clip + `#Clix` in the caption, TT/IG/YT. One clip = one campaign — never submit a clip to both this and the Clix pool.
 
-**Checked and skipped:** Lauren Hamden GTA 6 — needs a dedicated Lauren-branded account + her bio link, 10K/clip minimum.
+**AsianJeff GTA 6** (Reach, joined 11-19) — Content Rewards `bbd3a963-9a23-457c-bc15-6697971d9902`. $1/1K, **$10 minimum = 10K views per clip** before it pays, max $300/clip, budget $2,500, ends 11/26. Rules: reachclipping.com/AsianJeff.
+- Source: his GTA 6 playthrough **from Nov 19 on** (twitch.tv/asianjeff; first GTA 6 VOD `2933231152`, started 11/18 11:49 PM ET, gameplay from ~660 s). Older streams don't count. He's the main focus.
+- **Caption must include `#AsianJeff`.** English. Never negative framing, no hate-farm / rage-bait captions, **no logos of any kind** (no overlay).
+- Platforms: TikTok, Instagram, YouTube **and X** (all four pay). Never Facebook. Audience 50%+ US/CA/UK/AU/NZ.
+- Many of his top Twitch clips are portrait (vertical) clips — use the VOD route (`vod` + `vod_start`/`vod_end`) for those. Cam (most of 11/19): `0,316,588,338` camfit false, game `600,170,1300,731`; smaller cam later in the stream (`0,326,484,358`, game `560,140,1300,731`) — check the probe sheet.
+- Queue item: `"campaign": "AsianJeff"`, streamer `asianjeff`. Reach rule: one strike (botting/AI content) bans you from every Reach campaign.
+
+**Bobby VanRiper GTA VI** (Clipping Nation, joined 11-19) — Content Rewards `f583b069-ced7-49e5-9ed3-2d3a13d6df0c`. $1.50/1K, **1,500 views minimum** per clip, max $150/clip, ~$973 left. Rules: Notion "Bobby Van Riper GTA VI Clipping: Requirements & Guide". LOW PRIORITY — small streamer (600 followers), first probe (5 clips) had nothing usable.
+- Source: his GTA VI streams/videos only (twitch.tv/bobby_vanriper). He must be in the clip.
+- **Caption: `#bobbyvanriper` + show `twitch.tv/bobby_vanriper` on screen or in the caption**, plus a CTA naming him ("follow Bobby Vanriper on Twitch"). English. Overlay optional.
+- Platforms: TikTok, Instagram, YouTube only. Likes visible, keep up 30 days, 1% engagement, no AI content.
+- **Payout needs Justin:** join the Clipping Nation Discord, and once a clip passes 1,500 views open a "Submit Demographics" ticket with a screen recording of the post's country breakdown (40%+ Tier 1).
+- Cam: top-left `0,300,400,288` area (check the probe sheet), under his "SUB COUNT" label.
+
+**Checked and skipped (11-19):**
+- Lauren Hamden GTA 6 — needs a dedicated Lauren-branded account + her bio link, 10K/clip minimum.
+- BenDaDonnn x Puffco — clips must show him using Puffco (cannabis vape) products: wrong fit for our accounts and against TikTok/IG ad rules.
+- TOMO GTA VI — already joined earlier, but the budget is 98% spent ($21 left). Don't build.
+- Boeshi, DiegoLoveless — not playing GTA 6 in their recent streams (Just Chatting / Marvel Rivals). Recheck if they switch.
+- Dylan Page GTA VI Marathon ($5K, $1/1K, 10K/clip) — source is a YouTube live marathon; our pipeline has never pulled from YouTube on GitHub Actions. Revisit if a YouTube test works.
+- Dasgasd3m x RUCKUS ($2/1K, TikTok + YT, "GTA 6-specific accounts") — streams outside Twitch; brief not checked yet.
+- GATTOUZ x 1WIN — gambling sponsor. Never.
 
 ## Ready queue (queue.json)
 Clip Finder appends finished clips; Scheduler pops them into open slots. Each item:
