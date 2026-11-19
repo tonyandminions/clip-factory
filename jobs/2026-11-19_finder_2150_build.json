@@ -1,0 +1,14 @@
+[
+ {"name": "BP_DriverFightsBack", "url": "https://www.twitch.tv/theburntpeanut/clip/WiseSolidJuiceRuleFive-4CitvrkS30C-5KNR",
+  "segments": [[15.3, 17.8], [3.8, 29.0]],
+  "title": ["Burnt Peanut found out GTA 6 drivers", "*fight back when you steal their car"],
+  "cam": "336,770,220,310", "camfit": true, "game": "480,100,1200,675", "style": 6,
+  "captions": [[0.0,1.4,"*OH MY GOD"],[1.4,2.5,"*PSYCHO!"],[2.6,4.1,"HEY, LET'S GO"],[4.4,6.6,"*(HE PULLS THE DRIVER OUT)"],[8.6,11.8,"*(THE DRIVER FIGHTS BACK)"],[14.1,15.4,"OH MY GOD"],[15.4,17.2,"*PSYCHO!"],[23.4,25.8,"THIS GUY'S *CRAZY"]]},
+ {"name": "MIKKAA_HeliBlades", "url": "https://www.twitch.tv/missmikkaa/clip/BelovedWonderfulCardANELE-lLIU38mS_V8N1doz",
+  "segments": [[12.0, 13.5], [0.6, 4.6], [6.9, 17.0]],
+  "title": ["MissMikkaa found out GTA 6", "*helicopter blades are deadly"],
+  "cam": "1430,450,490,560", "camfit": true, "game": "100,140,1300,731", "style": 2,
+  "setup": "She tried to steal a running helicopter...", "setup_dur": 1.5,
+  "credit": "twitch.tv/missmikkaa",
+  "captions": [[1.6,2.4,"NO, I'M NOT GONNA"],[2.4,3.1,"*STOP RUNNING"],[3.1,3.8,"I'M GONNA TAKE"],[3.8,4.5,"*THIS HELICOPTER"],[5.9,7.4,"NO, NO, NO, NO"],[7.4,8.4,"*I DON'T THINK SO"],[11.4,13.2,"*WASTED"]]}
+]
