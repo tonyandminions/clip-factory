@@ -11,6 +11,8 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "alt": null,                            # "x,y,t0,t1" shift gameplay crop during a window
   "ss": null, "to": null,                 # trim (seconds in source)
   "captions": "auto",                     # "auto" (whisper), "none", or [[s,e,"TEXT"],...]
+  "capstyle": "ab",                       # "word" = phrase stays up, spoken word lights up; "phrase"; "ab" = split test
+  "level": true,                          # even out loudness (-14 LUFS); false to keep the original audio
   "credit": null,                         # small credit line in the caption band when captions are none
   "probe": false,                         # true = only download, transcribe, contact sheet
   "post": false,                          # true = also make a <3.6 MB copy for browser uploads
@@ -23,6 +25,7 @@ Outputs go to out/<name>/: source.mp4, transcript.txt, caps.json, <name>_HQ.mp4,
 import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_CAPSTYLE = os.environ.get("CAPSTYLE", "ab")  # "word", "phrase" or "ab" (split test, see README)
 
 def sh(*cmd, timeout=900):
     print("+", " ".join(cmd), flush=True)
@@ -93,8 +96,13 @@ def run(job):
     tr = [sys.executable, os.path.join(HERE, "transcribe.py"), src, od]
     if job.get("ss") is not None: tr += ["--ss", str(job["ss"])]
     if job.get("to") is not None: tr += ["--to", str(job["to"])]
-    if cap == "auto" or job.get("probe"):
-        sh(*tr)
+    capstyle = job.get("capstyle", DEFAULT_CAPSTYLE)
+    if capstyle == "ab":  # A/B test (11-19): half the clips word-by-word, half phrase, fixed by name
+        import hashlib
+        capstyle = "word" if int(hashlib.md5(name.encode()).hexdigest(), 16) % 2 else "phrase"
+    json.dump({"capstyle": capstyle, "level": job.get("level", True)}, open(os.path.join(od, "build.json"), "w"))
+    if cap == "auto" or job.get("probe") or (capstyle == "word" and isinstance(cap, list)):
+        sh(*tr)  # also writes words.json (word timings) for word-by-word captions
     if job.get("probe"):
         return
     capsfile = None
@@ -110,16 +118,37 @@ def run(job):
     if job.get("camfit"):
         cmd += ["--camfit"]
     if capsfile:
-        cmd += ["--caps", capsfile]
+        cmd += ["--caps", capsfile, "--capstyle", capstyle, "--words", os.path.join(od, "words.json")]
     sh(*cmd)
     if job.get("overlay"):  # required campaign logo, visible start to finish
         add_overlay(hq, job["overlay"], od)
+    if job.get("level", True):  # even loudness: -14 LUFS, peaks under -1.5 dB (two-pass, no pumping)
+        level_audio(hq)
     if job.get("post", False):  # browser-upload copy (<3.6 MB); Metricool uses the HQ file
         sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
     # preview strip of the finished edit
     d2 = dur(hq)
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
        "-frames:v", "1", "-q:v", "3", os.path.join(od, "preview.jpg"))
+
+def level_audio(path, target=-14.0, tp=-1.5, lra=11.0):
+    """Two-pass loudnorm: measure, then apply one linear gain so every clip lands at the same loudness."""
+    meas = subprocess.run(["ffmpeg", "-v", "info", "-nostats", "-i", path, "-vn", "-af",
+                           f"loudnorm=I={target}:TP={tp}:LRA={lra}:print_format=json", "-f", "null", "-"],
+                          capture_output=True, text=True).stderr
+    m = re.findall(r"\{[^{}]*\}", meas)
+    if not m:
+        print("level: no audio, skipped", flush=True); return
+    j = json.loads(m[-1])
+    if float(j["input_i"]) < -60:
+        print("level: silent, skipped", flush=True); return
+    tmp = path.replace(".mp4", "_lvl.mp4")
+    af = (f"loudnorm=I={target}:TP={tp}:LRA={lra}:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
+          f"measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true")
+    sh("ffmpeg", "-v", "error", "-y", "-i", path, "-map", "0", "-c:v", "copy", "-af", af, "-ar", "48000",
+       "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp)
+    os.replace(tmp, path)
+    print(f"level: {j['input_i']} LUFS -> {target}", flush=True)
 
 def add_overlay(hq, ov, od):
     url = ov["url"]

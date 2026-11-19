@@ -1,0 +1,4 @@
+[
+ {"name": "TEST_upgrade_AJ_L3", "url": "https://www.twitch.tv/asianjeff/clip/CulturedColdbloodedTriangleCoolStoryBob-CVvhH4OV8Rcf7Att", "segments": [[15.0, 26.0], [28.0, 30.8], [37.4, 41.0]], "title": ["AsianJeff picked up a PS5 controller", "*and couldn't find L3 in GTA 6"], "cam": "0,316,588,338", "camfit": false, "game": "600,170,1300,731", "style": 2, "capstyle": "word", "captions": [[0.16, 2.5, "PRESS L3 TO RUN"], [2.86, 3.8, "WHERE'S L3?"], [3.8, 5.02, "*WHERE'S L3?"], [5.64, 7.04, "WHAT'S L3?"], [8.72, 9.76, "WHAT, I DON'T HAVE"], [9.76, 10.86, "*L3"], [11.11, 12.83, "LET'S TAKE JOYSTICK"], [12.83, 13.69, "OKAY"], [13.94, 15.14, "DUDE, THIS IS ACTUALLY"], [15.14, 15.72, "HARD BRO"], [15.72, 17.3, "*I'M SCARED BRO"]]},
+ {"name": "TEST_upgrade_scan_aj", "scan": {"channel": "asianjeff", "minutes": 30, "top": 4}}
+]

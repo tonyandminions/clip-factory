@@ -2,7 +2,8 @@
 """Transcribe a clip with faster-whisper and write phrase captions.
 
 usage: transcribe.py SRC OUTDIR [--ss S] [--to T]
-writes OUTDIR/transcript.txt (timestamped lines) and OUTDIR/caps.json ([[start, end, TEXT], ...])
+writes OUTDIR/transcript.txt (timestamped lines), OUTDIR/caps.json ([[start, end, TEXT], ...])
+and OUTDIR/words.json ([[start, end, word, is_swear], ...]) for word-by-word captions
 Swear words are dropped from captions (the audio is untouched).
 """
 import argparse, json, os, re, subprocess
@@ -34,6 +35,9 @@ for s in segs:
             continue
         words.append((max(0.0, t0), t1, w.word.strip()))
 open(os.path.join(a.outdir, "transcript.txt"), "w").write("\n".join(lines) + "\n")
+# word timings for word-by-word captions (wordcaps.py); swears flagged so they never show
+json.dump([[round(w[0], 3), round(w[1], 3), w[2], bool(SWEARS.match(re.sub(r"[^\w*]", "", w[2])))] for w in words],
+          open(os.path.join(a.outdir, "words.json"), "w"))
 
 caps, cur = [], []
 def flush():

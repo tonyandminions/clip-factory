@@ -5,12 +5,12 @@ Layout (y px):  title band 186-326 | facecam 334-874 | caption band 874-1000
                 | gameplay 1000-1608 | clear bottom for platform UI.
 
 usage: build_split.py SRC OUT --title "line" "*lime line" [--caps caps.json]
-       [--cam x,y,w,h] [--game x,y,w,h] [--ss S --to T]
+       [--cam x,y,w,h] [--game x,y,w,h] [--ss S --to T] [--capstyle word --words words.json]
 caps.json: [[start, end, "TEXT"], ...]  (times relative to the output)
 """
-import argparse, json, subprocess
+import argparse, json, os, subprocess, sys
 
-import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 FONT = os.environ.get("CLIP_FONT", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts", "Poppins-Bold.ttf"))
 LIME = "0xB8FF3B"
 TITLE_TOP, CAM_Y, CAM_H, CAP_Y, GAME_Y, GAME_H = 222, 334, 540, 874, 1000, 608
@@ -32,6 +32,8 @@ ap.add_argument("--credit", help="small credit line under the title band, e.g. t
 ap.add_argument("--setup", help="story/context line shown in the caption band for the first seconds")
 ap.add_argument("--setup-dur", type=float, default=2.8)
 ap.add_argument("--style", default="auto", help="0-7 or auto (hash of output name): accent colour, stack order, look")
+ap.add_argument("--capstyle", default="phrase", choices=["phrase", "word"], help="word = phrase on screen, spoken word lit up in the accent colour")
+ap.add_argument("--words", help="words.json from transcribe.py (real word timings for --capstyle word)")
 a = ap.parse_args()
 import re as _re  # STRIP_EMOJI: Poppins has no emoji glyphs
 a.title = [_re.sub(r"[\U00010000-\U0010FFFF\u2600-\u27BF\uFE0F]", "", t).strip() for t in a.title]
@@ -96,6 +98,14 @@ if a.setup:
             c0 = sd
         shifted.append([c0, c1, t])
     caps = shifted
+assf = None
+if caps and a.capstyle == "word":
+    from wordcaps import make_ass, ass_filter
+    words = json.load(open(a.words)) if a.words and os.path.exists(a.words) else []
+    assp = os.path.splitext(a.out)[0] + "_caps.ass"
+    n = make_ass(caps, words, assp, y=CAP_Y + 63, size=CAP_SIZE, accent=LIME)
+    assf = ass_filter(assp, os.path.dirname(FONT)); print("word captions", n, "events")
+    caps = []
 if caps:
     for s, e, t in caps:
         col = "white"
@@ -111,7 +121,7 @@ fc = (
     f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale},setsar=1[cam];"
     f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H},setsar=1[game];"
     f"[bg][cam]overlay={camx}:{CAM_Y2}[t1];[t1][game]overlay=0:{GAME_Y}[t2];"
-    f"[t2]{','.join(dt)},setsar=1[v]"
+    f"[t2]{','.join(dt + ([assf] if assf else []))},setsar=1[v]"
 )
 cmd = ["ffmpeg", "-v", "error", "-y"]
 if a.ss is not None: cmd += ["-ss", str(a.ss)]
