@@ -1,0 +1,31 @@
+[
+ {
+  "name": "BP_ChopShop",
+  "vod": "https://www.twitch.tv/videos/2932226282",
+  "vod_start": 45880,
+  "vod_end": 46000,
+  "segments": [
+   [
+    21.2,
+    30.3
+   ],
+   [
+    36.0,
+    46.0
+   ],
+   [
+    90.2,
+    99.5
+   ]
+  ],
+  "title": [
+   "BURNT PEANUT found out",
+   "*you can sell stolen cars"
+  ],
+  "cam": "336,770,220,310",
+  "camfit": true,
+  "game": "480,100,1200,675",
+  "style": 4,
+  "captions": "auto"
+ }
+]
