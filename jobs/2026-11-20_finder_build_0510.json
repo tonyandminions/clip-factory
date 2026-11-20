@@ -1,0 +1,119 @@
+[
+ {
+  "name": "LACY_PolarBear",
+  "vod": "https://www.twitch.tv/videos/2933767012",
+  "vod_start": 44630,
+  "vod_end": 44720,
+  "segments": [
+   [
+    41.8,
+    45.0
+   ],
+   [
+    13.7,
+    20.8
+   ],
+   [
+    30.6,
+    36.6
+   ],
+   [
+    51.0,
+    54.1
+   ],
+   [
+    59.2,
+    62.2
+   ],
+   [
+    82.4,
+    87.4
+   ]
+  ],
+  "title": [
+   "LACY found out GTA 6 lets you",
+   "*free a POLAR BEAR"
+  ],
+  "cam": "0,8,493,246",
+  "camfit": false,
+  "game": "493,240,1200,675",
+  "style": 5,
+  "captions": [
+   [
+    0.0,
+    1.6,
+    "WHAT ARE YOU THINKING?"
+   ],
+   [
+    1.6,
+    3.1,
+    "*IT'S A BEAR!"
+   ],
+   [
+    3.26,
+    5.9,
+    "SO, HEY, DO YOU WANT TO HELP?"
+   ],
+   [
+    5.92,
+    8.4,
+    "*OR WILL YOU LET THIS BEAR GO FREE?"
+   ],
+   [
+    8.42,
+    10.2,
+    "FREE THE BEAR?"
+   ],
+   [
+    10.38,
+    11.74,
+    "FREE OUR SISTER!"
+   ],
+   [
+    11.84,
+    13.76,
+    "*YOUR SISTER'S IN THERE?"
+   ],
+   [
+    14.66,
+    16.24,
+    "WOO! YES!"
+   ],
+   [
+    16.38,
+    18.0,
+    "DON'T, DON'T, DON'T LEAVE!"
+   ],
+   [
+    18.02,
+    19.34,
+    "*YOU'RE FREE NOW"
+   ],
+   [
+    19.48,
+    20.9,
+    "NO WAY THE BEAR'S"
+   ],
+   [
+    20.9,
+    22.34,
+    "*JUST GONNA GET LET OUT"
+   ],
+   [
+    22.58,
+    23.82,
+    "OH NO"
+   ],
+   [
+    24.84,
+    26.5,
+    "*OH, OH, I GOTTA DO IT"
+   ],
+   [
+    26.54,
+    27.35,
+    "I'M SORRY"
+   ]
+  ]
+ }
+]
