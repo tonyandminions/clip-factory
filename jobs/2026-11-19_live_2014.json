@@ -1,0 +1,119 @@
+[
+ {
+  "name": "KREEK_TowerEasterEgg_v2",
+  "post": true,
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_afabf701-7253-4fb2-9439-d57d988b5cc2_1795135449645.mp4",
+   "gen_utc": "2026-11-20T00:44:09Z",
+   "back": 240,
+   "pad": "4,3"
+  },
+  "ss": 0,
+  "to": 300,
+  "segments": [
+   [
+    36.8,
+    42.3
+   ],
+   [
+    103.8,
+    108.7
+   ],
+   [
+    136.1,
+    144.5
+   ],
+   [
+    146.5,
+    152.2
+   ],
+   [
+    175.9,
+    178.6
+   ]
+  ],
+  "title": [
+   "KreekCraft climbed the tallest tower",
+   "*in GTA 6 for a secret easter egg"
+  ],
+  "cam": "0,118,420,428",
+  "camfit": true,
+  "game": "440,180,1360,765",
+  "style": 7,
+  "captions": [
+   [
+    0.0,
+    1.28,
+    "IF I GET UP HERE"
+   ],
+   [
+    1.28,
+    2.86,
+    "*AND THERE'S NO EASTER EGG"
+   ],
+   [
+    3.78,
+    5.3,
+    "*I'M ENDING THE STREAM"
+   ],
+   [
+    5.63,
+    6.71,
+    "OKAY, THIS IS IT"
+   ],
+   [
+    6.71,
+    8.6,
+    "*THIS IS IT"
+   ],
+   [
+    8.71,
+    10.4,
+    "WE HAVE REACHED THE TOP"
+   ],
+   [
+    11.05,
+    11.87,
+    "*WHAT'S THE EASTER EGG?"
+   ],
+   [
+    11.87,
+    13.45,
+    "SHUT..."
+   ],
+   [
+    15.16,
+    16.78,
+    "*THE FRONT DOOR, BRO"
+   ],
+   [
+    20.83,
+    22.35,
+    "BRO"
+   ],
+   [
+    22.99,
+    24.5,
+    "*ARE YOU SERIOUS?"
+   ],
+   [
+    25.04,
+    25.9,
+    "THIS IS THE GREATEST"
+   ],
+   [
+    25.9,
+    27.1,
+    "*GAME OF ALL TIME"
+   ]
+  ],
+  "overlay": {
+   "url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp",
+   "w": 640,
+   "x": "(main_w-overlay_w)/2",
+   "y": "1490"
+  }
+ }
+]
