@@ -63,6 +63,10 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 - **Weekly (Sunday Analyst):** one line per platform in Platform Playbook.md ("Platform scorecard"), what changed this week and why.
 
 ## What performs (update as numbers come in)
+- **11-19 (Analyst, nightly ~23:45 ET).** Sources: TikTok Studio, YouTube Studio, x.com, Metricool FB, Content Rewards.
+  - Best fresh clip: KreekCraft "viewer's mom asked what GTA 6 is" — IG 336 (before the ban), TikTok 41 (best since the throttle). Funny "explaining GTA 6" story beats plain fails.
+  - TikTok still throttled (4 posts today vs ramp cap 1; others 1–5 views). YouTube: 5 new Shorts all 0–2 views; no new "Potential limitation". FB: Clix plane 0 (lag?). X: proven winners 232/72 vs fresh 39/1.
+  - Content Rewards: 33 pending, 0 approved/rejected, $0 earned; no KreekCraft clip near its 3K minimum.
 - **11-18 launch day (Analyst, nightly 11-18 ~23:15 ET).** Sources: TikTok Studio, Metricool IG, Content Rewards view counts.
   - TikTok: LACY "can't steal cars" 248 (9.6 s avg, **37% finished**, 15 s), BP "vs traffic" 226 (10.4 s, 11%, 30 s). Every evening post (4:45–9 PM) got 0–11 views; Speed "download" 0 views after 4 h.
   - IG: BP traffic 1,316; LACY "lost all his money" PART 2 **1,452** (best clip); LACY clips 130–280; Gator P1 151.
