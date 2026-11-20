@@ -1,6 +1,6 @@
 {
  "_what": "Per-platform strategy, learned from our own numbers. The Analyst updates it every night (Justin 11-19: learn after every post, keep adjusting each platform until it's mastered). The Scheduler uses 'route' to decide which clip goes to which platform; the Clip Finder uses 'want' to decide what to look for. Evidence lines are dated; small samples are marked as such.",
- "_updated": "2026-11-20 Main chat: facebook.page + facebook.safety (Facebook setup + safety, Justin 11-20)",
+ "_updated": "2026-11-20 Main chat: tos block (README rule T)",
  "cross_platform": [
   "The same clip lands very differently per platform, so routing matters more than volume: BP traffic = IG 1,385 / TT 227 / YT 1; LACY Part 2 (dying costs ALL your money) = IG 1,534 / FB 475 / YT 28 / TT 16; Speed download countdown = YT 1,366 / IG 153 / TT 0.",
   "A slot may carry two different clips split by platform (e.g. 18:10: story clip to IG+FB, mechanic clip to TT+YT) when that fits better. Daily caps per platform still hold.",
@@ -194,5 +194,41 @@
    "facebook_replies_from": "2026-11-27"
   },
   "warning_rule": "any warning/strike/claim/restriction on a platform = pause all its posting 48 h and tell Justin"
+ },
+ "tos": {
+  "_why": "Justin 11-20: read every platform's terms and don't violate them (Phillip's Discord note). README rule T.",
+  "allowed": [
+   "metricool (official APIs)",
+   "github (own repos/actions on footage we already have)",
+   "vidiq connector (YouTube API)",
+   "claude docs/drive",
+   "PC files",
+   "messages to Justin"
+  ],
+  "no_browser_or_scripts": [
+   "x.com",
+   "tiktok.com",
+   "youtube.com",
+   "studio.youtube.com",
+   "facebook.com",
+   "business.facebook.com",
+   "instagram.com",
+   "discord.com",
+   "twitch.tv",
+   "gql.twitch.tv",
+   "fiverr.com",
+   "contentrewards.com",
+   "whop.com",
+   "clipspeed.ai"
+  ],
+  "paused_until_justin": {
+   "clip_sourcing_twitch_youtube": "no GQL, no VOD/clip downloads, no scan/record/live/url jobs",
+   "x_posting": "Justin by hand or Metricool X add-on",
+   "discord_updates": "needs webhook/bot",
+   "content_rewards": "Justin submits by hand from the Submitter reminder",
+   "comment_replies": "YouTube via vidIQ API only if connected",
+   "health_checks": "Justin by hand or Gmail connector",
+   "fiverr": "Justin in the app"
+  }
  }
 }

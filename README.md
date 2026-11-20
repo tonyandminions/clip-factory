@@ -3,9 +3,36 @@
 > **⛔ INSTAGRAM IS GONE (11-19, 9:51 PM ET).** Meta permanently disabled @tonyandminions after review ("doesn't follow our Community Standards"). Until Justin says otherwise: no crew member posts, schedules, stories, submits, replies or logs in to Instagram. Scheduler: drop "instagram" from every scheduled Metricool post (updateScheduledPost, full payload; never delete) and from IG stories (Story Crew: Facebook stories only). Submitter/Live Hunter: never submit Instagram. Analyst: drop Instagram from the numbers. **Do NOT create a new Instagram account** — that counts as evading enforcement under Meta's rules and can take the Facebook Page down with it. Facebook is the same company, so treat it gently until Justin decides (see STATUS).
 
 
+> **⛔ NO BROWSER AUTOMATION ON PLATFORM SITES (11-20, Justin: "read fully through the terms for each platform and do not violate them").** Every platform's terms ban bots and AI agents clicking or typing on their sites outside the official API. This beats every task prompt: if your prompt tells you to use Claude in Chrome on any site in rule T below, skip that step and tell Justin which step you skipped. See rule T.
+
 ## READ FIRST — hard rules (every chat and scheduled task)
 **Strategy source of truth:** `Documents\Side Business\Platform Playbook.md` on the PC (per-platform caps, slot grid, originality rules, 2026 research + sources). The schedule lives in `Posting Schedule 11-18.md` next to it.
 
+T. **TERMS OF SERVICE FIRST (Justin 11-20; Phillip flagged it in Discord). Beats every other rule, section and task prompt.**
+   - **What the terms say (read 11-20):**
+     - X: never "use non-API-based forms of automation, such as scripting the X website" — it "may result in the permanent suspension of your account". Also no automated likes.
+     - YouTube: you may not "access the Service using any automated means (such as robots, botnets or scrapers)" without YouTube's prior written permission. Downloading is also limited to what the Service itself allows.
+     - TikTok: no extracting data or content "using any automated system or software, including automated bots, except as approved in writing".
+     - Meta/Facebook (Terms 3.2.3): you "may not access or collect data from our Products using automated means (without our prior permission)", "regardless of whether such automated access or collection is undertaken while logged-in".
+     - Discord: "Automating normal user accounts (generally called self-bots) outside of the OAuth2/bot API is forbidden, and can result in an account termination".
+     - Twitch: no accessing its services "by means of any robot, spider, scraper, crawler, or other automated means", and no "downloading (except page caching)".
+     - Fiverr: no "using any automated system, including robots, spiders, offline readers".
+     - Whop (Content Rewards runs on it): no "using bots, scrapers, crawlers, or other automated tools to access or collect data". Content Rewards' own clipper terms also make us promise every post follows the platform's terms. Treat Content Rewards as no-automation until Justin confirms otherwise.
+   - **Allowed tools:**
+     - Metricool (official APIs) for posting, scheduling, Facebook stories and analytics;
+     - GitHub (our repos, and Actions that edit footage we already have);
+     - the vidIQ connector (YouTube's official API);
+     - Claude Docs/Drive, the PC files, and messages/push to Justin.
+   - **Never use Claude in Chrome or scripts, not even read-only, on:** x.com, tiktok.com (incl. TikTok Studio), youtube.com / studio.youtube.com, facebook.com / Meta Business Suite, instagram.com, discord.com, twitch.tv / gql.twitch.tv, fiverr.com, contentrewards.com / whop.com, clipspeed.ai.
+   - **Paused until Justin decides:**
+     - **Clip sourcing:** no new jobs that fetch from Twitch or YouTube (GQL queries, VOD/clip downloads, `scan`, `record`, `live`, `url` routes); build only from footage already on the out branch or files Justin provides.
+     - **X posting:** Justin posts by hand, or we turn on Metricool's X add-on.
+     - **Discord updates:** need a webhook or bot account; until then everything goes to Justin as a message.
+     - **Content Rewards:** Justin submits by hand from the Submitter's reminder.
+     - **Comment replies:** YouTube only, through the vidIQ API, and only if it's connected to our channel; the rest Justin answers.
+     - **Account health checks:** Justin checks by hand, or a Gmail connector reads the warning emails.
+     - **Fiverr:** Justin works his inbox and orders in the app; we build order clips only from links he gives us.
+   - Posts already scheduled inside X's, TikTok's or YouTube's own schedulers publish on their own: leave them, and don't open those sites to check.
 0. **ACCOUNT SAFETY FIRST (Justin 11-19, after Instagram was banned: "make sure this doesn't happen again"). These limits beat every other number in this README, the Playbook and any task prompt.** All our accounts are brand new, and new accounts that post a lot of other people's footage with bot-like activity get throttled (TikTok, day 1) or banned (Instagram, day 2).
    - **Ramp, don't blast.** Until **Dec 3** (first 2 weeks): max **2 posts a day** on YouTube, Facebook and X, and **1** on TikTok (while For You < 0.6). Then +1 per platform per week, only while that platform's health is clean, up to the normal caps. Live Hunter fast-lane posts count.
    - **Spacing:** at least **3 hours** between posts on the same platform. Never two posts of the same streamer in a row on one platform.
