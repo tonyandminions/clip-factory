@@ -1,0 +1,248 @@
+{
+ "vod": "https://www.twitch.tv/videos/2933588799",
+ "vod_duration": 59473.0,
+ "scanned_from": 57073.0,
+ "chat_used": true,
+ "chat_messages": 2909,
+ "peaks": [
+  {
+   "vod_offset": 57115.0,
+   "vod_start": 57093.0,
+   "vod_end": 57129.0,
+   "picked_by": "both",
+   "loud_db_over_median": 3.5,
+   "text": "And fuck Drake want he been one of me out the label business even before this dime bullshit blew up Which is another thing I ain't getting no goddamn money from but you know what fuck all that shit look You can't be in here like this. Oh She won a professional set up Like I should ask you to be like this when you was coming up Fucking fuckers on me. You understand that wants to pick something up. No problem I determine whether it's a motherfucking problem or not like Sanfo niggas back and funny lady, man They got folk bricks with my name on it and the way they talk like it makes you seem like something about to go down",
+   "chat_x_normal": 6.6,
+   "chat_reactions": {
+    "huh": 14,
+    "funny": 6,
+    "hype": 1
+   },
+   "chat_sample": [
+    "PUDGIE cameo NOWAY",
+    "?",
+    "idk",
+    "?????",
+    "??",
+    "bro",
+    "LOL",
+    "????"
+   ]
+  },
+  {
+   "vod_offset": 57436.0,
+   "vod_start": 57414.0,
+   "vod_end": 57450.0,
+   "picked_by": "both",
+   "loud_db_over_median": 5.8,
+   "text": "Yo, we going up I forgot to buy bot, not facts bro Fucking retard in the chat bro Said you was here for a pick up on your phone Nice fucking pick up Take his toenails off one by one bro Straight up, first door on the right You're cut out though",
+   "chat_x_normal": 7.3,
+   "chat_reactions": {
+    "funny": 26,
+    "huh": 2
+   },
+   "chat_sample": [
+    "LMFAO",
+    "1 guyed",
+    "Classic",
+    "LOL",
+    "this from the extended look",
+    "LOL",
+    "y0",
+    "sob"
+   ]
+  },
+  {
+   "vod_offset": 57883.0,
+   "vod_start": 57861.0,
+   "vod_end": 57897.0,
+   "picked_by": "both",
+   "loud_db_over_median": 4.3,
+   "text": "What the fuck I am, I don't know what I'm gonna do. Who you at? I'm here. Wow. What's up, bro? What's up, bro? You good? Fuckin' crazy. I'm fuckin' crazy! Oh, no.",
+   "chat_x_normal": 11.6,
+   "chat_reactions": {
+    "huh": 20,
+    "funny": 4,
+    "fail": 1
+   },
+   "chat_sample": [
+    "?",
+    "hurry im in nervous",
+    "KRKRKR",
+    "??",
+    "??????",
+    "LMFAO",
+    "WOW",
+    "WTF"
+   ]
+  },
+  {
+   "vod_offset": 57994.0,
+   "vod_start": 57972.0,
+   "vod_end": 58008.0,
+   "picked_by": "both",
+   "loud_db_over_median": 9.2,
+   "text": "I guess bro can't die to a headshot, like You deadass played like an I.T.A turtleist What are you talking about game? Oh my god, bro. Did I just kill bro? Bro, I think I deadass just killed bro. Oh, bro. I deadass just killed bro",
+   "chat_x_normal": 10.8,
+   "chat_reactions": {
+    "funny": 28,
+    "fail": 1,
+    "huh": 1
+   },
+   "chat_sample": [
+    "BANG",
+    "BANG",
+    "helmet SON",
+    "o",
+    "O",
+    "@madison_softball7 2nd",
+    "BANG",
+    "took 5 to the head"
+   ]
+  },
+  {
+   "vod_offset": 59424.0,
+   "vod_start": 59402.0,
+   "vod_end": 59438.0,
+   "picked_by": "both",
+   "loud_db_over_median": 3.8,
+   "text": "Jason and we clip idea why not why not before sleep go to members take a night and hug me You know what bro? Good idea. I'm gonna do that and And I'm gonna call my entire contacts and say good night to That come next to the cruise terminal. Yeah. Yeah, good. Good. Oh, you read that. Hey, hey You saw it. I'm ready. Nicole. I got her Look I yeah, I haven't forgotten what we talked about. Let's just get this job",
+   "chat_x_normal": 6.6,
+   "chat_reactions": {
+    "hype": 9,
+    "funny": 9,
+    "clip": 4
+   },
+   "chat_sample": [
+    "clip idea fries",
+    "ban him",
+    "sob",
+    "SON SON",
+    "SON",
+    "taw",
+    "LMFAOOOO",
+    "SON"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 57640.0,
+    "vod_start": 57618.0,
+    "vod_end": 57654.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.6,
+    "text": "get down on the ground hey, hey, put the gun down yo, why they shooting though? holy fuck it's the corrupt cops it is what it is my friend oh my god shit better go down that didn't even mean Kodak yet though where's the money mother fuckers on the left on the left shotgun what the fuck you mean on the left bad comms, very bad comms fuck, need to find a way out hey, hey, they gotta be all over the-",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {
+     "huh": 2,
+     "funny": 1
+    },
+    "chat_sample": [
+     "cops be working for the cartel smh",
+     "o",
+     "WOW",
+     "ohSHIT",
+     "@taxxki Damn hope he gets his rest \ud83d\ude4f",
+     "RUNNNN",
+     "normal police activites",
+     "sooooo regular cops"
+    ]
+   },
+   {
+    "vod_offset": 57785.0,
+    "vod_start": 57763.0,
+    "vod_end": 57799.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 15.6,
+    "text": "Fucking man, yep, it's him bro. No he could mend it Corn you know that going your word. They love that going your word Let's go it's like that's it through the hallway come on okay. I'm with you Shit how long has this place been like this? You need to get through",
+    "chat_x_normal": 1.4,
+    "chat_reactions": {
+     "funny": 2
+    },
+    "chat_sample": [
+     "sean mendez?",
+     "JA TAKE UR CAM UP I CANT SEE",
+     "AURA",
+     "uuh",
+     "mendez K",
+     "this is worse then seeing youre clan getting slaughtered",
+     "LOL",
+     "Shawn mendes"
+    ]
+   },
+   {
+    "vod_offset": 57971.0,
+    "vod_start": 57949.0,
+    "vod_end": 57985.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 15.7,
+    "text": "There's a lot here gotta be another way No hesitation, okay Fuck it's cold out that oh my god, that's bro I guess broke can't die to what?",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {
+     "huh": 3,
+     "funny": 2,
+     "hype": 1
+    },
+    "chat_sample": [
+     "JASON WHAT CHAPTER ARE YOU ON?",
+     "RRRRRRR",
+     "holy fuck",
+     "LMAOOO",
+     "how many headshots",
+     "YOU DEADASS PLAY LIKE A IGN JOURNALIST LOL @jasontheween",
+     "LOL",
+     "@jojo999p Or lay in the bed head downwards"
+    ]
+   },
+   {
+    "vod_offset": 58437.0,
+    "vod_start": 58415.0,
+    "vod_end": 58451.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.3,
+    "text": "Okay, I know this is weird, but don't you think that'd be a good sign to move for any of the sudden to be awesome for Calvin Harris? We're a radio stationist, so I don't even know, bro. I'm going to the fucking club! XXL Booty Queens! Hey, man. What the fuck are hey, man, me? I'm about to follow you here, right? Why would anybody be following us? Oh, so you want to play stupid? Got your keys, man. What the fuck are you doing?",
+    "chat_x_normal": 1.6,
+    "chat_reactions": {
+     "hype": 1,
+     "bye": 1
+    },
+    "chat_sample": [
+     "Jason who\u2019s coming to the 919 kid",
+     "this game is deadass 60% club at this point, every streamer looks dead inside",
+     "WW",
+     "o",
+     "mmm",
+     "sob",
+     "mmm",
+     "alien17"
+    ]
+   },
+   {
+    "vod_offset": 58658.0,
+    "vod_start": 58636.0,
+    "vod_end": 58672.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 20.3,
+    "text": "I don't know, that might have something. Yeah, maybe. Let's wait till the cash comes in. My eyes are red. No, they're not, bro. How would you lie? Link clicking time, boys. I have to pee, and then I'm gonna regenerate some HP, bro. Drake 1. What is bro?",
+    "chat_x_normal": 3.8,
+    "chat_reactions": {
+     "hype": 5,
+     "huh": 4
+    },
+    "chat_sample": [
+     "lets do some link clicking nabs",
+     "just ugly",
+     "sob",
+     "DROOL",
+     "omeFaded",
+     "u look high",
+     "barely able to keep them open sob",
+     "just sleep bro"
+    ]
+   }
+  ],
+  "chat_only": []
+ }
+}
