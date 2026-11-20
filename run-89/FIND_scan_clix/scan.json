@@ -1,0 +1,245 @@
+{
+ "vod": "https://www.twitch.tv/videos/2933739024",
+ "vod_duration": 48151.0,
+ "scanned_from": 45751.0,
+ "chat_used": true,
+ "chat_messages": 1724,
+ "peaks": [
+  {
+   "vod_offset": 46278.0,
+   "vod_start": 46256.0,
+   "vod_end": 46292.0,
+   "picked_by": "both",
+   "loud_db_over_median": 5.8,
+   "text": "Let's go, let's go! Time's up! That's the buster! Let's move! Yo, I'm not real, I...",
+   "chat_x_normal": 7.1,
+   "chat_reactions": {
+    "funny": 14,
+    "fail": 1,
+    "huh": 1
+   },
+   "chat_sample": [
+    "clixVibe clixVibe clixVibe",
+    "bro",
+    "BRO",
+    "SON",
+    "LMFAOO",
+    "SON",
+    "sob",
+    "sob \u034f"
+   ]
+  },
+  {
+   "vod_offset": 46839.0,
+   "vod_start": 46817.0,
+   "vod_end": 46853.0,
+   "picked_by": "both",
+   "loud_db_over_median": 11.1,
+   "text": "Fuckin' Ferrari. It's my first Ferrari, it's my first Ferrari, it's my first Ferrari. Fuck, fuck you, bitch. The fuck outta my Ferrari.",
+   "chat_x_normal": 3.7,
+   "chat_reactions": {
+    "funny": 8,
+    "hype": 2,
+    "huh": 1
+   },
+   "chat_sample": [
+    "ohSHIT",
+    "OOOO",
+    "OOOO",
+    "LOL",
+    "OOOO",
+    "OOOO",
+    "NOWAY",
+    "OOOO"
+   ]
+  },
+  {
+   "vod_offset": 47016.0,
+   "vod_start": 46994.0,
+   "vod_end": 47030.0,
+   "picked_by": "both",
+   "loud_db_over_median": 4.4,
+   "text": "you go we're clear let's head back here okay looks like you gave him the slip that was actually pretty impressive i wish i got the fucking safe though bro i'll be in touch i said i took a risk for the save second save yeah not bad no please don't die",
+   "chat_x_normal": 4.9,
+   "chat_reactions": {
+    "funny": 12,
+    "fail": 1
+   },
+   "chat_sample": [
+    "it is learning",
+    "finally",
+    "fuck it",
+    "ofn",
+    "bro",
+    "LOL",
+    "sob",
+    "LOL"
+   ]
+  },
+  {
+   "vod_offset": 47225.0,
+   "vod_start": 47203.0,
+   "vod_end": 47239.0,
+   "picked_by": "both",
+   "loud_db_over_median": 9.6,
+   "text": "Huh, no one can say life every on three boring Jason Duvall. I mean, it's totally Ho Oh my god, oh my god. Oh my god. Oh my god a frown fucking do if I get collect once again, I'm gonna fucking What? Dog, what the fuck? I'm like, bro. Are you serious? like Kitchen Stop skipping. Oh bro. That is really frickin we ball fuck",
+   "chat_x_normal": 6.1,
+   "chat_reactions": {
+    "fail": 13,
+    "funny": 12,
+    "huh": 2
+   },
+   "chat_sample": [
+    "bro",
+    "NOOOOOOOOOOO",
+    "cockblock LOL",
+    "Lmao",
+    "NOOOO",
+    "Looool",
+    "LO",
+    "stop skipping"
+   ]
+  },
+  {
+   "vod_offset": 47979.0,
+   "vod_start": 47957.0,
+   "vod_end": 47993.0,
+   "picked_by": "both",
+   "loud_db_over_median": -0.8,
+   "text": "We don't cash in. You're looking to sell this thing. You know moving a ride like this isn't going to be easy. You guys ready? Pineapple? I don't know. Let's get you another one. Yeah, give me another one. There you are. Hi. Where are we? Look, fuckers. We're coming up to the Everest. Man sued for dick pic. Whoa. Does that mean you're my dick pic? Hi. I'm going to go find out what play at. You get a pair of them sneakers. Find a pair of the down ply sneakers.",
+   "chat_x_normal": 6.0,
+   "chat_reactions": {
+    "huh": 16
+   },
+   "chat_sample": [
+    "pineapple probably better than the watermelon you had last night",
+    "PINAPPLE eww",
+    "ik what ur eating that for ome69",
+    "HUH",
+    "?",
+    "WOAH",
+    "HUH",
+    "ome69"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 46114.0,
+    "vod_start": 46092.0,
+    "vod_end": 46128.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 11.3,
+    "text": "And the operators not blunt instruments out there to pull this off We got to keep the cops one step behind We're going fast take what we need and get out no shooting up the place or getting any unwanted attention By the time the cops show we're ready in the next spot Okay, okay, okay, okay Literally max fucking selfie. Nobody could know we're there Okay, I'll cut him the second you bust in there it should buy you a couple minutes Before it reboots and we got clean cars parked near each of the banks in case you need to switch up They're coming up on the spot Okay Show us what you got",
+    "chat_x_normal": 1.4,
+    "chat_reactions": {
+     "funny": 1
+    },
+    "chat_sample": [
+     "off topic but rapid leaked he's being signed to xset btw",
+     "Okay",
+     "OOOO",
+     "clixWin clixWiggle itzkyzify, Thank you for subscribing for 7 months At Tier 1. Welcome back! clixBox clixComfy",
+     "itzkyzify subscribed at Tier 1. They've subscribed for 7 months! ",
+     "Okay",
+     "okak",
+     "007burr watched 5 consecutive streams and sparked a watch streak! thoughts on the game so far @Clix"
+    ]
+   },
+   {
+    "vod_offset": 46311.0,
+    "vod_start": 46289.0,
+    "vod_end": 46325.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 15.6,
+    "text": "Yo, I'm not real. I Was I thinking I thought I could hit it no now don't think I can hit that shit Think about it. I got away though. I let it got away. I think the whole mission. No, I'm good. Why can't get away",
+    "chat_x_normal": 1.2,
+    "chat_reactions": {
+     "hype": 2,
+     "huh": 1
+    },
+    "chat_sample": [
+     "SON NOWAY YOU THOUGHT U WAS MAKING THAT LOL",
+     "wtf happened",
+     "no.",
+     "no",
+     "While there all out partying btw AHHHHH ALMOST ALMOST",
+     "Nah just threw the whole mission \ud83d\ude2d",
+     "son",
+     "0 iq"
+    ]
+   },
+   {
+    "vod_offset": 46407.0,
+    "vod_start": 46385.0,
+    "vod_end": 46421.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.1,
+    "text": "I'll tell you what, green, I'm feeling this diet tactic you gave us. She could've used it about a year ago. Yeah, where you been all my life? Aw, my fucking gosh. Uh, yeah, thanks for, uh, thanks for telling me that. Come on, come on. Bitch! Bitch! Bitch! Bitch! Whoa, not worth it.",
+    "chat_x_normal": 2.2,
+    "chat_reactions": {
+     "funny": 6,
+     "huh": 1
+    },
+    "chat_sample": [
+     "OOOO",
+     "bro drives like he is asian",
+     "@cheesecakebtw love the shoe store fortnite update",
+     "@divvyuh we just spit facts",
+     "OOOO",
+     "ITS GOT A TRACKER BRO",
+     "OOOO",
+     "uh oh"
+    ]
+   },
+   {
+    "vod_offset": 46924.0,
+    "vod_start": 46902.0,
+    "vod_end": 46938.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 13.9,
+    "text": "Oh my god, dude, you're holding your breaks down",
+    "chat_x_normal": 0.9,
+    "chat_reactions": {
+     "funny": 3,
+     "fail": 1
+    },
+    "chat_sample": [
+     "prePffttt",
+     "no need to change  cars to start with bro",
+     "LMFAO",
+     "brother",
+     "well duh",
+     "LMFAO",
+     "Pffttt",
+     "@divvyuh silence."
+    ]
+   }
+  ],
+  "chat_only": [
+   {
+    "vod_offset": 46179.0,
+    "vod_start": 46157.0,
+    "vod_end": 46193.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -2.8,
+    "text": "shows once that happens we can't help you don't want to get in that kind of a mess of a few bills in some drawers people dolly dolly ask song you get the aren't you trying to go crowd I get the bills let's do it bro fucking",
+    "chat_x_normal": 4.5,
+    "chat_reactions": {
+     "funny": 5
+    },
+    "chat_sample": [
+     "chat moving slower then ever",
+     "i just made that shit up ngl",
+     "ome44",
+     "LMAO",
+     "LOL \u034f",
+     "it\u2019s the one by the other bytton",
+     "LOL",
+     "son"
+    ]
+   }
+  ]
+ }
+}
