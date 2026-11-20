@@ -1,0 +1,105 @@
+[
+ {
+  "name": "KREEK_MomGTA6",
+  "post": true,
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_5a015d5f-a2b2-489f-b49d-2ddfe8767f73_1795135307029.mp4",
+   "gen_utc": "2026-11-20T00:41:47Z",
+   "back": 240,
+   "pad": "4,3"
+  },
+  "ss": 0,
+  "to": 300,
+  "segments": [
+   [
+    43.3,
+    52.2
+   ],
+   [
+    53.0,
+    64.5
+   ],
+   [
+    72.1,
+    77.5
+   ],
+   [
+    98.5,
+    100.8
+   ]
+  ],
+  "title": [
+   "A viewer's mom asked what GTA 6 is",
+   "*KreekCraft had the perfect answer"
+  ],
+  "cam": "0,118,420,428",
+  "camfit": true,
+  "game": "440,180,1360,765",
+  "style": 4,
+  "captions": [
+   [
+    0.05,
+    1.7,
+    "MY MOM WANTS TO KNOW"
+   ],
+   [
+    1.7,
+    3.4,
+    "*WHAT GTA THIS IS"
+   ],
+   [
+    4.05,
+    5.9,
+    "WHAT'S THE GAME ABOUT?"
+   ],
+   [
+    6.5,
+    8.8,
+    "*TELL MY MOM SO I CAN GET IT"
+   ],
+   [
+    9.0,
+    11.7,
+    "SO BASICALLY GTA 6 IS A GAME"
+   ],
+   [
+    12.3,
+    14.3,
+    "WHERE YOU DRIVE AROUND"
+   ],
+   [
+    15.2,
+    17.3,
+    "*AND LEARN HOW TO DRIVE"
+   ],
+   [
+    17.3,
+    20.3,
+    "THERE'S NPCS YOU CAN HELP OUT"
+   ],
+   [
+    20.45,
+    22.9,
+    "HELP GRANDMAS GET IN THEIR CAR"
+   ],
+   [
+    22.9,
+    25.7,
+    "*AND RESCUE CATS FROM TREES"
+   ],
+   [
+    25.85,
+    28.05,
+    "*IT'S A REALLY GOOD GAME FOR KIDS"
+   ]
+  ],
+  "overlay": {
+   "url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp",
+   "w": 640,
+   "x": "(main_w-overlay_w)/2",
+   "y": "1490"
+  }
+ }
+]
