@@ -1,0 +1,301 @@
+{
+ "vod": "https://www.twitch.tv/videos/2934505601",
+ "vod_duration": 6891.0,
+ "scanned_from": 4191.0,
+ "chat_used": true,
+ "chat_messages": 5940,
+ "peaks": [
+  {
+   "vod_offset": 4841.0,
+   "vod_start": 4819.0,
+   "vod_end": 4855.0,
+   "picked_by": "both",
+   "loud_db_over_median": 7.6,
+   "text": "It's over, he sees me. Bro, it was one before Jack. They say canine units? That bitch say canine units?",
+   "chat_x_normal": 6.1,
+   "chat_reactions": {
+    "hype": 22,
+    "funny": 2,
+    "huh": 2
+   },
+   "chat_sample": [
+    "they done released crud to your location it's joever",
+    "o",
+    "Cooked",
+    "gg",
+    "yrgeNERVY",
+    "gg",
+    "GG",
+    "@xvesrexia LMAOOO"
+   ]
+  },
+  {
+   "vod_offset": 4994.0,
+   "vod_start": 4972.0,
+   "vod_end": 5008.0,
+   "picked_by": "both",
+   "loud_db_over_median": 16.8,
+   "text": "I want to see how they're handling that situation though.",
+   "chat_x_normal": 5.1,
+   "chat_reactions": {
+    "funny": 26,
+    "hype": 4,
+    "fail": 1
+   },
+   "chat_sample": [
+    "u suck",
+    "LOL",
+    "LMFAOOAOAOAO",
+    "CINEMA",
+    "NotLikeThis",
+    "DOG",
+    "RUNNNNNNNNN",
+    "LMAOOOO"
+   ]
+  },
+  {
+   "vod_offset": 5168.0,
+   "vod_start": 5146.0,
+   "vod_end": 5182.0,
+   "picked_by": "both",
+   "loud_db_over_median": 13.8,
+   "text": "Yo, can I sell this car? Okay. I shot a car. Yo! She had a car for the explode. No! No! No! Is there anything in the trunk? Oh! This is shit. Is it gonna- Will it blow up or does it just- Can I like put- No! No!",
+   "chat_x_normal": 3.8,
+   "chat_reactions": {
+    "funny": 14,
+    "hype": 12,
+    "bye": 2
+   },
+   "chat_sample": [
+    "BROOO",
+    "later",
+    "pfft",
+    "Does that answer your question",
+    "pfft",
+    "UR SO ASS",
+    "not if u fucking explode it",
+    "Gg"
+   ]
+  },
+  {
+   "vod_offset": 6065.0,
+   "vod_start": 6043.0,
+   "vod_end": 6079.0,
+   "picked_by": "both",
+   "loud_db_over_median": 6.6,
+   "text": "Right you thought about getting a veteran's loan. I got some moolah. Yeah, I got in some trouble in the army We didn't leave on the best of terms They don't give loans or anything to people like me okay well, I Don't know how to say this is Dogshit like total ass the computer won't even let me get you an account much less one of our rights products What the fuck? Okay. So what's the plan? Are you bullshitting me? We need a cool sign on the count. We need a cool sign I'm sorry. I'll sign up. Yeah, but you're a bank Isn't that what you do?",
+   "chat_x_normal": 6.5,
+   "chat_reactions": {
+    "funny": 15,
+    "hype": 4,
+    "huh": 1
+   },
+   "chat_sample": [
+    "damn SAJ",
+    "UR GAME LOOKK HELLA GOOD WTF",
+    "gg",
+    "geeg",
+    "pfft",
+    "o",
+    "@bonsai_tr33s !fuck @bonsai_tr33s",
+    "LMAO"
+   ]
+  },
+  {
+   "vod_offset": 6163.0,
+   "vod_start": 6141.0,
+   "vod_end": 6177.0,
+   "picked_by": "both",
+   "loud_db_over_median": 8.5,
+   "text": "She mad, sassy attitude. Good. We go. No, not really. You want some pizza? Well, I like a necklace. Who's paying? I'll get it. You can buck me. You can buck you. Yeah, buck me. Ha ha ha, buck me. Buck me, nigga. Buck me, nigga. Crack my shit open, Mo. That's how I feel like. That's how I feel like I got to talk to Lucia. Crack my shit open, B. Yo, you see that you's going to be a soccer player. Fuck. Aww. Tommy's getting so big. Yeah. He looks strong ass. He's not baby anymore. He's almost a little boy. Big dumb ass. Big dumb ass. He's going to be missing all of this.",
+   "chat_x_normal": 6.3,
+   "chat_reactions": {
+    "huh": 39,
+    "funny": 3,
+    "hype": 2
+   },
+   "chat_sample": [
+    "SiiiiilverSurffffeeer subscribed with Prime. They've subscribed for 54 months! ",
+    "CHILL",
+    "thats the latina way though lol",
+    "@kylee_evangelista Very big",
+    "buck her",
+    "poor girl",
+    "k",
+    "Ouu"
+   ]
+  },
+  {
+   "vod_offset": 6285.0,
+   "vod_start": 6263.0,
+   "vod_end": 6299.0,
+   "picked_by": "both",
+   "loud_db_over_median": 15.2,
+   "text": "",
+   "chat_x_normal": 4.0,
+   "chat_reactions": {
+    "funny": 47,
+    "huh": 1,
+    "hype": 1
+   },
+   "chat_sample": [
+    "O",
+    "LMAOOOOO",
+    "sob",
+    "GREG????????????",
+    "O MAAAAAAA",
+    "GREGGED",
+    "PAYING HOMAGE TO YRG",
+    "OMAAAA"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 4895.0,
+    "vod_start": 4873.0,
+    "vod_end": 4909.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.5,
+    "text": "The real ministry follows.",
+    "chat_x_normal": 2.1,
+    "chat_reactions": {
+     "funny": 10,
+     "huh": 2,
+     "scare": 2
+    },
+    "chat_sample": [
+     "LMFOAOAOAO",
+     "AH",
+     "LOL",
+     "?",
+     "OV",
+     "...",
+     "AHHHH",
+     "LMFAOOO"
+    ]
+   },
+   {
+    "vod_offset": 5053.0,
+    "vod_start": 5031.0,
+    "vod_end": 5067.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 15.6,
+    "text": "I thought that was- I'm a retard. I thought that was going after them! Fuckin' way it goes wrong!",
+    "chat_x_normal": 1.9,
+    "chat_reactions": {
+     "huh": 6,
+     "funny": 3,
+     "bye": 1
+    },
+    "chat_sample": [
+     "ARE YOU FOOKIN SPED",
+     "yrgeDance yrgeDance yrgeDance",
+     "DUMBAHH NGA",
+     "Lmaooo bro what",
+     "Nigga, you killed them and hit a cop",
+     "dwerking",
+     "WeDidThat WeDidThat WeDidThat",
+     "jah"
+    ]
+   },
+   {
+    "vod_offset": 5404.0,
+    "vod_start": 5382.0,
+    "vod_end": 5418.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.3,
+    "text": "What's wrong nigga? Shit a cafe wait Oh",
+    "chat_x_normal": 1.7,
+    "chat_reactions": {
+     "funny": 11
+    },
+    "chat_sample": [
+     "folded sob",
+     "youre gonan die",
+     "RUNN",
+     "wait they might knock u out sobb",
+     "LMAOOOO",
+     "NAH FIGHT BACK",
+     "you cant fight for shit",
+     "NIGGA FINNA LOSE TO NPCS"
+    ]
+   },
+   {
+    "vod_offset": 5479.0,
+    "vod_start": 5457.0,
+    "vod_end": 5493.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 16.5,
+    "text": "Nobody seen this crime, so we should be good, right? I'm gonna fall cold bitch. I want you to bend this corner like",
+    "chat_x_normal": 0.5,
+    "chat_reactions": {
+     "funny": 11,
+     "hype": 2,
+     "huh": 1
+    },
+    "chat_sample": [
+     "@kevkent0 LOL",
+     "LOL",
+     "cant even say youre roleplaying a 30 year old cause you are one LOL",
+     "LOL",
+     "gg",
+     "geeg",
+     "CAUGHT",
+     "Omggg"
+    ]
+   }
+  ],
+  "chat_only": [
+   {
+    "vod_offset": 4698.0,
+    "vod_start": 4676.0,
+    "vod_end": 4712.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -4.1,
+    "text": "No, you piece of shit! You're washing your hands! Move!",
+    "chat_x_normal": 5.3,
+    "chat_reactions": {
+     "funny": 15,
+     "hype": 2,
+     "huh": 2
+    },
+    "chat_sample": [
+     "gg",
+     "wht was that noise",
+     "LOL",
+     "he is not that stealthy mhm",
+     "ok",
+     "pfft",
+     "???",
+     "LMFAO"
+    ]
+   },
+   {
+    "vod_offset": 5699.0,
+    "vod_start": 5677.0,
+    "vod_end": 5713.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -8.1,
+    "text": "And not cutting us in not even giving us free topic those teenagers behind the 24-7 we're legit What is it you get off on causing problems No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, just take it easy. We're good And undo a minute what I do",
+    "chat_x_normal": 5.5,
+    "chat_reactions": {
+     "funny": 13,
+     "hype": 7,
+     "huh": 2
+    },
+    "chat_sample": [
+     "Gg",
+     "sobb",
+     "O",
+     "TMZ POV",
+     "o",
+     "LMFOAAAOAAO",
+     "i hope you get arrested",
+     "ur a creep"
+    ]
+   }
+  ]
+ }
+}
