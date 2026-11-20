@@ -461,6 +461,25 @@
     "youtube"
    ],
    "note": "Live Hunter (ClipSpeed live 11-19 evening). 27 s, hand-checked captions, logo overlay. Never FB or X."
+  },
+  {
+   "name": "LACY_PolarBear",
+   "streamer": "lacy",
+   "campaign": "LACY",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-93/LACY_PolarBear/LACY_PolarBear_HQ.mp4",
+   "caption": "LACY found out GTA 6 has a random event where you can free a polar bear 🐻‍❄️ \"No way the bear's just gonna get let out\"… it did not go well 😭 #LACY #gta6 #gta6gameplay",
+   "yt_title": "LACY Found Out You Can Free a Polar Bear in GTA 6 🐻‍❄️ #shorts #LACY #gta6",
+   "cover_ms": 25500,
+   "part": null,
+   "hook_type": "mechanic",
+   "vod": "2933767012",
+   "start": 44643,
+   "end": 44718,
+   "clip": null,
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-20T04:35Z",
+   "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD."
   }
  ]
 }
