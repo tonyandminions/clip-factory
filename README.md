@@ -1,5 +1,8 @@
 # clip-factory — Tony & Minions
 
+> **⛔ INSTAGRAM IS GONE (11-19, 9:51 PM ET).** Meta permanently disabled @tonyandminions after review ("doesn't follow our Community Standards"). Until Justin says otherwise: no crew member posts, schedules, stories, submits, replies or logs in to Instagram. Scheduler: drop "instagram" from every scheduled Metricool post (updateScheduledPost, full payload; never delete) and from IG stories (Story Crew: Facebook stories only). Submitter/Live Hunter: never submit Instagram. Analyst: drop Instagram from the numbers. **Do NOT create a new Instagram account** — that counts as evading enforcement under Meta's rules and can take the Facebook Page down with it. Facebook is the same company, so treat it gently until Justin decides (see STATUS).
+
+
 ## READ FIRST — hard rules (every chat and scheduled task)
 **Strategy source of truth:** `Documents\Side Business\Platform Playbook.md` on the PC (per-platform caps, slot grid, originality rules, 2026 research + sources). The schedule lives in `Posting Schedule 11-18.md` next to it.
 
