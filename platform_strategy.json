@@ -1,6 +1,6 @@
 {
  "_what": "Per-platform strategy, learned from our own numbers. The Analyst updates it every night (Justin 11-19: learn after every post, keep adjusting each platform until it's mastered). The Scheduler uses 'route' to decide which clip goes to which platform; the Clip Finder uses 'want' to decide what to look for. Evidence lines are dated; small samples are marked as such.",
- "_updated": "2026-11-19 23:45 ET, Analyst nightly",
+ "_updated": "2026-11-20 Main chat: facebook.page + facebook.safety (Facebook setup + safety, Justin 11-20)",
  "cross_platform": [
   "The same clip lands very differently per platform, so routing matters more than volume: BP traffic = IG 1,385 / TT 227 / YT 1; LACY Part 2 (dying costs ALL your money) = IG 1,534 / FB 475 / YT 28 / TT 16; Speed download countdown = YT 1,366 / IG 153 / TT 0.",
   "A slot may carry two different clips split by platform (e.g. 18:10: story clip to IG+FB, mechanic clip to TT+YT) when that fits better. Daily caps per platform still hold.",
@@ -94,7 +94,33 @@
    "name": "series vs standalone",
    "plan": "Alternate Part series and standalone story clips; compare views per Reel after 6 Reels.",
    "baseline": "344-589 views"
-  }
+  },
+  "page": {
+   "name": "Tony & Minions",
+   "url": "https://www.facebook.com/profile.php?id=61596397363823",
+   "page_status_url": "https://www.facebook.com/page_status/61596397363823",
+   "status_2026_11_20": "Page has no issues; account no restrictions; Recommendations active; Monetization not eligible",
+   "admins": "1 (Justin's T&M profile) - Justin deciding on a backup admin",
+   "moderation_assist": [
+    "hide comments with links",
+    "hide profanity",
+    "hide authors with no friends or followers"
+   ],
+   "featured": "YourRAGE brushing-teeth reel (1.5K views, top FB reel 11-20)",
+   "links": [
+    "YouTube",
+    "TikTok",
+    "X"
+   ]
+  },
+  "safety": [
+   "no engagement bait (like/share/tag/comment-for asks) in captions, stories or replies",
+   "max 3 hashtags",
+   "credit the streamer in every caption",
+   "skip clips with music playing; never dispute or re-upload a removed reel; any IP notice = 48 h pause + tell Justin",
+   "never share into Groups, cross-post to other Pages, boost, or create another Page/profile",
+   "never touch Accounts Center, Page access, name/username, linked accounts"
+  ]
  },
  "youtube": {
   "health_metric": "Views after 48 h per Short and any 'Potential limitation' label in YouTube Studio.",

@@ -221,11 +221,12 @@
    "hook_type": "mechanic",
    "vod": "2933174196",
    "status": "scheduled",
-   "slot": "2026-11-21 09:10",
+   "slot": "2026-11-26 15:10",
    "added": "2026-11-19T14:05Z",
    "platforms": "YT FB",
    "x_slot": "2026-11-24 11:10",
-   "platforms_scheduled": "FB"
+   "platforms_scheduled": "FB",
+   "note": "FB moved 11-21 09:10 -> 11-26 15:10 (11-20, room for the FB welcome post under the 2/day cap)"
   },
   {
    "name": "KREEK_CrocBet",
