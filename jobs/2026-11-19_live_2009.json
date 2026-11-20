@@ -1,0 +1,49 @@
+[
+ {
+  "name": "KREEK_TowerEasterEgg",
+  "post": true,
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_afabf701-7253-4fb2-9439-d57d988b5cc2_1795135449645.mp4",
+   "gen_utc": "2026-11-20T00:44:09Z",
+   "back": 240,
+   "pad": "4,3"
+  },
+  "ss": 0,
+  "to": 300,
+  "segments": [
+   [
+    36.8,
+    46.0
+   ],
+   [
+    103.7,
+    108.7
+   ],
+   [
+    136.1,
+    151.7
+   ],
+   [
+    172.5,
+    178.1
+   ]
+  ],
+  "title": [
+   "KreekCraft climbed the tallest tower",
+   "*in GTA 6 for a secret easter egg"
+  ],
+  "cam": "0,118,420,428",
+  "camfit": true,
+  "game": "440,180,1360,765",
+  "style": 7,
+  "captions": "auto",
+  "overlay": {
+   "url": "https://crusercontent.com/organizations/43893b4f-434d-549b-9037-4f1c62984ff2/campaigns/references/assets/a6688393-4374-492e-8ec3-059554a1870f.webp",
+   "w": 640,
+   "x": "(main_w-overlay_w)/2",
+   "y": "1490"
+  }
+ }
+]
