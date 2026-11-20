@@ -31,7 +31,7 @@
    "skip_streamers": [
     "ishowspeed"
    ],
-   "per_day": 3,
+   "per_day": 1,
    "throttled_per_day": 1
   },
   "experiment": {
@@ -58,7 +58,7 @@
    ],
    "max_len_s": 25,
    "prime_slot": "18:10",
-   "per_day": 4
+   "per_day": 0
   },
   "experiment": {
    "name": "captions A/B",
@@ -83,7 +83,7 @@
    ],
    "parts_ok": true,
    "max_len_s": 30,
-   "per_day": 3
+   "per_day": 2
   },
   "experiment": {
    "name": "series vs standalone",
@@ -113,7 +113,7 @@
     "kreekcraft",
     "lacy"
    ],
-   "per_day": 4
+   "per_day": 2
   },
   "experiment": {
    "name": "search titles",
@@ -130,12 +130,35 @@
   ],
   "route": {
    "use": "proven winners from IG/FB of the last 48 h that haven't been on X, plus live moments; campaigns that pay on X first (LACY, Clix, AsianJeff)",
-   "per_day": 4
+   "per_day": 2
   },
   "experiment": {
    "name": "proven winners vs fresh",
    "plan": "Alternate an IG winner and a fresh clip; compare 24 h views after 8 posts.",
    "baseline": "38 views"
   }
+ },
+ "safety": {
+  "_why": "Instagram banned 11-19 on day 2; TikTok throttled day 1. README rule 0.",
+  "new_account_until": "2026-12-03",
+  "max_per_day": {
+   "tiktok": 1,
+   "youtube": 2,
+   "facebook": 2,
+   "x": 2,
+   "instagram": 0
+  },
+  "ramp": "after 2026-12-03: +1 per platform per week while health is clean, up to the normal caps",
+  "min_gap_hours_same_platform": 3,
+  "stories": {
+   "facebook": 2,
+   "instagram": 0
+  },
+  "engagement": {
+   "likes": false,
+   "max_replies_per_platform_per_run": 5,
+   "facebook_replies_from": "2026-11-27"
+  },
+  "warning_rule": "any warning/strike/claim/restriction on a platform = pause all its posting 48 h and tell Justin"
  }
 }
