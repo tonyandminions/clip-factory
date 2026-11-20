@@ -32,6 +32,15 @@ T. **TERMS OF SERVICE FIRST (Justin 11-20; Phillip flagged it in Discord). Beats
      - **Comment replies:** YouTube only, through the vidIQ API, and only if it's connected to our channel; the rest Justin answers.
      - **Account health checks:** Justin checks by hand, or a Gmail connector reads the warning emails.
      - **Fiverr:** Justin works his inbox and orders in the app; we build order clips only from links he gives us.
+   - **Allowed replacements (found 11-20; each one goes live when Justin connects it):**
+     - **Discord updates:** official webhook through the PRIVATE repo's `notify` workflow: `gh workflow run notify.yml -R tonyandminions/flyte-orders -f text="..."`. Works once Justin adds the secret `DISCORD_WEBHOOK_GENERAL`.
+     - **X posting and X numbers:** Metricool's X add-on ($10/mo; then the Scheduler posts X like the other platforms), or the Typefully connector.
+     - **YouTube comments and stats:** vidIQ connector (official YouTube API). Needs Justin to link the channel; then replies use `vidiq_reply_to_comment`.
+     - **Facebook, TikTok and YouTube comments:** Windsor.ai for Social Media connector (official APIs), optional.
+     - **Platform warnings and Fiverr messages:** Gmail connector on tony.and.minions@gmail.com (reads warning and notification emails through Google's API).
+     - **Fiverr gig live/reviews:** Fiverr connector (official, public seller data).
+     - **Twitch who's-live and top clips:** Twitch's official API (free developer app; Client ID + secret as GitHub secrets). Clip downloads through the official API only work for the streamer or their editors.
+     - **Content Rewards:** no confirmed clipper API, so Justin submits from the Submitter's reminder.
    - Posts already scheduled inside X's, TikTok's or YouTube's own schedulers publish on their own: leave them, and don't open those sites to check.
 0. **ACCOUNT SAFETY FIRST (Justin 11-19, after Instagram was banned: "make sure this doesn't happen again"). These limits beat every other number in this README, the Playbook and any task prompt.** All our accounts are brand new, and new accounts that post a lot of other people's footage with bot-like activity get throttled (TikTok, day 1) or banned (Instagram, day 2).
    - **Ramp, don't blast.** Until **Dec 3** (first 2 weeks): max **2 posts a day** on YouTube, Facebook and X, and **1** on TikTok (while For You < 0.6). Then +1 per platform per week, only while that platform's health is clean, up to the normal caps. Live Hunter fast-lane posts count.
