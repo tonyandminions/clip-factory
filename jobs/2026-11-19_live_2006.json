@@ -1,0 +1,50 @@
+[
+ {
+  "name": "KREEK_LiveP7",
+  "probe": true,
+  "title": [
+   "KreekCraft",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_c8bd9b88-12ae-4a0a-b90c-7301eaf45ea3_1795136384667.mp4",
+   "gen_utc": "2026-11-20T00:59:44Z",
+   "back": 240,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "KREEK_LiveP8",
+  "probe": true,
+  "title": [
+   "KreekCraft",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_0e0d05dc-158b-4342-b329-1dd2810cd59a_1795136475665.mp4",
+   "gen_utc": "2026-11-20T01:01:15Z",
+   "back": 240,
+   "pad": "4,3"
+  }
+ },
+ {
+  "name": "KREEK_LiveP9",
+  "probe": true,
+  "title": [
+   "KreekCraft",
+   "*GTA 6"
+  ],
+  "live": {
+   "channel": "kreekcraft",
+   "vod": "https://www.twitch.tv/videos/2933758895",
+   "ref": "https://cdn.clipspeed.ai/clips/90b8a163-8410-4758-8a82-d482a76117c1/captioned_799b6b88-4a62-4ff8-a5ff-ebaa0e20a73a_1795136716513.mp4",
+   "gen_utc": "2026-11-20T01:05:16Z",
+   "back": 240,
+   "pad": "4,3"
+  }
+ }
+]
