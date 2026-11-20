@@ -121,6 +121,18 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 - Earlier (11-18, first ~80 min IG): BP "vs GTA 6 traffic" 646 vs LACY 127–277; "<streamer> vs GTA 6 ___" titles work.
 - Skip: long cutscene dialogue, map scrolling, real-life just-chatting, anything crude/sexual/drug.
 
+## Fresh pick — one brand-new moment in the best slot every day (route A, Justin 11-20)
+Justin: "we need a system to pull something brand new and post it right away for each day, and make sure it's the one most likely to go viral." Route A keeps rule T: bots only use official APIs, and **Justin grabs the video himself**.
+1. **Scout (8:44 AM ET, task "T&M Crew — Fresh Pick"):** `gh workflow run fresh.yml` runs `scripts/fresh_scan.py` with Twitch's OFFICIAL Helix API (secrets `TWITCH_CLIENT_ID` / `TWITCH_CLIENT_SECRET`, free dev app). It ranks the roster's GTA 6 clips from the last 24 h and writes `fresh/latest.md` + `latest.json` on the `out` branch. No video is downloaded.
+   Score (weights in `fresh_config.json`, the Analyst tunes them): views per hour + how many viewers clipped the same moment + hook (mechanic discovery > story/reaction, from our own numbers) + streamer live now + clip length 20–60 s, × campaign weight × freshness. Already-posted moments (`posted_sources.json`) and skip words (nudity, giveaways, music, cutscenes) are dropped.
+   The task reads the top 5, drops anything that breaks a campaign rule, and pushes Justin the top 2–3 with Twitch links: "Grab #1".
+2. **Justin grabs it (≈2 min):** open the Twitch link on the phone, Do Not Disturb on, full screen (landscape), screen-record from start to end, upload to Google Drive folder **"T&M Fresh Drop"** (tony.and.minions Drive, folder id `1dE2LmM4BtakH6snIdBlCRzT13iJMULCw`). A ClipSpeed download works too. The folder must be set to "Anyone with the link can view" (Justin sets it once) so the build runner can fetch it.
+3. **Build (3:44 PM ET, same task):** newest video in the drop folder since the scout → job with `"url": "https://drive.google.com/file/d/<id>/view"`, `"fit1080": true` (crops the phone's black bars, scales to 1920x1080 so the crop presets work), `"probe": true` first, then the real build (title band, hook in second 1, 15–30 s, hand-checked captions, campaign rules: KreekCraft logo overlay + caption line, AsianJeff no logos/never Facebook, etc.). Match the video to the shortlist by transcript + sheet; unsure → ask Justin, don't post.
+4. **Post at 6:10 PM** on the platforms the campaign allows, within the safety caps. The fresh pick takes that day's TikTok post; whatever held the 6:10 slot (or that day's TikTok slot) moves to a later day (never deleted). Never move SEGA #Ad posts, and never put a Part 2 before its Part 1. Register it in `posted_sources.json`; the Submitter pushes Justin the links at 6:18.
+5. **Nothing grabbed / no good moment:** the day runs on the normal schedule. Never post a weak clip just to fill the fresh slot.
+
+**Staleness rule (Scheduler, from 11-20):** a reaction/story clip (hook_type reaction/story/other) whose moment is more than 5 days old doesn't go on TikTok; more than 7 days old it is held back (Metricool `draft: true`, never deleted). Mechanic clips (people keep searching them) stay usable up to 14 days. SEGA #Ad dates are fixed.
+
 ## Live route (ClipSpeed → VOD)
 `"live": {"channel","vod","ref","gen_utc","back","pad"}` downloads the VOD window and finds the
 ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
@@ -128,6 +140,7 @@ ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window m
 Each job gets its own runner (matrix), so push many probes at once.
 
 ## Live fast lane (Live Hunter, from 11-19)
+**PAUSED 11-20 (rule T): the Live Hunter used the browser on Twitch/ClipSpeed/Content Rewards. Replaced by "Fresh pick" above.**
 For a moment caught live by ClipSpeed, speed beats the slot grid:
 1. Build our own edit with the `live` route (campaign rules as usual: KreekCraft logo overlay + caption, #Name hashtags, no links). Check preview.jpg + caps.json.
 2. Post it NOW in place of the next paid slot that hasn't gone out yet today (11:10 / 18:10 / 20:10), on that slot's platforms (+ X natively for campaigns that pay on X). Move the clip that was in that slot to the next open 9:10 slot (Scheduler's FRESH FIRST rule), with its story teaser and any one-shot submit task. Never delete posts. Same number of posts per day, so the caps hold.

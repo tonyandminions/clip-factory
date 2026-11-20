@@ -1,0 +1,42 @@
+name: fresh-scan
+
+# Daily fresh pick, step 1 (route A, 11-20): rank the newest GTA 6 moments with Twitch's OFFICIAL API.
+# No video is downloaded here. Started by the "T&M Crew — Fresh Pick" scheduled task:
+#   gh workflow run fresh.yml -R tonyandminions/clip-factory
+# Output: branch out, folder fresh/ (latest.md, latest.json, <stamp>.json).
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: fresh-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rank fresh moments (Twitch Helix API)
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: |
+          python3 scripts/fresh_scan.py --out /tmp/fresh
+          cat /tmp/fresh/latest.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish to the 'out' branch
+        run: |
+          git config user.name "clip-factory-bot"; git config user.email "actions@users.noreply.github.com"
+          for attempt in 1 2 3 4 5 6; do
+            git fetch -q --depth=1 origin out && git checkout -q -f -B out origin/out
+            mkdir -p fresh && cp /tmp/fresh/* fresh/
+            git add fresh && git commit -qm "fresh scan ${{ github.run_number }}" || true
+            if git push -q origin out; then echo "Published to branch out/fresh"; break; fi
+            sleep $((attempt * 3))
+          done

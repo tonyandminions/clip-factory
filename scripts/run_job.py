@@ -34,6 +34,23 @@ def sh(*cmd, timeout=900):
 def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
 
+def fit_1080(src, od):
+    """Crop the black bars a phone screen recording adds, then scale to the 1920x1080 frame the
+    crop presets expect. If what's left isn't roughly 16:9 (e.g. a vertical recording), pad instead."""
+    log = subprocess.run(["ffmpeg", "-v", "info", "-ss", "1", "-t", "6", "-i", src, "-vf", "cropdetect=24:2:0",
+                          "-f", "null", "-"], capture_output=True, text=True).stderr
+    m = re.findall(r"crop=(\d+):(\d+):(\d+):(\d+)", log)
+    vf = "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1"
+    if m:
+        w, h, x, y = map(int, m[-1])
+        if h and 1.6 <= w / h <= 1.95:
+            vf = f"crop={w}:{h}:{x}:{y},scale=1920:1080,setsar=1"
+    out = os.path.join(od, "fit.mp4")
+    sh("ffmpeg", "-v", "error", "-y", "-i", src, "-vf", vf, "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
+       "-crf", "16", "-c:a", "aac", "-b:a", "192k", out)
+    os.replace(out, src)
+
+
 def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
@@ -76,6 +93,8 @@ def run(job):
         sh("cp", job["file"], src)
     else:
         sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4", "-o", src, job["url"])
+    if job.get("fit1080"):  # phone screen recording / ClipSpeed download (fresh pick, route A) -> clean 1920x1080
+        fit_1080(src, od)
     # "segments": [[s,e],...] in source seconds — keep only these parts (cuts dead air), joined in order.
     segs = job.get("segments")
     if segs and not job.get("probe"):

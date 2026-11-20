@@ -1,0 +1,201 @@
+{
+  "_note": "Settings for scripts/fresh_scan.py (daily fresh pick, route A, from 11-20). The Analyst tunes the weights from real results; log each change in README 'Fresh pick'.",
+  "game_name": "Grand Theft Auto VI",
+  "hours": 24,
+  "top": 5,
+  "roster": {
+    "kreekcraft": {
+      "campaign": "KreekCraft",
+      "weight": 1.3,
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ],
+      "note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X"
+    },
+    "lacy": {
+      "campaign": "LACY",
+      "weight": 1.25,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook",
+        "x"
+      ]
+    },
+    "clix": {
+      "campaign": "Clix",
+      "weight": 1.2,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook",
+        "x"
+      ]
+    },
+    "yourragegaming": {
+      "campaign": "YourRAGE",
+      "weight": 1.15,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ],
+      "note": "check the transcript for slurs"
+    },
+    "jasontheween": {
+      "campaign": "JasonTheWeen",
+      "weight": 1.1,
+      "until": "2026-11-30",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "asianjeff": {
+      "campaign": "AsianJeff",
+      "weight": 0.9,
+      "until": "2026-11-26",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "x"
+      ],
+      "note": "pays only past 10K views/clip; never Facebook; no logos"
+    },
+    "bobby_vanriper": {
+      "campaign": "BobbyVanRiper",
+      "weight": 0.5,
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    "theburntpeanut": {
+      "campaign": "growth",
+      "weight": 0.8,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "missmikkaa": {
+      "campaign": "growth",
+      "weight": 0.7,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "realkatieb": {
+      "campaign": "growth",
+      "weight": 0.7,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ]
+    }
+  },
+  "expired_weight": 0.6,
+  "hook_words": {
+    "mechanic": [
+      "found out",
+      "find out",
+      "discover",
+      "you can",
+      "can you",
+      "didn't know",
+      "didnt know",
+      "new feature",
+      "mechanic",
+      "gas",
+      "fuel",
+      "money",
+      "cost",
+      "bill",
+      "price",
+      "$",
+      "repair",
+      "cops",
+      "police",
+      "wanted",
+      "jail",
+      "arrest",
+      "hospital",
+      "toll",
+      "tax",
+      "gym",
+      "workout",
+      "phone",
+      "text",
+      "instagram",
+      "heist",
+      "robbery",
+      "rob ",
+      "bank",
+      "easter egg",
+      "secret",
+      "hidden",
+      "glitch",
+      "physics",
+      "realistic",
+      "ai ",
+      "npc",
+      "wildlife",
+      "alligator",
+      "gator",
+      "shark",
+      "plane",
+      "boat",
+      "first time",
+      "first ever",
+      "never seen"
+    ],
+    "story": [
+      "explain",
+      "mom",
+      "dad",
+      "chat",
+      "reaction",
+      "rage",
+      "scream",
+      "crying",
+      "lost it",
+      "can't stop",
+      "funniest",
+      "lmao",
+      "lol",
+      "bro",
+      "why"
+    ]
+  },
+  "skip_words": [
+    "nsfw",
+    "naked",
+    "nude",
+    "strip",
+    "boob",
+    "sex",
+    "giveaway",
+    "sub goal",
+    "subathon",
+    "donation",
+    "dono",
+    "ad break",
+    "sponsor",
+    "cutscene",
+    "ending spoiler",
+    "music",
+    "song",
+    "dj"
+  ],
+  "min_duration": 12,
+  "ideal_duration": [
+    20,
+    60
+  ]
+}
