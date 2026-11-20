@@ -27,7 +27,8 @@
    "status": "scheduled",
    "slot": "2026-11-20 15:10",
    "part": null,
-   "platforms": "FB"
+   "platforms": "FB",
+   "platforms_scheduled": "FB"
   },
   {
    "name": "CLIX_FirstMission",
@@ -35,17 +36,19 @@
    "status": "scheduled",
    "slot": "2026-11-20 18:10",
    "part": null,
-   "platforms": "TT IG YT FB",
-   "x_slot": "2026-11-20 18:10"
+   "platforms": "TT YT FB",
+   "x_slot": "2026-11-20 18:10",
+   "platforms_scheduled": "YT"
   },
   {
    "name": "LACY_Robbery",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-20 20:10",
+   "slot": "2026-11-26 20:10",
    "part": null,
-   "platforms": "TT IG",
-   "x_slot": "2026-11-20 20:10"
+   "platforms": "TT",
+   "x_slot": "2026-11-23 18:10",
+   "platforms_scheduled": "TT"
   },
   {
    "name": "LACY_Seaplane_P1",
@@ -56,36 +59,40 @@
     "series": "LACY seaplane",
     "n": 1
    },
-   "platforms": "TT IG YT FB",
-   "x_slot": "2026-11-21 18:10"
+   "platforms": "TT YT FB",
+   "x_slot": "2026-11-21 18:10",
+   "platforms_scheduled": "FB YT"
   },
   {
    "name": "LACY_Seaplane_P2",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-21 20:10",
+   "slot": "2026-11-22 09:10",
    "part": {
     "series": "LACY seaplane",
     "n": 2
    },
-   "platforms": "TT IG",
-   "x_slot": "2026-11-21 20:10"
+   "platforms": "TT",
+   "x_slot": "2026-11-22 11:10",
+   "platforms_scheduled": "FB YT"
   },
   {
    "name": "MIKKAA_WomanDriver",
    "streamer": "missmikkaa",
    "status": "scheduled",
-   "slot": "2026-11-21 15:10",
+   "slot": "2026-11-23 15:10",
    "part": null,
    "platforms": "FB",
-   "x_slot": "2026-11-21 15:10"
+   "x_slot": "2026-11-21 15:10",
+   "platforms_scheduled": "FB"
   },
   {
    "name": "LACY_StrayDog",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-22 09:10",
-   "platforms": "IG YT FB"
+   "slot": "2026-11-24 18:10",
+   "platforms": "YT FB",
+   "platforms_scheduled": "FB YT"
   },
   {
    "name": "KATIE_WorstGameplay",
@@ -93,15 +100,17 @@
    "status": "scheduled",
    "slot": "2026-11-22 15:10",
    "platforms": "FB",
-   "x_slot": "2026-11-22 15:10"
+   "x_slot": "2026-11-22 15:10",
+   "platforms_scheduled": "FB"
   },
   {
    "name": "LACY_JetSki",
    "streamer": "lacy",
    "status": "scheduled",
-   "slot": "2026-11-22 20:10",
-   "platforms": "TT IG",
-   "x_slot": "2026-11-22 20:10"
+   "slot": "2026-11-28 20:10",
+   "platforms": "TT",
+   "x_slot": "2026-11-25 11:10",
+   "platforms_scheduled": "TT"
   },
   {
    "name": "LACY_N29_Helicopter",
@@ -134,11 +143,12 @@
    "end": 6166,
    "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
    "status": "scheduled",
-   "slot": "2026-11-29 09:10",
+   "slot": "2026-11-25 09:10",
    "added": "2026-11-18T22:12Z",
    "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text). | 11-19 19:54 Live Hunter: moved from 11-19 20:10 (TT IG) to 11-29 9:10 IG only (fast-lane KreekCraft took 20:10); story teaser moved to 11-29 10:00.",
-   "platforms": "IG",
-   "x_slot": "2026-11-20 15:10"
+   "platforms": "",
+   "x_slot": "2026-11-23 11:10",
+   "platforms_scheduled": "FB"
   },
   {
    "name": "JASON_PS5Off",
@@ -158,7 +168,7 @@
    "status": "scheduled",
    "slot": "2026-11-19 10:38",
    "added": "2026-11-19T04:20Z",
-   "platforms": "IG YT"
+   "platforms": "YT"
   },
   {
    "name": "BP_ChopShop",
@@ -176,10 +186,11 @@
    "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
    "note": "23.3s; Moses chop shop at Watkins Auto + 'come back later' cooldown. Skips the 'drive-by' line at the start of the Twitch clip. Different moment from BP_StolenCarMod (4472).",
    "status": "scheduled",
-   "slot": "2026-11-22 11:10",
+   "slot": "2026-11-24 20:10",
    "added": "2026-11-19T04:20Z",
-   "platforms": "TT IG YT",
-   "x_slot": "2026-11-22 11:10"
+   "platforms": "TT YT",
+   "x_slot": "2026-11-24 18:10",
+   "platforms_scheduled": "TT"
   },
   {
    "name": "RAGE_BrushTeeth",
@@ -195,7 +206,7 @@
    "status": "scheduled",
    "slot": "2026-11-19 18:10",
    "added": "2026-11-19T14:05Z",
-   "platforms": "TT IG YT FB",
+   "platforms": "TT YT FB",
    "x_slot": "2026-11-19 20:10"
   },
   {
@@ -212,8 +223,9 @@
    "status": "scheduled",
    "slot": "2026-11-21 09:10",
    "added": "2026-11-19T14:05Z",
-   "platforms": "IG YT FB",
-   "x_slot": "2026-11-21 11:10"
+   "platforms": "YT FB",
+   "x_slot": "2026-11-24 11:10",
+   "platforms_scheduled": "FB"
   },
   {
    "name": "KREEK_CrocBet",
@@ -229,7 +241,7 @@
    "status": "scheduled",
    "slot": "2026-11-19 15:10",
    "added": "2026-11-19T15:57Z",
-   "platforms": "TT IG YT",
+   "platforms": "TT YT",
    "x_slot": null,
    "metricool_uuid": "-2570033201939398338"
   },
@@ -245,11 +257,12 @@
    "hook_type": "reaction",
    "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
    "status": "scheduled",
-   "slot": "2026-11-20 11:10",
+   "slot": "2026-11-23 18:10",
    "added": "2026-11-19T15:57Z",
-   "platforms": "TT IG YT",
+   "platforms": "TT YT",
    "x_slot": null,
-   "metricool_uuid": "1461181023084758769"
+   "metricool_uuid": "1461181023084758769",
+   "platforms_scheduled": "TT YT"
   },
   {
    "name": "KREEK_CCTV_v2",
@@ -263,7 +276,6 @@
    "hook_type": "mechanic",
    "platforms": [
     "tiktok",
-    "instagram",
     "youtube"
    ],
    "vod": "2932147800",
@@ -308,7 +320,6 @@
    "clip": "CulturedColdbloodedTriangleCoolStoryBob-CVvhH4OV8Rcf7Att",
    "platforms": [
     "tiktok",
-    "instagram",
     "youtube",
     "x"
    ],
@@ -332,7 +343,6 @@
    "clip": "TentativeOutstandingTaroAliens-9it_KQjYIGpwfPkh",
    "platforms": [
     "tiktok",
-    "instagram",
     "youtube",
     "x"
    ],
@@ -356,7 +366,6 @@
    "clip": "HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
    "platforms": [
     "tiktok",
-    "instagram",
     "youtube",
     "x"
    ],
@@ -435,7 +444,7 @@
    "status": "scheduled",
    "slot": "2026-11-19 19:58",
    "added": "2026-11-20T00:54Z",
-   "platforms": "TT IG",
+   "platforms": "TT",
    "note": "Live Hunter fast lane (ClipSpeed live, 20:10 slot). 28 s. Metricool uuid -3080182421824191625."
   },
   {
@@ -457,7 +466,6 @@
    "added": "2026-11-20T01:22Z",
    "platforms": [
     "tiktok",
-    "instagram",
     "youtube"
    ],
    "note": "Live Hunter (ClipSpeed live 11-19 evening). 27 s, hand-checked captions, logo overlay. Never FB or X."

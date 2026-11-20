@@ -68,7 +68,7 @@
    "start": 24961,
    "end": 24977,
    "status": "scheduled",
-   "date": "2026-11-19 10:38",
+   "date": "2026-11-26 09:10",
    "approx": true
   },
   {
@@ -100,7 +100,7 @@
    "start": 32295,
    "end": 32345,
    "status": "scheduled",
-   "date": "2026-11-19 18:20",
+   "date": "2026-11-23 09:10",
    "approx": true
   },
   {
@@ -136,8 +136,8 @@
    "end": 9169,
    "clip": "RelentlessSneakyPorcupineM4xHeh-7XksXXaQHXFQSsy2",
    "status": "scheduled",
-   "date": "2026-11-18 21:50",
-   "x": "2026-11-22 18:10"
+   "date": "2026-11-25 18:10",
+   "x": "2026-11-25 18:10"
   },
   {
    "name": "BP_StolenCarMod",
@@ -147,7 +147,7 @@
    "end": 4508,
    "clip": "ComfortableLachrymosePeppermintDendiFace-Aui_95KVt5WTgUSb",
    "status": "scheduled",
-   "date": "2026-11-19 13:50"
+   "date": "2026-11-24 20:10"
   },
   {
    "name": "BP_OneFrame",
@@ -157,7 +157,7 @@
    "end": 1452,
    "clip": "ShyUninterestedKangarooStrawBeary-obcmxt2flreroqBn",
    "status": "scheduled",
-   "date": "2026-11-20 11:10"
+   "date": "2026-11-28 09:10"
   },
   {
    "name": "CLIX_PlaneCrash",
@@ -178,7 +178,7 @@
    "end": 8310,
    "clip": "ManlyProudPidgeonBloodTrail-PjN9TVhQ1zqg3GPr",
    "status": "scheduled",
-   "date": "2026-11-19 15:12"
+   "date": "2026-11-24 09:10"
   },
   {
    "name": "SPEED_Escape",
@@ -266,9 +266,9 @@
    "end": 3752,
    "clip": "TiredCrepuscularLettuceTebowing-_ckSEJKNEXXBWDj1",
    "status": "scheduled",
-   "date": "2026-11-20 20:10",
+   "date": "2026-11-26 20:10",
    "caption": "first store robbery",
-   "x": "2026-11-20 20:10"
+   "x": "2026-11-23 18:10"
   },
   {
    "name": "LACY_Seaplane_P1",
@@ -277,7 +277,7 @@
    "start": 28738,
    "end": 28756,
    "status": "scheduled",
-   "date": "2026-11-21 09:10",
+   "date": "2026-11-21 18:10",
    "caption": "seaplane drug drop (Part 1)",
    "approx": true,
    "part": {
@@ -293,14 +293,14 @@
    "start": 28874,
    "end": 28890,
    "status": "scheduled",
-   "date": "2026-11-21 15:10",
+   "date": "2026-11-22 09:10",
    "caption": "cops noticed the seaplane (Part 2)",
    "approx": true,
    "part": {
     "series": "LACY seaplane",
     "n": 2
    },
-   "x": "2026-11-21 20:10"
+   "x": "2026-11-22 11:10"
   },
   {
    "name": "MIKKAA_WomanDriver",
@@ -310,7 +310,7 @@
    "end": 11918,
    "clip": "ResourcefulFragileBeaverKeyboardCat-fFXH9uAplLYQMPGB",
    "status": "scheduled",
-   "date": "2026-11-21 18:10",
+   "date": "2026-11-23 15:10",
    "caption": "stole Jason's truck / woman driver",
    "x": "2026-11-21 15:10"
   },
@@ -363,7 +363,7 @@
    "name": "LACY_StrayDog",
    "streamer": "lacy",
    "status": "scheduled",
-   "date": "2026-11-22 09:10",
+   "date": "2026-11-24 18:10",
    "caption": "tried to adopt a stray dog",
    "note": "ClipSpeed ref 20:27 UTC (LACY_N23), approx VOD offset ~36000"
   },
@@ -383,10 +383,10 @@
    "name": "LACY_JetSki",
    "streamer": "lacy",
    "status": "scheduled",
-   "date": "2026-11-22 20:10",
+   "date": "2026-11-28 20:10",
    "caption": "jet ski ramps race",
    "note": "ClipSpeed ref 19:18 UTC (LACY_N03)",
-   "x": "2026-11-22 20:10"
+   "x": "2026-11-25 11:10"
   },
   {
    "name": "LACY_LuciaFirstTime_otherchat",
@@ -422,7 +422,7 @@
    "name": "SEGA_Official2_Full",
    "streamer": "sega",
    "status": "scheduled",
-   "date": "2026-11-21 11:10",
+   "date": "2026-11-22 18:10",
    "caption": "SEGA official Black Friday video (up to 85% off cut), full-screen",
    "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
   },
@@ -465,7 +465,7 @@
    "status": "scheduled",
    "slot": "2026-11-19 15:10",
    "caption": "Burnt Peanut found out you can sell stolen cars in GTA 6",
-   "x": "2026-11-22 11:10"
+   "x": "2026-11-24 18:10"
   },
   {
    "name": "JASON_GTA6Instagram",
@@ -477,7 +477,8 @@
    "status": "scheduled",
    "slot": "2026-11-19 20:10",
    "caption": "JasonTheWeen found out GTA 6 has its own Instagram",
-   "x": "2026-11-20 15:10"
+   "x": "2026-11-23 11:10",
+   "date": "2026-11-25 09:10"
   },
   {
    "name": "RAGE_BrushTeeth",
@@ -500,7 +501,8 @@
    "status": "scheduled",
    "slot": "2026-11-21 20:10",
    "caption": "YourRAGE found out you can work out at home in GTA 6",
-   "x": "2026-11-21 11:10"
+   "x": "2026-11-24 11:10",
+   "date": "2026-11-21 09:10"
   },
   {
    "name": "SKIP_RAGE_Dies",
@@ -600,7 +602,7 @@
    "streamer": "kreekcraft",
    "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
    "status": "scheduled",
-   "date": "2026-11-20 11:10",
+   "date": "2026-11-23 18:10",
    "caption": "stole grandpa's scooter"
   },
   {
