@@ -134,10 +134,10 @@
    "end": 6166,
    "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
    "status": "scheduled",
-   "slot": "2026-11-19 20:10",
+   "slot": "2026-11-29 09:10",
    "added": "2026-11-18T22:12Z",
-   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text).",
-   "platforms": "TT IG",
+   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text). | 11-19 19:54 Live Hunter: moved from 11-19 20:10 (TT IG) to 11-29 9:10 IG only (fast-lane KreekCraft took 20:10); story teaser moved to 11-29 10:00.",
+   "platforms": "IG",
    "x_slot": "2026-11-20 15:10"
   },
   {
@@ -417,6 +417,26 @@
    "status": "ready",
    "slot": null,
    "added": "2026-11-19T22:05Z"
+  },
+  {
+   "name": "KREEK_MomGTA6",
+   "streamer": "kreekcraft",
+   "campaign": "KreekCraft",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-80/KREEK_MomGTA6/KREEK_MomGTA6_HQ.mp4",
+   "caption": "A viewer's mom asked what GTA 6 is about… KreekCraft told her you rescue cats from trees 😭 \"it's a really good game for kids\"\nWatch KreekCraft on YouTube and Twitch\n#GTA6 #KreekCraft #GrandTheftAutoVI",
+   "yt_title": "KreekCraft Explains GTA 6 to a Viewer's Mom 😭 #shorts #KreekCraft #gta6",
+   "cover_ms": 23500,
+   "part": null,
+   "hook_type": "reaction",
+   "vod": "2933758895",
+   "start": 34195,
+   "end": 34252,
+   "clip": null,
+   "status": "scheduled",
+   "slot": "2026-11-19 19:58",
+   "added": "2026-11-20T00:54Z",
+   "platforms": "TT IG",
+   "note": "Live Hunter fast lane (ClipSpeed live, 20:10 slot). 28 s. Metricool uuid -3080182421824191625."
   }
  ]
 }
