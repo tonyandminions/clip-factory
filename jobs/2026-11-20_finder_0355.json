@@ -1,0 +1,61 @@
+[
+ {
+  "name": "LACY_P_Haha",
+  "url": "https://www.twitch.tv/lacy/clip/KnottyHorribleMeatloafWoofer-qHCrPk1hx8_Kk1gQ",
+  "probe": true
+ },
+ {
+  "name": "LACY_P_Wind",
+  "url": "https://www.twitch.tv/lacy/clip/SillyBoxyMangetoutCharlieBitMe-FGIt2ONN82dQJHnR",
+  "probe": true
+ },
+ {
+  "name": "LACY_P_Ricky",
+  "url": "https://www.twitch.tv/lacy/clip/SparklingMoistMosquitoTakeNRG-9lJMbP7SZ54Gtd2H",
+  "probe": true
+ },
+ {
+  "name": "BP_P_Dog",
+  "url": "https://www.twitch.tv/theburntpeanut/clip/CovertVainNoodleOMGScoots-RIIREObUlkrw-aZz",
+  "probe": true
+ },
+ {
+  "name": "JASON_P_Asta",
+  "url": "https://www.twitch.tv/jasontheween/clip/AbstemiousLazyArugulaPhilosoraptor-PKSkSsjAoCRU-xIf",
+  "probe": true
+ },
+ {
+  "name": "JASON_P_CrossFall",
+  "url": "https://www.twitch.tv/jasontheween/clip/BashfulRelatedJamCopyThis-tIOVRITdhEoyZvUS",
+  "probe": true
+ },
+ {
+  "name": "KATIE_P_BigMoment",
+  "url": "https://www.twitch.tv/realkatieb/clip/FrozenSmilingFoxTBCheesePull-jgs3gSAsgrBsjUyq",
+  "probe": true
+ },
+ {
+  "name": "FIND_scan_rage",
+  "title": [
+   "x",
+   "*x"
+  ],
+  "scan": {
+   "channel": "yourragegaming",
+   "minutes": 90,
+   "top": 6
+  }
+ },
+ {
+  "name": "FIND_scan_aj",
+  "title": [
+   "x",
+   "*x"
+  ],
+  "scan": {
+   "channel": "asianjeff",
+   "minutes": 80,
+   "top": 5
+  }
+ }
+]
