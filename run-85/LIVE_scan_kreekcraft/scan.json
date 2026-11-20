@@ -1,0 +1,146 @@
+{
+ "vod": "https://www.twitch.tv/videos/2933758895",
+ "vod_duration": 41351.0,
+ "scanned_from": 38951.0,
+ "chat_used": true,
+ "chat_messages": 366,
+ "peaks": [
+  {
+   "vod_offset": 39113.0,
+   "vod_start": 39091.0,
+   "vod_end": 39127.0,
+   "picked_by": "both",
+   "loud_db_over_median": 4.0,
+   "text": "Well, that guy's so funny Look soon we get to the lot trigger the alarm with the key find a ride Then we out when we get in there hit that button make the alarm go Chat I got a jam in 40 minutes. I got a",
+   "chat_x_normal": 2.0,
+   "chat_reactions": {
+    "hype": 2,
+    "funny": 1
+   },
+   "chat_sample": [
+    "W SNATCHER",
+    "LOL",
+    "WWWWWW"
+   ]
+  },
+  {
+   "vod_offset": 40080.0,
+   "vod_start": 40058.0,
+   "vod_end": 40094.0,
+   "picked_by": "both",
+   "loud_db_over_median": 3.9,
+   "text": "of cars out front what am I about to get distracted from you trying doors and windows",
+   "chat_x_normal": 4.0,
+   "chat_reactions": {
+    "huh": 3,
+    "funny": 1
+   },
+   "chat_sample": [
+    "@bobkatter6767676 bro is being forced to watch",
+    "YO WTF",
+    "LMAOOO",
+    "WHAT",
+    "????"
+   ]
+  },
+  {
+   "vod_offset": 40479.0,
+   "vod_start": 40457.0,
+   "vod_end": 40493.0,
+   "picked_by": "both",
+   "loud_db_over_median": 4.9,
+   "text": "Don't get things warmed up. Oh! What?! Don't you fucking do it! That's enough! Get out of there! Jay? Jay! Jason, motherfucking dupe! I know you hear me! Cue Samantha! Stop! It's my turn! Mr. Hands! And you're Rocky! Hey! That's my wife! What? I mean, nothing happened! Oh, shit! Quick craft! I think I just...",
+   "chat_x_normal": 2.6,
+   "chat_reactions": {
+    "funny": 4
+   },
+   "chat_sample": [
+    "they so cooked",
+    "YEAH",
+    "LOL",
+    "hahahaha",
+    "WHAAAATTTTT",
+    "LOL \u034f",
+    "OH",
+    "HAHA"
+   ]
+  },
+  {
+   "vod_offset": 40776.0,
+   "vod_start": 40754.0,
+   "vod_end": 40790.0,
+   "picked_by": "both",
+   "loud_db_over_median": 10.1,
+   "text": "Found a little remote. Oh fuck. All right. I got it Lou. Pull the truck around back You wash your hands Oh funny",
+   "chat_x_normal": 2.9,
+   "chat_reactions": {
+    "huh": 4,
+    "funny": 3
+   },
+   "chat_sample": [
+    "?????????????????????????????",
+    "WHATT DID THAT MAN WATCH??",
+    "@BGRickk why tf were you asking for unblur",
+    "lmfaoo",
+    "LOL",
+    "WHAT THE FUCK",
+    "u r so banned lol",
+    "What is this house bro"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 39209.0,
+    "vod_start": 39187.0,
+    "vod_end": 39223.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.5,
+    "text": "on the car from the building.",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": [
+     "spiderman",
+     "SPEED BUMP",
+     "@sulen321 MILES"
+    ]
+   },
+   {
+    "vod_offset": 39361.0,
+    "vod_start": 39339.0,
+    "vod_end": 39375.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 12.3,
+    "text": "Play being a little bitch Man, when it down just working on this shit and video and the whole world sees it, bro I'm taking that shit all the way to the back. Yes, sir Switch live stream we got How long does it say the YouTube stream has been life does it say like 10 hours 55 minutes",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": [
+     "if he does end then"
+    ]
+   },
+   {
+    "vod_offset": 40622.0,
+    "vod_start": 40600.0,
+    "vod_end": 40636.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 13.0,
+    "text": "Yeah, I can't man What the fuck what is that? Go check on that. I said no, it's gonna fuck. I said no I said no I said no I said no and my relationship with Lucia went up clean up the boys. I said no I said no I said no I Said no chat. I said no and my relationship with Lucia went up Save me from having to kick your ass. Oh Oh shit, let's just get out with it",
+    "chat_x_normal": 0.3,
+    "chat_reactions": {
+     "hype": 1
+    },
+    "chat_sample": [
+     "Quick tap",
+     "Good.",
+     "just wait there is a big ass picture in the room he has to go to",
+     "gg we locked in",
+     "thank god",
+     "CAP",
+     "GO back bro"
+    ]
+   }
+  ],
+  "chat_only": []
+ }
+}
