@@ -1,0 +1,242 @@
+{
+ "vod": "https://www.twitch.tv/videos/2933767012",
+ "vod_duration": 46890.0,
+ "scanned_from": 44190.0,
+ "chat_used": true,
+ "chat_messages": 3215,
+ "peaks": [
+  {
+   "vod_offset": 44389.0,
+   "vod_start": 44367.0,
+   "vod_end": 44403.0,
+   "picked_by": "both",
+   "loud_db_over_median": 20.3,
+   "text": "whole body some romantic shit like that in spanish I don't know hai car and you are saying oh what the fuck how you got latina girl you don't alright I'm at 43 bro and shit hey there's no way I'ma go to my latina not speaking no damn thing you didn't know what I'm talking about ha ha ha ha yo nigga oh shit hey I gotta go be on time cause I let my mama see to know I value her time you know what I'm talking about hey so yeah y'all chop it up aight",
+   "chat_x_normal": 2.0,
+   "chat_reactions": {
+    "fail": 1
+   },
+   "chat_sample": [
+    "Stare",
+    "oop.",
+    "uuh",
+    "ome44",
+    "Brother u was at 42 4 hrs ago",
+    "you havent done shit ngl",
+    "im at 31",
+    "uuh uuh uuh"
+   ]
+  },
+  {
+   "vod_offset": 44681.0,
+   "vod_start": 44659.0,
+   "vod_end": 44695.0,
+   "picked_by": "both",
+   "loud_db_over_median": 14.4,
+   "text": "Shit! What the fuck are you thinking? It's a fucking bear! Sweet sister of the North. Don't, don't, don't, don't leave! You're free now. No way the bear's just gonna get let out. It's okay, sweet sister of the North. We understand you were driven to act in violence. I armor nothing but love for me.",
+   "chat_x_normal": 3.8,
+   "chat_reactions": {
+    "funny": 5,
+    "hype": 4,
+    "huh": 3
+   },
+   "chat_sample": [
+    "WTF",
+    "gg",
+    "be careful maya is gonna watch this",
+    "wideSpeedWoah",
+    "LMAO",
+    "RUNN",
+    "LOL",
+    "RUN"
+   ]
+  },
+  {
+   "vod_offset": 46114.0,
+   "vod_start": 46092.0,
+   "vod_end": 46128.0,
+   "picked_by": "both",
+   "loud_db_over_median": 16.6,
+   "text": "Two copies give it away by the way. Yo, bro. I've given away like 12. Maybe even more How are you just cackling bro Sure, son yo, I'm literally so give it out like 14 or 15 copies why we meeting for dinner couldn't Brian just I don't know do this intro over text or something Yeah Probably just didn't want to talk",
+   "chat_x_normal": 3.2,
+   "chat_reactions": {
+    "funny": 20,
+    "huh": 1
+   },
+   "chat_sample": [
+    "Lacy you make me fill tingly",
+    "@wdios u still plat 3",
+    "IVE BEEN HERE FOR HOURS ONLY 1",
+    "KEKW \u034f",
+    "KEKW",
+    "is speed about to finish the game or what?",
+    "KEKW",
+    "KEKW"
+   ]
+  },
+  {
+   "vod_offset": 46466.0,
+   "vod_start": 46444.0,
+   "vod_end": 46480.0,
+   "picked_by": "both",
+   "loud_db_over_median": 15.8,
+   "text": "Hoppin' in the booooooooon! You know, any resort that has a full bar and a pair of beach chairs put a feet up on, yeah. It's been like a second honeymoon. A well-deserved rest. That sounds fun. I only wish I'd pulled the trigger sooner. I'm tellin' you gettin' away from the mayhem and... I'm not gonna lie, I would give Laurie back shots. Party of four, Mr. Heder. Right here? Your table is ready. Alright, let's get a move on. Follow me? Yes, ma'am.",
+   "chat_x_normal": 6.1,
+   "chat_reactions": {
+    "huh": 12,
+    "hype": 3
+   },
+   "chat_sample": [
+    "where\u2019s the za",
+    "ill crack that",
+    "Did u Crack her ?",
+    "You need to help ron",
+    "?",
+    "??",
+    "rt",
+    "?"
+   ]
+  },
+  {
+   "vod_offset": 46628.0,
+   "vod_start": 46606.0,
+   "vod_end": 46642.0,
+   "picked_by": "both",
+   "loud_db_over_median": 17.3,
+   "text": "wrapped up in we thought it'd be best if you didn't know look we got this thing it might be worth something it's encrypted the cow says you might know somebody who could help us move it look I get it you want to get out no cat here but here's a real talk though okay the guy he ain't no small potatoes he is serious and there's easier ways to make a dime than you know throwing your lot in again",
+   "chat_x_normal": 3.3,
+   "chat_reactions": {
+    "huh": 18,
+    "fail": 1
+   },
+   "chat_sample": [
+    "bro is gonna pass out like speed",
+    "???",
+    "?",
+    "HUH",
+    "???",
+    "uuh",
+    "Why is the pool shaped likee a dick",
+    "ewww"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 44593.0,
+    "vod_start": 44571.0,
+    "vod_end": 44607.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 17.8,
+    "text": "Yeah, sorry about that Okay, I'll talk to you. Yeah, yeah, he talked a bunch, but don't think you made much sense He said you knew a guy. All right, Lori and I are coming back into town How about we made for dinner? No No, Brian, I don't want to work with Brian anymore, bro",
+    "chat_x_normal": 0.4,
+    "chat_reactions": {
+     "funny": 1
+    },
+    "chat_sample": [
+     "@Maple7G Oh. I thought it was a choice thing choosing to get a haircut. I haven\u2019t been able to play yet bc I\u2019m in Japan",
+     "!watchtime",
+     "Yo I'm ngl this is taking so long",
+     "Get him a haircut",
+     "CLUB",
+     "Too bad you\u2019re broke",
+     "Go home to mandy",
+     "Can u sell the statue to yasmani"
+    ]
+   },
+   {
+    "vod_offset": 45015.0,
+    "vod_start": 44993.0,
+    "vod_end": 45029.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 18.1,
+    "text": "We'll be here in an hour and around all nervous, but Chad tell clicks. Hi It's like I was saying to Dre Y'all got any of that product y'all trying to flip You got to get in with me. Keep going. No question. You lose your life. You go keep going Synthetics. Well, like this kitty little shit. Yeah, you smoked that shit Look like I smoked that shit And you got a point homie that shit I've fucked up I kind of like this guy chat just gonna be your last Yeah, you sure",
+    "chat_x_normal": 0.2,
+    "chat_reactions": {},
+    "chat_sample": [
+     "@merto310420 if you got the money to buy it ofc they are going to make the 1000 wings",
+     "Delonte West?",
+     "zaman zaman yea thats him",
+     "U smoke ts",
+     "SHUT UP N LET US WATCH THE CUTSCENE",
+     "tell him bring cones so I can pack them"
+    ]
+   },
+   {
+    "vod_offset": 46607.0,
+    "vod_start": 46585.0,
+    "vod_end": 46621.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 17.7,
+    "text": "There needs to be a little lobster in there like oh No, it was some rough looking guys at first, but then they were followed by men in expensive suits And I got it's in the game not doordash, son scared me. Yeah, sorry about that I don't think they know who they were looking for, but you got to come clean with me Well, you got yourself wrapped up in We thought it'd be best if you didn't know You're gonna blow up my house and not tell me a thing Look, we got this thing. It might be worth something It's encrypted the cow says you might know somebody who could help us move it Look, I get",
+    "chat_x_normal": 0.6,
+    "chat_reactions": {
+     "huh": 2,
+     "funny": 1,
+     "fail": 1
+    },
+    "chat_sample": [
+     "Its money Do cheat its up right down left up left down right",
+     ".....",
+     "700 wings btw",
+     "DREW JUST SPENT $300 ON MOVIE THEATRE SNACKS ON UR CARD",
+     "HUH",
+     "wtf",
+     "why are u already talking about food i havbe been here for 5 seconds",
+     "Ayoooo"
+    ]
+   }
+  ],
+  "chat_only": [
+   {
+    "vod_offset": 45491.0,
+    "vod_start": 45469.0,
+    "vod_end": 45505.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -5.2,
+    "text": "War out there. I can't have this shit taking on my regular facts. I'm a holla at you. All right All right, cool. Drew to initiate as his vacation instead of a job Clicks wants to IRL. I mean we can't we don't have a cameraman They're all going to the movies they're on vacation paid time off Drew's on PTO right now",
+    "chat_x_normal": 3.7,
+    "chat_reactions": {
+     "funny": 8,
+     "huh": 1,
+     "fail": 1
+    },
+    "chat_sample": [
+     "check texts when u can",
+     "Lacy you\u2019re looking so good right now \ud83d\ude29 \ud83e\udd75\ud83d\ude0dI can\u2019t contain myself \ud83d\udc49\ud83d\udc48\ud83e\udd7a\ud83d\ude3b\ud83c\udf46",
+     "@Lacy let him use ur card",
+     "do you blame him",
+     "no one said that",
+     "he is",
+     "RT",
+     "Nah cus why do i have to go on twitch, click on this stream and pull my pants down"
+    ]
+   },
+   {
+    "vod_offset": 46305.0,
+    "vod_start": 46283.0,
+    "vod_end": 46319.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -6.8,
+    "text": "Hold on, Lucia. One second.",
+    "chat_x_normal": 4.6,
+    "chat_reactions": {
+     "funny": 7,
+     "huh": 7,
+     "fail": 2
+    },
+    "chat_sample": [
+     "dude sob",
+     "lowk fuck off with the ads",
+     "She looking fine af bro",
+     "...",
+     "dude sob \u034f",
+     "DUDE",
+     "WTFFFFFFFFFFFFFF",
+     "LL"
+    ]
+   }
+  ]
+ }
+}
