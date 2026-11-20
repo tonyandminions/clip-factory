@@ -437,6 +437,30 @@
    "added": "2026-11-20T00:54Z",
    "platforms": "TT IG",
    "note": "Live Hunter fast lane (ClipSpeed live, 20:10 slot). 28 s. Metricool uuid -3080182421824191625."
+  },
+  {
+   "name": "KREEK_TowerEasterEgg_v2",
+   "streamer": "kreekcraft",
+   "campaign": "KreekCraft",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-84/KREEK_TowerEasterEgg_v2/KREEK_TowerEasterEgg_v2_HQ.mp4",
+   "caption": "KreekCraft climbed the tallest tower in GTA 6 because chat swore there was an easter egg at the top… there was 😭 \"this is the greatest game of all time\"\nWatch KreekCraft on YouTube and Twitch\n#GTA6 #KreekCraft #GrandTheftAutoVI",
+   "yt_title": "KreekCraft Found a Secret Easter Egg on Top of GTA 6's Tallest Tower 😭 #shorts #KreekCraft #gta6",
+   "cover_ms": 15500,
+   "part": null,
+   "hook_type": "reaction",
+   "vod": "2933758895",
+   "start": 34331,
+   "end": 34473,
+   "clip": null,
+   "status": "ready",
+   "slot": null,
+   "added": "2026-11-20T01:22Z",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "note": "Live Hunter (ClipSpeed live 11-19 evening). 27 s, hand-checked captions, logo overlay. Never FB or X."
   }
  ]
 }
