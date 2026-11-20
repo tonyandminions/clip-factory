@@ -1,0 +1,231 @@
+{
+ "vod": "https://www.twitch.tv/videos/2934513082",
+ "vod_duration": 4892.0,
+ "scanned_from": 92.0,
+ "chat_used": true,
+ "chat_messages": 648,
+ "peaks": [
+  {
+   "vod_offset": 2342.0,
+   "vod_start": 2320.0,
+   "vod_end": 2356.0,
+   "picked_by": "both",
+   "loud_db_over_median": 11.2,
+   "text": "I wish I had a friend like this, chat. I wish I had friends to drink with and play games with, bro. Oh shit, he's fried. Oh shit. What the fu-",
+   "chat_x_normal": 1.7,
+   "chat_reactions": {
+    "funny": 1
+   },
+   "chat_sample": [
+    "GTA 6 is dumb asf",
+    "mmmmmmmhmmmmmmmm",
+    "LOL",
+    "@AsianJeff are u actually quittin fort"
+   ]
+  },
+  {
+   "vod_offset": 2450.0,
+   "vod_start": 2428.0,
+   "vod_end": 2464.0,
+   "picked_by": "both",
+   "loud_db_over_median": 7.1,
+   "text": "much You know actually my friend Andy lives near you in the keys She's my size and she said she could lend me some clothes They'll be a lot nicer than whatever trash. They're gonna get me when I get out of here So only if you have time She's gay. Let me know when to come get you. I've never had this of a homie before Actually, I have Long time ago. Holy shit. You have time ahead check the map for any tests to do. Oh my god",
+   "chat_x_normal": 2.4,
+   "chat_reactions": {
+    "huh": 2,
+    "hype": 1
+   },
+   "chat_sample": [
+    "looking at him like that while on the phone with ur girl smh",
+    "HOLY CALE",
+    "CAKE",
+    "?",
+    "?",
+    "bro give me good clips",
+    "HES CAKED UP"
+   ]
+  },
+  {
+   "vod_offset": 2814.0,
+   "vod_start": 2792.0,
+   "vod_end": 2828.0,
+   "picked_by": "both",
+   "loud_db_over_median": 9.3,
+   "text": "C'mon dude, fuck out shit do we have the groceries chat got the groceries right yo we got the groceries we got the groceries all right we out we out we out yeah we out what's up motherfucker pissed on ninja are we out to spill so so no bro the groceries say swear to god bro why did they get mad at me for hitting myself in the car it's NPC's bro I already had a bad day today bro",
+   "chat_x_normal": 1.8,
+   "chat_reactions": {
+    "funny": 2
+   },
+   "chat_sample": [
+    "No",
+    "U dropped it",
+    "YOU DROPPE THEM",
+    "lmaoooo",
+    "DUMBASSS",
+    "YOU DROPPE THE GROCERIES",
+    "TOU DRIPPED THEM",
+    "your product u buy dropped them"
+   ]
+  },
+  {
+   "vod_offset": 3671.0,
+   "vod_start": 3649.0,
+   "vod_end": 3685.0,
+   "picked_by": "both",
+   "loud_db_over_median": 8.2,
+   "text": "See, I'm so good at escaping cops. Alright. Bro, can you see the road, bro? What are you doing? Yes, bro. No, you don't. Goodbye. You can't see the road, bro. I'm gonna have to put you down now, bro. You can't see the road? You can't see the road, bro? It's never fucking happened. You understand me? You need a car, motherfucker. He...",
+   "chat_x_normal": 2.0,
+   "chat_reactions": {
+    "huh": 1
+   },
+   "chat_sample": [
+    "outfit change it dude ??",
+    "Oh no",
+    "ok",
+    "Hi"
+   ]
+  },
+  {
+   "vod_offset": 4771.0,
+   "vod_start": 4749.0,
+   "vod_end": 4785.0,
+   "picked_by": "both",
+   "loud_db_over_median": 11.9,
+   "text": "somewhere i'll give lucio a reference sure she'll appreciate it well yes i'll head back thanks again andy w andy bro yo can we get some w andies in the chat you can keep lucio clothes in your trunk but before bringing them to prison they may be lost and kept what did it say kept by a fucking vehicle summer summer summer time okay we need to put it in a car",
+   "chat_x_normal": 2.3,
+   "chat_reactions": {
+    "hype": 2
+   },
+   "chat_sample": [
+    "female58Umm",
+    "Mods",
+    "w Andy",
+    "@Deadisupon Deadisupon has spent  2 hours 50 mins watching asianjeff",
+    "anyone if I haven't played GTA 5 should I take my moms credit card and by 6 GTA 6",
+    "WWWWWWWWW",
+    "!watchtime",
+    "Thanks"
+   ]
+  }
+ ],
+ "compare": {
+  "loud_only": [
+   {
+    "vod_offset": 918.0,
+    "vod_start": 896.0,
+    "vod_end": 932.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.8,
+    "text": "Chat y'all could we y'all can't see my screen, right? We're good Yo, yo, yo, can y'all see my screen or no? Thank you for your password, what do you mean? Oh my god, bro, it's doing it",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": []
+   },
+   {
+    "vod_offset": 1272.0,
+    "vod_start": 1250.0,
+    "vod_end": 1286.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.4,
+    "text": "this this this this yo chat chill bro chill yo jeff why you look mad good as fuck right now bro why you why you look so good right now bro",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {
+     "funny": 1
+    },
+    "chat_sample": [
+     "\ud83d\udc80"
+    ]
+   },
+   {
+    "vod_offset": 1408.0,
+    "vod_start": 1386.0,
+    "vod_end": 1422.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 15.2,
+    "text": "What? Yo, thank you extra cells, I appreciate it bro. Now start ribing and buns. Do I have to play a game inside of a game? Just come inside of a game?",
+    "chat_x_normal": 0.5,
+    "chat_reactions": {
+     "funny": 1
+    },
+    "chat_sample": [
+     "He should have been",
+     "How\u2019s the game Jeff",
+     "is that ur character jeff",
+     "Yeah",
+     "@high_2_eli ong lol",
+     "@AsianJeff is the clipping thing real?"
+    ]
+   },
+   {
+    "vod_offset": 3186.0,
+    "vod_start": 3164.0,
+    "vod_end": 3200.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.8,
+    "text": "now I'm looking fresh chat yeah he looks like me now bro you guys see the similarities she looks like me now bro yeah in my my 30s what that's me oh shit I gotta go",
+    "chat_x_normal": 0.3,
+    "chat_reactions": {},
+    "chat_sample": [
+     "yeah that we want",
+     "remove hat too",
+     "I see the six pack similarities"
+    ]
+   },
+   {
+    "vod_offset": 4209.0,
+    "vod_start": 4187.0,
+    "vod_end": 4223.0,
+    "picked_by": "loud",
+    "loud_db_over_median": 14.5,
+    "text": "dude Fucking wee ball Fuck it, bro. We won't fuck it, bro Let's go get her close check What if we just avoid what's going to be what if we avoid? Like what if we go dead side, bro?",
+    "chat_x_normal": 0.0,
+    "chat_reactions": {},
+    "chat_sample": []
+   }
+  ],
+  "chat_only": [
+   {
+    "vod_offset": 3297.0,
+    "vod_start": 3275.0,
+    "vod_end": 3311.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -6.1,
+    "text": "so you you're gonna quit playing icons that you're gonna haul it your boy what I mean that nor your government programming and bitch ass boy fuck you talk mouth what am I dead up from New York don't ever fuck me ever again yeah you better go okay fuck you",
+    "chat_x_normal": 2.5,
+    "chat_reactions": {
+     "hype": 1,
+     "fail": 1,
+     "funny": 1
+    },
+    "chat_sample": [
+     "Greet omg",
+     "DAMNN",
+     "HOLY SHI",
+     "ur clicking the wrong buttons rip lmao",
+     "LOLL",
+     "LMAOOO",
+     "Yo"
+    ]
+   },
+   {
+    "vod_offset": 4157.0,
+    "vod_start": 4135.0,
+    "vod_end": 4171.0,
+    "picked_by": "chat",
+    "loud_db_over_median": -6.6,
+    "text": "Bro get flowers then her clothes but guys I can't because dude the map is contested do you guys see what I mean like most of the missions are in the area where I'm contested or no okay what about this if we go get her clothes is is it gonna skip the cutscene and make me uncontested but we have two routes we change your clothes",
+    "chat_x_normal": 2.4,
+    "chat_reactions": {
+     "huh": 2
+    },
+    "chat_sample": [
+     "I wonder why that's a problem",
+     "I wonder who started this",
+     "?",
+     "?",
+     "If u stop hitting things and killing people.. I think you\u2019ll be fine.."
+    ]
+   }
+  ]
+ }
+}
