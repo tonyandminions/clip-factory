@@ -43,12 +43,13 @@
   {
    "name": "LACY_Robbery",
    "streamer": "lacy",
-   "status": "scheduled",
+   "status": "held",
    "slot": "2026-11-26 20:10",
    "part": null,
    "platforms": "TT",
    "x_slot": "2026-11-23 18:10",
-   "platforms_scheduled": "TT"
+   "platforms_scheduled": "TT",
+   "note": "11-20 Scheduler: Metricool 11-26 20:10 TikTok set to draft (staleness: story moment from 11-18, >7 days old). Not deleted."
   },
   {
    "name": "LACY_Seaplane_P1",
@@ -263,7 +264,8 @@
    "platforms": "TT YT",
    "x_slot": null,
    "metricool_uuid": "1461181023084758769",
-   "platforms_scheduled": "TT YT"
+   "platforms_scheduled": "YT",
+   "note": "11-20 Scheduler: TikTok dropped (staleness rule: reaction moment from 11-18, >5 days old at 11-23 18:10); YouTube kept."
   },
   {
    "name": "KREEK_CCTV_v2",
@@ -347,9 +349,11 @@
     "youtube",
     "x"
    ],
-   "status": "ready",
-   "slot": null,
-   "added": "2026-11-19T18:40Z"
+   "status": "scheduled",
+   "slot": "2026-11-25 18:10",
+   "added": "2026-11-19T18:40Z",
+   "platforms_scheduled": "YT",
+   "metricool_uuid": "-4191132596300133399"
   },
   {
    "name": "AJ_Plane",
@@ -370,9 +374,11 @@
     "youtube",
     "x"
    ],
-   "status": "ready",
-   "slot": null,
-   "added": "2026-11-19T18:40Z"
+   "status": "scheduled",
+   "slot": "2026-11-23 20:10",
+   "added": "2026-11-19T18:40Z",
+   "platforms_scheduled": "TT",
+   "metricool_uuid": "-6095861867550521973"
   },
   {
    "name": "CLIX_HouseRobbery",

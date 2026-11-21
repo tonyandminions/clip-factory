@@ -265,7 +265,7 @@
    "start": 3722,
    "end": 3752,
    "clip": "TiredCrepuscularLettuceTebowing-_ckSEJKNEXXBWDj1",
-   "status": "scheduled",
+   "status": "held (Metricool draft, stale)",
    "date": "2026-11-26 20:10",
    "caption": "first store robbery",
    "x": "2026-11-23 18:10"
@@ -1264,6 +1264,30 @@
    "clip": null,
    "status": "rejected",
    "reason": "slur at start, muddy audio"
+  },
+  {
+   "name": "AJ_Plane",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 3701,
+   "end": 3731,
+   "clip": "HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
+   "status": "scheduled",
+   "date": "2026-11-23 20:10",
+   "caption": "held L2 to land a seaplane smooth as butter",
+   "platforms": "TT"
+  },
+  {
+   "name": "AJ_NotScared",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 3990,
+   "end": 4048,
+   "clip": "TentativeOutstandingTaroAliens-9it_KQjYIGpwfPkh",
+   "status": "scheduled",
+   "date": "2026-11-25 18:10",
+   "caption": "NPC isn't scared of his gun / couldn't get in the car",
+   "platforms": "YT"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."

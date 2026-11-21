@@ -30,3 +30,24 @@ Instagram removed from every Metricool post and story (incl. 11-28, 11-29 and th
 Notes: Speed P1/P2 are native TikTok + YouTube posts (Speed chat) at 13:20 on 11-20/21; TikTok Studio only offers Delete for scheduled posts, so they could not be moved — they use TikTok's 1 post/day, which pushed SEGA #Ad 1 from 11-21 to 11-22 18:10 and KreekCraft Scooter to 11-23. Seaplane P2 now follows P1 on the next day on the same platforms (FB+YT; X 11:10). Platforms dropped to fit caps: LACY OutOfMissions −YT, CLIX −FB −TT, RAGE Workout −YT, Seaplane P1 −TT, BP SellCars −YT, BP Tolls −TT.
 
 11-20 (Main chat): FB welcome post Sat 11-21 12:10 (Metricool 435676160); RAGE Workout FB moved 11-21 09:10 -> Thu 11-26 15:10 (Metricool 435675990) to keep FB at 2/day.
+
+## Scheduler 11-20 23:45 ET (nightly) — changes to copy into Posting Schedule 11-18.md
+PC folder access still not granted (another prompt was open on the PC), so the PC schedule doc and Activity Log were NOT updated again. Copy these changes plus the tables above.
+
+- 11-21 and 11-22 are already at the caps (TT 1 · YT 2 · FB 2 counting Speed P2 native + FB welcome post), so nothing new was added for them.
+- Staleness rule applied (moment dates from VOD start times; launch-day VODs = 11-18):
+  - Mon 11-23 18:10 KREEK GrandpaScooter: **TikTok dropped** (reaction, 11-18 moment, >5 days old) → YouTube only.
+  - Thu 11-26 20:10 LACY Robbery TikTok: **held as Metricool draft** (story, 11-18 moment, >7 days old). Not deleted. Its X by-hand line (11-23 18:10) is X's own scheduler — left as is.
+  - Kept as mechanic (≤14 days): BP SellCars/ChopShop 11-24, BP Tolls 11-25, LACY RepairBill 11-26, BP CarRules 11-27. Other FB/YT posts are ≤7 days old at post time.
+  - Next run: LACY JetSki TikTok 11-28 20:10 (11-18 moment, ~10 days) will need the same check.
+- AsianJeff (campaign ends 11/26, TT/YT/X only, never FB) — added into the slots the clean-up opened:
+  - Mon 11-23 20:10 **AJ_Plane · TikTok** (mechanic, 18 s) — Metricool uuid -6095861867550521973. The Fresh Pick may take that day's TikTok; if it does, AJ has no later TikTok day before 11/26.
+  - Wed 11-25 18:10 **AJ_NotScared · YouTube** (mechanic, 21 s) — uuid -4191132596300133399.
+- X: still not connected in Metricool. X lists for 11-21/11-22 are already at 2/day (MIKKAA Truck + Seaplane P1; Seaplane P2 + KATIE) in X's own scheduler, so no new by-hand X lines.
+- Ops note: one update this run briefly overwrote the SEGA #Ad 1 post (11-22 18:10) with another clip's content (wrong id). Restored within a minute with the original media, caption, TikTok commercial-content flag, YouTube title and time (Metricool uuid -4636322052567250598). Worth a glance in Metricool.
+
+| Day | 09:10 | 15:10 | 18:10 | 20:10 |
+|---|---|---|---|---|
+| Mon 11-23 | LACY LuciaLoyal · FB+YT | MIKKAA Truck · FB | KREEK Scooter · YT (TT dropped) | AJ Plane · TT (new) |
+| Wed 11-25 | SEGA #Ad 2 · TT+YT; JASON Instagram · FB | – | BP Tolls · FB; AJ NotScared · YT (new) | – |
+| Thu 11-26 | LACY RepairBill · FB+YT | RAGE Workout · FB | – | LACY Robbery · TT **draft (held)** |
