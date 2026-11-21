@@ -107,6 +107,11 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 - **Weekly (Sunday Analyst):** one line per platform in Platform Playbook.md ("Platform scorecard"), what changed this week and why.
 
 ## What performs (update as numbers come in)
+- **11-20 (Analyst, nightly ~23:15 ET).** Source: Metricool only (rule T). Metricool hadn't ingested any 11-20 post yet; numbers below are 11-19 posts.
+  - Best: YourRAGE "brushing teeth gives a Focus buff" FB **923** (9 s avg) - a mechanic surprise won on FB, ahead of LACY story Reels 358-596. Clix plane FB 217 (the 0 was lag).
+  - TikTok still throttled: For You 0.0-0.018 on all 11-19 posts; KreekCraft mom 55 (best organic), rest 1-11. Promote test (Speed P1 7,089, mostly paid) - organic effect not readable yet.
+  - YouTube: Metricool per-Short views null since 11-19; vidIQ has no channel linked. X not in Metricool.
+  - Caption split test: too few tagged posts with watch data (<10 of ~40). Campaigns: no clip near a minimum (KreekCraft best 55 / 3K), $0.
 - **11-19 (Analyst, nightly ~23:45 ET).** Sources: TikTok Studio, YouTube Studio, x.com, Metricool FB, Content Rewards.
   - Best fresh clip: KreekCraft "viewer's mom asked what GTA 6 is" — IG 336 (before the ban), TikTok 41 (best since the throttle). Funny "explaining GTA 6" story beats plain fails.
   - TikTok still throttled (4 posts today vs ramp cap 1; others 1–5 views). YouTube: 5 new Shorts all 0–2 views; no new "Potential limitation". FB: Clix plane 0 (lag?). X: proven winners 232/72 vs fresh 39/1.
