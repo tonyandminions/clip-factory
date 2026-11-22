@@ -191,7 +191,10 @@
    "added": "2026-11-19T04:20Z",
    "platforms": "TT YT",
    "x_slot": "2026-11-24 18:10",
-   "platforms_scheduled": "TT"
+   "platforms_scheduled": "TT",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/BP_ChopShop_TT/BP_ChopShop_TT_HQ.mp4",
+   "tiktok_explain": true,
+   "tiktok_note": "Metricool TikTok post switched to the explainer version 11-21 11:34 PM"
   },
   {
    "name": "RAGE_BrushTeeth",
@@ -287,7 +290,9 @@
    "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
    "status": "ready",
    "slot": null,
-   "added": "2026-11-19T18:07Z"
+   "added": "2026-11-19T18:07Z",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/KREEK_CCTV_TT/KREEK_CCTV_TT_HQ.mp4",
+   "tiktok_explain": true
   },
   {
    "name": "MIKKAA_GatorFight_v2",
@@ -305,7 +310,9 @@
    "clip": "IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
    "status": "ready",
    "slot": null,
-   "added": "2026-11-19T18:07Z"
+   "added": "2026-11-19T18:07Z",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/MIKKAA_GatorFight_TT/MIKKAA_GatorFight_TT_HQ.mp4",
+   "tiktok_explain": true
   },
   {
    "name": "AJ_L3",
@@ -378,7 +385,10 @@
    "slot": "2026-11-23 20:10",
    "added": "2026-11-19T18:40Z",
    "platforms_scheduled": "TT",
-   "metricool_uuid": "-6095861867550521973"
+   "metricool_uuid": "-6095861867550521973",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/AJ_Plane_TT/AJ_Plane_TT_HQ.mp4",
+   "tiktok_explain": true,
+   "tiktok_note": "Metricool TikTok post switched to the explainer version 11-21 11:34 PM"
   },
   {
    "name": "CLIX_HouseRobbery",
@@ -396,7 +406,9 @@
    "clip": "CoyExpensiveVampireSquadGoals-lHC2B6wVD6vdCIC-",
    "status": "ready",
    "slot": null,
-   "added": "2026-11-19T22:05Z"
+   "added": "2026-11-19T22:05Z",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/CLIX_HouseRobbery_TT/CLIX_HouseRobbery_TT_HQ.mp4",
+   "tiktok_explain": true
   },
   {
    "name": "BP_DriverFightsBack_v2",
@@ -414,7 +426,9 @@
    "clip": "WiseSolidJuiceRuleFive-4CitvrkS30C-5KNR",
    "status": "ready",
    "slot": null,
-   "added": "2026-11-19T22:05Z"
+   "added": "2026-11-19T22:05Z",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/BP_DriverFightsBack_TT/BP_DriverFightsBack_TT_HQ.mp4",
+   "tiktok_explain": true
   },
   {
    "name": "MIKKAA_HeliSteal",
@@ -494,7 +508,9 @@
    "status": "ready",
    "slot": null,
    "added": "2026-11-20T04:35Z",
-   "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD."
+   "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD.",
+   "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/LACY_PolarBear_TT/LACY_PolarBear_TT_HQ.mp4",
+   "tiktok_explain": true
   }
  ]
 }
