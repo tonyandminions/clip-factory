@@ -17,6 +17,9 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "probe": false,                         # true = only download, transcribe, contact sheet
   "post": false,                          # true = also make a <3.6 MB copy for browser uploads
   "live": null,                           # {"channel","ref","gen_utc","back":240,"pad":"0,0"} ClipSpeed live moment
+  "explain": null,                        # explainer freeze (Justin 11-21, TikTok originality): {"t": 2.0, "dur": 1.8,
+                                          #   "head": "GTA 6 MECHANIC", "text": "Cars run out of gas. No gas station = you walk."}
+                                          #   t/dur in seconds of the FINISHED clip; audio keeps playing, picture freezes with a card
   "overlay": null                         # campaign logo/watermark on the WHOLE clip (KreekCraft, Clix x JBL):
                                           # {"url": png/webp/Drive link, "w": 230, "x": "main_w-overlay_w-36", "y": "main_h*0.52", "alpha": 1.0}
 }
@@ -55,6 +58,17 @@ def run(job):
     name = job["name"]
     od = os.path.join("out", name); os.makedirs(od, exist_ok=True)
     src = os.path.join(od, "source.mp4")
+    if job.get("restyle"):  # add the TikTok explainer card to an already-built HQ (ours, on the out branch / Metricool)
+        hq = os.path.join(od, f"{name}_HQ.mp4")
+        sh("curl", "-sSL", "--retry", "3", "-o", hq, job["restyle"]["src"])
+        add_explain(hq, job["explain"], od)
+        d2 = dur(hq)
+        sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
+           "-frames:v", "1", "-q:v", "3", os.path.join(od, "preview.jpg"))
+        sh("ffmpeg", "-v", "error", "-y", "-ss", str(float(job["explain"].get("t", 2.0)) + 0.6), "-i", hq,
+           "-frames:v", "1", "-vf", "scale=540:-1", os.path.join(od, "sheet.jpg"))
+        json.dump({"restyle": True, "explain": job["explain"]}, open(os.path.join(od, "build.json"), "w"))
+        return
     if job.get("story"):  # IG/FB Story from a finished clip: {"src","ss","to","top","bottom"} or {"src","card":true,"lines":[..],"t"}
         S = job["story"]; local = os.path.join(od, "in.mp4")
         sh("curl", "-sSL", "--retry", "3", "-o", local, S["src"])
@@ -139,6 +153,8 @@ def run(job):
     if capsfile:
         cmd += ["--caps", capsfile, "--capstyle", capstyle, "--words", os.path.join(od, "words.json")]
     sh(*cmd)
+    if job.get("explain"):  # freeze-frame explainer card; before the logo so the logo stays on top
+        add_explain(hq, job["explain"], od)
     if job.get("overlay"):  # required campaign logo, visible start to finish
         add_overlay(hq, job["overlay"], od)
     if job.get("level", True):  # even loudness: -14 LUFS, peaks under -1.5 dB (two-pass, no pumping)
@@ -168,6 +184,50 @@ def level_audio(path, target=-14.0, tp=-1.5, lra=11.0):
        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp)
     os.replace(tmp, path)
     print(f"level: {j['input_i']} LUFS -> {target}", flush=True)
+
+def add_explain(hq, ex, od):
+    """Freeze the picture for `dur` s at `t` (finished-clip seconds) with a slight punch-in and an explainer card.
+    Audio keeps playing (no silence, no desync); the video resumes at t+dur. TikTok originality layer (11-21)."""
+    from PIL import Image, ImageDraw, ImageFont
+    import textwrap
+    T = float(ex.get("t", 2.0)); D = float(ex.get("dur", 1.8))
+    total = dur(hq)
+    T = max(0.3, min(T, total - D - 0.3))
+    still = os.path.join(od, "explain_still.png"); card = os.path.join(od, "explain_card.png")
+    sh("ffmpeg", "-v", "error", "-y", "-ss", f"{T:.3f}", "-i", hq, "-frames:v", "1", still)
+    im = Image.open(still).convert("RGB")
+    W, H = im.size
+    z = 1.06  # punch-in
+    zw, zh = int(W / z), int(H / z)
+    im = im.crop(((W - zw) // 2, (H - zh) // 2, (W - zw) // 2 + zw, (H - zh) // 2 + zh)).resize((W, H), Image.LANCZOS)
+    im = im.convert("RGBA")
+    font_path = os.path.join(HERE, "..", "fonts", "Poppins-Bold.ttf")
+    f_head = ImageFont.truetype(font_path, 40); f_body = ImageFont.truetype(font_path, 58)
+    head = (ex.get("head") or "GTA 6 MECHANIC").upper()
+    lines = textwrap.wrap(ex["text"], width=int(ex.get("wrap", 24)))[:4]
+    pad, gap = 40, 14
+    body_h = [f_body.getbbox(l)[3] - f_body.getbbox(l)[1] for l in lines]
+    head_h = f_head.getbbox(head)[3] - f_head.getbbox(head)[1]
+    box_w = int(W * 0.9)
+    box_h = pad * 2 + head_h + 22 + sum(body_h) + gap * (len(lines) - 1)
+    x0 = (W - box_w) // 2
+    y0 = int(H * float(ex.get("y", 0.60))) - box_h // 2
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dr = ImageDraw.Draw(layer)
+    dr.rectangle((0, 0, W, H), fill=(0, 0, 0, 70))  # dim the frozen frame a little
+    dr.rounded_rectangle((x0, y0, x0 + box_w, y0 + box_h), radius=34, fill=(12, 12, 16, 228), outline=(184, 255, 59, 255), width=5)
+    y = y0 + pad
+    dr.text((W // 2, y), head, font=f_head, fill=(184, 255, 59, 255), anchor="mt"); y += head_h + 22
+    for l, h in zip(lines, body_h):
+        dr.text((W // 2, y), l, font=f_body, fill=(255, 255, 255, 255), anchor="mt"); y += h + gap
+    Image.alpha_composite(im, layer).convert("RGB").save(card)
+    tmp = hq.replace(".mp4", "_ex.mp4")
+    fc = f"[0:v][1:v]overlay=0:0:enable='between(t,{T:.3f},{T + D:.3f})',format=yuv420p[v]"
+    sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-loop", "1", "-i", card, "-filter_complex", fc, "-map", "[v]", "-map", "0:a?",
+       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "copy", "-movflags", "+faststart", tmp)
+    os.replace(tmp, hq)
+    for f in (still,):
+        os.remove(f)
+    print(f"explain: freeze {T:.2f}-{T + D:.2f}s '{head}: {ex['text']}'", flush=True)
 
 def add_overlay(hq, ov, od):
     url = ov["url"]

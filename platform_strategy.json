@@ -43,7 +43,7 @@
    ],
    "per_day": 1,
    "throttled_per_day": 1,
-   "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21)."
+   "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21). | 11-21: include 'GTA 6 gameplay' (3.1M searches) in the first line or #gta6gameplay; tip/guide or 'GTA 6 NPCs are insane' framing when it fits."
   },
   "experiment": {
    "name": "recover reach",
@@ -68,6 +68,27 @@
     "LACY first bank job": "Unoriginal, low-quality content",
     "LACY lost it when Lucia showed up": "Body Exposure and Sexualized Behaviors + Unoriginal (in-game Lucia scene)"
    }
+  },
+  "search_keywords": {
+   "from": "TikTok Studio > Inspiration, Justin 11-21 11:28 PM",
+   "searches": {
+    "gta 6 gameplay": "3.1M",
+    "funnygames": "395.5K",
+    "open world crime game guides and recommendations": "265.6K",
+    "GTA videos": "67.5K"
+   },
+   "hot_posts": [
+    "'GTA 6 AI (NPCs) are insane' 1.4M likes",
+    "'GTA 6 players think Mandy is a serial killer' 597K (lore/theory)",
+    "'I escaped the MAX wanted level in GTA 6' 140.8K (guide/challenge)"
+   ],
+   "hot_topics": [
+    "Rockstar confirms GTA 6 is single-player (102M)",
+    "YouTube + Rockstar GTA 6 launch (80.3M)",
+    "GTA 6 on Xbox One (75.1M)",
+    "Marlon and LACY stand-up at the Streamer Awards (69.5M, not GTA: not usable for the LACY GTA campaign)"
+   ],
+   "use": "Write captions so they match these searches: the words 'GTA 6 gameplay' in the first line or as #gta6gameplay on every post; frame mechanics as tips/guides ('GTA 6 tip: ...'); NPC behaviour clips lead with 'GTA 6 NPCs are insane'; wanted-level / police clips say 'max wanted level'. Re-check Inspiration > Searches weekly (Justin, phone) and update this list."
   }
  },
  "instagram": {

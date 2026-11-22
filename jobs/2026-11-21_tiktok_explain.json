@@ -1,0 +1,86 @@
+[
+ {
+  "name": "AJ_Plane_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-71/AJ_Plane/AJ_Plane_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 tip",
+   "text": "Hold L2 to slow the seaplane down before you land."
+  }
+ },
+ {
+  "name": "BP_ChopShop_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-55/BP_ChopShop_v2/BP_ChopShop_v2_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 mechanic",
+   "text": "You can sell stolen cars for cash, but it's not an infinite money glitch."
+  }
+ },
+ {
+  "name": "KREEK_CCTV_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-67/KREEK_CCTV_v2/KREEK_CCTV_v2_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 mechanic",
+   "text": "Rob a store? Destroy the CCTV footage first."
+  }
+ },
+ {
+  "name": "MIKKAA_GatorFight_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-66/MIKKAA_GatorFight_v2/MIKKAA_GatorFight_v2_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 wildlife",
+   "text": "Alligators fight each other in the wild."
+  }
+ },
+ {
+  "name": "CLIX_HouseRobbery_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-78/CLIX_HouseRobbery/CLIX_HouseRobbery_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 NPCs are insane",
+   "text": "Homeowners fight back when you rob their house."
+  }
+ },
+ {
+  "name": "BP_DriverFightsBack_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-78/BP_DriverFightsBack_v2/BP_DriverFightsBack_v2_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 NPCs are insane",
+   "text": "Drivers fight back when you try to steal their car."
+  }
+ },
+ {
+  "name": "LACY_PolarBear_TT",
+  "restyle": {
+   "src": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-93/LACY_PolarBear/LACY_PolarBear_HQ.mp4"
+  },
+  "explain": {
+   "t": 2.0,
+   "dur": 1.8,
+   "head": "GTA 6 random event",
+   "text": "There's a random event where you can free a polar bear."
+  }
+ }
+]

@@ -150,6 +150,14 @@ Justin: "we need a system to pull something brand new and post it right away for
 
 **Staleness rule (Scheduler, from 11-20):** a reaction/story clip (hook_type reaction/story/other) whose moment is more than 5 days old doesn't go on TikTok; more than 7 days old it is held back (Metricool `draft: true`, never deleted). Mechanic clips (people keep searching them) stay usable up to 14 days. SEGA #Ad dates are fixed.
 
+## TikTok explainer card (Justin chose 11-21, after TikTok called 3 launch edits "unoriginal")
+Every TikTok post gets an `"explain"` freeze card on top of the normal edit (run_job: picture freezes with a slight punch-in for `dur` s at `t` while the audio keeps playing; dark card, lime header, 1-2 short lines).
+- `"explain": {"t": 2.0, "dur": 1.8, "head": "GTA 6 tip" | "GTA 6 mechanic" | "GTA 6 NPCs are insane" | "GTA 6 random event", "text": "<the fact, max ~70 chars>"}` — t right after the hook line (1.5-3 s), never over the payoff.
+- The text must be TRUE and shown in the clip (never invent a mechanic). Plain words people search (TikTok Inspiration 11-21: 'gta 6 gameplay' 3.1M searches, game guides 265K, 'GTA 6 AI/NPCs are insane' 1.4M-like post).
+- New builds: add `explain` to the job. Already-built clips: a `restyle` job `{"name":"X_TT","restyle":{"src":"<our HQ url>"},"explain":{...}}` makes the TikTok version; queue item gets `tiktok_media`.
+- TikTok only gets queue items that have `tiktok_media` (or a fresh pick built with `explain`). YouTube/Facebook keep the normal version.
+- Campaign logos (KreekCraft) stay visible: the card is added before the logo overlay, and restyles freeze a frame that already has the logo.
+
 ## Live route (ClipSpeed → VOD)
 `"live": {"channel","vod","ref","gen_utc","back","pad"}` downloads the VOD window and finds the
 ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
