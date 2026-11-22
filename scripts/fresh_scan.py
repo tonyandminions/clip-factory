@@ -123,7 +123,7 @@ def score_group(g, cfg, live, now):
     pts = {
         "velocity": round(10 * math.log10(1 + velocity), 2),
         "clippers": round(4 * math.log2(len(g)), 2),
-        "hook": {"mechanic": 4, "story": 2}.get(ht, 0),
+        "hook": {"mechanic": 6, "story": 2}.get(ht, 0),  # 11-21: TikTok views come from search -> mechanic facts win
         "live": 2 if login in live else 0,
         "length": (1 if cfg["ideal_duration"][0] <= dur <= cfg["ideal_duration"][1] else 0)
                   - (3 if dur < cfg["min_duration"] else 0),

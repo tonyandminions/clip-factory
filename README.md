@@ -107,6 +107,11 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 - **Weekly (Sunday Analyst):** one line per platform in Platform Playbook.md ("Platform scorecard"), what changed this week and why.
 
 ## What performs (update as numbers come in)
+- **11-21 (main chat, learning pass for Justin: "learn and adjust to make everything better").** Source: Metricool traffic sources (TKPO16 For You, TKPO21 search).
+  - **TikTok's For You feed shut off after the 11-18 burst** (13 posts in one day). The first 3 posts that day got 77-91% For You; every post since gets ~0%.
+  - **Search is TikTok's only working channel:** ~95% of organic views now come from search, and they keep coming for days (LACY P2 "dying takes ALL your money" 284, KreekCraft mom 78, YourRAGE teeth 53). → TikTok gets only mechanic clips with the searchable GTA 6 fact as the first caption line (platform_strategy tiktok.route.caption_rule).
+  - **Promote test failed:** Speed P1 45.8K paid views, 5 s avg watch, 0 comments; Part 2 got 210 with no carry-over. Same night a LACY post was rejected for "potential fake engagement". No more Promote while in Reach campaigns.
+  - **Facebook is the best platform now:** 200-1,150 views per Reel, 7-11 s avg watch (YourRAGE teeth 1,156, LACY missions 728). Strongest clip of the day goes to Facebook first.
 - **11-20 (Analyst, nightly ~23:15 ET).** Source: Metricool only (rule T). Metricool hadn't ingested any 11-20 post yet; numbers below are 11-19 posts.
   - Best: YourRAGE "brushing teeth gives a Focus buff" FB **923** (9 s avg) - a mechanic surprise won on FB, ahead of LACY story Reels 358-596. Clix plane FB 217 (the 0 was lag).
   - TikTok still throttled: For You 0.0-0.018 on all 11-19 posts; KreekCraft mom 55 (best organic), rest 1-11. Promote test (Speed P1 7,089, mostly paid) - organic effect not readable yet.

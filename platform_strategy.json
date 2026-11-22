@@ -10,11 +10,12 @@
  ],
  "tiktok": {
   "health_metric": "For You share per post (Metricool TKPO16). Healthy >= 0.7. Under 0.3 on most posts = account throttled.",
-  "status": "throttled (11-20): For You share 0.0-0.018 on every 11-19 post (KreekCraft mom 55 views/7 s avg, YourRAGE teeth 9, Clix plane 11, croc 1, Speed robbery 1). Followers 4, flat. Keep 1/day. Promote test result pending (Speed P1 7,089 mostly paid; Metricool has no 11-20 TikTok rows yet).",
+  "status": "throttled since 11-18 ~5 PM (diagnosed 11-21 from Metricool traffic sources): the first 3 posts on 11-18 got the For You feed (LACY steal cars 252 views / 91% For You, BP traffic 231 / 90%, LACY bomb 80 / 77%); after the 13-post burst that day every post gets ~0% For You. Since then ~95% of organic TikTok views come from SEARCH (LACY P2 'dying takes ALL your money' 284 / 95% search, KreekCraft mom 78 / 94%, YourRAGE teeth 53 / 97%). Speed P1 promo: 45.8K paid views, avg watch 5 s of 35 s, 73 likes, 0 comments; Speed P2 (no promo) 210 views/3 likes in 8 h - the promo didn't carry an audience. Keep 1/day.",
   "what_works": [
    "15-20 s clips with a GTA 6 mechanic/frustration stated plainly and a reaction in second 1: 'LACY can't steal cars the old way' (15 s, 250 views, 9 s avg watch, 93% For You); 'Burnt Peanut vs GTA 6 traffic' (30 s, 227 views, 10 s avg).",
    "11-19: KreekCraft 'a viewer's mom asked what GTA 6 is… rescue cats from trees' 41 views, 1 like, 1 comment (28 s, word captions) - best TikTok post since the throttle (median 7). Funny 'explaining GTA 6' story, small sample.",
-   "11-20 (Analyst, Metricool): KreekCraft 'mom asked what GTA 6 is' grew 41 -> 55 views, 7 s avg watch (28 s clip, word captions) - still the best organic post since the throttle, but For You only 0.018 (small sample)."
+   "11-20 (Analyst, Metricool): KreekCraft 'mom asked what GTA 6 is' grew 41 -> 55 views, 7 s avg watch (28 s clip, word captions) - still the best organic post since the throttle, but For You only 0.018 (small sample).",
+   "11-21 diagnosis: while For You is shut off, SEARCH is the only working channel. Clips whose caption starts with a searchable GTA 6 fact ('<Streamer> found out <GTA 6 mechanic>', 'GTA 6 takes ALL your money when you die') keep pulling views for days. Put the mechanic in plain search words in the first line + title band; one fact per clip."
   ],
   "avoid": [
    "reposting a moment (BP traffic repost: 8 views)",
@@ -22,7 +23,8 @@
    "slow opens and 30 s+ clips",
    "volume: more than 3 a day",
    "11-19: more than 1 post a day while throttled - 4 went out today (Speed 12:30, KreekCraft 15:11, YourRAGE 18:10, KreekCraft 19:58); the 3 others got 1-5 views",
-   "11-19: Speed on TikTok again (robbery, 1 view). Speed P1/P2 are scheduled natively in TikTok for 11-20 and 11-21 13:20 - against route.skip_streamers"
+   "11-19: Speed on TikTok again (robbery, 1 view). Speed P1/P2 are scheduled natively in TikTok for 11-20 and 11-21 13:20 - against route.skip_streamers",
+   "11-21: paid Promote (45.8K views, 0 comments, 5 s avg watch) - no organic carry to Part 2, no For You recovery, and a LACY post was rejected for 'potential fake engagement' the same night. No more Promote while in Reach campaigns."
   ],
   "route": {
    "hook_types": [
@@ -38,13 +40,15 @@
     "ishowspeed"
    ],
    "per_day": 1,
-   "throttled_per_day": 1
+   "throttled_per_day": 1,
+   "caption_rule": "first line = the searchable GTA 6 fact in plain words people type (e.g. 'GTA 6 cars run out of gas'), streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6"
   },
   "experiment": {
    "name": "recover reach",
    "plan": "While For You stays under 0.3: post only the single best mechanic clip a day (15-22 s) at 11:10 or 18:10. Back to 3 a day after 2 posts in a row with For You >= 0.6.",
    "baseline": "median ~9 views/post on 11-19 posts (55/11/9/1/1); For You ~0 on all",
-   "promote_test": "11-20 ~3:55 PM: Justin paid $24 for TikTok Promote (TikTok's own ad tool) on Speed scooter PART 1 (video 7709722878282878238, posted 1:20 PM natively). Before the promo: 203 views in ~2.5 h (already our best organic start since the throttle). 4:28 PM: 7,089 views, 11 likes, 0 comments (mostly paid). Question: does a paid push lift the account out of the throttle? Analyst: compare the next 3 posts' views + For You share (TKPO16) vs the baseline (median ~7 views/post), and Part 2's organic views; Justin reads paid vs organic views + follows in the Promote stats. Promoted views are not organic: never submit a promoted clip's views to a campaign without checking its rules."
+   "promote_test": "11-20 ~3:55 PM: Justin paid $24 for TikTok Promote (TikTok's own ad tool) on Speed scooter PART 1 (video 7709722878282878238, posted 1:20 PM natively). Before the promo: 203 views in ~2.5 h (already our best organic start since the throttle). 4:28 PM: 7,089 views, 11 likes, 0 comments (mostly paid). Question: does a paid push lift the account out of the throttle? Analyst: compare the next 3 posts' views + For You share (TKPO16) vs the baseline (median ~7 views/post), and Part 2's organic views; Justin reads paid vs organic views + follows in the Promote stats. Promoted views are not organic: never submit a promoted clip's views to a campaign without checking its rules.",
+   "search_lean": "11-21 on: TikTok gets only mechanic clips with search-first captions. Watch TKPO21 (search share) and total views 3 days after posting; For You recovery = any post with For You >= 0.3. Justin's 2-minute check in TikTok Studio: Account status + one post's 'eligible for For You' line."
   }
  },
  "instagram": {
@@ -75,11 +79,12 @@
  },
  "facebook": {
   "health_metric": "Views per Reel and avg watch time (FBRE10, FBRE13).",
-  "status": "healthy (11-20): 11-19 Reels all reached - YourRAGE teeth 923 views (9 s avg), LACY Lucia 596, LACY P2 505, P1 358, Clix plane 217 (the '0' on 11-19 was Metricool lag). 11-20 Reels (LACY missions 9:10, MissMikkaa gym 15:10) not in Metricool yet.",
+  "status": "healthy, our best platform (11-21): every Reel reaches 200-1,150 views with 7-11 s avg watch - YourRAGE teeth 1,156, LACY out of missions 728, LACY Lucia bank 599, LACY P2 money 511, LACY P1 gator 358, Clix plane 220. Mechanic surprises and LACY stories both work.",
   "what_works": [
    "Story and relationship moments: 'LACY forgot to meet Lucia at the bank' 589 views (\"I'm a terrible boyfriend\").",
    "Part series carry on Facebook: Part 1 344, Part 2 475.",
-   "11-20 (Analyst, Metricool): a plain mechanic surprise can win on FB too - YourRAGE 'brushing teeth gives a Focus buff' 923 views (15 s, 9 s avg) beat the LACY story Reels (358-596). Small sample: mechanic 923/217 vs story 358-596."
+   "11-20 (Analyst, Metricool): a plain mechanic surprise can win on FB too - YourRAGE 'brushing teeth gives a Focus buff' 923 views (15 s, 9 s avg) beat the LACY story Reels (358-596). Small sample: mechanic 923/217 vs story 358-596.",
+   "11-21: Facebook is where views are right now (~600 avg per Reel vs ~10-80 organic on TikTok). Route the strongest clip of the day to Facebook first; growth clips (Burnt Peanut, MissMikkaa, realkatieb) belong here. Proposal for Justin: 3 Reels/day from Thu 11-27 if the Page stays clean."
   ],
   "avoid": [
    "payoffs after ~10 s (avg watch 7-10 s)",
@@ -87,6 +92,7 @@
   ],
   "route": {
    "hook_types": [
+    "mechanic",
     "story",
     "reaction"
    ],
