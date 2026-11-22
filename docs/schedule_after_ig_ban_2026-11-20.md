@@ -51,3 +51,23 @@ PC folder access still not granted (another prompt was open on the PC), so the P
 | Mon 11-23 | LACY LuciaLoyal · FB+YT | MIKKAA Truck · FB | KREEK Scooter · YT (TT dropped) | AJ Plane · TT (new) |
 | Wed 11-25 | SEGA #Ad 2 · TT+YT; JASON Instagram · FB | – | BP Tolls · FB; AJ NotScared · YT (new) | – |
 | Thu 11-26 | LACY RepairBill · FB+YT | RAGE Workout · FB | – | LACY Robbery · TT **draft (held)** |
+
+## Scheduler 11-21 23:45 ET (nightly) — changes to copy into Posting Schedule 11-18.md
+PC folder (Documents\Side Business) still not granted to the scheduled task, so the PC schedule doc and Activity Log were NOT updated. Copy this section and the ones above.
+
+- Metricool checked 11-22 to 11-28: no Instagram left on any post. 11-22 and 11-23 are already at the caps (TT 1 · YT 2 · FB 2), so nothing new was added.
+- TikTok recovery check: scheduled TikTok posts are SEGA #Ad 1 (11-22, excepted), AJ Plane (11-23 20:10) and BP ChopShop (11-24 20:10), both already switched to their explainer-card versions in the 23:34 commit, plus SEGA #Ad 2 (11-25, excepted). LACY Robbery (11-26) stays a draft.
+- Staleness, now held as Metricool drafts (not deleted):
+  - Sat 11-28 20:10 **LACY JetSki · TikTok**: 11-18 moment (~10 days old by then), no explainer card. uuid -737374924178765198.
+  - Sat 11-28 09:10 **BP OneFrame · FB+YT**: reaction from the 11-18 VOD (~10 days old). uuid -8521306744709167325.
+  - That leaves 11-28 open on every platform for later runs.
+- Ready clips that won't fit before they go stale (every YouTube/Facebook slot is full through 11-25, and paid clips can't be cut to Facebook-only):
+  - AJ_L3 (reaction, YT/TT/X; moment 11-19 00:22 ET): it's over 7 days old from 11-26, and the AsianJeff campaign ends 11/26. It would only go out if Justin drops one YouTube post on 11-23 to 11-25.
+  - MIKKAA_HeliSteal (reaction, growth): FB is full until 11-27, when it's over 7 days old.
+  - KREEK_TowerEasterEgg_v2 (reaction, YT; moment 11-19 20:22 ET): it could take the open 11-26 YouTube slot, but I left that for the Fresh Pick.
+- X: still not connected in Metricool. X's own scheduler already has 2 posts a day for 11-22 and 11-23, so there are no new by-hand X lines.
+- Ready queue: 8 clips (5 mechanic with TikTok versions).
+
+| Day | 09:10 | 15:10 | 18:10 | 20:10 |
+|---|---|---|---|---|
+| Sat 11-28 | BP OneFrame · FB+YT **draft (held)** | – | – | LACY JetSki · TT **draft (held)** |
