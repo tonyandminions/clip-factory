@@ -35,7 +35,7 @@
     },
     "yourragegaming": {
       "campaign": "YourRAGE",
-      "weight": 1.15,
+      "weight": 1.2,
       "platforms": [
         "tiktok",
         "youtube",
@@ -153,7 +153,19 @@
       "boat",
       "first time",
       "first ever",
-      "never seen"
+      "never seen",
+      "teeth",
+      "brush",
+      "shower",
+      "sleep",
+      "dying",
+      "died",
+      "lose all",
+      "lost all",
+      "real life",
+      "beat the game",
+      "run out",
+      "ran out"
     ],
     "story": [
       "explain",

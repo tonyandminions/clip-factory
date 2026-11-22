@@ -1,21 +1,23 @@
 {
  "_what": "Per-platform strategy, learned from our own numbers. The Analyst updates it every night (Justin 11-19: learn after every post, keep adjusting each platform until it's mastered). The Scheduler uses 'route' to decide which clip goes to which platform; the Clip Finder uses 'want' to decide what to look for. Evidence lines are dated; small samples are marked as such.",
- "_updated": "2026-11-20 Analyst nightly (Metricool only; 11-20 posts not ingested yet)",
+ "_updated": "2026-11-21 Analyst nightly 23:15 ET (Metricool only; no 11-21 post ingested yet)",
  "cross_platform": [
   "The same clip lands very differently per platform, so routing matters more than volume: BP traffic = IG 1,385 / TT 227 / YT 1; LACY Part 2 (dying costs ALL your money) = IG 1,534 / FB 475 / YT 28 / TT 16; Speed download countdown = YT 1,366 / IG 153 / TT 0.",
   "A slot may carry two different clips split by platform (e.g. 18:10: story clip to IG+FB, mechanic clip to TT+YT) when that fits better. Daily caps per platform still hold.",
   "11-19: Instagram permanently disabled on day 2. Likely factors (Meta doesn't say): brand-new account, ~13 Reels on day one via a scheduler, all footage from other creators, automated likes/replies. Protect the other accounts: fewer posts while new, more of our own edit, no automated engagement bursts.",
   "11-19 (Analyst): KreekCraft 'viewer's mom asked what GTA 6 is' was the day's best fresh clip on two platforms (TT 41, IG 336 before the ban); the same day YouTube gave 5 new Shorts 0-2 views each. Small sample.",
-  "11-20 (Analyst, Metricool): Metricool had not ingested any 11-20 post by 11:15 PM ET (TikTok/FB latest = 11-19 23:10; YouTube per-video null since 11-19). Tonight's per-post numbers are 11-18/11-19 posts only."
+  "11-20 (Analyst, Metricool): Metricool had not ingested any 11-20 post by 11:15 PM ET (TikTok/FB latest = 11-19 23:10; YouTube per-video null since 11-19). Tonight's per-post numbers are 11-18/11-19 posts only.",
+  "11-21 (Analyst, Metricool): Metricool still had no 11-21 post at 11:15 PM ET (TikTok latest = Speed P1 11-20 13:20 ET; FB latest = MissMikkaa gains 11-20 15:10 ET). CLIX_FirstMission (11-20 18:10 TT+FB) is not in Metricool's TikTok or Facebook lists at all - only YouTube - so either it didn't publish there or it's lag. Metricool times are UTC."
  ],
  "tiktok": {
   "health_metric": "For You share per post (Metricool TKPO16). Healthy >= 0.7. Under 0.3 on most posts = account throttled.",
-  "status": "throttled since 11-18 ~5 PM (diagnosed 11-21 from Metricool traffic sources): the first 3 posts on 11-18 got the For You feed (LACY steal cars 252 views / 91% For You, BP traffic 231 / 90%, LACY bomb 80 / 77%); after the 13-post burst that day every post gets ~0% For You. Since then ~95% of organic TikTok views come from SEARCH (LACY P2 'dying takes ALL your money' 284 / 95% search, KreekCraft mom 78 / 94%, YourRAGE teeth 53 / 97%). Speed P1 promo: 45.8K paid views, avg watch 5 s of 35 s, 73 likes, 0 comments; Speed P2 (no promo) 210 views/3 likes in 8 h - the promo didn't carry an audience. Keep 1/day.",
+  "status": "throttled (unchanged 11-21 night): no organic post since 11-18 17:13 ET has For You >= 0.3. Speed P1's 0.99 For You is the paid Promote, not a recovery. Organic views still ~95% search. Keep 1/day.",
   "what_works": [
    "15-20 s clips with a GTA 6 mechanic/frustration stated plainly and a reaction in second 1: 'LACY can't steal cars the old way' (15 s, 250 views, 9 s avg watch, 93% For You); 'Burnt Peanut vs GTA 6 traffic' (30 s, 227 views, 10 s avg).",
    "11-19: KreekCraft 'a viewer's mom asked what GTA 6 is… rescue cats from trees' 41 views, 1 like, 1 comment (28 s, word captions) - best TikTok post since the throttle (median 7). Funny 'explaining GTA 6' story, small sample.",
    "11-20 (Analyst, Metricool): KreekCraft 'mom asked what GTA 6 is' grew 41 -> 55 views, 7 s avg watch (28 s clip, word captions) - still the best organic post since the throttle, but For You only 0.018 (small sample).",
-   "11-21 diagnosis: while For You is shut off, SEARCH is the only working channel. Clips whose caption starts with a searchable GTA 6 fact ('<Streamer> found out <GTA 6 mechanic>', 'GTA 6 takes ALL your money when you die') keep pulling views for days. Put the mechanic in plain search words in the first line + title band; one fact per clip."
+   "11-21 diagnosis: while For You is shut off, SEARCH is the only working channel. Clips whose caption starts with a searchable GTA 6 fact ('<Streamer> found out <GTA 6 mechanic>', 'GTA 6 takes ALL your money when you die') keep pulling views for days. Put the mechanic in plain search words in the first line + title band; one fact per clip.",
+   "11-21 night (Analyst): the 3 search earners all name an everyday-life thing + 'in GTA 6' the way people type a question: 'dying in GTA 6 takes ALL your money' 284 (95% search), 'what GTA 6 is about' (KreekCraft mom) 78 (94%), 'brushing your teeth in GTA 6' 53 (97%). 'First time' / bet / robbery lines got 2-14 (Clix plane 12, KreekCraft croc bet 2, Speed robbery 2). Small sample (6 organic posts)."
   ],
   "avoid": [
    "reposting a moment (BP traffic repost: 8 views)",
@@ -41,7 +43,7 @@
    ],
    "per_day": 1,
    "throttled_per_day": 1,
-   "caption_rule": "first line = the searchable GTA 6 fact in plain words people type (e.g. 'GTA 6 cars run out of gas'), streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6"
+   "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21)."
   },
   "experiment": {
    "name": "recover reach",
@@ -79,12 +81,13 @@
  },
  "facebook": {
   "health_metric": "Views per Reel and avg watch time (FBRE10, FBRE13).",
-  "status": "healthy, our best platform (11-21): every Reel reaches 200-1,150 views with 7-11 s avg watch - YourRAGE teeth 1,156, LACY out of missions 728, LACY Lucia bank 599, LACY P2 money 511, LACY P1 gator 358, Clix plane 220. Mechanic surprises and LACY stories both work.",
+  "status": "healthy (11-21 night): Reels 220-1,156 views, 8-11 s avg watch. Watch item: MissMikkaa 'gym gains' (11-20 15:10) shows 0 views / 0 s in Metricool while LACY missions (posted 6 h earlier) has 728 - lag or the Reel isn't being distributed; Justin's check: facebook.com/page_status/61596397363823 + that Reel's view count.",
   "what_works": [
    "Story and relationship moments: 'LACY forgot to meet Lucia at the bank' 589 views (\"I'm a terrible boyfriend\").",
    "Part series carry on Facebook: Part 1 344, Part 2 475.",
    "11-20 (Analyst, Metricool): a plain mechanic surprise can win on FB too - YourRAGE 'brushing teeth gives a Focus buff' 923 views (15 s, 9 s avg) beat the LACY story Reels (358-596). Small sample: mechanic 923/217 vs story 358-596.",
-   "11-21: Facebook is where views are right now (~600 avg per Reel vs ~10-80 organic on TikTok). Route the strongest clip of the day to Facebook first; growth clips (Burnt Peanut, MissMikkaa, realkatieb) belong here. Proposal for Justin: 3 Reels/day from Thu 11-27 if the Page stays clean."
+   "11-21: Facebook is where views are right now (~600 avg per Reel vs ~10-80 organic on TikTok). Route the strongest clip of the day to Facebook first; growth clips (Burnt Peanut, MissMikkaa, realkatieb) belong here. Proposal for Justin: 3 Reels/day from Thu 11-27 if the Page stays clean.",
+   "11-21 night (Analyst): LACY 'ran out of missions and thought he beat GTA 6' 728 views, 11 s avg (best avg watch yet) - a relatable 'did I beat the game?' moment. YourRAGE teeth now 1,156 (8 s avg)."
   ],
   "avoid": [
    "payoffs after ~10 s (avg watch 7-10 s)",
@@ -103,7 +106,7 @@
   "experiment": {
    "name": "series vs standalone",
    "plan": "Alternate Part series and standalone story clips; compare views per Reel after 6 Reels.",
-   "baseline": "11-19 Reels 217-923 views (median 505)"
+   "baseline": "11-18/19/20 Reels 220-1,156 views (median ~555); Part 1 358 -> Part 2 511 (carry ok on FB)"
   },
   "page": {
    "name": "Tony & Minions",
@@ -134,7 +137,7 @@
  },
  "youtube": {
   "health_metric": "Views after 48 h per Short and any 'Potential limitation' label in YouTube Studio.",
-  "status": "stalled / data blind (11-20): Metricool per-Short numbers are null for every 11-19 upload and 11-20 (Clix first seconds 18:10); latest readable: Speed download 1,163, LACY Lucia 183, everything else 0-3. Subs 5. vidIQ connector has no channel linked (tony.and.minions@gmail.com), so no Studio data.",
+  "status": "data blind (11-21 night): Metricool per-Short views null for every upload since 11-19 except JasonTheWeen PS5 (3) and LACY P2 (38); subs 6 (+1). vidIQ still has no channel linked (tony.and.minions@gmail.com shows 0 channels).",
   "what_works": [
    "Big name + big moment people search for: Speed counting down the GTA 6 download, 1,366 views (native upload by the Speed chat).",
    "LACY's first Lucia reaction, 205 views (first upload)."
