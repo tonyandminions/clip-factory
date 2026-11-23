@@ -107,6 +107,12 @@ Rules live in the Side Business folder (`LACY Workflow 11-18.md`, Clip Style Gui
 - **Weekly (Sunday Analyst):** one line per platform in Platform Playbook.md ("Platform scorecard"), what changed this week and why.
 
 ## What performs (update as numbers come in)
+- **11-22 night (Analyst + Sunday review, ~23:20 ET).** Source: Metricool only (rule T); posts through 11-21 ingested, 11-22 not yet. PC folder not connected → weekly review + tracker views are in `docs/pc_pending/2026-11-22_analyst.md` for the next run that can reach the PC.
+  - Best: LACY seaplane PART 1 FB **1,062** on day one (8 s avg) - best first-day Reel. YourRAGE teeth FB 1,160, LACY missions 769 (11 s).
+  - TikTok: **first recovery signal** - Speed P2 (native, not promoted) For You **1.0**, 210 views, 11 s avg. Caveat: it followed the paid P1. Search earners still compounding with no new posts (teeth 53→94, mom 94, LACY P2 294).
+  - Facebook: MissMikkaa gains still 0 views after 3 days (others 220+) → Justin check before MissMikkaa 11-23.
+  - YouTube subs 8 (+2); per-Short views still null; vidIQ 0 channels. X: not in Metricool, Justin reads it in the app.
+  - Caption split test: still 1 tagged posted clip (KreekCraft mom, word). Campaigns: KreekCraft best 94 / 3K; AsianJeff first post 11-23; $0.
 - **11-21 night (Analyst, ~23:15 ET).** Source: Metricool only (rule T). No 11-21 post ingested yet; numbers are 11-18 to 11-20 posts.
   - Best: YourRAGE teeth FB **1,156** (8 s avg); LACY "ran out of missions, thought he beat GTA 6" FB **728** with **11 s avg** (best watch time yet). MissMikkaa gains FB shows 0 (lag or not distributed - Justin check).
   - TikTok still throttled: no organic For You >= 0.3 since 11-18 (Speed P1 0.99 = paid). Search earners all read like a typed question: "dying in GTA 6 takes ALL your money" 284, "what GTA 6 is about" 78, "brushing your teeth in GTA 6" 53; "first time"/bet/robbery openers 2-14. → caption_rule tightened.
@@ -146,7 +152,7 @@ Justin: "we need a system to pull something brand new and post it right away for
 4. **Post at 6:10 PM** on the platforms the campaign allows, within the safety caps. Native TikTok posts from the Speed chat (Posting Schedule 11-18.md) count toward the TikTok cap: **Sat 11-21 TikTok belongs to Speed scooter Part 2 (1:20 PM, native) — Part 1 was promoted 11-20 and is moving — so that day's fresh pick goes to YouTube/Facebook only.** The fresh pick takes that day's TikTok post; whatever held the 6:10 slot (or that day's TikTok slot) moves to a later day (never deleted). Never move SEGA #Ad posts, and never put a Part 2 before its Part 1. Register it in `posted_sources.json`; the Submitter pushes Justin the links at 6:18.
 5. **Nothing grabbed / no good moment:** the day runs on the normal schedule. Never post a weak clip just to fill the fresh slot.
 
-**Weights log:** 11-21 night (Analyst): YourRAGE 1.15 -> 1.2 (teeth = best FB Reel 1,156 + 97%-search TikTok); mechanic hook words + everyday-life words (teeth, brush, shower, sleep, dying/died, lose all/lost all, real life, beat the game, run out/ran out) - our search earners are everyday actions 'in GTA 6'. Earlier 11-21: hook score mechanic 4 -> 6 (fresh_scan.py).
+**Weights log:** 11-22 night (Analyst): LACY 1.25 -> 1.3 (LACY holds 4 of the top 6 FB Reels: seaplane P1 1,062, missions 769, Lucia bank 599, P2 money 511). 11-21 night (Analyst): YourRAGE 1.15 -> 1.2 (teeth = best FB Reel 1,156 + 97%-search TikTok); mechanic hook words + everyday-life words (teeth, brush, shower, sleep, dying/died, lose all/lost all, real life, beat the game, run out/ran out) - our search earners are everyday actions 'in GTA 6'. Earlier 11-21: hook score mechanic 4 -> 6 (fresh_scan.py).
 
 **Staleness rule (Scheduler, from 11-20):** a reaction/story clip (hook_type reaction/story/other) whose moment is more than 5 days old doesn't go on TikTok; more than 7 days old it is held back (Metricool `draft: true`, never deleted). Mechanic clips (people keep searching them) stay usable up to 14 days. SEGA #Ad dates are fixed.
 
