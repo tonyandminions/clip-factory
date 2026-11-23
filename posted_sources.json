@@ -99,9 +99,12 @@
       "vod": "2932194507",
       "start": 32295,
       "end": 32345,
-      "status": "scheduled",
+      "status": "posted",
       "date": "2026-11-23 09:10",
-      "approx": true
+      "approx": true,
+      "yt": "https://www.youtube.com/shorts/X5fPY2Q844E",
+      "fb": "https://facebook.com/reel/29235556462765439",
+      "submitted": "2026-11-23 09:32 YouTube (Justin, by hand)"
     },
     {
       "name": "BP_HitTheGas",
