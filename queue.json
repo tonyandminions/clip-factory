@@ -93,7 +93,9 @@
       "status": "scheduled",
       "slot": "2026-11-24 18:10",
       "platforms": "YT FB",
-      "platforms_scheduled": "FB YT"
+      "platforms_scheduled": "FB (Metricool) + YT (direct)",
+      "yt": "https://youtube.com/shorts/urAJKiWZRmo",
+      "yt_upload": "direct (Justin, YouTube app) 2026-11-24 ~18:14 ET - YouTube direct-upload test day 1"
     },
     {
       "name": "KATIE_WorstGameplay",
