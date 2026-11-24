@@ -45,9 +45,17 @@ def http_json(url, data=None, headers=None):
 
 class Helix:
     def __init__(self, cid, secret):
-        tok = http_json("https://id.twitch.tv/oauth2/token",
-                        data=urllib.parse.urlencode({"client_id": cid, "client_secret": secret,
-                                                     "grant_type": "client_credentials"}).encode())
+        # Pasted secrets often carry a stray space or newline; Twitch rejects those.
+        cid, secret = cid.strip(), secret.strip()
+        try:
+            tok = http_json("https://id.twitch.tv/oauth2/token",
+                            data=urllib.parse.urlencode({"client_id": cid, "client_secret": secret,
+                                                         "grant_type": "client_credentials"}).encode())
+        except urllib.error.HTTPError as e:
+            # Twitch's reply names the problem (e.g. "invalid client secret") and never echoes the keys.
+            body = e.read().decode(errors="replace")[:300]
+            sys.exit(f"Twitch token request failed: HTTP {e.code} {body} "
+                     f"(client id length {len(cid)}, secret length {len(secret)})")
         self.h = {"Client-ID": cid, "Authorization": "Bearer " + tok["access_token"]}
 
     def get(self, path, params):
