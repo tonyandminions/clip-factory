@@ -117,11 +117,22 @@ if caps:
                   f"enable='between(t,{s},{e})'")
 
 PRE = "" if a.native else "scale=1920:1080:flags=lanczos,"
+# Quality (Justin 11-24: "make sure all the videos are high res as much as possible"):
+# keep 60 fps when the source has it (gameplay looks much smoother), lanczos scaling,
+# a light sharpen on the upscaled facecam, and a slower/better encode.
+try:
+    _fr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=avg_frame_rate",
+                          "-of", "csv=p=0", a.src], capture_output=True, text=True).stdout.strip().split("/")
+    SRC_FPS = float(_fr[0]) / float(_fr[1] if len(_fr) > 1 and float(_fr[1]) else 1)
+except Exception:
+    SRC_FPS = 30.0
+FPS = 60 if SRC_FPS >= 50 else 30
+print("fps", round(SRC_FPS, 2), "->", FPS)
 fc = (
-    f"[0:v]{PRE}setsar=1,fps=30,split=3[b][c][g];"
+    f"[0:v]{PRE}setsar=1,fps={FPS},split=3[b][c][g];"
     f"[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness={BG_DARK}[bg];"
-    f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale},setsar=1[cam];"
-    f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H},setsar=1[game];"
+    f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale}:flags=lanczos,unsharp=5:5:0.6:5:5:0.0,setsar=1[cam];"
+    f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H}:flags=lanczos,setsar=1[game];"
     f"[bg][cam]overlay={camx}:{CAM_Y2}[t1];[t1][game]overlay=0:{GAME_Y}[t2];"
     f"[t2]{','.join(dt + ([assf] if assf else []))},setsar=1[v]"
 )
@@ -129,7 +140,7 @@ cmd = ["ffmpeg", "-v", "error", "-y"]
 if a.ss is not None: cmd += ["-ss", str(a.ss)]
 if a.to is not None: cmd += ["-to", str(a.to)]
 cmd += ["-i", a.src, "-filter_complex", fc, "-map", "[v]", "-map", "0:a?",
-        "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+        "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-profile:v", "high", "-pix_fmt", "yuv420p",
         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", a.out]
 subprocess.run(cmd, check=True)
 print("built", a.out)

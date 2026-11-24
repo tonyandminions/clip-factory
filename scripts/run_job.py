@@ -29,6 +29,8 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
                                           #   a slur found in the finished clip FAILS the build (cut it out with "segments" instead)
   "blur": null,                           # [{"t0","t1","x","y","w","h"}] blur a box (FINISHED 1080x1920 frame) for a time window,
                                           #   e.g. a revealing in-game outfit; YouTube/Facebook only (README content rules)
+  "yt1440": false,                        # also write NAME_YT1440.mp4 (1440x2560) for Justin's direct YouTube uploads:
+                                          #   YouTube is widely reported to give 1440p+ uploads its better (VP9) encode
   "overlay": null                         # campaign logo/watermark on the WHOLE clip (KreekCraft, Clix x JBL):
                                           # {"url": png/webp/Drive link, "w": 230, "x": "main_w-overlay_w-36", "y": "main_h*0.52", "alpha": 1.0}
 }
@@ -144,7 +146,7 @@ def add_blur(hq, regions, od):
                f"[{prev}][b{i}]overlay={x}:{y}:enable='between(t,{float(r['t0'])},{float(r['t1'])})'[v{i}];")
         prev = f"v{i}"
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-filter_complex", fc.rstrip(";"), "-map", f"[{prev}]", "-map", "0:a?",
-       "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "copy", tmp)
+       "-c:v", "libx264", "-preset", "medium", "-crf", "14", "-pix_fmt", "yuv420p", "-c:a", "copy", tmp)
     os.replace(tmp, hq)
 
 def run(job):
@@ -266,6 +268,10 @@ def run(job):
         wins = mute_windows(od, m if isinstance(m, list) else None, auto=True)
         if m:
             add_mute(hq, wins, od)
+    if job.get("yt1440"):
+        y = os.path.join(od, f"{name}_YT1440.mp4")
+        sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", "scale=1440:2560:flags=lanczos", "-c:v", "libx264",
+           "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", y)
     if job.get("post", False):  # browser-upload copy (<3.6 MB); Metricool uses the HQ file
         sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
     # preview strip of the finished edit
@@ -330,7 +336,7 @@ def add_explain(hq, ex, od):
     tmp = hq.replace(".mp4", "_ex.mp4")
     fc = f"[0:v][1:v]overlay=0:0:enable='between(t,{T:.3f},{T + D:.3f})',format=yuv420p[v]"
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-loop", "1", "-i", card, "-filter_complex", fc, "-map", "[v]", "-map", "0:a?",
-       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "copy", "-movflags", "+faststart", tmp)
+       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "14", "-c:a", "copy", "-movflags", "+faststart", tmp)
     os.replace(tmp, hq)
     for f in (still,):
         os.remove(f)
@@ -355,7 +361,7 @@ def add_overlay(hq, ov, od):
     tmp = hq.replace(".mp4", "_ov.mp4")
     fc = f"[1:v]scale={w}:-1,format=rgba,colorchannelmixer=aa={a}[o];[0:v][o]overlay=x={x}:y={y}:format=auto,format=yuv420p[v]"
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-loop", "1", "-i", png, "-filter_complex", fc, "-map", "[v]", "-map", "0:a?",
-       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-c:a", "copy", "-movflags", "+faststart", tmp)
+       "-shortest", "-c:v", "libx264", "-preset", "medium", "-crf", "14", "-c:a", "copy", "-movflags", "+faststart", tmp)
     os.replace(tmp, hq); os.remove(raw)
 
 def safe(job):
