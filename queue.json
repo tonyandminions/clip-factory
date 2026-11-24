@@ -512,6 +512,24 @@
       "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD.",
       "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/LACY_PolarBear_TT/LACY_PolarBear_TT_HQ.mp4",
       "tiktok_explain": true
+    },
+    {
+      "name": "LIVE_MIKKAA_SpikeStrip",
+      "streamer": "missmikkaa",
+      "campaign": "growth",
+      "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-104/LIVE_MIKKAA_SpikeStrip/LIVE_MIKKAA_SpikeStrip_HQ.mp4",
+      "caption": "MissMikkaa didn't see the GTA 6 spike strip coming 😭 #MissMikkaa #gta6 🎬 twitch.tv/missmikkaa",
+      "yt_title": "MissMikkaa Ran Into a GTA 6 Spike Strip 😭 #shorts #gta6",
+      "cover_ms": 3000,
+      "platforms": [
+        "youtube",
+        "facebook"
+      ],
+      "hook_type": "reaction",
+      "status": "ready",
+      "added": "2026-11-24T20:23:16Z",
+      "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip e92aabe9; already paid for",
+      "note": "growth clip, 12 s; Facebook 15:10 growth slot first"
     }
   ]
 }
