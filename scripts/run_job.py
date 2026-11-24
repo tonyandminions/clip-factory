@@ -20,6 +20,9 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "explain": null,                        # explainer freeze (Justin 11-21, TikTok originality): {"t": 2.0, "dur": 1.8,
                                           #   "head": "GTA 6 MECHANIC", "text": "Cars run out of gas. No gas station = you walk."}
                                           #   t/dur in seconds of the FINISHED clip; audio keeps playing, picture freezes with a card
+  "csband": false,                        # ClipSpeed live clip (official ClipSpeed connector, 11-24): finds the cam+game band
+                                          #   between ClipSpeed's black title/caption bars, drops their burned captions/title,
+                                          #   cam = band top, game = bottom 16:9 of the band; rebuilt with OUR title + captions
   "overlay": null                         # campaign logo/watermark on the WHOLE clip (KreekCraft, Clix x JBL):
                                           # {"url": png/webp/Drive link, "w": 230, "x": "main_w-overlay_w-36", "y": "main_h*0.52", "alpha": 1.0}
 }
@@ -52,6 +55,42 @@ def fit_1080(src, od):
     sh("ffmpeg", "-v", "error", "-y", "-i", src, "-vf", vf, "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
        "-crf", "16", "-c:a", "aac", "-b:a", "192k", out)
     os.replace(out, src)
+
+
+def cs_band(src, od):
+    """ClipSpeed vertical clip (1080x1920): its cam+game band sits between black bars that hold ClipSpeed's
+    burned title (top) and captions (bottom). Rows of the band are mostly non-black in nearly every frame;
+    caption rows are mostly black between the letters. Returns (cam, game) crops in source pixels + info."""
+    import numpy as np
+    W, H = 216, 384
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-vf", f"fps=2,scale={W}:{H},format=gray",
+                          "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
+    fr = np.frombuffer(raw, np.uint8).reshape(-1, H, W)
+    rowfill = np.median((fr > 18).mean(axis=2), axis=0)          # share of non-black pixels per row, median over time
+    good = rowfill > 0.6
+    best, start = (0, 0), None
+    for i, g in enumerate(list(good) + [False]):       # longest run of band rows
+        if g and start is None:
+            start = i
+        elif not g and start is not None:
+            if i - start > best[1] - best[0]:
+                best = (start, i)
+            start = None
+    y0, y1 = best
+    iw, ih = map(int, subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                                      "stream=width,height", "-of", "csv=p=0", src], capture_output=True,
+                                     text=True, check=True).stdout.strip().split(",")[:2])
+    by0, by1 = int(y0 * ih / H), int(y1 * ih / H)
+    bh = by1 - by0
+    gh = int(iw * 9 / 16) // 2 * 2
+    chh = (bh - gh) // 2 * 2
+    ok = bh < ih * 0.9 and 0.25 * iw <= chh <= 0.8 * iw
+    info = {"src_size": [iw, ih], "band": [0, by0, iw, bh], "cam_h": chh, "game_h": gh, "confident": bool(ok)}
+    json.dump(info, open(os.path.join(od, "csband.json"), "w"))
+    print("csband", info, flush=True)
+    cam = f"0,{by0},{iw},{max(chh, 2)}"
+    game = f"0,{by1 - gh},{iw},{gh}"
+    return cam, game, info
 
 
 def run(job):
@@ -107,6 +146,10 @@ def run(job):
         sh("cp", job["file"], src)
     else:
         sh("yt-dlp", "-q", "--no-warnings", "-S", "res,fps,ext:mp4:m4a", "--merge-output-format", "mp4", "-o", src, job["url"])
+    if job.get("csband"):  # ClipSpeed clip -> our own edit (their burned captions/title are outside the band)
+        cam, game, _ = cs_band(src, od)
+        job.setdefault("cam", cam); job.setdefault("game", game)
+        job["_native"] = True
     if job.get("fit1080"):  # phone screen recording / ClipSpeed download (fresh pick, route A) -> clean 1920x1080
         fit_1080(src, od)
     # "segments": [[s,e],...] in source seconds — keep only these parts (cuts dead air), joined in order.
@@ -150,6 +193,8 @@ def run(job):
             cmd += [f"--{k.replace('_', '-')}", str(job[k])]
     if job.get("camfit"):
         cmd += ["--camfit"]
+    if job.get("_native"):
+        cmd += ["--native"]
     if capsfile:
         cmd += ["--caps", capsfile, "--capstyle", capstyle, "--words", os.path.join(od, "words.json")]
     sh(*cmd)

@@ -31,6 +31,7 @@ ap.add_argument("--camfit", action="store_true", help="keep cam aspect, scale to
 ap.add_argument("--credit", help="small credit line under the title band, e.g. twitch.tv/name")
 ap.add_argument("--setup", help="story/context line shown in the caption band for the first seconds")
 ap.add_argument("--setup-dur", type=float, default=2.8)
+ap.add_argument("--native", action="store_true", help="don't rescale the source to 1920x1080 (ClipSpeed vertical clips): crops are in source pixels")
 ap.add_argument("--style", default="auto", help="0-7 or auto (hash of output name): accent colour, stack order, look")
 ap.add_argument("--capstyle", default="phrase", choices=["phrase", "word"], help="word = phrase on screen, spoken word lit up in the accent colour")
 ap.add_argument("--words", help="words.json from transcribe.py (real word timings for --capstyle word)")
@@ -115,8 +116,9 @@ if caps:
                   f"borderw=5:bordercolor=black:x=(w-text_w)/2:y={CAP_Y}+(126-text_h)/2-4:"
                   f"enable='between(t,{s},{e})'")
 
+PRE = "" if a.native else "scale=1920:1080:flags=lanczos,"
 fc = (
-    f"[0:v]scale=1920:1080:flags=lanczos,setsar=1,fps=30,split=3[b][c][g];"
+    f"[0:v]{PRE}setsar=1,fps=30,split=3[b][c][g];"
     f"[b]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness={BG_DARK}[bg];"
     f"[c]crop={cw}:{ch}:{cx}:{cy},scale={camscale},setsar=1[cam];"
     f"[g]crop={gw}:{gh}:{gxe}:{gye},scale=1080:{GAME_H},setsar=1[game];"
