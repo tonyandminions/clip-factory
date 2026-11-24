@@ -6,12 +6,12 @@
   "roster": {
     "kreekcraft": {
       "campaign": "KreekCraft",
-      "weight": 1.3,
+      "weight": 0.6,
       "platforms": [
         "tiktok",
         "youtube"
       ],
-      "note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X"
+      "note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X; 11-24 Justin: KreekCraft doesn't perform for us (best 101 views vs the 3K/clip minimum, and his rules keep him off Facebook, our best platform) -> weight 1.3 -> 0.6, exceptional mechanic moments only"
     },
     "lacy": {
       "campaign": "LACY",
@@ -74,12 +74,13 @@
     },
     "theburntpeanut": {
       "campaign": "growth",
-      "weight": 0.8,
+      "weight": 1.1,
       "platforms": [
         "tiktok",
         "youtube",
         "facebook"
-      ]
+      ],
+      "note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)"
     },
     "missmikkaa": {
       "campaign": "growth",
