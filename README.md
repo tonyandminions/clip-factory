@@ -21,7 +21,7 @@ T. **TERMS OF SERVICE FIRST (Justin 11-20; Phillip flagged it in Discord). Beats
    - **Allowed tools:**
      - Metricool (official APIs) for posting, scheduling, Facebook stories and analytics;
      - GitHub (our repos, and Actions that edit footage we already have);
-     - the vidIQ connector (YouTube's official API);
+     - the vidIQ connector (YouTube's official API) - **Justin cancelled vidIQ 11-24; it won't renew. ~660 credits stay usable until ~Dec 20, then it's gone.** Only use left: the Live Clipper's Speed live check (5 credits). Don't spend vidIQ credits on anything else without asking Justin;
      - **the ClipSpeed connector (ClipSpeed's official MCP server, api.clipspeed.ai/mcp, Justin connected it 11-24).** ClipSpeed publishes it for AI agents; its terms only ban automated tools that "abuse, scrape, or overload the Service". ClipSpeed fetches the stream on its own servers, so live clipping through it is not us touching Twitch. Use: `clip_livestream`, `check_livestream`, `stop_livestream`, `check_clips`, `get_account`. NEVER its `publish_to_youtube`/`schedule_post` (posting stays on Metricool) and never its paid AI creation tools (generate_*, *_ad, influencer, morphaze) without Justin's OK;
      - the Twitch Helix API with our own app keys (`fresh.yml`, from 11-24);
      - Claude Docs/Drive, the PC files, and messages/push to Justin.
