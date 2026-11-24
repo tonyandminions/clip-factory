@@ -23,6 +23,12 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "csband": false,                        # ClipSpeed live clip (official ClipSpeed connector, 11-24): finds the cam+game band
                                           #   between ClipSpeed's black title/caption bars, drops their burned captions/title,
                                           #   cam = band top, game = bottom 16:9 of the band; rebuilt with OUR title + captions
+  "mute": null,                           # "auto" = silence every swear Whisper finds (words.json flags; damn/goddamn/hoe left in)
+                                          #   and/or [[s,e],...] extra windows in seconds of the FINISHED clip
+                                          #   (Justin 11-24: "no bleeps, just cut audio" - a short silent gap, no tone)
+                                          #   a slur found in the finished clip FAILS the build (cut it out with "segments" instead)
+  "blur": null,                           # [{"t0","t1","x","y","w","h"}] blur a box (FINISHED 1080x1920 frame) for a time window,
+                                          #   e.g. a revealing in-game outfit; YouTube/Facebook only (README content rules)
   "overlay": null                         # campaign logo/watermark on the WHOLE clip (KreekCraft, Clix x JBL):
                                           # {"url": png/webp/Drive link, "w": 230, "x": "main_w-overlay_w-36", "y": "main_h*0.52", "alpha": 1.0}
 }
@@ -92,6 +98,54 @@ def cs_band(src, od):
     game = f"0,{by1 - gh},{iw},{gh}"
     return cam, game, info
 
+
+MILD = {"damn", "goddamn", "hoe", "hoes", "ho"}
+SLUR = re.compile(r"^(nigg\w*|fag\w*|retard\w*)$", re.I)
+
+def mute_windows(od, extra=None, auto=True):
+    """Swear windows (s, e) in the finished clip from words.json, plus any extra windows. Raises on a slur."""
+    win = [tuple(map(float, w)) for w in (extra or [])]
+    wp = os.path.join(od, "words.json")
+    if auto and os.path.exists(wp):
+        for t0, t1, w, sw in json.load(open(wp)):
+            clean = re.sub(r"[^\w]", "", w).lower()
+            if SLUR.match(clean):
+                open(os.path.join(od, "SLUR_FOUND.txt"), "w").write(f"{t0}-{t1} {w}\n")
+                raise SystemExit(f"SLUR in finished clip at {t0}-{t1}: cut it out with segments (README content rules)")
+            if sw and clean not in MILD:
+                win.append((max(0.0, t0 - 0.06), t1 + 0.06))
+    win.sort()
+    merged = []
+    for a, b in win:
+        if merged and a <= merged[-1][1] + 0.05: merged[-1] = (merged[-1][0], max(b, merged[-1][1]))
+        else: merged.append((a, b))
+    return merged
+
+def add_mute(hq, windows, od):
+    """Cut the audio (silence, no bleep tone) in each window; video copied."""
+    if not windows: return
+    cond = "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in windows)
+    tmp = os.path.join(od, "mute.mp4")
+    sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-af", f"volume=0:enable='{cond}'", "-c:v", "copy",
+       "-c:a", "aac", "-b:a", "192k", tmp)
+    os.replace(tmp, hq)
+    json.dump([[round(a, 2), round(b, 2)] for a, b in windows], open(os.path.join(od, "muted.json"), "w"))
+
+def add_blur(hq, regions, od):
+    """Blur boxes ({"t0","t1","x","y","w","h"} in the finished 1080x1920 frame) for their time windows."""
+    if not regions: return
+    n = len(regions); tmp = os.path.join(od, "blur.mp4")
+    fc = f"[0:v]split={n + 1}[base]" + "".join(f"[s{i}]" for i in range(n)) + ";"
+    prev = "base"
+    for i, r in enumerate(regions):
+        x, y, w, h = (int(r[k]) // 2 * 2 for k in ("x", "y", "w", "h"))
+        rad = max(8, min(w, h) // 6)
+        fc += (f"[s{i}]crop={w}:{h}:{x}:{y},boxblur={rad}:3[b{i}];"
+               f"[{prev}][b{i}]overlay={x}:{y}:enable='between(t,{float(r['t0'])},{float(r['t1'])})'[v{i}];")
+        prev = f"v{i}"
+    sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-filter_complex", fc.rstrip(";"), "-map", f"[{prev}]", "-map", "0:a?",
+       "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "copy", tmp)
+    os.replace(tmp, hq)
 
 def run(job):
     name = job["name"]
@@ -177,7 +231,7 @@ def run(job):
         import hashlib
         capstyle = "word" if int(hashlib.md5(name.encode()).hexdigest(), 16) % 2 else "phrase"
     json.dump({"capstyle": capstyle, "level": job.get("level", True)}, open(os.path.join(od, "build.json"), "w"))
-    if cap == "auto" or job.get("probe") or (capstyle == "word" and isinstance(cap, list)):
+    if cap == "auto" or job.get("probe") or job.get("mute") or (capstyle == "word" and isinstance(cap, list)):
         sh(*tr)  # also writes words.json (word timings) for word-by-word captions
     if job.get("probe"):
         return
@@ -200,10 +254,18 @@ def run(job):
     sh(*cmd)
     if job.get("explain"):  # freeze-frame explainer card; before the logo so the logo stays on top
         add_explain(hq, job["explain"], od)
+    if job.get("blur"):  # blur boxes (revealing in-game outfit etc.), under the logo
+        add_blur(hq, job["blur"], od)
     if job.get("overlay"):  # required campaign logo, visible start to finish
         add_overlay(hq, job["overlay"], od)
     if job.get("level", True):  # even loudness: -14 LUFS, peaks under -1.5 dB (two-pass, no pumping)
         level_audio(hq)
+    if job.get("mute") or os.path.exists(os.path.join(od, "words.json")):
+        # the slur check always runs when we have word timings; muting only when asked
+        m = job.get("mute")
+        wins = mute_windows(od, m if isinstance(m, list) else None, auto=True)
+        if m:
+            add_mute(hq, wins, od)
     if job.get("post", False):  # browser-upload copy (<3.6 MB); Metricool uses the HQ file
         sh("bash", os.path.join(HERE, "post_encode.sh"), hq, os.path.join(od, f"{name}_post.mp4"))
     # preview strip of the finished edit
