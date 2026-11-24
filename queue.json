@@ -530,6 +530,27 @@
       "added": "2026-11-24T20:23:16Z",
       "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip e92aabe9; already paid for",
       "note": "growth clip, 12 s; Facebook 15:10 growth slot first"
+    },
+    {
+      "name": "LIVE_MIKKAA_Tracker",
+      "streamer": "missmikkaa",
+      "campaign": "growth",
+      "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-105/LIVE_MIKKAA_Tracker/LIVE_MIKKAA_Tracker_HQ.mp4",
+      "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-105/LIVE_MIKKAA_Tracker/LIVE_MIKKAA_Tracker_HQ.mp4",
+      "tiktok_explain": true,
+      "caption": "GTA 6 cars can have a tracker on them 😳 MissMikkaa found out after breaking in #gta6gameplay #MissMikkaa 🎬 twitch.tv/missmikkaa",
+      "yt_title": "GTA 6 Cars Can Have a Tracker On Them 😳 #shorts #gta6",
+      "cover_ms": 5600,
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "facebook"
+      ],
+      "hook_type": "mechanic",
+      "status": "ready",
+      "added": "2026-11-24T20:32:22Z",
+      "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip 8349a551; slur at 13 s cut out with segments, mute auto, explainer card",
+      "note": "growth mechanic clip, 13 s; explainer baked in (TikTok-ready)"
     }
   ]
 }
