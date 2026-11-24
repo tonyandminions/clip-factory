@@ -22,8 +22,10 @@ T. **TERMS OF SERVICE FIRST (Justin 11-20; Phillip flagged it in Discord). Beats
      - Metricool (official APIs) for posting, scheduling, Facebook stories and analytics;
      - GitHub (our repos, and Actions that edit footage we already have);
      - the vidIQ connector (YouTube's official API);
+     - **the ClipSpeed connector (ClipSpeed's official MCP server, api.clipspeed.ai/mcp, Justin connected it 11-24).** ClipSpeed publishes it for AI agents; its terms only ban automated tools that "abuse, scrape, or overload the Service". ClipSpeed fetches the stream on its own servers, so live clipping through it is not us touching Twitch. Use: `clip_livestream`, `check_livestream`, `stop_livestream`, `check_clips`, `get_account`. NEVER its `publish_to_youtube`/`schedule_post` (posting stays on Metricool) and never its paid AI creation tools (generate_*, *_ad, influencer, morphaze) without Justin's OK;
+     - the Twitch Helix API with our own app keys (`fresh.yml`, from 11-24);
      - Claude Docs/Drive, the PC files, and messages/push to Justin.
-   - **Never use Claude in Chrome or scripts, not even read-only, on:** x.com, tiktok.com (incl. TikTok Studio), youtube.com / studio.youtube.com, facebook.com / Meta Business Suite, instagram.com, discord.com, twitch.tv / gql.twitch.tv, fiverr.com, contentrewards.com / whop.com, clipspeed.ai.
+   - **Never use Claude in Chrome or scripts, not even read-only, on:** x.com, tiktok.com (incl. TikTok Studio), youtube.com / studio.youtube.com, facebook.com / Meta Business Suite, instagram.com, discord.com, twitch.tv / gql.twitch.tv, fiverr.com, contentrewards.com / whop.com, clipspeed.ai (the website; the ClipSpeed **connector** is allowed).
    - **Paused until Justin decides:**
      - **Clip sourcing:** no new jobs that fetch from Twitch or YouTube (GQL queries, VOD/clip downloads, `scan`, `record`, `live`, `url` routes); build only from footage already on the out branch or files Justin provides.
      - **X posting:** Justin posts by hand, or we turn on Metricool's X add-on.
@@ -170,7 +172,16 @@ Every TikTok post gets an `"explain"` freeze card on top of the normal edit (run
 - TikTok only gets queue items that have `tiktok_media` (or a fresh pick built with `explain`). YouTube/Facebook keep the normal version.
 - Campaign logos (KreekCraft) stay visible: the card is added before the logo overlay, and restyles freeze a frame that already has the logo.
 
-## Live route (ClipSpeed → VOD)
+## ClipSpeed live route (official connector, from 11-24) — the automated way to get fresh footage
+Justin 11-24: "we want it to be automated, that's why I have the speedclip software." Tested end to end 11-24 (MissMikkaa, run-101/102).
+1. **Who's live:** run `fresh.yml` (Twitch official API) and read `live_on_gta6` in out/fresh/latest.json.
+2. **Clip:** `clip_livestream` {streamUrl: "https://www.twitch.tv/<login>", layout "rectangle", maxMinutes 15-30}. ClipSpeed starts producing clips within ~3 minutes. Poll `check_livestream` every few minutes; a clip is done when hasCaptions is true. Each clip has a title, a viral score (0-100) and a cdn.clipspeed.ai mp4 link.
+3. **Budget:** ClipSpeed Starter draws ~9 credits per 15 min live (101 -> 92 on 11-24, ~36/hour). `get_account` shows what's left. Keep 30 in reserve; until the Dec 18 renewal that's about 1 short session a day at most. Stop early with `stop_livestream` once you have 2 strong clips. More live minutes = a ClipSpeed plan upgrade (Justin's call).
+4. **Rebuild in our style (never post ClipSpeed's file as is - originality):** job `{"name", "url": "<cdn mp4>", "csband": true, "title": [...], "captions": "auto" or manual list, "style", "explain"?, "overlay"?}`. `csband` finds ClipSpeed's cam+game band (1080x1920, cam on top, 16:9 game below, between black bars), drops ClipSpeed's burned title/captions, and rebuilds with OUR title band + hand-checked captions (crops in source pixels, `--native`). `out/<name>/csband.json` says `confident`. When ClipSpeed made a full-frame clip (16:9 game with a small webcam inside, not a split), csband is not confident: pass `cam` and `game` yourself in SOURCE pixels (read sheet.jpg) - explicit cam/game win over csband. Probe first (`"probe": true`) to read the transcript: ClipSpeed's auto-picks can contain swears/slurs and outfit shots - run every content rule.
+5. **Post** through Metricool like the fast lane below (replace the next scheduled post on that platform, keep the caps), then push Justin the Content Rewards links the moment TikTok/YouTube show PUBLISHED (30-minute window).
+Note: `submit_to_clipspeed` rejects Twitch clip URLs (`invalid_video_url`, 11-24) - live only for Twitch.
+
+## Live route (ClipSpeed → VOD) — old browser route, PAUSED (rule T)
 `"live": {"channel","vod","ref","gen_utc","back","pad"}` downloads the VOD window and finds the
 ClipSpeed clip inside it by audio (match ≥0.9 is good; <0.3 means the window missed — widen `back`).
 `gen_utc` = the 10-digit epoch in ClipSpeed's `captioned_<id>_<epoch-ms>.mp4` filename.
