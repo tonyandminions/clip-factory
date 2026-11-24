@@ -185,16 +185,19 @@
   },
   "youtube": {
     "health_metric": "Views after 48 h per Short and any 'Potential limitation' label in YouTube Studio.",
-    "status": "data mostly blind, subs jumping (11-23 night): subs 8 -> 17 on 11-23 (+9, biggest day yet). Metricool per-Short views now in for 11-18..11-20 uploads (LACY P2 money 72, Lucia 222, Speed download 1,406, teeth 9, Clix 3, JasonTheWeen PS5 6); 11-21+ uploads still null. vidIQ still 0 channels. Justin: link the channel in vidIQ.",
+    "status": "11-24 (main chat, Metricool 'all videos' YTVV - per-Short views DO come through there): one breakout, the rest tiny. Speed scooter PART 2 22,327 views / 311 likes / 11 s avg (organic, Shorts feed = 23,252 of the channel's views); Speed GTA 6 download 1,409; LACY first Lucia reaction 222; LACY P2 lost ALL his money 79; seaplane P1 49; YourRAGE teeth 27; everything else 1-13. Search 559 views, the 2nd source. 11-23/24 uploads not in yet (Metricool lags ~2 days).",
     "what_works": [
       "Big name + big moment people search for: Speed counting down the GTA 6 download, 1,366 views (native upload by the Speed chat).",
       "LACY's first Lucia reaction, 205 views (first upload).",
-      "11-23 (Analyst): LACY P2 'lost ALL his money' grew 38 -> 72 on YouTube (relatable mechanic). 11-23 sub jump +9 came after LACY seaplane P1/P2, realkatieb and LACY Lucia uploads - cause not visible yet."
+      "11-23 (Analyst): LACY P2 'lost ALL his money' grew 38 -> 72 on YouTube (relatable mechanic). 11-23 sub jump +9 came after LACY seaplane P1/P2, realkatieb and LACY Lucia uploads - cause not visible yet.",
+      "11-24 (main chat): YouTube rewards (1) the biggest names with a mainstream audience (Speed = 2 of the top 2), (2) a moment people already talk about or search ('GTA 6 finally finished downloading', 'first time seeing Lucia', 'lost ALL his money'), (3) a chase/escape or payoff that lands in second 1 and keeps going (Speed P2 held 11 s avg). Part 2s can win on their own when the payoff is self-contained."
     ],
     "avoid": [
       "uploading the same moment twice (BP traffic went up twice)",
       "generic reactions without a searchable topic",
-      "11-19: name-first titles with no search topic - all 5 of today's Shorts 0-2 views"
+      "11-19: name-first titles with no search topic - all 5 of today's Shorts 0-2 views",
+      "11-24: posting the same moment twice (Burnt Peanut traffic x2 = 1 and 2 views) and launch-day bursts (9 Shorts on 11-18, most got 1-18 views)",
+      "11-24: small or niche streamers on YouTube (KreekCraft croc 1, Clix first seconds 4) - give their YouTube slot to the strongest big-moment clip of the day"
     ],
     "route": {
       "hook_types": [
@@ -207,7 +210,8 @@
         "kreekcraft",
         "lacy"
       ],
-      "per_day": 2
+      "per_day": 2,
+      "pick_rule": "11-24: YouTube slots go to the clip most likely to be shared beyond GTA fans: a big-name streamer + a famous/searchable moment + action in second 1. Title = what happened, plainly, with the GTA 6 search words ('Speed fled the cops on a stolen scooter in GTA 6'). Speed clips (growth) are the proven YouTube winners - use any that are ready."
     },
     "experiment": {
       "name": "search titles",
