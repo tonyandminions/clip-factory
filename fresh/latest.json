@@ -1,12 +1,12 @@
 {
- "scanned_at": "2026-11-24T14:55:11.542435+00:00",
+ "scanned_at": "2026-11-24T15:21:56.717763+00:00",
  "hours": 24,
  "live_on_gta6": [
   "missmikkaa"
  ],
  "top": [
   {
-   "score": 15.94,
+   "score": 21.64,
    "streamer": "theburntpeanut",
    "name": "TheBurntPeanut",
    "campaign": "growth",
@@ -16,14 +16,14 @@
     "youtube",
     "facebook"
    ],
-   "rule_note": "",
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
    "hook_type": "other",
    "title": "Peanut scared",
    "all_titles": "Peanut scared | JUMP SCARE | not cool | WHAT THE",
-   "views": 811,
+   "views": 839,
    "clippers": 4,
-   "age_h": 11.8,
-   "views_per_h": 69,
+   "age_h": 12.3,
+   "views_per_h": 68,
    "duration": 17.3,
    "url": "https://www.twitch.tv/theburntpeanut/clip/SolidPrettySwordOSfrog-2PRQOLx6FLoffjlQ",
    "clip": "SolidPrettySwordOSfrog-2PRQOLx6FLoffjlQ",
@@ -33,16 +33,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/a6dafc4e-ff5f-4684-a084-5773745f41b6/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 18.43,
+    "velocity": 18.42,
     "clippers": 8.0,
     "hook": 0,
     "live": 0,
     "length": 0
    },
-   "fresh": 0.75
+   "fresh": 0.74
   },
   {
-   "score": 14.81,
+   "score": 20.13,
    "streamer": "theburntpeanut",
    "name": "TheBurntPeanut",
    "campaign": "growth",
@@ -52,13 +52,13 @@
     "youtube",
     "facebook"
    ],
-   "rule_note": "",
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
    "hook_type": "other",
    "title": "That's a whole lot of ASS!!!!",
    "all_titles": "That's a whole lot of ASS!!!! | junk | whole lot",
-   "views": 691,
+   "views": 720,
    "clippers": 3,
-   "age_h": 11.4,
+   "age_h": 11.8,
    "views_per_h": 61,
    "duration": 15.8,
    "url": "https://www.twitch.tv/theburntpeanut/clip/TrustworthyAbrasivePangolinWoofer-S8iUej6zte8Ol6eB",
@@ -69,16 +69,52 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/c024f2b6-e6b5-49f1-b7f3-66f32a0af0e7/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 17.91,
+    "velocity": 17.93,
     "clippers": 6.34,
     "hook": 0,
     "live": 0,
     "length": 0
    },
+   "fresh": 0.75
+  },
+  {
+   "score": 12.71,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
+   "hook_type": "other",
+   "title": "ninja junk",
+   "all_titles": "ninja junk",
+   "views": 305,
+   "clippers": 1,
+   "age_h": 11.8,
+   "views_per_h": 26,
+   "duration": 24.2,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/SaltyPuzzledRavenResidentSleeper-fdLYjSVRLJ0buzjD",
+   "clip": "SaltyPuzzledRavenResidentSleeper-fdLYjSVRLJ0buzjD",
+   "vod": "2938886234",
+   "vod_offset": 11728,
+   "created_at": "2026-11-24T03:36:38Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/7ca6988a-2dd3-44db-bc3e-a3060bee815c/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 14.3,
+    "clippers": 0.0,
+    "hook": 0,
+    "live": 0,
+    "length": 1
+   },
    "fresh": 0.76
   },
   {
-   "score": 12.38,
+   "score": 12.27,
    "streamer": "missmikkaa",
    "name": "MissMikkaa",
    "campaign": "growth",
@@ -92,9 +128,9 @@
    "hook_type": "mechanic",
    "title": "Behold, the perfect car!",
    "all_titles": "Behold, the perfect car! | !HEIST 9999 \ud83d\udd25",
-   "views": 350,
+   "views": 371,
    "clippers": 2,
-   "age_h": 16.1,
+   "age_h": 16.5,
    "views_per_h": 22,
    "duration": 30,
    "url": "https://www.twitch.tv/missmikkaa/clip/MoldyDarlingCardJebaited-9zXoY6rxfXDBuq36",
@@ -105,51 +141,54 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/eea020aa-431f-40b6-b130-923a9d32d391/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": true,
    "points": {
-    "velocity": 13.58,
+    "velocity": 13.71,
     "clippers": 4.0,
     "hook": 6,
     "live": 2,
     "length": 1
    },
-   "fresh": 0.67
+   "fresh": 0.66
   },
   {
-   "score": 10.99,
-   "streamer": "kreekcraft",
-   "name": "KreekCraft",
-   "campaign": "KreekCraft",
+   "score": 10.93,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
    "campaign_expired": false,
    "platforms": [
     "tiktok",
-    "youtube"
+    "youtube",
+    "facebook"
    ],
-   "rule_note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X",
-   "hook_type": "mechanic",
-   "title": "kreek getting a six star wanted level",
-   "all_titles": "kreek getting a six star wanted level | kreek 6 stars wanted level",
-   "views": 4,
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
+   "hook_type": "other",
+   "title": "The Burnt Peanut STEALS HOT MILK",
+   "all_titles": "The Burnt Peanut STEALS HOT MILK",
+   "views": 61,
    "clippers": 2,
-   "age_h": 14.4,
-   "views_per_h": 0,
-   "duration": 29.5,
-   "url": "https://www.twitch.tv/kreekcraft/clip/SourAlertCobblerPRChase-WUflYSc8d0KnCdVh",
-   "clip": "SourAlertCobblerPRChase-WUflYSc8d0KnCdVh",
-   "vod": "2938831767",
-   "vod_offset": 4313,
-   "created_at": "2026-11-24T00:34:13Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f7d24775-afc6-4c55-9a69-a78347a4f9c1/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "age_h": 11.4,
+   "views_per_h": 5,
+   "duration": 60,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/BoldPoorLasagnaPeoplesChamp-eduBrBc0z988Suqz",
+   "clip": "BoldPoorLasagnaPeoplesChamp-eduBrBc0z988Suqz",
+   "vod": "2932226282",
+   "vod_offset": 1801,
+   "created_at": "2026-11-24T03:59:33Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9943bb42-de3f-4484-bff5-b01af0119d5c/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 1.07,
+    "velocity": 8.03,
     "clippers": 4.0,
-    "hook": 6,
+    "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.7
-  },
+   "fresh": 0.76
+  }
+ ],
+ "others": [
   {
-   "score": 10.25,
+   "score": 9.99,
    "streamer": "lacy",
    "name": "Lacy",
    "campaign": "LACY",
@@ -166,7 +205,7 @@
    "all_titles": "Game so long lacy wants to quit | Lacy got burnout",
    "views": 15,
    "clippers": 2,
-   "age_h": 8.2,
+   "age_h": 8.7,
    "views_per_h": 2,
    "duration": 30,
    "url": "https://www.twitch.tv/lacy/clip/HilariousSpotlessChamoisPoooound-KbGUhe_scHykysF3",
@@ -177,18 +216,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f1a7d59d-aeeb-4faa-a756-7e10edba6325/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 4.51,
+    "velocity": 4.37,
     "clippers": 4.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.83
-  }
- ],
- "others": [
+   "fresh": 0.82
+  },
   {
-   "score": 9.93,
+   "score": 9.8,
    "streamer": "lacy",
    "name": "Lacy",
    "campaign": "LACY",
@@ -203,9 +240,9 @@
    "hook_type": "mechanic",
    "title": "Lacy has $81K and somehow everyone in chat is his accountant",
    "all_titles": "Lacy has $81K and somehow everyone in chat is his accountant",
-   "views": 62,
+   "views": 64,
    "clippers": 1,
-   "age_h": 20.0,
+   "age_h": 20.5,
    "views_per_h": 3,
    "duration": 30,
    "url": "https://www.twitch.tv/lacy/clip/SwissSmoothTofuPastaThat-Pxbe5FrSRcKtquPO",
@@ -216,51 +253,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/63853b6e-0faf-4fd2-9ba2-f7300d74eeac/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 6.12,
+    "velocity": 6.15,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.58
+   "fresh": 0.57
   },
   {
-   "score": 9.79,
-   "streamer": "kreekcraft",
-   "name": "KreekCraft",
-   "campaign": "KreekCraft",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube"
-   ],
-   "rule_note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X",
-   "hook_type": "story",
-   "title": "Bro, this thumbnail is going to be so sus in a second",
-   "all_titles": "Bro, this thumbnail is going to be so sus in a second",
-   "views": 74,
-   "clippers": 1,
-   "age_h": 12.9,
-   "views_per_h": 6,
-   "duration": 13.9,
-   "url": "https://www.twitch.tv/kreekcraft/clip/SteamyCrunchyCocoaBudBlast-VgKzL5uRTI76t79L",
-   "clip": "SteamyCrunchyCocoaBudBlast-VgKzL5uRTI76t79L",
-   "vod": "2938831767",
-   "vod_offset": 1178,
-   "created_at": "2026-11-24T02:02:28Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/86b5d6dd-545b-4cc1-a142-4466478012d6/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 8.29,
-    "clippers": 0.0,
-    "hook": 2,
-    "live": 0,
-    "length": 0
-   },
-   "fresh": 0.73
-  },
-  {
-   "score": 9.71,
+   "score": 9.5,
    "streamer": "clix",
    "name": "Clix",
    "campaign": "Clix",
@@ -275,9 +277,9 @@
    "hook_type": "other",
    "title": "sssssssssssssssss",
    "all_titles": "sssssssssssssssss",
-   "views": 269,
+   "views": 270,
    "clippers": 1,
-   "age_h": 18.1,
+   "age_h": 18.6,
    "views_per_h": 15,
    "duration": 60,
    "url": "https://www.twitch.tv/clix/clip/TangibleClearFalconTBCheesePull-5iS-0eTtCGYums3g",
@@ -288,16 +290,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/1fc58488-7bbc-4df4-b791-bd49d3c32aa0/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 12.0,
+    "velocity": 11.91,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.62
+   "fresh": 0.61
   },
   {
-   "score": 9.42,
+   "score": 9.3,
    "streamer": "theburntpeanut",
    "name": "TheBurntPeanut",
    "campaign": "growth",
@@ -307,33 +309,33 @@
     "youtube",
     "facebook"
    ],
-   "rule_note": "",
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
    "hook_type": "other",
-   "title": "ninja junk",
-   "all_titles": "ninja junk",
-   "views": 300,
+   "title": "HOLY HELL!!",
+   "all_titles": "HOLY HELL!!",
+   "views": 118,
    "clippers": 1,
-   "age_h": 11.3,
-   "views_per_h": 27,
-   "duration": 24.2,
-   "url": "https://www.twitch.tv/theburntpeanut/clip/SaltyPuzzledRavenResidentSleeper-fdLYjSVRLJ0buzjD",
-   "clip": "SaltyPuzzledRavenResidentSleeper-fdLYjSVRLJ0buzjD",
+   "age_h": 12.1,
+   "views_per_h": 10,
+   "duration": 26,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/OnerousBluePeppermintShazBotstix-RZzd2ou1uSE_E7r7",
+   "clip": "OnerousBluePeppermintShazBotstix-RZzd2ou1uSE_E7r7",
    "vod": "2938886234",
-   "vod_offset": 11728,
-   "created_at": "2026-11-24T03:36:38Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/7ca6988a-2dd3-44db-bc3e-a3060bee815c/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "vod_offset": 10410,
+   "created_at": "2026-11-24T03:15:15Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f89e968d-67c0-4845-8954-57c1c5edd8a6/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 14.4,
+    "velocity": 10.31,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.76
+   "fresh": 0.75
   },
   {
-   "score": 8.98,
+   "score": 8.9,
    "streamer": "lacy",
    "name": "Lacy",
    "campaign": "LACY",
@@ -348,9 +350,9 @@
    "hook_type": "story",
    "title": "Ragebait GTA",
    "all_titles": "Ragebait GTA",
-   "views": 152,
+   "views": 159,
    "clippers": 1,
-   "age_h": 20.8,
+   "age_h": 21.3,
    "views_per_h": 7,
    "duration": 27,
    "url": "https://www.twitch.tv/lacy/clip/ModernArtsyFlamingoItsBoshyTime-TGAI5PoNr5C_MrP7",
@@ -361,16 +363,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/aedc4a96-14de-4186-8f18-d347bf337271/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 9.19,
+    "velocity": 9.28,
     "clippers": 0.0,
     "hook": 2,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.57
+   "fresh": 0.56
   },
   {
-   "score": 8.94,
+   "score": 8.76,
    "streamer": "missmikkaa",
    "name": "MissMikkaa",
    "campaign": "growth",
@@ -386,8 +388,8 @@
    "all_titles": "Arthur Morgans Hat Easter Egg",
    "views": 247,
    "clippers": 1,
-   "age_h": 18.3,
-   "views_per_h": 14,
+   "age_h": 18.7,
+   "views_per_h": 13,
    "duration": 46.2,
    "url": "https://www.twitch.tv/missmikkaa/clip/GoldenPopularPenguinPanicVis-5Vzj7Y87x8SlbBoN",
    "clip": "GoldenPopularPenguinPanicVis-5Vzj7Y87x8SlbBoN",
@@ -397,16 +399,52 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/6726b837-ba19-4a27-8e10-97e7b73bb5f8/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": true,
    "points": {
-    "velocity": 11.62,
+    "velocity": 11.52,
     "clippers": 0.0,
     "hook": 6,
     "live": 2,
     "length": 1
    },
-   "fresh": 0.62
+   "fresh": 0.61
   },
   {
    "score": 8.72,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
+   "hook_type": "other",
+   "title": "GOTTAH BE QUICKER THAN THAT MUH BOY",
+   "all_titles": "GOTTAH BE QUICKER THAN THAT MUH BOY",
+   "views": 93,
+   "clippers": 1,
+   "age_h": 11.7,
+   "views_per_h": 8,
+   "duration": 30,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/ObliviousIgnorantHerbsEagleEye-ZPRtw5ygqPZS-BUQ",
+   "clip": "ObliviousIgnorantHerbsEagleEye-ZPRtw5ygqPZS-BUQ",
+   "vod": "2938886234",
+   "vod_offset": 11804,
+   "created_at": "2026-11-24T03:37:28Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/7d64d12e-3c00-4ccc-b93a-48c93a36a0e5/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 9.5,
+    "clippers": 0.0,
+    "hook": 0,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.76
+  },
+  {
+   "score": 8.55,
    "streamer": "yourragegaming",
    "name": "yourragegaming",
    "campaign": "YourRAGE",
@@ -422,7 +460,7 @@
    "all_titles": "yourrage got cute bestie | 3",
    "views": 4,
    "clippers": 2,
-   "age_h": 8.1,
+   "age_h": 8.5,
    "views_per_h": 0,
    "duration": 30,
    "url": "https://www.twitch.tv/yourragegaming/clip/ThirstyOriginalWheelFunRun-1yrRhk8_Vy69lE-w",
@@ -433,16 +471,53 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/114f0810-e285-4bc6-ab32-187cd93da392/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 1.74,
+    "velocity": 1.67,
     "clippers": 4.0,
     "hook": 2,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.83
+   "fresh": 0.82
   },
   {
-   "score": 8.69,
+   "score": 8.36,
+   "streamer": "lacy",
+   "name": "Lacy",
+   "campaign": "LACY",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook",
+    "x"
+   ],
+   "rule_note": "",
+   "hook_type": "other",
+   "title": "Lacy nearly breaks his setup",
+   "all_titles": "Lacy nearly breaks his setup | ClipAll lacy VOD 3h20",
+   "views": 47,
+   "clippers": 2,
+   "age_h": 18.5,
+   "views_per_h": 3,
+   "duration": 20.8,
+   "url": "https://www.twitch.tv/lacy/clip/TacitGracefulSandwichOSkomodo-y4M5Nh3eG4j-kYqT",
+   "clip": "TacitGracefulSandwichOSkomodo-y4M5Nh3eG4j-kYqT",
+   "vod": "2937465519",
+   "vod_offset": 11989,
+   "created_at": "2026-11-23T20:49:24Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/0d4ae089-f870-4048-aac1-d89dab4bf1eb/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 5.48,
+    "clippers": 4.0,
+    "hook": 0,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.61
+  },
+  {
+   "score": 8.36,
    "streamer": "yourragegaming",
    "name": "yourragegaming",
    "campaign": "YourRAGE",
@@ -458,7 +533,7 @@
    "all_titles": "byeee | huiuu",
    "views": 4,
    "clippers": 2,
-   "age_h": 4.2,
+   "age_h": 4.6,
    "views_per_h": 1,
    "duration": 30,
    "url": "https://www.twitch.tv/yourragegaming/clip/GlamorousReliableKoupreySuperVinlin-g7VrX43kLoc03KHx",
@@ -469,53 +544,124 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/0cffdc8c-4f91-472e-84b9-2bd9b5814037/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 2.93,
+    "velocity": 2.71,
     "clippers": 4.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.91
+   "fresh": 0.9
   },
   {
-   "score": 8.38,
-   "streamer": "lacy",
-   "name": "Lacy",
-   "campaign": "LACY",
+   "score": 8.19,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
    "campaign_expired": false,
    "platforms": [
     "tiktok",
     "youtube",
-    "facebook",
-    "x"
+    "facebook"
    ],
-   "rule_note": "",
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
    "hook_type": "other",
-   "title": "Lacy nearly breaks his setup",
-   "all_titles": "Lacy nearly breaks his setup | ClipAll lacy VOD 3h20",
-   "views": 44,
-   "clippers": 2,
-   "age_h": 18.1,
-   "views_per_h": 2,
-   "duration": 20.8,
-   "url": "https://www.twitch.tv/lacy/clip/TacitGracefulSandwichOSkomodo-y4M5Nh3eG4j-kYqT",
-   "clip": "TacitGracefulSandwichOSkomodo-y4M5Nh3eG4j-kYqT",
-   "vod": "2937465519",
-   "vod_offset": 11989,
-   "created_at": "2026-11-23T20:49:24Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/0d4ae089-f870-4048-aac1-d89dab4bf1eb/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "title": "No Returning, like your father",
+   "all_titles": "No Returning, like your father",
+   "views": 60,
+   "clippers": 1,
+   "age_h": 8.5,
+   "views_per_h": 7,
+   "duration": 16.1,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/NiceMushyReubenRalpherZ-SJMSbcn2IpVhppph",
+   "clip": "NiceMushyReubenRalpherZ-SJMSbcn2IpVhppph",
+   "vod": "2938886234",
+   "vod_offset": 23321,
+   "created_at": "2026-11-24T06:50:27Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/eb7661d9-b6b0-497e-be36-417cc17c233c/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 5.35,
-    "clippers": 4.0,
+    "velocity": 9.05,
+    "clippers": 0.0,
     "hook": 0,
+    "live": 0,
+    "length": 0
+   },
+   "fresh": 0.82
+  },
+  {
+   "score": 7.84,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
+   "hook_type": "story",
+   "title": "lolll",
+   "all_titles": "lolll",
+   "views": 33,
+   "clippers": 1,
+   "age_h": 10.6,
+   "views_per_h": 3,
+   "duration": 57.7,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/PricklyImportantHamburgerChocolateRain-6CQOtzcoBUtP5ZOZ",
+   "clip": "PricklyImportantHamburgerChocolateRain-6CQOtzcoBUtP5ZOZ",
+   "vod": "2938886234",
+   "vod_offset": 15924,
+   "created_at": "2026-11-24T04:46:26Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bba8f4d3-d53c-4597-8052-5487e064318e/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 6.14,
+    "clippers": 0.0,
+    "hook": 2,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.62
+   "fresh": 0.78
   },
   {
-   "score": 8.25,
+   "score": 7.74,
+   "streamer": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)",
+   "hook_type": "other",
+   "title": "Gonna get sued. Sorry.",
+   "all_titles": "Gonna get sued. Sorry.",
+   "views": 125,
+   "clippers": 1,
+   "age_h": 14.1,
+   "views_per_h": 9,
+   "duration": 14.7,
+   "url": "https://www.twitch.tv/theburntpeanut/clip/BraveSwissLeopardNotATK-uMyD5Dwj2i5uSxSO",
+   "clip": "BraveSwissLeopardNotATK-uMyD5Dwj2i5uSxSO",
+   "vod": "2938886234",
+   "vod_offset": 3352,
+   "created_at": "2026-11-24T01:18:51Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/0f8d43ca-e641-4cde-907c-1330355821dc/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 9.95,
+    "clippers": 0.0,
+    "hook": 0,
+    "live": 0,
+    "length": 0
+   },
+   "fresh": 0.71
+  },
+  {
+   "score": 7.73,
    "streamer": "yourragegaming",
    "name": "yourragegaming",
    "campaign": "YourRAGE",
@@ -531,7 +677,7 @@
    "all_titles": "crashed",
    "views": 12,
    "clippers": 1,
-   "age_h": 3.5,
+   "age_h": 4.0,
    "views_per_h": 3,
    "duration": 59,
    "url": "https://www.twitch.tv/yourragegaming/clip/ExpensiveRichCroissantKreygasm-ELD7Q3zryx7pdEdC",
@@ -542,43 +688,8 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f295faae-65fe-4e8b-ad6c-76966f74f11c/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 6.42,
+    "velocity": 6.03,
     "clippers": 0.0,
-    "hook": 0,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.93
-  },
-  {
-   "score": 8.12,
-   "streamer": "kreekcraft",
-   "name": "KreekCraft",
-   "campaign": "KreekCraft",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube"
-   ],
-   "rule_note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X",
-   "hook_type": "other",
-   "title": "best clip",
-   "all_titles": "best clip",
-   "views": 2,
-   "clippers": 2,
-   "age_h": 3.9,
-   "views_per_h": 1,
-   "duration": 60,
-   "url": "https://www.twitch.tv/kreekcraft/clip/InterestingBoxyGoatMrDestructoid-mxKI9wc65CvbbDGh",
-   "clip": "InterestingBoxyGoatMrDestructoid-mxKI9wc65CvbbDGh",
-   "vod": "2938831767",
-   "vod_offset": 4480,
-   "created_at": "2026-11-24T11:04:33Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/fa5c82ec-2adb-417b-91db-f13ec17812be/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 1.8,
-    "clippers": 4.0,
     "hook": 0,
     "live": 0,
     "length": 1
@@ -586,43 +697,7 @@
    "fresh": 0.92
   },
   {
-   "score": 7.98,
-   "streamer": "theburntpeanut",
-   "name": "TheBurntPeanut",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "",
-   "hook_type": "other",
-   "title": "The Burnt Peanut STEALS HOT MILK",
-   "all_titles": "The Burnt Peanut STEALS HOT MILK",
-   "views": 57,
-   "clippers": 2,
-   "age_h": 10.9,
-   "views_per_h": 5,
-   "duration": 60,
-   "url": "https://www.twitch.tv/theburntpeanut/clip/BoldPoorLasagnaPeoplesChamp-eduBrBc0z988Suqz",
-   "clip": "BoldPoorLasagnaPeoplesChamp-eduBrBc0z988Suqz",
-   "vod": "2932226282",
-   "vod_offset": 1801,
-   "created_at": "2026-11-24T03:59:33Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9943bb42-de3f-4484-bff5-b01af0119d5c/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 7.93,
-    "clippers": 4.0,
-    "hook": 0,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.77
-  },
-  {
-   "score": 7.81,
+   "score": 7.67,
    "streamer": "yourragegaming",
    "name": "yourragegaming",
    "campaign": "YourRAGE",
@@ -638,7 +713,7 @@
    "all_titles": "put you to sleep",
    "views": 4,
    "clippers": 1,
-   "age_h": 10.7,
+   "age_h": 11.2,
    "views_per_h": 0,
    "duration": 47.3,
    "url": "https://www.twitch.tv/yourragegaming/clip/RespectfulAlluringAardvark4Head-opy9a_tHImS5P5Xm",
@@ -649,115 +724,19 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/fbdcf49c-4f71-473c-a052-7138cbee2192/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 1.38,
+    "velocity": 1.33,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.78
-  },
-  {
-   "score": 7.54,
-   "streamer": "jasontheween",
-   "name": "jasontheween",
-   "campaign": "JasonTheWeen",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "",
-   "hook_type": "mechanic",
-   "title": "secret ending",
-   "all_titles": "secret ending",
-   "views": 20,
-   "clippers": 1,
-   "age_h": 16.5,
-   "views_per_h": 1,
-   "duration": 22,
-   "url": "https://www.twitch.tv/jasontheween/clip/DarkPunchyCoffeeCeilingCat-yNPpe2Ur02Q4Vr3a",
-   "clip": "DarkPunchyCoffeeCeilingCat-yNPpe2Ur02Q4Vr3a",
-   "vod": "2936160211",
-   "vod_offset": 8820,
-   "created_at": "2026-11-23T22:25:20Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e3195f94-be5c-45bc-b426-b5a9a98011f9/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 3.45,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.66
-  },
-  {
-   "score": 7.5,
-   "streamer": "missmikkaa",
-   "name": "MissMikkaa",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "",
-   "hook_type": "other",
-   "title": "Mikkaa's EPIC ramp stunt",
-   "all_titles": "Mikkaa's EPIC ramp stunt",
-   "views": 413,
-   "clippers": 1,
-   "age_h": 17.6,
-   "views_per_h": 24,
-   "duration": 38.6,
-   "url": "https://www.twitch.tv/missmikkaa/clip/InnocentMoistBurritoTinyFace-DNCfceGcw4prKHcB",
-   "clip": "InnocentMoistBurritoTinyFace-DNCfceGcw4prKHcB",
-   "vod": "2938373303",
-   "vod_offset": 24730,
-   "created_at": "2026-11-23T21:22:11Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/03be9dd6-ebc2-40cf-a23f-6675360192ab/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": true,
-   "points": {
-    "velocity": 13.9,
-    "clippers": 0.0,
-    "hook": 0,
-    "live": 2,
-    "length": 1
-   },
-   "fresh": 0.63
+   "fresh": 0.77
   }
  ],
  "already_posted": [
   {
-   "title": "tooooo",
-   "posted_as": "SKIP_RAGE_Milk"
-  },
-  {
-   "title": "mandy",
-   "posted_as": "SKIP_RAGE_J"
-  },
-  {
-   "title": "YourRAGE fails the GTA 6 boat mission",
-   "posted_as": "SKIP_RAGE_Dies"
-  },
-  {
-   "title": "rageee",
-   "posted_as": "SKIP_RAGE_J"
-  },
-  {
-   "title": "part 2 vajicka",
-   "posted_as": "KREEK_TowerEasterEgg_v2"
-  },
-  {
    "title": "Lacy & his pet dog.",
    "posted_as": "LACY_Dog"
-  },
-  {
-   "title": "Sus Lacy moments",
-   "posted_as": "SKIP_LACY_Shower"
   },
   {
    "title": "lacy 1",
@@ -766,6 +745,26 @@
   {
    "title": "if gg",
    "posted_as": "SKIP_CLIX_NudeBeach"
+  },
+  {
+   "title": "Ca GG",
+   "posted_as": "SKIP_CLIX_NudeBeach"
+  },
+  {
+   "title": "part 2 vajicka",
+   "posted_as": "KREEK_TowerEasterEgg_v2"
+  },
+  {
+   "title": "mandy",
+   "posted_as": "SKIP_RAGE_J"
+  },
+  {
+   "title": "tooooo",
+   "posted_as": "SKIP_RAGE_Milk"
+  },
+  {
+   "title": "ggs",
+   "posted_as": "SKIP_RAGE_Dies"
   }
  ]
 }
