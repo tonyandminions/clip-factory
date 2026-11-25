@@ -1,9 +1,9 @@
-# Fresh pick shortlist 2026-11-24_1155 ET (last 24 h, Twitch official API)
+# Fresh pick shortlist 2026-11-25_0846 ET (last 24 h, Twitch official API)
 
-Live on GTA 6 now: missmikkaa
+Live on GTA 6 now: nobody
 
-1. **TheBurntPeanut** (growth) score 20.62: "Peanut scared" - 927 views in 13.8 h by 4 clipper(s), 17 s, other - https://www.twitch.tv/theburntpeanut/clip/SolidPrettySwordOSfrog-2PRQOLx6FLoffjlQ
-2. **TheBurntPeanut** (growth) score 12.2: "ninja junk" - 349 views in 13.3 h by 1 clipper(s), 24 s, other - https://www.twitch.tv/theburntpeanut/clip/SaltyPuzzledRavenResidentSleeper-fdLYjSVRLJ0buzjD
-3. **MissMikkaa** (growth) score 11.79: "Behold, the perfect car!" - 436 views in 18.1 h by 2 clipper(s), 30 s, mechanic - https://www.twitch.tv/missmikkaa/clip/MoldyDarlingCardJebaited-9zXoY6rxfXDBuq36
-4. **TheBurntPeanut** (growth) score 10.66: "The Burnt Peanut STEALS HOT MILK" - 74 views in 13.0 h by 2 clipper(s), 60 s, other - https://www.twitch.tv/theburntpeanut/clip/BoldPoorLasagnaPeoplesChamp-eduBrBc0z988Suqz
-5. **MissMikkaa** (growth) score 10.42: "Tips for an unhealthy relationship" - 9 views in 1.0 h by 1 clipper(s), 11 s, mechanic - https://www.twitch.tv/missmikkaa/clip/HealthyEntertainingWrenDBstyle-PAgyvpNu0B5Meukv
+1. **TheBurntPeanut** (growth) score 18.85: "Did Lucia Get In?" - 550 views in 7.0 h by 1 clipper(s), 23 s, other - https://www.twitch.tv/theburntpeanut/clip/GloriousShortRamenANELE-1Bn-506RuvLm-UJb
+2. **TheBurntPeanut** (growth) score 16.06: "WE DID IT WEE D...." - 188 views in 9.5 h by 2 clipper(s), 30 s, other - https://www.twitch.tv/theburntpeanut/clip/TalentedObliqueCaribouEagleEye-S7_KNFf7to3ihHwJ
+3. **TheBurntPeanut** (growth) score 15.54: "Well...." - 39 views in 5.6 h by 2 clipper(s), 23 s, story - https://www.twitch.tv/theburntpeanut/clip/SarcasticFlaccidAppleSuperVinlin-3LJpkzUB_bPBEB97
+4. **TheBurntPeanut** (growth) score 13.8: "Biggest you can be" - 43 views in 8.0 h by 1 clipper(s), 30 s, mechanic - https://www.twitch.tv/theburntpeanut/clip/GiftedAmorphousUdonRuleFive-SYejh-ylixwx_ijI
+5. **TheBurntPeanut** (growth) score 13.16: "what a clip farmer pt2 *clip*" - 84 views in 9.5 h by 2 clipper(s), 30 s, other - https://www.twitch.tv/theburntpeanut/clip/BreakableHumbleToothAliens-Xkm4nm7EYvbumhYn
