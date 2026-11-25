@@ -16,17 +16,26 @@ MAX_WORDS, MAX_CHARS, GAP = 4, 24, 0.35
 ap = argparse.ArgumentParser()
 ap.add_argument("src"); ap.add_argument("outdir")
 ap.add_argument("--ss", type=float, default=0.0); ap.add_argument("--to", type=float)
-ap.add_argument("--model", default=os.environ.get("WHISPER_MODEL", "small.en"))
+ap.add_argument("--model", default=os.environ.get("WHISPER_MODEL", "large-v3-turbo"))
 a = ap.parse_args()
 os.makedirs(a.outdir, exist_ok=True)
 
-model = WhisperModel(a.model, device="cpu", compute_type="int8")
+# 11-25: small.en garbled game words ("spikes trip", "pause" for "push", "IG bottle"), so captions made no sense.
+# Bigger model + a vocabulary hint; falls back to small.en if the big model can't load.
+VOCAB = ("GTA 6 livestream. Jason, Lucia, Vice City, Leonida, Snapmatic, wanted level, spike strip, tracker, "
+         "Lamborghini, chop shop, heist, NPC, chat, cops, alligator, seaplane, Rockstar, PS5, L3, R2, triangle.")
+try:
+    model = WhisperModel(a.model, device="cpu", compute_type="int8")
+except Exception as e:
+    print("model", a.model, "failed:", e, "-> small.en", flush=True)
+    model = WhisperModel("small.en", device="cpu", compute_type="int8")
 pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", a.src, "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
                      check=True, capture_output=True).stdout
 audio = np.frombuffer(pcm, dtype=np.float32)
-segs, _ = model.transcribe(audio, word_timestamps=True, vad_filter=True, language="en")
+segs, _ = model.transcribe(audio, word_timestamps=True, vad_filter=True, language="en", beam_size=5,
+                           initial_prompt=VOCAB, condition_on_previous_text=False)
 
-words, lines = [], []
+words, lines, unsure = [], [], []
 for s in segs:
     lines.append(f"[{s.start:6.2f}-{s.end:6.2f}] {s.text.strip()}")
     for w in (s.words or []):
@@ -34,7 +43,11 @@ for s in segs:
         if t1 <= 0 or (a.to is not None and w.start >= a.to):
             continue
         words.append((max(0.0, t0), t1, w.word.strip()))
+        if (w.probability or 0) < 0.55:
+            unsure.append(f"{max(0.0, t0):6.2f}  {w.word.strip()}  ({w.probability:.2f})")
 open(os.path.join(a.outdir, "transcript.txt"), "w").write("\n".join(lines) + "\n")
+# words Whisper wasn't sure about: check these by ear / against the picture before writing captions
+open(os.path.join(a.outdir, "caps_review.txt"), "w").write("\n".join(unsure) + "\n")
 # word timings for word-by-word captions (wordcaps.py); swears flagged so they never show
 json.dump([[round(w[0], 3), round(w[1], 3), w[2], bool(SWEARS.match(re.sub(r"[^\w*]", "", w[2])))] for w in words],
           open(os.path.join(a.outdir, "words.json"), "w"))

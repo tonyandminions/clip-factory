@@ -10,7 +10,11 @@ Job JSON (jobs/<anything>.json), a single object or a list of objects:
   "game": "493,240,1200,675",             # gameplay crop (avoid cam/chat/overlays)
   "alt": null,                            # "x,y,t0,t1" shift gameplay crop during a window
   "ss": null, "to": null,                 # trim (seconds in source)
-  "captions": "auto",                     # "auto" (whisper), "none", or [[s,e,"TEXT"],...]
+  "captions": [[0.2,1.8,"TEXT"]],         # hand-checked list [[s,e,"TEXT"],...] or "none". "auto" (whisper) is PROBE-ONLY
+                                          #   since 11-25: auto captions garbled words and went out unread. Probe first, fix
+                                          #   caps.json (see caps_review.txt for unsure words), pass the list.
+  "native": false,                        # true = crops are in source pixels (source is not 1920x1080), e.g. re-captioning
+                                          #   one of our finished HQ files: cam "0,334,1080,540", game "0,1000,1080,608"
   "capstyle": "ab",                       # "word" = phrase stays up, spoken word lights up; "phrase"; "ab" = split test
   "level": true,                          # even out loudness (-14 LUFS); false to keep the original audio
   "credit": null,                         # small credit line in the caption band when captions are none
@@ -225,6 +229,12 @@ def run(job):
        f"fps=12/{D},scale=480:-1,drawtext=fontfile={HERE}/../fonts/Poppins-Bold.ttf:text='%{{pts\\:hms}}':fontsize=16:fontcolor=yellow:box=1:boxcolor=black:x=380:y=4,tile=4x3",
        "-frames:v", "1", "-q:v", "3", os.path.join(od, "sheet.jpg"))
     cap = job.get("captions", "auto")
+    if cap == "auto" and not job.get("probe"):
+        sys.exit('captions "auto" is probe-only (11-25). Run {"probe": true} first, read transcript.txt + caps_review.txt, '
+                 'fix the words in caps.json and pass them as "captions": [[s,e,"TEXT"],...]. A clip whose captions '
+                 "don't make sense doesn't get posted.")
+    if job.get("native"):
+        job["_native"] = True
     tr = [sys.executable, os.path.join(HERE, "transcribe.py"), src, od]
     if job.get("ss") is not None: tr += ["--ss", str(job["ss"])]
     if job.get("to") is not None: tr += ["--to", str(job["to"])]
