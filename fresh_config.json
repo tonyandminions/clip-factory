@@ -93,12 +93,13 @@
     },
     "realkatieb": {
       "campaign": "growth",
-      "weight": 0.9,
+      "weight": 1.0,
       "platforms": [
         "tiktok",
         "youtube",
         "facebook"
-      ]
+      ],
+      "note": "11-24 night (Analyst): 0.9 -> 1.0 - 'worst GTA 6 gameplay' 1,633 FB = best Reel ever (growth, Facebook 15:10 first)"
     }
   },
   "expired_weight": 0.6,

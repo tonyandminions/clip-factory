@@ -1,6 +1,6 @@
 {
   "_what": "Per-platform strategy, learned from our own numbers. The Analyst updates it every night (Justin 11-19: learn after every post, keep adjusting each platform until it's mastered). The Scheduler uses 'route' to decide which clip goes to which platform; the Clip Finder uses 'want' to decide what to look for. Evidence lines are dated; small samples are marked as such.",
-  "_updated": "2026-11-23 Analyst nightly ~23:20 ET (Metricool only; posts through 11-22 ingested, 11-23 not yet)",
+  "_updated": "2026-11-24 Analyst nightly ~23:30 ET (Metricool only; TikTok/FB posts through 11-23 ingested, 11-24 not yet; YouTube through 11-22)",
   "cross_platform": [
     "The same clip lands very differently per platform, so routing matters more than volume: BP traffic = IG 1,385 / TT 227 / YT 1; LACY Part 2 (dying costs ALL your money) = IG 1,534 / FB 475 / YT 28 / TT 16; Speed download countdown = YT 1,366 / IG 153 / TT 0.",
     "A slot may carry two different clips split by platform (e.g. 18:10: story clip to IG+FB, mechanic clip to TT+YT) when that fits better. Daily caps per platform still hold.",
@@ -13,7 +13,7 @@
   ],
   "tiktok": {
     "health_metric": "For You share per post (Metricool TKPO16). Healthy >= 0.7. Under 0.3 on most posts = account throttled.",
-    "status": "throttled (11-23 night): no new organic non-Speed TikTok ingested since 11-21. SEGA #Ad (11-22 18:10, paid partnership - not counted) 47 views, For You 0.54. Speed P2 241 (For You 1.0). Recovery still unconfirmed: AJ_Plane (11-23 20:10, explainer card) is the deciding post - read it 11-24 night. Keep 1/day.",
+    "status": "recovering (11-24 night): 2nd organic For You hit in a row - AJ_Plane (11-23 20:10, explainer card, tip framing 'hold L2 to land a seaplane') For You 0.94, 105 views, 8 s avg of 18 s; Speed P2 before it 0.99 (now 615). SEGA #Ad between them is a paid partnership (0.46, not counted). Experiment rule 'back up after 2 posts in a row with For You >= 0.6' is met -> recommend Justin raises TikTok 1 -> 2/day (safety ramp allows 2 once For You >= 0.6; 3 h gap). Small sample (2 posts); if the next 2 posts fall under 0.3, back to throttled. 11-24 LACY stray dog (Justin native) not ingested yet.",
     "what_works": [
       "15-20 s clips with a GTA 6 mechanic/frustration stated plainly and a reaction in second 1: 'LACY can't steal cars the old way' (15 s, 250 views, 9 s avg watch, 93% For You); 'Burnt Peanut vs GTA 6 traffic' (30 s, 227 views, 10 s avg).",
       "11-19: KreekCraft 'a viewer's mom asked what GTA 6 is… rescue cats from trees' 41 views, 1 like, 1 comment (28 s, word captions) - best TikTok post since the throttle (median 7). Funny 'explaining GTA 6' story, small sample.",
@@ -22,7 +22,8 @@
       "11-21 night (Analyst): the 3 search earners all name an everyday-life thing + 'in GTA 6' the way people type a question: 'dying in GTA 6 takes ALL your money' 284 (95% search), 'what GTA 6 is about' (KreekCraft mom) 78 (94%), 'brushing your teeth in GTA 6' 53 (97%). 'First time' / bet / robbery lines got 2-14 (Clix plane 12, KreekCraft croc bet 2, Speed robbery 2). Small sample (6 organic posts).",
       "11-22 (Analyst): search earners keep compounding with zero new TikTok posts - YourRAGE 'brushing your teeth in GTA 6' 53 -> 94 (98% search), KreekCraft mom 94 (94% search), LACY P2 294. A searchable everyday-action first line is worth ~+40 views/day/clip for days. Speed P2 210 views, For You 1.0, 11 s avg (46% of 24 s) - small sample, Speed follows a paid push.",
       "11-23 (Analyst): search earners still compounding with no new posts - YourRAGE 'brushing your teeth in GTA 6' 94 -> 142 in one day (99% search, 15 s), KreekCraft mom 94 -> 101, LACY P2 297. The 15 s everyday-action mechanic clip is our best long-tail TikTok format. Small sample.",
-      "11-24 (main chat, Justin): the Speed stolen-scooter Part 2 won on TikTok too - organic, the only post For You pushed (1.0) since the throttle - same clip that hit 22,327 on YouTube. Speed chase/action clips are TikTok-eligible without an explainer card. The Live Clipper now alternates sessions: Speed (when live on YouTube playing GTA 6) / paid streamer."
+      "11-24 (main chat, Justin): the Speed stolen-scooter Part 2 won on TikTok too - organic, the only post For You pushed (1.0) since the throttle - same clip that hit 22,327 on YouTube. Speed chase/action clips are TikTok-eligible without an explainer card. The Live Clipper now alternates sessions: Speed (when live on YouTube playing GTA 6) / paid streamer.",
+      "11-24 night (Analyst): explainer card + tip/guide first line ('AsianJeff found out you hold L2 to slow down and land a seaplane in GTA 6') got For You 0.94 (search only 0.06) - the first non-Speed organic For You push since 11-18. 105 views / 8 s avg on 18 s. n=1."
     ],
     "avoid": [
       "reposting a moment (BP traffic repost: 8 views)",
@@ -56,7 +57,8 @@
       "baseline": "median ~9 views/post on 11-19 posts (55/11/9/1/1); For You ~0 on all",
       "promote_test": "11-20 ~3:55 PM: Justin paid $24 for TikTok Promote (TikTok's own ad tool) on Speed scooter PART 1 (video 7709722878282878238, posted 1:20 PM natively). Before the promo: 203 views in ~2.5 h (already our best organic start since the throttle). 4:28 PM: 7,089 views, 11 likes, 0 comments (mostly paid). Question: does a paid push lift the account out of the throttle? Analyst: compare the next 3 posts' views + For You share (TKPO16) vs the baseline (median ~7 views/post), and Part 2's organic views; Justin reads paid vs organic views + follows in the Promote stats. Promoted views are not organic: never submit a promoted clip's views to a campaign without checking its rules.",
       "search_lean": "11-21 on: TikTok gets only mechanic clips with search-first captions. Watch TKPO21 (search share) and total views 3 days after posting; For You recovery = any post with For You >= 0.3. Justin's 2-minute check in TikTok Studio: Account status + one post's 'eligible for For You' line.",
-      "recovery_check": "11-22: if AJ_Plane (11-23, explainer card, mechanic, search-first caption) also gets For You >= 0.6, that is 2 posts in a row -> Analyst recommends TikTok 1 -> 2/day (ramp cap until Dec 3) to Justin. Scheduler doesn't change caps on its own. SEGA #Ad is paid-partnership content - read it but don't count it either way."
+      "recovery_check": "11-22: if AJ_Plane (11-23, explainer card, mechanic, search-first caption) also gets For You >= 0.6, that is 2 posts in a row -> Analyst recommends TikTok 1 -> 2/day (ramp cap until Dec 3) to Justin. Scheduler doesn't change caps on its own. SEGA #Ad is paid-partnership content - read it but don't count it either way.",
+      "result_11_24": "Condition met (Speed P2 0.99, AJ_Plane 0.94 - 2 organic in a row >= 0.6). Recommend 2/day; confirm with the next 2 posts (need >= 0.6 each) before asking for 3."
     },
     "restricted_posts": {
       "checked": "2026-11-21 11:23 PM by Justin (TikTok Studio > Account status > Restricted posts)",
@@ -152,7 +154,7 @@
   },
   "facebook": {
     "health_metric": "Views per Reel and avg watch time (FBRE10, FBRE13).",
-    "status": "healthy, growing (11-23 night): Reel views 770 (11-20) -> 1,448 (11-21) -> 2,212 (11-22) per day. realkatieb 'worst GTA 6 gameplay' 1,195 on day one (9 s avg) - a growth/women streamer matching our best; LACY seaplane P1 now 1,448 (best FB Reel ever), P2 1,017. Page followers 1. Only outlier: MissMikkaa 'gym gains' still 0 views after 4 days -> Justin check (and read MIKKAA_WomanDriver 11-23 tomorrow: if it is also 0, MissMikkaa clips stop going to Facebook).",
+    "status": "healthy, watch (11-24 night): realkatieb 'worst GTA 6 gameplay' grew 1,195 -> 1,633 = best FB Reel ever (growth slot). 11-23 Reels: MissMikkaa WomanDriver 214 (so MissMikkaa stays on Facebook - the gains 0 was that Reel), but LACY 'texting Lucia / she's loyal' (11-23 9:10) has 1 view after ~38 h - the 2nd dead Reel after MissMikkaa gains (0). Justin: check facebook.com/page_status/61596397363823 and that Reel for a mute/claim/'not recommended' note. Reel views by publish day: 11-22 2,653 -> 11-23 215 (1 day, newer posts; not the 3-day halving rule yet). 11-24 posts not ingested.",
     "what_works": [
       "Story and relationship moments: 'LACY forgot to meet Lucia at the bank' 589 views (\"I'm a terrible boyfriend\").",
       "Part series carry on Facebook: Part 1 344, Part 2 475.",
@@ -161,11 +163,13 @@
       "11-21 night (Analyst): LACY 'ran out of missions and thought he beat GTA 6' 728 views, 11 s avg (best avg watch yet) - a relatable 'did I beat the game?' moment. YourRAGE teeth now 1,156 (8 s avg).",
       "11-22 (Analyst): LACY Part 1 with a clear 'first ___ in GTA 6' activity (seaplane drug drop) = 1,062 day-one views, 8 s avg. LACY now holds 4 of the top 6 FB Reels (1,062 / 769 / 599 / 511). Part 2 (11-22 9:10) not ingested yet - read the carry tomorrow.",
       "11-23 (Analyst): realkatieb 'called it the worst GTA 6 gameplay of all time' 1,195 day one, 9 s avg (self-roast + bike fail, 15:10 growth slot). Growth streamers CAN carry Facebook - the MissMikkaa 0 is that Reel, not the women-streamer slot. Seaplane series: P1 1,448 -> P2 1,017 (70% carry); gator P1 359 -> P2 511. Small sample (2 series).",
-      "11-24 (main chat): Justin's read matches the data - Burnt Peanut (growth) and Speed carry; KreekCraft doesn't (best 101 / 3K minimum, and he can't go on Facebook). Fresh weights: KreekCraft 0.6, Burnt Peanut 1.1. Growth clips (Burnt Peanut, realkatieb) go to the Facebook 15:10 slot first."
+      "11-24 (main chat): Justin's read matches the data - Burnt Peanut (growth) and Speed carry; KreekCraft doesn't (best 101 / 3K minimum, and he can't go on Facebook). Fresh weights: KreekCraft 0.6, Burnt Peanut 1.1. Growth clips (Burnt Peanut, realkatieb) go to the Facebook 15:10 slot first.",
+      "11-24 night (Analyst): realkatieb self-roast 1,633 after 2 days (9 s avg) now beats LACY seaplane P1 1,453 - the 15:10 growth slot holds the top Reel. MissMikkaa 'women can't drive' 214 day 1-2."
     ],
     "avoid": [
       "payoffs after ~10 s (avg watch 7-10 s)",
-      "11-20 (Analyst, Metricool): avg watch 7-10 s on every Reel - payoff must land by ~8 s."
+      "11-20 (Analyst, Metricool): avg watch 7-10 s on every Reel - payoff must land by ~8 s.",
+      "11-24 night (Analyst): 2 Reels got 0-1 views (MissMikkaa gym gains 11-20, LACY texting Lucia 11-23) while the rest got 200-1,600 - cause unknown (possible audio match or relationship/'Lucia' content not recommended). Until Justin checks: no more Lucia-relationship clips on Facebook."
     ],
     "route": {
       "hook_types": [
@@ -182,7 +186,8 @@
       "name": "series vs standalone",
       "plan": "Alternate Part series and standalone story clips; compare views per Reel after 6 Reels.",
       "baseline": "11-18 to 11-22 Reels: 221-1,448 views (median ~770, excl. MissMikkaa 0). Series: gator 359 -> 511, seaplane 1,448 -> 1,017. Standalone: realkatieb 1,195, teeth 1,190, missions 770, Lucia bank 599, Clix plane 221. 9 Reels in (plan needed 6) -> read: series P1s and standalones both reach ~1K; P2 keeps 70-140% of P1. Decision 11-24 after MissMikkaa WomanDriver.",
-      "result_11_23": "Tentative (small sample): series don't beat standalones on Facebook, but they don't lose either; keep both. Next experiment from 11-24: growth-slot (15:10) self-roast/fail moments from women streamers (realkatieb style) vs mechanic surprises."
+      "result_11_23": "Tentative (small sample): series don't beat standalones on Facebook, but they don't lose either; keep both. Next experiment from 11-24: growth-slot (15:10) self-roast/fail moments from women streamers (realkatieb style) vs mechanic surprises.",
+      "result_11_24": "MissMikkaa WomanDriver 214 -> MissMikkaa stays on FB. Growth-slot self-roast (realkatieb 1,633) leads; keep testing self-roast/fail (15:10) vs mechanic surprise."
     },
     "page": {
       "name": "Tony & Minions",
@@ -213,7 +218,7 @@
   },
   "youtube": {
     "health_metric": "Views after 48 h per Short and any 'Potential limitation' label in YouTube Studio.",
-    "status": "11-24 (main chat, Metricool 'all videos' YTVV - per-Short views DO come through there): one breakout, the rest tiny. Speed scooter PART 2 22,327 views / 311 likes / 11 s avg (organic, Shorts feed = 23,252 of the channel's views); Speed GTA 6 download 1,409; LACY first Lucia reaction 222; LACY P2 lost ALL his money 79; seaplane P1 49; YourRAGE teeth 27; everything else 1-13. Search 559 views, the 2nd source. 11-23/24 uploads not in yet (Metricool lags ~2 days).",
+    "status": "unchanged (11-24 night): Metricool still has nothing after 11-22 (seaplane P1 49, P2 1); subs 17 flat on 11-24. vidIQ now shows the channel linked (17 subs, 24,155 views, 26 videos) - per-video reads cost 5 credits, so not used without Justin's OK. Direct-upload test (urAJKiWZRmo, 11-24) not readable yet.",
     "what_works": [
       "Big name + big moment people search for: Speed counting down the GTA 6 download, 1,366 views (native upload by the Speed chat).",
       "LACY's first Lucia reaction, 205 views (first upload).",
@@ -249,7 +254,7 @@
   },
   "x": {
     "health_metric": "Views per post in the first 2 h (X weighs early engagement).",
-    "status": "not in Metricool (no X connection) - Justin reads X numbers in the app.",
+    "status": "not in Metricool (no X connection) - Justin reads X numbers in the app. (11-24 night: unchanged)",
     "what_works": [
       "11-19: proven winners from other platforms: BP traffic 232 views (1 like), LACY 'dying takes ALL your money' 72 - vs fresh Clix plane 39, YourRAGE teeth 1 (only 3 h old). 4 of 8 posts, small sample."
     ],
