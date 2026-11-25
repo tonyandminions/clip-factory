@@ -288,6 +288,38 @@ def run(job):
     d2 = dur(hq)
     sh("ffmpeg", "-v", "error", "-y", "-i", hq, "-vf", f"fps=6/{d2},scale=270:-1,tile=6x1",
        "-frames:v", "1", "-q:v", "3", os.path.join(od, "preview.jpg"))
+    gate_check(hq, capsfile, d2, od)
+
+def gate_check(hq, capsfile, D, od):
+    """README rule 2 checks a script can do on the finished clip. Writes gate.txt (published to the out branch):
+    'OK' or one WARN line each. Whoever built the clip reads it and fixes or explains before scheduling."""
+    warns = []
+    def vol(ss, t):
+        e = subprocess.run(["ffmpeg", "-v", "info", "-nostats", "-ss", str(ss), "-t", str(t), "-i", hq, "-vn",
+                            "-af", "volumedetect", "-f", "null", "-"], capture_output=True, text=True).stderr
+        m = re.search(r"mean_volume: (-?[\d.]+) dB", e)
+        return float(m.group(1)) if m else None
+    caps = json.load(open(capsfile)) if capsfile and os.path.exists(capsfile) else []
+    first = min((c[0] for c in caps), default=None)
+    v0, v1 = vol(0, 1.5), vol(0, D)
+    quiet = v0 is not None and v1 is not None and v0 < v1 - 6
+    if quiet and (first is None or first > 1.5):
+        warns.append(f"WARN slow open: first 1.5 s is quiet ({v0} dB vs {v1} dB clip average) and no line before "
+                     f"{first} s. Start on the action or the best line (rule 2.4).")
+    if not 12 <= D <= 30.5:
+        warns.append(f"WARN length {D:.1f} s is outside 12-30 s (rule 2.4).")
+    if caps:
+        last = max(c[1] for c in caps)
+        if D - last < 0.25:
+            warns.append("WARN the last caption runs to the final frame: check the clip doesn't end mid-sentence (rule 2.3).")
+        if D - last > 4:
+            warns.append(f"WARN {D - last:.1f} s after the last line: trim the tail unless the payoff is visual (rule 2.3).")
+        gaps = sorted(caps)
+        big = [(a[1], b[0]) for a, b in zip(gaps, gaps[1:]) if b[0] - a[1] > 6]
+        if big:
+            warns.append(f"WARN silent stretch(es) with no captions {big}: cut dead air unless it's action (rule 2.4).")
+    open(os.path.join(od, "gate.txt"), "w").write("\n".join(warns or ["OK"]) + "\n")
+    print("GATE:", *(warns or ["OK"]), sep="\n  ", flush=True)
 
 def level_audio(path, target=-14.0, tp=-1.5, lra=11.0):
     """Two-pass loudnorm: measure, then apply one linear gain so every clip lands at the same loudness."""

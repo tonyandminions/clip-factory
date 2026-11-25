@@ -96,7 +96,7 @@ jobs:
           RUN="run-${{ github.run_number }}"
           mkdir -p /tmp/pub/$RUN
           for d in out/*/; do n=$(basename "$d"); mkdir -p /tmp/pub/$RUN/$n
-            cp "$d"/*_post.mp4 "$d"/*_HQ.mp4 "$d"/*_story.mp4 "$d"/sheet.jpg "$d"/preview.jpg "$d"/transcript.txt "$d"/caps.json "$d"/caps_review.txt "$d"/scan.txt "$d"/scan.json "$d"/build.json /tmp/pub/$RUN/$n/ 2>/dev/null || true; done
+            cp "$d"/*_post.mp4 "$d"/*_HQ.mp4 "$d"/*_story.mp4 "$d"/sheet.jpg "$d"/preview.jpg "$d"/transcript.txt "$d"/caps.json "$d"/caps_review.txt "$d"/gate.txt "$d"/scan.txt "$d"/scan.json "$d"/build.json /tmp/pub/$RUN/$n/ 2>/dev/null || true; done
           git config user.name "clip-factory-bot"; git config user.email "actions@users.noreply.github.com"
           rm -rf out
           for attempt in 1 2 3 4 5 6; do
