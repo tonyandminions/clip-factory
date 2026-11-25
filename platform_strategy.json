@@ -49,7 +49,13 @@
    ],
    "per_day": 2,
    "throttled_per_day": 1,
-   "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21). | 11-21: include 'GTA 6 gameplay' (3.1M searches) in the first line or #gta6gameplay; tip/guide or 'GTA 6 NPCs are insane' framing when it fits."
+   "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21). | 11-21: include 'GTA 6 gameplay' (3.1M searches) in the first line or #gta6gameplay; tip/guide or 'GTA 6 NPCs are insane' framing when it fits.",
+   "best_times": {
+    "first": "18:10",
+    "second": "10:10 or 12:10",
+    "avoid": "after 20:00",
+    "source": "Metricool best-time heat map 11-25 (week 11-25..12-01, ET); estimate, to be checked against our own views by hour"
+   }
   },
   "experiment": {
    "name": "recover reach",
@@ -180,7 +186,13 @@
    "parts_ok": true,
    "max_len_s": 30,
    "per_day": 2,
-   "originality": "11-24 (main chat, Meta 'Rewarding Original Creators', Mar 2026: about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/): Meta deprioritizes Reels that only stitch clips or add borders/captions/speed changes, and Pages that post mostly unoriginal content can be demonetized. Third-party clips count as original only when they add something genuinely new (fresh information, analysis, storyline). So on Facebook: (1) when a queue item has tiktok_media (explainer-card version), use it for the Facebook provider too; (2) every other Facebook Reel needs our title band + a setup/context line that tells the viewer something the clip alone doesn't, or a real story edit (Part 1/2, cuts); (3) never a straight crop + captions; (4) prefer moments where we can state a GTA 6 fact or the story context. Watch: LACY 'Lucia is loyal' (11-23) sat at 1 view and MissMikkaa gains at 0 - if a Reel stalls under 50 views after 24 h while others get 200+, flag it to Justin (possible limit)."
+   "originality": "11-24 (main chat, Meta 'Rewarding Original Creators', Mar 2026: about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/): Meta deprioritizes Reels that only stitch clips or add borders/captions/speed changes, and Pages that post mostly unoriginal content can be demonetized. Third-party clips count as original only when they add something genuinely new (fresh information, analysis, storyline). So on Facebook: (1) when a queue item has tiktok_media (explainer-card version), use it for the Facebook provider too; (2) every other Facebook Reel needs our title band + a setup/context line that tells the viewer something the clip alone doesn't, or a real story edit (Part 1/2, cuts); (3) never a straight crop + captions; (4) prefer moments where we can state a GTA 6 fact or the story context. Watch: LACY 'Lucia is loyal' (11-23) sat at 1 view and MissMikkaa gains at 0 - if a Reel stalls under 50 views after 24 h while others get 200+, flag it to Justin (possible limit).",
+   "best_times": {
+    "first": "10:10 or 12:10",
+    "second": "16:10-18:10",
+    "avoid": "after 20:00",
+    "source": "Metricool best-time heat map 11-25 (week 11-25..12-01, ET); estimate, to be checked against our own views by hour"
+   }
   },
   "experiment": {
    "name": "series vs standalone",
@@ -247,7 +259,14 @@
     "lacy"
    ],
    "per_day": 2,
-   "pick_rule": "11-24: YouTube slots go to the clip most likely to be shared beyond GTA fans: a big-name streamer + a famous/searchable moment + action in second 1. Title = what happened, plainly, with the GTA 6 search words ('Speed fled the cops on a stolen scooter in GTA 6'). Speed clips (growth) are the proven YouTube winners - use any that are ready."
+   "pick_rule": "11-24: YouTube slots go to the clip most likely to be shared beyond GTA fans: a big-name streamer + a famous/searchable moment + action in second 1. Title = what happened, plainly, with the GTA 6 search words ('Speed fled the cops on a stolen scooter in GTA 6'). Speed clips (growth) are the proven YouTube winners - use any that are ready.",
+   "best_times": {
+    "first": "16:10",
+    "second": "10:10",
+    "avoid": "after 19:00",
+    "direct_upload": "~18:10 (Justin uploads by hand)",
+    "source": "Metricool best-time heat map 11-25 (week 11-25..12-01, ET); estimate, to be checked against our own views by hour"
+   }
   },
   "experiment": {
    "name": "search titles",

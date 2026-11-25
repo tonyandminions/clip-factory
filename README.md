@@ -236,6 +236,20 @@ For a moment caught live by ClipSpeed, speed beats the slot grid:
 - Other chats post directly in the TikTok/YouTube apps — check TikTok Studio + YouTube Studio scheduled lists too, not just Metricool.
 
 ## Cap, slots, rotation, parts (from Fri 11/20)
+**BEST TIMES PER PLATFORM (Justin 11-25: "we need to post at best times for each platform"). These times replace the clock times in the grid below; the grid still says WHAT goes WHERE.** Source: Metricool best-time heat map for each of our accounts, pulled 11-25 for the week 11-25..12-01 (ET). It is Metricool's audience-activity estimate, not proof from our own posts (too few yet), so the Analyst checks it against our views by posting hour.
+
+| Platform | 1st choice | 2nd choice | Avoid | Old slot -> new slot |
+|---|---|---|---|---|
+| TikTok (2/day) | **18:10** | **10:10** or 12:10 | after 20:00, before 8:00 | 20:10 is last resort only |
+| YouTube (2/day) | **16:10** | **10:10** | after 19:00 | 15:10 -> 16:10; a direct upload by Justin stays ~18:10 (he uploads by hand) |
+| Facebook (2/day) | **10:10** or 12:10 | **16:10-18:10** | after 20:00 | 9:10 -> 10:10, 11:10 -> 12:10, 15:10 -> 16:10 |
+
+- Slot times are now **10:10 · 12:10 · 16:10 · 18:10** (20:10 only when a cap forces it). Same platform stays 3+ h apart.
+- One clip going to several platforms: use the time that is best for the platform that PAYS for that clip (TikTok/YouTube for paid clips; Facebook for growth clips). Split into two Metricool posts when the best times differ by 3+ h and the cap allows.
+- Weekdays beat weekends on every platform (Sat/Sun are roughly 55-60% of weekday activity): the strongest clip of the week goes Tue-Thu; weekends get the second-tier clips.
+- Story teasers still go ~50 min after their Reel.
+- Analyst: once 10+ posts per platform have run at the new times, compare median views by posting hour against the old 9:10/11:10/15:10/20:10 posts and record the result in `platform_strategy.json` <platform>.route.best_times.
+
 Slot grid (ET) — each slot goes ONLY to the ✓ platforms:
 
 | Slot | What goes here | TikTok | IG | YouTube | FB | X (native) |
