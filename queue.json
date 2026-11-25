@@ -138,9 +138,9 @@
    "name": "JASON_GTA6Instagram",
    "streamer": "jasontheween",
    "campaign": "JasonTheWeen",
-   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-49/JASON_GTA6Instagram_v2/JASON_GTA6Instagram_v2_HQ.mp4",
+   "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-108/JASON_GTA6Instagram_v3/JASON_GTA6Instagram_v3_HQ.mp4",
    "caption": "JasonTheWeen found out GTA 6 has its own Instagram 😭 \"we got Instagram in GTA?!\" #JasonTheWeen #gta6 #gta6gameplay",
-   "yt_title": "JasonTheWeen Found Out GTA 6 Has Its Own Instagram 😭 #shorts #JasonTheWeen #gta6",
+   "yt_title": "GTA 6 Has Its Own Instagram and JasonTheWeen Followed an \"IG Model\" 😭 #shorts #JasonTheWeen #gta6",
    "cover_ms": 2500,
    "part": null,
    "hook_type": "mechanic",
@@ -151,7 +151,7 @@
    "status": "scheduled",
    "slot": "2026-11-27 15:10",
    "added": "2026-11-18T22:12Z",
-   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text). | 11-19 19:54 Live Hunter: moved from 11-19 20:10 (TT IG) to 11-29 9:10 IG only (fast-lane KreekCraft took 20:10); story teaser moved to 11-29 10:00. | 11-24 08:27 Ops Lead: moved 11-25 09:10 FB-only -> 11-27 15:10 FB+YT (paid clip was Facebook-only); story teaser 11-25 10:00 -> 11-27 16:00.",
+   "note": "24.4s, flash-forward open; source 10.9-15s cut on purpose (in-game post with sexual text). | 11-19 19:54 Live Hunter: moved from 11-19 20:10 (TT IG) to 11-29 9:10 IG only (fast-lane KreekCraft took 20:10); story teaser moved to 11-29 10:00. | 11-24 08:27 Ops Lead: moved 11-25 09:10 FB-only -> 11-27 15:10 FB+YT (paid clip was Facebook-only); story teaser 11-25 10:00 -> 11-27 16:00. | 11-25 quality gate: v3 (run-108) ends on the punchline at 20.9 s (v2 ended mid-sentence); FB+YT post media and YouTube title swapped.",
    "platforms": "",
    "x_slot": "2026-11-23 11:10",
    "platforms_scheduled": "FB YT",
@@ -438,7 +438,7 @@
    "campaign": "Clix",
    "media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-78/CLIX_HouseRobbery/CLIX_HouseRobbery_HQ.mp4",
    "caption": "Clix found out GTA 6 homeowners fight back when you rob their house 😭 \"I'm going home… I want to tell everyone in my chat I'm sorry\" #Clix #gta6 #gta6gameplay",
-   "yt_title": "Clix Found Out GTA 6 Homeowners Fight Back When You Rob Them 😭 #shorts #Clix #gta6",
+   "yt_title": "GTA 6 Homeowners Fight Back When You Rob Them 😭 Clix Got Jumped #shorts #Clix #gta6",
    "cover_ms": 3500,
    "part": null,
    "hook_type": "mechanic",
@@ -459,7 +459,8 @@
     "type": "wow",
     "line": "He robs a house and the homeowners jump him until he runs."
    },
-   "priority": 2
+   "priority": 2,
+   "note": "11-25: YouTube title now leads with the GTA 6 event (title test, rule 2.6)."
   },
   {
    "name": "BP_DriverFightsBack_v2",

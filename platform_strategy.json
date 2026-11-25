@@ -254,7 +254,13 @@
    "plan": "Titles that lead with the GTA 6 topic ('GTA 6 cars run out of gas? LACY found out') vs name-first. Compare 48 h views after 8 Shorts. 11-19: none of today's 5 Shorts were topic-first yet - Scheduler, please start the test (e.g. 'GTA 6 lets you brush your teeth? YourRAGE found out'). 11-20: still no topic-first title seen (Clix 18:10 was name-first) - Scheduler, start with the next Short.",
    "baseline": "median 1 view"
   },
-  "flop_rule": "Never delete flops (Justin's rule, Content Rewards submissions need the post live, and YouTube's own guidance is not to delete). Leave them up and log the lesson here instead."
+  "flop_rule": "Never delete flops (Justin's rule, Content Rewards submissions need the post live, and YouTube's own guidance is not to delete). Leave them up and log the lesson here instead.",
+  "title_test": {
+   "started": "2026-11-25",
+   "what": "For streamers who aren't Speed/LACY, the title leads with the GTA 6 event or fact, streamer name second. First two: Clix house robbery (11-26 18:10), JasonTheWeen Instagram (11-27 15:10).",
+   "compare": "views vs earlier '<Name> Found Out You Can...' Shorts (RAGE teeth 27, Jason PS5 6, KreekCraft croc 1)",
+   "judge": "Analyst, after 5 fact-first Shorts have 48 h of data; keep whichever wins"
+  }
  },
  "x": {
   "health_metric": "Views per post in the first 2 h (X weighs early engagement).",
