@@ -283,6 +283,12 @@ Slot grid (ET) — each slot goes ONLY to the ✓ platforms:
 - Paid on X: LACY and Clix campaigns accept X — the X account is linked in Content Rewards (11-19). Submit X links on their own via "Paste a link". KreekCraft and Clix x JBL do NOT pay on X.
 
 ## Per-view campaigns (joined 11-19) — pay from the first eligible view, no pool minimum
+**GROWTH FIRST (Justin 11-25: "we need to focus on the growth of the channel before doing paid promotions like the SEGA one").**
+- **No new brand #Ad posts (SEGA or any other sponsor) until Justin says so.** The 11-25 SEGA post was the last one scheduled. Reasons: #Ad posts got ~47 views (For You 0.46) and SEGA pays nothing under $5 = 1,000 paid-country views per post.
+- If brand ads come back: on YouTube the handle goes in the DESCRIPTION too (Metricool `text`), not only the title. The SEGA brief wants @sega_west on TikTok and YouTube; our YouTube description said @sega (the Instagram handle).
+- Streamer clips: pick by the quality gate (rule 2), not by which campaign pays. Submit a clip when it qualifies, but never post a weaker clip because it is "paid". Views are what is missing, not submissions: LACY's pool needs 750,000 approved views in total before it pays a share; AsianJeff 10K per clip; KreekCraft 3K per clip.
+- Approvals so far (Gmail, 11-25): 0 approved, 1 not approved (LACY, 11-20, "potential fake engagement/views", the night of the TikTok Promote), the rest pending. Reach says to open a Discord ticket to contest it - Justin's to-do, and it matters because Reach bans across all its campaigns for botting strikes.
+
 Rules files on the PC: `Projects/2026/2026 11 NOV/<MM-DD Campaign>/01 Working Files/<Campaign> Rules.md` (KreekCraft, Clix x JBL, AsianJeff, Bobby VanRiper).
 
 **KreekCraft GTA 6** — Content Rewards `2eaa14fb-6927-4136-897e-b096e0d907d6`. $1/1K, $3 minimum per clip (3K views), max $300/clip.
