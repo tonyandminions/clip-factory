@@ -1,1321 +1,1321 @@
 {
-  "_note": "Every source moment we have posted or scheduled. Run scripts/dedupe_check.py on a job before scheduling it. Offsets are seconds into the Twitch VOD; live-route ones are approximate (+-60s).",
-  "vod_starts_utc": {
-    "2932194507": "2026-11-18T10:11:50Z",
-    "2933174196": "2026-11-19T03:48:27Z",
-    "2933231152": "2026-11-19T04:49:47Z"
+ "_note": "Every source moment we have posted or scheduled. Run scripts/dedupe_check.py on a job before scheduling it. Offsets are seconds into the Twitch VOD; live-route ones are approximate (+-60s).",
+ "vod_starts_utc": {
+  "2932194507": "2026-11-18T10:11:50Z",
+  "2933174196": "2026-11-19T03:48:27Z",
+  "2933231152": "2026-11-19T04:49:47Z"
+ },
+ "entries": [
+  {
+   "name": "LACY_SecuritySystems",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 7839,
+   "end": 7854,
+   "clip": "AbstruseGrossMetalMVGame-LfXvAGlp6PoHBBwk",
+   "status": "posted",
+   "date": "2026-11-18 11:20",
+   "caption": "can't steal cars the old way",
+   "x": "2026-11-20 11:10"
   },
-  "entries": [
-    {
-      "name": "LACY_SecuritySystems",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 7839,
-      "end": 7854,
-      "clip": "AbstruseGrossMetalMVGame-LfXvAGlp6PoHBBwk",
-      "status": "posted",
-      "date": "2026-11-18 11:20",
-      "caption": "can't steal cars the old way",
-      "x": "2026-11-20 11:10"
-    },
-    {
-      "name": "LACY_BombCar",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 3998,
-      "end": 4028,
-      "clip": "MistyInventiveOwlPMSTwin-9wlgFHHodtTGoATJ",
-      "status": "posted",
-      "date": "2026-11-18 12:05",
-      "caption": "bomb in his car"
-    },
-    {
-      "name": "LACY_Dog",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 7399,
-      "end": 7446,
-      "clip": "VenomousEasyKathyNerfBlueBlaster-xC8I-5tMYpWzdNaS",
-      "status": "posted",
-      "date": "2026-11-18 12:50",
-      "caption": "just wanted a dog"
-    },
-    {
-      "name": "LACY_BarFight",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 23140,
-      "end": 23360,
-      "status": "posted",
-      "date": "2026-11-18 13:32",
-      "caption": "Lucia vs 4 guys outside the club",
-      "approx": true
-    },
-    {
-      "name": "LACY_BeatTheGame",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 23506,
-      "end": 23532,
-      "status": "scheduled",
-      "date": "2026-11-20 09:10",
-      "approx": true
-    },
-    {
-      "name": "LACY_RepairBill",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 24961,
-      "end": 24977,
-      "status": "scheduled",
-      "date": "2026-11-26 09:10",
-      "approx": true
-    },
-    {
-      "name": "LACY_LeftLuciaHanging",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 26465,
-      "end": 26482,
-      "status": "scheduled",
-      "date": "2026-11-18 16:45",
-      "approx": true
-    },
-    {
-      "name": "LACY_LostAllMoney",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 31040,
-      "end": 31061,
-      "status": "scheduled",
-      "date": "2026-11-18 20:25",
-      "approx": true,
-      "caption": "lost all his money (posted as PART 2 of the gator series)",
-      "x": "2026-11-19 18:10"
-    },
-    {
-      "name": "LACY_LuciaLoyal",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 32295,
-      "end": 32345,
-      "status": "posted",
-      "date": "2026-11-23 09:10",
-      "approx": true,
-      "yt": "https://www.youtube.com/shorts/X5fPY2Q844E",
-      "fb": "https://facebook.com/reel/29235556462765439",
-      "submitted": "2026-11-23 09:32 YouTube (Justin, by hand)"
-    },
-    {
-      "name": "BP_HitTheGas",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 5744,
-      "end": 5774,
-      "clip": "StupidGiantGrasshopperBudBlast-S2jrqYRqUgEfiAFv",
-      "status": "posted",
-      "date": "2026-11-18 11:42",
-      "caption": "zero patience for GTA 6 traffic",
-      "note": "Second copy scheduled 9 PM in TikTok app by other chat - must be deleted; YouTube copy set to Private",
-      "x": "2026-11-19 15:10"
-    },
-    {
-      "name": "BP_WorstDriver",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 3745,
-      "end": 3794,
-      "clip": "HeadstrongClumsyMangetoutPunchTrees-6HgzNaewadxMiQya",
-      "status": "posted",
-      "date": "2026-11-18 11:32",
-      "caption": "tried driving in GTA 6 / worst driver",
-      "note": "Posted by other chat. Our Metricool copy is a draft - never publish it"
-    },
-    {
-      "name": "BP_GoodAtDriving",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 9142,
-      "end": 9169,
-      "clip": "RelentlessSneakyPorcupineM4xHeh-7XksXXaQHXFQSsy2",
-      "status": "scheduled",
-      "date": "2026-11-25 18:10",
-      "x": "2026-11-25 18:10"
-    },
-    {
-      "name": "BP_StolenCarMod",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 4472,
-      "end": 4508,
-      "clip": "ComfortableLachrymosePeppermintDendiFace-Aui_95KVt5WTgUSb",
-      "status": "scheduled",
-      "date": "2026-11-24 20:10"
-    },
-    {
-      "name": "BP_OneFrame",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 1427,
-      "end": 1452,
-      "clip": "ShyUninterestedKangarooStrawBeary-obcmxt2flreroqBn",
-      "status": "held (Metricool draft, stale)",
-      "date": "2026-11-28 09:10"
-    },
-    {
-      "name": "CLIX_PlaneCrash",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 3894,
-      "end": 3918,
-      "clip": "JollyObeseApeBigBrother-iLeo_6jckIEFQGGq",
-      "status": "scheduled",
-      "date": "2026-11-19 08:52",
-      "x": "2026-11-19 11:10"
-    },
-    {
-      "name": "JASON_RoadRage",
-      "streamer": "jasontheween",
-      "vod": "2932190650",
-      "start": 8280,
-      "end": 8310,
-      "clip": "ManlyProudPidgeonBloodTrail-PjN9TVhQ1zqg3GPr",
-      "status": "scheduled",
-      "date": "2026-11-24 09:10"
-    },
-    {
-      "name": "SPEED_Escape",
-      "streamer": "ishowspeed",
-      "status": "posted",
-      "date": "2026-11-18 13:30",
-      "caption": "trying to get away from the cops after first robbery",
-      "note": "Other chat, posted direct in apps; source offsets unknown"
-    },
-    {
-      "name": "SPEED_Arrested",
-      "streamer": "ishowspeed",
-      "status": "scheduled",
-      "date": "2026-11-18 15:30",
-      "caption": "arrested right after first robbery",
-      "note": "Other chat; same robbery story, different moment"
-    },
-    {
-      "name": "SPEED_Download",
-      "streamer": "ishowspeed",
-      "status": "scheduled",
-      "date": "2026-11-18 19:30",
-      "caption": "last 20 seconds of GTA 6 downloading",
-      "note": "Other chat"
-    },
-    {
-      "name": "SPEED_FirstRobbery",
-      "streamer": "ishowspeed",
-      "status": "scheduled",
-      "date": "2026-11-19 12:30",
-      "caption": "first robbery like it's real life",
-      "note": "Other chat; same robbery story, different moment"
-    },
-    {
-      "name": "LACY_Gator_P1",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 30774,
-      "end": 30822,
-      "status": "scheduled",
-      "date": "2026-11-18 18:05",
-      "caption": "tried to pet an alligator (Part 1)",
-      "approx": true,
-      "part": {
-        "series": "LACY gator",
-        "n": 1
-      }
-    },
-    {
-      "name": "LACY_LostAllMoney_P2",
-      "streamer": "lacy",
-      "status": "scheduled",
-      "date": "2026-11-18 20:25",
-      "caption": "same moment as LACY_LostAllMoney (rebuilt as Part 2)",
-      "part": {
-        "series": "LACY gator",
-        "n": 2
-      }
-    },
-    {
-      "name": "MIKKAA_Gains",
-      "streamer": "missmikkaa",
-      "status": "scheduled",
-      "date": "2026-11-20 15:10",
-      "caption": "lost her gym gains",
-      "note": "from live recording MIKKAA_Rec2 cut1 (11/18 ~15:00 ET)"
-    },
-    {
-      "name": "CLIX_FirstMission",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 2082,
-      "end": 2103,
-      "clip": "HelpfulBlightedPotKlappa-w2czdgbNaQyhsNFO",
-      "status": "scheduled",
-      "date": "2026-11-20 18:10",
-      "caption": "first seconds playing GTA 6",
-      "x": "2026-11-20 18:10"
-    },
-    {
-      "name": "LACY_Robbery",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 3722,
-      "end": 3752,
-      "clip": "TiredCrepuscularLettuceTebowing-_ckSEJKNEXXBWDj1",
-      "status": "held (Metricool draft, stale)",
-      "date": "2026-11-26 20:10",
-      "caption": "first store robbery",
-      "x": "2026-11-23 18:10"
-    },
-    {
-      "name": "LACY_Seaplane_P1",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 28738,
-      "end": 28756,
-      "status": "scheduled",
-      "date": "2026-11-21 18:10",
-      "caption": "seaplane drug drop (Part 1)",
-      "approx": true,
-      "part": {
-        "series": "LACY seaplane",
-        "n": 1
-      },
-      "x": "2026-11-21 18:10"
-    },
-    {
-      "name": "LACY_Seaplane_P2",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 28874,
-      "end": 28890,
-      "status": "scheduled",
-      "date": "2026-11-22 09:10",
-      "caption": "cops noticed the seaplane (Part 2)",
-      "approx": true,
-      "part": {
-        "series": "LACY seaplane",
-        "n": 2
-      },
-      "x": "2026-11-22 11:10"
-    },
-    {
-      "name": "MIKKAA_WomanDriver",
-      "streamer": "missmikkaa",
-      "vod": "2932348658",
-      "start": 11891,
-      "end": 11918,
-      "clip": "ResourcefulFragileBeaverKeyboardCat-fFXH9uAplLYQMPGB",
-      "status": "scheduled",
-      "date": "2026-11-23 15:10",
-      "caption": "stole Jason's truck / woman driver",
-      "x": "2026-11-21 15:10"
-    },
-    {
-      "name": "SKIP_CLIX_NudeBeach",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 6180,
-      "end": 6310,
-      "status": "rejected",
-      "caption": "nude beach - never use"
-    },
-    {
-      "name": "SKIP_LACY_Shower",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 6847,
-      "end": 6907,
-      "status": "rejected",
-      "caption": "nudity/sexual - never use"
-    },
-    {
-      "name": "SKIP_LACY_BackShots",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 692,
-      "end": 712,
-      "status": "rejected",
-      "caption": "sexual joke - never use"
-    },
-    {
-      "name": "SKIP_BP_Banned",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 32440,
-      "end": 32525,
-      "status": "rejected",
-      "caption": "likely nudity ('banned', 'little peak') - never use"
-    },
-    {
-      "name": "SKIP_BP_NakedWall",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 34680,
-      "end": 34725,
-      "status": "rejected",
-      "caption": "naked woman on the wall - never use"
-    },
-    {
-      "name": "LACY_StrayDog",
-      "streamer": "lacy",
-      "status": "scheduled",
-      "date": "2026-11-24 18:10",
-      "caption": "tried to adopt a stray dog",
-      "note": "ClipSpeed ref 20:27 UTC (LACY_N23), approx VOD offset ~36000"
-    },
-    {
-      "name": "KATIE_WorstGameplay",
-      "streamer": "realkatieb",
-      "vod": "2932534214",
-      "start": 4141,
-      "end": 4185,
-      "clip": "TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE",
-      "status": "scheduled",
-      "date": "2026-11-22 15:10",
-      "caption": "bike crash / worst GTA 6 gameplay",
-      "x": "2026-11-22 15:10"
-    },
-    {
-      "name": "LACY_JetSki",
-      "streamer": "lacy",
-      "status": "held (Metricool draft, stale)",
-      "date": "2026-11-28 20:10",
-      "caption": "jet ski ramps race",
-      "note": "ClipSpeed ref 19:18 UTC (LACY_N03)",
-      "x": "2026-11-25 11:10"
-    },
-    {
-      "name": "LACY_LuciaFirstTime_otherchat",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 3020,
-      "end": 3050,
-      "clip": "SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5",
-      "status": "posted",
-      "date": "2026-11-18 morning",
-      "caption": "LACY seeing Lucia for the first time",
-      "note": "Posted by the other chat (OpusClip) on TikTok 7709526870198455582 + YT t9O_aG6GhXk"
-    },
-    {
-      "name": "LACY_BankJob_otherchat",
-      "streamer": "lacy",
-      "status": "posted",
-      "date": "2026-11-18 morning",
-      "caption": "LACY first GTA 6 bank job",
-      "note": "Posted by the other chat (OpusClip) on TikTok 7709534333035384095 + YT ciGQYfWe5mg; VOD offset unknown — treat any LACY bank-job clip as used"
-    },
-    {
-      "name": "LACY_ReleaseOfGTAVI_otherchat",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 2900,
-      "end": 2950,
-      "status": "rejected",
-      "caption": "the release of GTA VI opening reaction",
-      "note": "OpusClip version sits in Downloads from the other chat; don't build a second one"
-    },
-    {
-      "name": "SEGA_Official2_Full",
-      "streamer": "sega",
-      "status": "scheduled",
-      "date": "2026-11-22 18:10",
-      "caption": "SEGA official Black Friday video (up to 85% off cut), full-screen",
-      "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
-    },
-    {
-      "name": "SEGA_Official1_Full",
-      "streamer": "sega",
-      "status": "scheduled",
-      "date": "2026-11-25 09:10",
-      "caption": "SEGA official Black Friday video (per-game discounts cut), full-screen",
-      "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
-    },
-    {
-      "name": "SKIP_MIKKAA_Fingers",
-      "streamer": "missmikkaa",
-      "vod": "2932348658",
-      "start": 19162,
-      "end": 19222,
-      "clip": "ImpossibleWrongPoxUnSane-KyA5yEzIgxdCpLnS",
-      "status": "rejected",
-      "caption": "sexual dialogue - never use"
-    },
-    {
-      "name": "JASON_PS5Off",
-      "streamer": "jasontheween",
-      "vod": "2932190650",
-      "start": 40583,
-      "end": 40746,
-      "clip": "PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
-      "status": "scheduled",
-      "slot": "2026-11-19 10:38",
-      "caption": "JasonTheWeen accidentally turned off his PS5 mid GTA 6"
-    },
-    {
-      "name": "BP_ChopShop",
-      "streamer": "theburntpeanut",
-      "vod": "2932226282",
-      "start": 45903,
-      "end": 45980,
-      "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
-      "status": "scheduled",
-      "slot": "2026-11-19 15:10",
-      "caption": "Burnt Peanut found out you can sell stolen cars in GTA 6",
-      "x": "2026-11-24 18:10"
-    },
-    {
-      "name": "JASON_GTA6Instagram",
-      "streamer": "jasontheween",
-      "vod": "2932190650",
-      "start": 6137,
-      "end": 6166,
-      "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
-      "status": "scheduled",
-      "slot": "2026-11-19 20:10",
-      "caption": "JasonTheWeen found out GTA 6 has its own Instagram",
-      "x": "2026-11-23 11:10",
-      "date": "2026-11-27 15:10"
-    },
-    {
-      "name": "RAGE_BrushTeeth",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 12078,
-      "end": 12100,
-      "status": "scheduled",
-      "slot": "2026-11-19 18:10",
-      "caption": "YourRAGE found out brushing your teeth in GTA 6 gives you a Focus buff",
-      "x": "2026-11-19 20:10"
-    },
-    {
-      "name": "RAGE_Workout",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 11328,
-      "end": 11401,
-      "clip": "CalmLazyMartenNerfBlueBlaster",
-      "status": "scheduled",
-      "slot": "2026-11-21 20:10",
-      "caption": "YourRAGE found out you can work out at home in GTA 6",
-      "x": "2026-11-24 11:10",
-      "date": "2026-11-26 15:10",
-      "note": "FB moved 11-21 09:10 -> 11-26 15:10 (11-20)"
-    },
-    {
-      "name": "SKIP_RAGE_Dies",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 6697,
-      "end": 6726,
-      "clip": "EvilChillyClintmullinsPoooound-P_ZS6NqbRvPOkAki",
-      "status": "rejected",
-      "caption": "slur in audio - never use"
-    },
-    {
-      "name": "SKIP_RAGE_NPC",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 8742,
-      "end": 8767,
-      "clip": "RepleteCoySagePJSugar--G1Z6mwWiTS_sPs3",
-      "status": "rejected",
-      "caption": "tackling woman NPC + slurs in chat - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Shower",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 11752,
-      "end": 11781,
-      "clip": "AbstemiousPeacefulHorseTF2John-en1Qs2CZjf_oqfw2",
-      "status": "rejected",
-      "caption": "shower scene - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Doomscroll",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 9075,
-      "end": 9115,
-      "status": "rejected",
-      "caption": "sexual in-game post text - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Cycle",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 8600,
-      "end": 8665,
-      "status": "rejected",
-      "caption": "slurs - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Wylin",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 5170,
-      "end": 5220,
-      "status": "rejected",
-      "caption": "slurs + sexual - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Milk",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 14540,
-      "end": 14620,
-      "status": "rejected",
-      "caption": "sexual talk - never use"
-    },
-    {
-      "name": "SKIP_RAGE_J",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 14415,
-      "end": 14465,
-      "status": "rejected",
-      "caption": "sexual talk - never use"
-    },
-    {
-      "name": "SKIP_RAGE_Lunch",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 6016,
-      "end": 6046,
-      "clip": "HeartlessStrongAdminKeyboardCat-wubwjmqCYJbpGgNG",
-      "status": "rejected",
-      "caption": "cutscene dialogue - skip"
-    },
-    {
-      "name": "KREEK_CrocBet",
-      "streamer": "kreekcraft",
-      "clip": "TangentialFreezingTeaKlappa-3haneQVakbOUV_GJ",
-      "status": "scheduled",
-      "date": "2026-11-19 15:10",
-      "caption": "croc bet, free copy giveaway"
-    },
-    {
-      "name": "KREEK_GrandpaScooter",
-      "streamer": "kreekcraft",
-      "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
-      "status": "scheduled",
-      "date": "2026-11-23 18:10",
-      "caption": "stole grandpa's scooter"
-    },
-    {
-      "name": "SKIP_KREEK_What",
-      "streamer": "kreekcraft",
-      "clip": "IronicSmellyCroissantLitty-y0qIlZxwrjNfiNGt",
-      "status": "rejected",
-      "reason": "sexual joke (shoe store ranking)"
-    },
-    {
-      "name": "SKIP_KREEK_Banned",
-      "streamer": "kreekcraft",
-      "clip": "SaltyTameWrenBatChest-yMa6Bgoi-Pc3cTIZ",
-      "status": "rejected",
-      "reason": "suggestive nightclub framing"
-    },
-    {
-      "name": "SKIP_JASON_StripClub",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 11766,
-      "end": 11826,
-      "clip": "TiredCovertCougarHeyGirl-RI7i3wdJxWw6RTWv",
-      "status": "rejected",
-      "reason": "strip club / nudity"
-    },
-    {
-      "name": "SKIP_JASON_Naaa",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 5671,
-      "end": 5709,
-      "clip": "RenownedPluckyLobsterAMPEnergyCherry-HtXWQiRZgUoIHZ-d",
-      "status": "rejected",
-      "reason": "no hook, unclear dialogue"
-    },
-    {
-      "name": "SKIP_KREEK_Chase",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 72137,
-      "end": 72197,
-      "clip": "LaconicWimpyGnatPanicVis-oxt4b_BVDXOxUKIX",
-      "status": "rejected",
-      "reason": "mission cutscene/NPC dialogue, no streamer reaction"
-    },
-    {
-      "name": "SKIP_CLIX_Aiming",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 2518,
-      "end": 2578,
-      "clip": "TriumphantInterestingEmuCurseLit-jQ6WZrwqrsl0xIIf",
-      "status": "rejected",
-      "reason": "weak, swearing, no hook"
-    },
-    {
-      "name": "SKIP_KREEK_Ayooo",
-      "streamer": "kreekcraft",
-      "vod": "2933758895",
-      "start": 3206,
-      "end": 3236,
-      "clip": "HumbleGleamingEelSpicyBoy-VZGNfwBodYR2NPSa",
-      "status": "rejected",
-      "reason": "explicit song lyrics (sexual)"
-    },
-    {
-      "name": "SKIP_KREEK_Slapped",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 28229,
-      "end": 28248,
-      "clip": "ChillySweetPlumFUNgineer-M6IkRb8DPYFHJVTd",
-      "status": "rejected",
-      "reason": "crude language"
-    },
-    {
-      "name": "SKIP_KREEK_K12",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 19541,
-      "end": 19601,
-      "clip": "ElatedSolidTardigradeANELE-IZ0eJblqUB87zvNx",
-      "status": "rejected",
-      "reason": "cutscene dialogue + swearing"
-    },
-    {
-      "name": "SKIP_LACY_Shocked",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 33857,
-      "end": 33900,
-      "clip": "JazzyPrettiestDogeDendiFace-61fOM3hM6Y_cOt1g",
-      "status": "rejected",
-      "reason": "sexual in-game scene"
-    },
-    {
-      "name": "SKIP_LACY_CivFight",
-      "streamer": "lacy",
-      "vod": "2932194507",
-      "start": 31149,
-      "end": 31168,
-      "clip": "SuspiciousAgreeableHornetTheTarFu-OD_qVg9cj5S9UvmW",
-      "status": "rejected",
-      "reason": "crude language, no hook"
-    },
-    {
-      "name": "SKIP_RAGE_Kaysan",
-      "streamer": "yourragegaming",
-      "vod": "2933174196",
-      "start": 2437,
-      "end": 2467,
-      "clip": "PowerfulAmusedMooseHumbleLife-cXPqXMdK6bIBsaLV",
-      "status": "rejected",
-      "reason": "sexual jokes"
-    },
-    {
-      "name": "SKIP_JASON_ViStar",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 19908,
-      "end": 19923,
-      "clip": "AntediluvianFunMouseHeyGuys-TvlZEtG-RqchvuN-",
-      "status": "rejected",
-      "reason": "too short (8 s of content), shifting layout"
-    },
-    {
-      "name": "SKIP_JASON_Dd",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 9439,
-      "end": 9475,
-      "clip": "GoldenPeppyPoxTheThing-V7v3xZMbQ62cjtFe",
-      "status": "rejected",
-      "reason": "swearing, no hook"
-    },
-    {
-      "name": "SKIP_JASON_Wtf",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 6673,
-      "end": 6733,
-      "clip": "TrappedLachrymosePotPlanking-u1Z1kfApYZhWh572",
-      "status": "rejected",
-      "reason": "rambling, no hook"
-    },
-    {
-      "name": "SKIP_CLIX_Sbsbs",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 1524,
-      "end": 1539,
-      "clip": "SpicyVivaciousMoosePraiseIt-ehFyHMGA1NVwHpuY",
-      "status": "rejected",
-      "reason": "swearing, no hook"
-    },
-    {
-      "name": "SKIP_MIKKAA_PS5",
-      "streamer": "missmikkaa",
-      "vod": "2933682633",
-      "start": 1404,
-      "end": 1434,
-      "clip": "BusySullenJuiceThunBeast-H-yV1SOaWJaDEjgV",
-      "status": "rejected",
-      "reason": "real-life chat (tax bill), no GTA moment"
-    },
-    {
-      "name": "SKIP_KREEK_K3",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 14830,
-      "end": 14890,
-      "clip": "PeppyBravePhoneFloof-7zH7sD559J4Wq3m-",
-      "status": "rejected",
-      "reason": "giveaway talk, no hook"
-    },
-    {
-      "name": "SKIP_KREEK_Jic",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 10603,
-      "end": 10620,
-      "clip": "WrongGrossFungusStoneLightning-YFhtR1QrwMxmRA1L",
-      "status": "rejected",
-      "reason": "no reaction"
-    },
-    {
-      "name": "SKIP_KREEK_Bruh",
-      "streamer": "kreekcraft",
-      "clip": "FantasticFrigidAubergineBabyRage-kAc_ssX2V75xXnRE",
-      "status": "rejected",
-      "reason": "streamer says 'don't clip that'; bat brawl + swearing"
-    },
-    {
-      "name": "SKIP_KREEK_LuciaCamera",
-      "streamer": "kreekcraft",
-      "clip": "GoldenLachrymoseTofuRaccAttack-G7SRDOubDBegOIeV",
-      "status": "rejected",
-      "reason": "suggestive camera joke"
-    },
-    {
-      "name": "SKIP_KREEK_Boat",
-      "streamer": "kreekcraft",
-      "clip": "PricklyHedonisticWallabyRickroll-IdwUZcPsz3bqZfBe",
-      "status": "rejected",
-      "reason": "weak, no payoff"
-    },
-    {
-      "name": "SKIP_KREEK_RobberyCCTV2",
-      "streamer": "kreekcraft",
-      "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
-      "status": "rejected",
-      "reason": "same moment as KREEK_CCTV_v2"
-    },
-    {
-      "name": "SKIP_JASON_Ayooo",
-      "streamer": "jasontheween",
-      "clip": "AbrasivePatientMageRaccAttack-buWjiUiqf-LAh40B",
-      "status": "rejected",
-      "reason": "crude/sexual swearing"
-    },
-    {
-      "name": "SKIP_JASON_Toast",
-      "streamer": "jasontheween",
-      "clip": "HandsomeVibrantDragonflyBlargNaut-sbUK_d4H79LtyxOI",
-      "status": "rejected",
-      "reason": "chat banter, no payoff"
-    },
-    {
-      "name": "SKIP_AJ_DidNotExpect",
-      "streamer": "asianjeff",
-      "clip": "OnerousArtsyKimchiStinkyCheese-pw3DaAkM0zTR4k-K",
-      "status": "rejected",
-      "reason": "swear-heavy driving, no clear payoff"
-    },
-    {
-      "name": "SKIP_AJ_Scared",
-      "streamer": "asianjeff",
-      "clip": "FilthyAliveGrasshopperArsonNoSexy-qlCwixvkI9_WnZ-B",
-      "status": "rejected",
-      "reason": "weak, mostly navigation talk"
-    },
-    {
-      "name": "SKIP_AJ_J",
-      "streamer": "asianjeff",
-      "clip": "CourteousVivaciousWaterPanicVis-IxXboU7ujGNU7Snh",
-      "status": "rejected",
-      "reason": "opens with a sexual line"
-    },
-    {
-      "name": "SKIP_AJ_Gta6",
-      "streamer": "asianjeff",
-      "clip": "BlatantExquisiteMonitorGrammarKing-KZJb61NKnli7x9PO",
-      "status": "rejected",
-      "reason": "crude opener; L3 follow-up covered by AJ_L3"
-    },
-    {
-      "name": "SKIP_AJ_Robbery",
-      "streamer": "asianjeff",
-      "clip": "PeppyAcceptablePrariedogOneHand-VVoAxrYolZNsiHzV",
-      "status": "rejected",
-      "reason": "hook is a swear, unclear mid line"
-    },
-    {
-      "name": "SKIP_AJ_CaughtIn4k",
-      "streamer": "asianjeff",
-      "clip": "ResoluteBlazingYamOSfrog-7_rVk6N6zeaIrCxt",
-      "status": "rejected",
-      "reason": "no usable speech"
-    },
-    {
-      "name": "SKIP_BOBBY_TrunkRun",
-      "streamer": "bobby_vanriper",
-      "clip": "AnnoyingLightLettuceWow-NfAG0IdopmzS28NR",
-      "status": "rejected",
-      "reason": "swearing, weak payoff"
-    },
-    {
-      "name": "SKIP_BOBBY_Tigers",
-      "streamer": "bobby_vanriper",
-      "clip": "ResoluteGrossPineapplePJSugar-foZmQUHh-1MwG1r9",
-      "status": "rejected",
-      "reason": "dark footage, weak reaction"
-    },
-    {
-      "name": "SKIP_BOBBY_Shark",
-      "streamer": "bobby_vanriper",
-      "clip": "DirtyHeartlessSharkEleGiggle-HaEOarVxhHEr9cqV",
-      "status": "rejected",
-      "reason": "no real reaction"
-    },
-    {
-      "name": "SKIP_BOBBY_SoReal",
-      "streamer": "bobby_vanriper",
-      "clip": "DelightfulBombasticTildePMSTwin-kC_I7gcj8nNdZNjs",
-      "status": "rejected",
-      "reason": "rambling, crude word"
-    },
-    {
-      "name": "SKIP_BOBBY_Realistic",
-      "streamer": "bobby_vanriper",
-      "clip": "AlluringSavoryAlligatorDoggo-2OvXcKq-SmwhBrjn",
-      "status": "rejected",
-      "reason": "cutscene dialogue"
-    },
-    {
-      "name": "SKIP_LACY_StripClubCaught",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 4508,
-      "end": 4568,
-      "clip": "TiredDeafJuiceUncleNox-CD_q5QQDwhv_jCLj",
-      "status": "rejected",
-      "reason": "strip club, nudity on screen"
-    },
-    {
-      "name": "SKIP_LACY_Wild",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 1745,
-      "end": 1765,
-      "clip": "EmpathicFrozenAntRalpherZ-Q2h_kaLuAlVszBH8",
-      "status": "rejected",
-      "reason": "sexual dialogue"
-    },
-    {
-      "name": "SKIP_LACY_StripClubDance",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 4260,
-      "end": 4290,
-      "clip": "FilthyRefinedSkirretLeeroyJenkins-fIZvW74IyvHXhDQD",
-      "status": "rejected",
-      "reason": "strip club scene"
-    },
-    {
-      "name": "SKIP_KREEK_PhoneFeed",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 20477,
-      "end": 20496,
-      "clip": "WrongPrettyStingrayCopyThis-OaA0mEH3WgpoxP4o",
-      "status": "rejected",
-      "reason": "no hook, garbled speech"
-    },
-    {
-      "name": "SKIP_KATIE_Menace",
-      "streamer": "realkatieb",
-      "vod": "2934036021",
-      "start": 2025,
-      "end": 2045,
-      "clip": "JoyousGrossGoshawkJKanStyle-GQbZai1cnzvmw7Yq",
-      "status": "rejected",
-      "reason": "no reaction audio"
-    },
-    {
-      "name": "SKIP_CLIX_Ruthless",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 6029,
-      "end": 6088,
-      "clip": "PiliableAmazingMangetoutCoolCat-hO5E4JjoLJfMSEuq",
-      "status": "rejected",
-      "reason": "nonstop swearing"
-    },
-    {
-      "name": "SKIP_JASON_Hole",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 12907,
-      "end": 12937,
-      "clip": "FunnyCogentAntelopeJKanStyle-fEz-zuDrkS2yIeS5",
-      "status": "rejected",
-      "reason": "sexual song lyrics"
-    },
-    {
-      "name": "SKIP_JASON_LostProgress",
-      "streamer": "jasontheween",
-      "vod": "2932190650",
-      "start": 42177,
-      "end": 42237,
-      "clip": "RacyWiseTaroStinkyCheese-qdP3REhe8QY_8d0K",
-      "status": "rejected",
-      "reason": "cam-only, no gameplay; PS5Off story already posted"
-    },
-    {
-      "name": "SKIP_JASON_Mail",
-      "streamer": "jasontheween",
-      "vod": "2932190650",
-      "start": 56131,
-      "end": 56155,
-      "clip": "LongSleepyPancakeJonCarnage-gzW7hwiPcM3UZinC",
-      "status": "rejected",
-      "reason": "banter/insults, no gameplay hook"
-    },
-    {
-      "name": "SKIP_CLIX_Pool",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 24622,
-      "end": 24652,
-      "clip": "AnnoyingAbstruseDragonfruitKlappa-RxW4SrI4K1luWR6u",
-      "status": "rejected",
-      "reason": "swearing + shooting threat"
-    },
-    {
-      "name": "SKIP_CLIX_Five",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 64481,
-      "end": 64503,
-      "clip": "FineSeductiveMagpieSmoocherZ-h3Rk_00ssKPzJF1A",
-      "status": "rejected",
-      "reason": "Diddy joke"
-    },
-    {
-      "name": "SKIP_AJ_Shark",
-      "streamer": "asianjeff",
-      "vod": "2933231152",
-      "start": 13885,
-      "end": 13915,
-      "clip": "DifferentArtisticTurnipThisIsSparta-eu-TErHWzTnV3RJw",
-      "status": "rejected",
-      "reason": "weak reaction for 10K-view campaign"
-    },
-    {
-      "name": "SKIP_AJ_LuciaThoughts",
-      "streamer": "asianjeff",
-      "vod": "2933231152",
-      "start": 966,
-      "end": 991,
-      "clip": "AntsyKathishCurryM4xHeh-DWF2tqfzyNNr3J-8",
-      "status": "rejected",
-      "reason": "thirst comments, no mechanic"
-    },
-    {
-      "name": "SKIP_AJ_ChatGPT",
-      "streamer": "asianjeff",
-      "vod": "2933231152",
-      "start": 6718,
-      "end": 6747,
-      "clip": "OriginalOnerousGnatNerfBlueBlaster-f9stReBsGYUCsKlE",
-      "status": "rejected",
-      "reason": "weak, rambling"
-    },
-    {
-      "name": "KREEK_MomGTA6",
-      "streamer": "kreekcraft",
-      "vod": "2933758895",
-      "start": 34195,
-      "end": 34252,
-      "clip": null,
-      "status": "posted",
-      "date": "2026-11-19 19:58",
-      "caption": "viewer's mom asked what GTA 6 is about, rescue cats from trees",
-      "platforms": [
-        "tiktok",
-        "instagram"
-      ]
-    },
-    {
-      "name": "KREEK_TowerEasterEgg_v2",
-      "streamer": "kreekcraft",
-      "vod": "2933758895",
-      "start": 34331,
-      "end": 34473,
-      "clip": null,
-      "status": "queued",
-      "date": "2026-11-19 20:22",
-      "caption": "tallest tower easter egg"
-    },
-    {
-      "name": "SKIP_LACY_Haha",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 22800,
-      "end": 22822,
-      "clip": "KnottyHorribleMeatloafWoofer-qHCrPk1hx8_Kk1gQ",
-      "status": "rejected",
-      "reason": "crude (diarrhea talk), no moment"
-    },
-    {
-      "name": "SKIP_LACY_Wind",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 12244,
-      "end": 12266,
-      "clip": "SillyBoxyMangetoutCharlieBitMe-FGIt2ONN82dQJHnR",
-      "status": "rejected",
-      "reason": "no speech, nothing happens"
-    },
-    {
-      "name": "SKIP_LACY_Ricky",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 2561,
-      "end": 2576,
-      "clip": "SparklingMoistMosquitoTakeNRG-9lJMbP7SZ54Gtd2H",
-      "status": "rejected",
-      "reason": "no speech, weak"
-    },
-    {
-      "name": "SKIP_LACY_Shower",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 11464,
-      "end": 11494,
-      "clip": "DignifiedAmazingRatTheRinger-upfFJV5_t6pIsjr1",
-      "status": "rejected",
-      "reason": "shower scene, suggestive"
-    },
-    {
-      "name": "SKIP_LACY_Scarred",
-      "streamer": "lacy",
-      "vod": "2933767012",
-      "start": 21172,
-      "end": 21186,
-      "clip": "ResourcefulGloriousGalagoOSsloth-_0dMFWRmNfnetD_d",
-      "status": "rejected",
-      "reason": "sexual joke"
-    },
-    {
-      "name": "SKIP_BP_Dog",
-      "streamer": "theburntpeanut",
-      "vod": "2934030540",
-      "start": 13016,
-      "end": 13046,
-      "clip": "CovertVainNoodleOMGScoots-RIIREObUlkrw-aZz",
-      "status": "rejected",
-      "reason": "dark garage, unclear what happens, possible animal harm"
-    },
-    {
-      "name": "SKIP_JASON_Asta",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 36889,
-      "end": 36916,
-      "clip": "AbstemiousLazyArugulaPhilosoraptor-PKSkSsjAoCRU-xIf",
-      "status": "rejected",
-      "reason": "cutscene, no reaction"
-    },
-    {
-      "name": "SKIP_JASON_CrossFall",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 38867,
-      "end": 38897,
-      "clip": "BashfulRelatedJamCopyThis-tIOVRITdhEoyZvUS",
-      "status": "rejected",
-      "reason": "gore (head split open), heavy swearing"
-    },
-    {
-      "name": "SKIP_JASON_Jumped",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 38950,
-      "end": 38968,
-      "clip": "FunnyCoyCocoaBrainSlug-0wMcxC8HhC4nJrHc",
-      "status": "rejected",
-      "reason": "gore, swearing"
-    },
-    {
-      "name": "SKIP_JASON_BroHow",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 29230,
-      "end": 29255,
-      "clip": "PowerfulDistinctReubenJebaited-6DMgt1QMlugZYMdM",
-      "status": "rejected",
-      "reason": "weak"
-    },
-    {
-      "name": "SKIP_JASON_KilledBro",
-      "streamer": "jasontheween",
-      "vod": "2933588799",
-      "start": 57940,
-      "end": 58020,
-      "clip": null,
-      "status": "rejected",
-      "reason": "swearing, unclear moment"
-    },
-    {
-      "name": "SKIP_KATIE_BigMoment",
-      "streamer": "realkatieb",
-      "vod": "2934036021",
-      "start": 12373,
-      "end": 12392,
-      "clip": "FrozenSmilingFoxTBCheesePull-jgs3gSAsgrBsjUyq",
-      "status": "rejected",
-      "reason": "strip club"
-    },
-    {
-      "name": "SKIP_KREEK_LostWords",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 30278,
-      "end": 30300,
-      "clip": "ThirstyTubularPanAllenHuhu-p4a7NUx0GngWin-l",
-      "status": "rejected",
-      "reason": "nudity (bra off)"
-    },
-    {
-      "name": "SKIP_KREEK_Shirley",
-      "streamer": "kreekcraft",
-      "vod": "2932147800",
-      "start": 15565,
-      "end": 15589,
-      "clip": "FamousCourageousAlbatrossCharlietheUnicorn-Q4hXz7z3yIBUiEWt",
-      "status": "rejected",
-      "reason": "cutscene dialogue"
-    },
-    {
-      "name": "SKIP_CLIX_Restart",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 21137,
-      "end": 21175,
-      "clip": "SnappyEphemeralSmoothieBatChest-yBH4mZP0I24ZMjcM",
-      "status": "rejected",
-      "reason": "weak, swearing"
-    },
-    {
-      "name": "SKIP_CLIX_Ferrari",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 46790,
-      "end": 46870,
-      "clip": null,
-      "status": "rejected",
-      "reason": "hook is a swear rant"
-    },
-    {
-      "name": "SKIP_CLIX_Buster",
-      "streamer": "clix",
-      "vod": "2933739024",
-      "start": 46230,
-      "end": 46310,
-      "clip": null,
-      "status": "rejected",
-      "reason": "weak"
-    },
-    {
-      "name": "SKIP_MIKKAA_PolarBear",
-      "streamer": "missmikkaa",
-      "vod": "2933682633",
-      "start": 24635,
-      "end": 24695,
-      "clip": "PerfectKindDogeChocolateRain-01M67AZSfBFnh0dz",
-      "status": "rejected",
-      "reason": "same random event as LACY_PolarBear, mostly NPC dialogue"
-    },
-    {
-      "name": "SKIP_RAGE_CarBoom",
-      "streamer": "yourragegaming",
-      "vod": "2934505601",
-      "start": 5120,
-      "end": 5200,
-      "clip": null,
-      "status": "rejected",
-      "reason": "slur at start, muddy audio"
-    },
-    {
-      "name": "AJ_Plane",
-      "streamer": "asianjeff",
-      "vod": "2933231152",
-      "start": 3701,
-      "end": 3731,
-      "clip": "HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
-      "status": "scheduled",
-      "date": "2026-11-23 20:10",
-      "caption": "held L2 to land a seaplane smooth as butter",
-      "platforms": "TT"
-    },
-    {
-      "name": "AJ_NotScared",
-      "streamer": "asianjeff",
-      "vod": "2933231152",
-      "start": 3990,
-      "end": 4048,
-      "clip": "TentativeOutstandingTaroAliens-9it_KQjYIGpwfPkh",
-      "status": "scheduled",
-      "date": "2026-11-25 18:10",
-      "caption": "NPC isn't scared of his gun / couldn't get in the car",
-      "platforms": "YT"
-    },
-    {
-      "name": "LIVE_MIKKAA_Tracker",
-      "streamer": "missmikkaa",
-      "vod": null,
-      "start": null,
-      "end": null,
-      "clip": "clipspeed:c422385b/8349a551",
-      "status": "scheduled",
-      "date": "2026-11-25 15:10",
-      "caption": "GTA 6 cars can have a tracker on them - MissMikkaa found out after breaking in",
-      "platforms": "FB"
-    },
-    {
-      "name": "CLIX_HouseRobbery",
-      "streamer": "clix",
-      "vod": "2932204601",
-      "start": 9580,
-      "end": 9610,
-      "clip": "CoyExpensiveVampireSquadGoals-lHC2B6wVD6vdCIC-",
-      "status": "scheduled",
-      "date": "2026-11-26 18:10",
-      "caption": "Clix found out GTA 6 homeowners fight back when you rob their house",
-      "platforms": "YT"
-    }
-  ],
-  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."
+  {
+   "name": "LACY_BombCar",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 3998,
+   "end": 4028,
+   "clip": "MistyInventiveOwlPMSTwin-9wlgFHHodtTGoATJ",
+   "status": "posted",
+   "date": "2026-11-18 12:05",
+   "caption": "bomb in his car"
+  },
+  {
+   "name": "LACY_Dog",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 7399,
+   "end": 7446,
+   "clip": "VenomousEasyKathyNerfBlueBlaster-xC8I-5tMYpWzdNaS",
+   "status": "posted",
+   "date": "2026-11-18 12:50",
+   "caption": "just wanted a dog"
+  },
+  {
+   "name": "LACY_BarFight",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 23140,
+   "end": 23360,
+   "status": "posted",
+   "date": "2026-11-18 13:32",
+   "caption": "Lucia vs 4 guys outside the club",
+   "approx": true
+  },
+  {
+   "name": "LACY_BeatTheGame",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 23506,
+   "end": 23532,
+   "status": "scheduled",
+   "date": "2026-11-20 09:10",
+   "approx": true
+  },
+  {
+   "name": "LACY_RepairBill",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 24961,
+   "end": 24977,
+   "status": "scheduled",
+   "date": "2026-11-26 09:10",
+   "approx": true
+  },
+  {
+   "name": "LACY_LeftLuciaHanging",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 26465,
+   "end": 26482,
+   "status": "scheduled",
+   "date": "2026-11-18 16:45",
+   "approx": true
+  },
+  {
+   "name": "LACY_LostAllMoney",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 31040,
+   "end": 31061,
+   "status": "scheduled",
+   "date": "2026-11-18 20:25",
+   "approx": true,
+   "caption": "lost all his money (posted as PART 2 of the gator series)",
+   "x": "2026-11-19 18:10"
+  },
+  {
+   "name": "LACY_LuciaLoyal",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 32295,
+   "end": 32345,
+   "status": "posted",
+   "date": "2026-11-23 09:10",
+   "approx": true,
+   "yt": "https://www.youtube.com/shorts/X5fPY2Q844E",
+   "fb": "https://facebook.com/reel/29235556462765439",
+   "submitted": "2026-11-23 09:32 YouTube (Justin, by hand)"
+  },
+  {
+   "name": "BP_HitTheGas",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 5744,
+   "end": 5774,
+   "clip": "StupidGiantGrasshopperBudBlast-S2jrqYRqUgEfiAFv",
+   "status": "posted",
+   "date": "2026-11-18 11:42",
+   "caption": "zero patience for GTA 6 traffic",
+   "note": "Second copy scheduled 9 PM in TikTok app by other chat - must be deleted; YouTube copy set to Private",
+   "x": "2026-11-19 15:10"
+  },
+  {
+   "name": "BP_WorstDriver",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 3745,
+   "end": 3794,
+   "clip": "HeadstrongClumsyMangetoutPunchTrees-6HgzNaewadxMiQya",
+   "status": "posted",
+   "date": "2026-11-18 11:32",
+   "caption": "tried driving in GTA 6 / worst driver",
+   "note": "Posted by other chat. Our Metricool copy is a draft - never publish it"
+  },
+  {
+   "name": "BP_GoodAtDriving",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 9142,
+   "end": 9169,
+   "clip": "RelentlessSneakyPorcupineM4xHeh-7XksXXaQHXFQSsy2",
+   "status": "scheduled",
+   "date": "2026-11-25 18:10",
+   "x": "2026-11-25 18:10"
+  },
+  {
+   "name": "BP_StolenCarMod",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 4472,
+   "end": 4508,
+   "clip": "ComfortableLachrymosePeppermintDendiFace-Aui_95KVt5WTgUSb",
+   "status": "scheduled",
+   "date": "2026-11-24 20:10"
+  },
+  {
+   "name": "BP_OneFrame",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 1427,
+   "end": 1452,
+   "clip": "ShyUninterestedKangarooStrawBeary-obcmxt2flreroqBn",
+   "status": "held (Metricool draft, stale)",
+   "date": "2026-11-28 09:10"
+  },
+  {
+   "name": "CLIX_PlaneCrash",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 3894,
+   "end": 3918,
+   "clip": "JollyObeseApeBigBrother-iLeo_6jckIEFQGGq",
+   "status": "scheduled",
+   "date": "2026-11-19 08:52",
+   "x": "2026-11-19 11:10"
+  },
+  {
+   "name": "JASON_RoadRage",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 8280,
+   "end": 8310,
+   "clip": "ManlyProudPidgeonBloodTrail-PjN9TVhQ1zqg3GPr",
+   "status": "scheduled",
+   "date": "2026-11-24 09:10"
+  },
+  {
+   "name": "SPEED_Escape",
+   "streamer": "ishowspeed",
+   "status": "posted",
+   "date": "2026-11-18 13:30",
+   "caption": "trying to get away from the cops after first robbery",
+   "note": "Other chat, posted direct in apps; source offsets unknown"
+  },
+  {
+   "name": "SPEED_Arrested",
+   "streamer": "ishowspeed",
+   "status": "scheduled",
+   "date": "2026-11-18 15:30",
+   "caption": "arrested right after first robbery",
+   "note": "Other chat; same robbery story, different moment"
+  },
+  {
+   "name": "SPEED_Download",
+   "streamer": "ishowspeed",
+   "status": "scheduled",
+   "date": "2026-11-18 19:30",
+   "caption": "last 20 seconds of GTA 6 downloading",
+   "note": "Other chat"
+  },
+  {
+   "name": "SPEED_FirstRobbery",
+   "streamer": "ishowspeed",
+   "status": "scheduled",
+   "date": "2026-11-19 12:30",
+   "caption": "first robbery like it's real life",
+   "note": "Other chat; same robbery story, different moment"
+  },
+  {
+   "name": "LACY_Gator_P1",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 30774,
+   "end": 30822,
+   "status": "scheduled",
+   "date": "2026-11-18 18:05",
+   "caption": "tried to pet an alligator (Part 1)",
+   "approx": true,
+   "part": {
+    "series": "LACY gator",
+    "n": 1
+   }
+  },
+  {
+   "name": "LACY_LostAllMoney_P2",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "date": "2026-11-18 20:25",
+   "caption": "same moment as LACY_LostAllMoney (rebuilt as Part 2)",
+   "part": {
+    "series": "LACY gator",
+    "n": 2
+   }
+  },
+  {
+   "name": "MIKKAA_Gains",
+   "streamer": "missmikkaa",
+   "status": "scheduled",
+   "date": "2026-11-20 15:10",
+   "caption": "lost her gym gains",
+   "note": "from live recording MIKKAA_Rec2 cut1 (11/18 ~15:00 ET)"
+  },
+  {
+   "name": "CLIX_FirstMission",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 2082,
+   "end": 2103,
+   "clip": "HelpfulBlightedPotKlappa-w2czdgbNaQyhsNFO",
+   "status": "scheduled",
+   "date": "2026-11-20 18:10",
+   "caption": "first seconds playing GTA 6",
+   "x": "2026-11-20 18:10"
+  },
+  {
+   "name": "LACY_Robbery",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 3722,
+   "end": 3752,
+   "clip": "TiredCrepuscularLettuceTebowing-_ckSEJKNEXXBWDj1",
+   "status": "held (Metricool draft, stale)",
+   "date": "2026-11-26 20:10",
+   "caption": "first store robbery",
+   "x": "2026-11-23 18:10"
+  },
+  {
+   "name": "LACY_Seaplane_P1",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 28738,
+   "end": 28756,
+   "status": "scheduled",
+   "date": "2026-11-21 18:10",
+   "caption": "seaplane drug drop (Part 1)",
+   "approx": true,
+   "part": {
+    "series": "LACY seaplane",
+    "n": 1
+   },
+   "x": "2026-11-21 18:10"
+  },
+  {
+   "name": "LACY_Seaplane_P2",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 28874,
+   "end": 28890,
+   "status": "scheduled",
+   "date": "2026-11-22 09:10",
+   "caption": "cops noticed the seaplane (Part 2)",
+   "approx": true,
+   "part": {
+    "series": "LACY seaplane",
+    "n": 2
+   },
+   "x": "2026-11-22 11:10"
+  },
+  {
+   "name": "MIKKAA_WomanDriver",
+   "streamer": "missmikkaa",
+   "vod": "2932348658",
+   "start": 11891,
+   "end": 11918,
+   "clip": "ResourcefulFragileBeaverKeyboardCat-fFXH9uAplLYQMPGB",
+   "status": "scheduled",
+   "date": "2026-11-23 15:10",
+   "caption": "stole Jason's truck / woman driver",
+   "x": "2026-11-21 15:10"
+  },
+  {
+   "name": "SKIP_CLIX_NudeBeach",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 6180,
+   "end": 6310,
+   "status": "rejected",
+   "caption": "nude beach - never use"
+  },
+  {
+   "name": "SKIP_LACY_Shower",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 6847,
+   "end": 6907,
+   "status": "rejected",
+   "caption": "nudity/sexual - never use"
+  },
+  {
+   "name": "SKIP_LACY_BackShots",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 692,
+   "end": 712,
+   "status": "rejected",
+   "caption": "sexual joke - never use"
+  },
+  {
+   "name": "SKIP_BP_Banned",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 32440,
+   "end": 32525,
+   "status": "rejected",
+   "caption": "likely nudity ('banned', 'little peak') - never use"
+  },
+  {
+   "name": "SKIP_BP_NakedWall",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 34680,
+   "end": 34725,
+   "status": "rejected",
+   "caption": "naked woman on the wall - never use"
+  },
+  {
+   "name": "LACY_StrayDog",
+   "streamer": "lacy",
+   "status": "scheduled",
+   "date": "2026-11-24 18:10",
+   "caption": "tried to adopt a stray dog",
+   "note": "ClipSpeed ref 20:27 UTC (LACY_N23), approx VOD offset ~36000"
+  },
+  {
+   "name": "KATIE_WorstGameplay",
+   "streamer": "realkatieb",
+   "vod": "2932534214",
+   "start": 4141,
+   "end": 4185,
+   "clip": "TiredCharmingChipmunkHeyGuys-NsVbEC3BkCm6uBhE",
+   "status": "scheduled",
+   "date": "2026-11-22 15:10",
+   "caption": "bike crash / worst GTA 6 gameplay",
+   "x": "2026-11-22 15:10"
+  },
+  {
+   "name": "LACY_JetSki",
+   "streamer": "lacy",
+   "status": "held (Metricool draft, stale)",
+   "date": "2026-11-28 20:10",
+   "caption": "jet ski ramps race",
+   "note": "ClipSpeed ref 19:18 UTC (LACY_N03)",
+   "x": "2026-11-25 11:10"
+  },
+  {
+   "name": "LACY_LuciaFirstTime_otherchat",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 3020,
+   "end": 3050,
+   "clip": "SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5",
+   "status": "posted",
+   "date": "2026-11-18 morning",
+   "caption": "LACY seeing Lucia for the first time",
+   "note": "Posted by the other chat (OpusClip) on TikTok 7709526870198455582 + YT t9O_aG6GhXk"
+  },
+  {
+   "name": "LACY_BankJob_otherchat",
+   "streamer": "lacy",
+   "status": "posted",
+   "date": "2026-11-18 morning",
+   "caption": "LACY first GTA 6 bank job",
+   "note": "Posted by the other chat (OpusClip) on TikTok 7709534333035384095 + YT ciGQYfWe5mg; VOD offset unknown — treat any LACY bank-job clip as used"
+  },
+  {
+   "name": "LACY_ReleaseOfGTAVI_otherchat",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 2900,
+   "end": 2950,
+   "status": "rejected",
+   "caption": "the release of GTA VI opening reaction",
+   "note": "OpusClip version sits in Downloads from the other chat; don't build a second one"
+  },
+  {
+   "name": "SEGA_Official2_Full",
+   "streamer": "sega",
+   "status": "scheduled",
+   "date": "2026-11-22 18:10",
+   "caption": "SEGA official Black Friday video (up to 85% off cut), full-screen",
+   "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
+  },
+  {
+   "name": "SEGA_Official1_Full",
+   "streamer": "sega",
+   "status": "scheduled",
+   "date": "2026-11-25 09:10",
+   "caption": "SEGA official Black Friday video (per-game discounts cut), full-screen",
+   "note": "SEGA campaign 1391fb95; only two official cuts exist — don't post a third"
+  },
+  {
+   "name": "SKIP_MIKKAA_Fingers",
+   "streamer": "missmikkaa",
+   "vod": "2932348658",
+   "start": 19162,
+   "end": 19222,
+   "clip": "ImpossibleWrongPoxUnSane-KyA5yEzIgxdCpLnS",
+   "status": "rejected",
+   "caption": "sexual dialogue - never use"
+  },
+  {
+   "name": "JASON_PS5Off",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 40583,
+   "end": 40746,
+   "clip": "PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+   "status": "scheduled",
+   "slot": "2026-11-19 10:38",
+   "caption": "JasonTheWeen accidentally turned off his PS5 mid GTA 6"
+  },
+  {
+   "name": "BP_ChopShop",
+   "streamer": "theburntpeanut",
+   "vod": "2932226282",
+   "start": 45903,
+   "end": 45980,
+   "clip": "TubularBashfulHeronShadyLulu-XAm39nSjTyF0Gwcp",
+   "status": "scheduled",
+   "slot": "2026-11-19 15:10",
+   "caption": "Burnt Peanut found out you can sell stolen cars in GTA 6",
+   "x": "2026-11-24 18:10"
+  },
+  {
+   "name": "JASON_GTA6Instagram",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 6137,
+   "end": 6166,
+   "clip": "ManlySpunkyCaterpillarOMGScoots-ZHSXXFcUbr5CAcvy",
+   "status": "scheduled",
+   "slot": "2026-11-19 20:10",
+   "caption": "JasonTheWeen found out GTA 6 has its own Instagram",
+   "x": "2026-11-23 11:10",
+   "date": "2026-11-27 15:10"
+  },
+  {
+   "name": "RAGE_BrushTeeth",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 12078,
+   "end": 12100,
+   "status": "scheduled",
+   "slot": "2026-11-19 18:10",
+   "caption": "YourRAGE found out brushing your teeth in GTA 6 gives you a Focus buff",
+   "x": "2026-11-19 20:10"
+  },
+  {
+   "name": "RAGE_Workout",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 11328,
+   "end": 11401,
+   "clip": "CalmLazyMartenNerfBlueBlaster",
+   "status": "scheduled",
+   "slot": "2026-11-21 20:10",
+   "caption": "YourRAGE found out you can work out at home in GTA 6",
+   "x": "2026-11-24 11:10",
+   "date": "2026-11-28 09:10",
+   "note": "FB moved 11-21 09:10 -> 11-26 15:10 (11-20) | Ops Lead 11-25: -> 11-28 09:10 FB+YT (paid clip was FB-only)"
+  },
+  {
+   "name": "SKIP_RAGE_Dies",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 6697,
+   "end": 6726,
+   "clip": "EvilChillyClintmullinsPoooound-P_ZS6NqbRvPOkAki",
+   "status": "rejected",
+   "caption": "slur in audio - never use"
+  },
+  {
+   "name": "SKIP_RAGE_NPC",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 8742,
+   "end": 8767,
+   "clip": "RepleteCoySagePJSugar--G1Z6mwWiTS_sPs3",
+   "status": "rejected",
+   "caption": "tackling woman NPC + slurs in chat - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Shower",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 11752,
+   "end": 11781,
+   "clip": "AbstemiousPeacefulHorseTF2John-en1Qs2CZjf_oqfw2",
+   "status": "rejected",
+   "caption": "shower scene - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Doomscroll",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 9075,
+   "end": 9115,
+   "status": "rejected",
+   "caption": "sexual in-game post text - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Cycle",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 8600,
+   "end": 8665,
+   "status": "rejected",
+   "caption": "slurs - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Wylin",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 5170,
+   "end": 5220,
+   "status": "rejected",
+   "caption": "slurs + sexual - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Milk",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 14540,
+   "end": 14620,
+   "status": "rejected",
+   "caption": "sexual talk - never use"
+  },
+  {
+   "name": "SKIP_RAGE_J",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 14415,
+   "end": 14465,
+   "status": "rejected",
+   "caption": "sexual talk - never use"
+  },
+  {
+   "name": "SKIP_RAGE_Lunch",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 6016,
+   "end": 6046,
+   "clip": "HeartlessStrongAdminKeyboardCat-wubwjmqCYJbpGgNG",
+   "status": "rejected",
+   "caption": "cutscene dialogue - skip"
+  },
+  {
+   "name": "KREEK_CrocBet",
+   "streamer": "kreekcraft",
+   "clip": "TangentialFreezingTeaKlappa-3haneQVakbOUV_GJ",
+   "status": "scheduled",
+   "date": "2026-11-19 15:10",
+   "caption": "croc bet, free copy giveaway"
+  },
+  {
+   "name": "KREEK_GrandpaScooter",
+   "streamer": "kreekcraft",
+   "clip": "GentleTransparentEagleTwitchRaid-_o7aK-ePRk8u7tmC",
+   "status": "scheduled",
+   "date": "2026-11-23 18:10",
+   "caption": "stole grandpa's scooter"
+  },
+  {
+   "name": "SKIP_KREEK_What",
+   "streamer": "kreekcraft",
+   "clip": "IronicSmellyCroissantLitty-y0qIlZxwrjNfiNGt",
+   "status": "rejected",
+   "reason": "sexual joke (shoe store ranking)"
+  },
+  {
+   "name": "SKIP_KREEK_Banned",
+   "streamer": "kreekcraft",
+   "clip": "SaltyTameWrenBatChest-yMa6Bgoi-Pc3cTIZ",
+   "status": "rejected",
+   "reason": "suggestive nightclub framing"
+  },
+  {
+   "name": "SKIP_JASON_StripClub",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 11766,
+   "end": 11826,
+   "clip": "TiredCovertCougarHeyGirl-RI7i3wdJxWw6RTWv",
+   "status": "rejected",
+   "reason": "strip club / nudity"
+  },
+  {
+   "name": "SKIP_JASON_Naaa",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 5671,
+   "end": 5709,
+   "clip": "RenownedPluckyLobsterAMPEnergyCherry-HtXWQiRZgUoIHZ-d",
+   "status": "rejected",
+   "reason": "no hook, unclear dialogue"
+  },
+  {
+   "name": "SKIP_KREEK_Chase",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 72137,
+   "end": 72197,
+   "clip": "LaconicWimpyGnatPanicVis-oxt4b_BVDXOxUKIX",
+   "status": "rejected",
+   "reason": "mission cutscene/NPC dialogue, no streamer reaction"
+  },
+  {
+   "name": "SKIP_CLIX_Aiming",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 2518,
+   "end": 2578,
+   "clip": "TriumphantInterestingEmuCurseLit-jQ6WZrwqrsl0xIIf",
+   "status": "rejected",
+   "reason": "weak, swearing, no hook"
+  },
+  {
+   "name": "SKIP_KREEK_Ayooo",
+   "streamer": "kreekcraft",
+   "vod": "2933758895",
+   "start": 3206,
+   "end": 3236,
+   "clip": "HumbleGleamingEelSpicyBoy-VZGNfwBodYR2NPSa",
+   "status": "rejected",
+   "reason": "explicit song lyrics (sexual)"
+  },
+  {
+   "name": "SKIP_KREEK_Slapped",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 28229,
+   "end": 28248,
+   "clip": "ChillySweetPlumFUNgineer-M6IkRb8DPYFHJVTd",
+   "status": "rejected",
+   "reason": "crude language"
+  },
+  {
+   "name": "SKIP_KREEK_K12",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 19541,
+   "end": 19601,
+   "clip": "ElatedSolidTardigradeANELE-IZ0eJblqUB87zvNx",
+   "status": "rejected",
+   "reason": "cutscene dialogue + swearing"
+  },
+  {
+   "name": "SKIP_LACY_Shocked",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 33857,
+   "end": 33900,
+   "clip": "JazzyPrettiestDogeDendiFace-61fOM3hM6Y_cOt1g",
+   "status": "rejected",
+   "reason": "sexual in-game scene"
+  },
+  {
+   "name": "SKIP_LACY_CivFight",
+   "streamer": "lacy",
+   "vod": "2932194507",
+   "start": 31149,
+   "end": 31168,
+   "clip": "SuspiciousAgreeableHornetTheTarFu-OD_qVg9cj5S9UvmW",
+   "status": "rejected",
+   "reason": "crude language, no hook"
+  },
+  {
+   "name": "SKIP_RAGE_Kaysan",
+   "streamer": "yourragegaming",
+   "vod": "2933174196",
+   "start": 2437,
+   "end": 2467,
+   "clip": "PowerfulAmusedMooseHumbleLife-cXPqXMdK6bIBsaLV",
+   "status": "rejected",
+   "reason": "sexual jokes"
+  },
+  {
+   "name": "SKIP_JASON_ViStar",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 19908,
+   "end": 19923,
+   "clip": "AntediluvianFunMouseHeyGuys-TvlZEtG-RqchvuN-",
+   "status": "rejected",
+   "reason": "too short (8 s of content), shifting layout"
+  },
+  {
+   "name": "SKIP_JASON_Dd",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 9439,
+   "end": 9475,
+   "clip": "GoldenPeppyPoxTheThing-V7v3xZMbQ62cjtFe",
+   "status": "rejected",
+   "reason": "swearing, no hook"
+  },
+  {
+   "name": "SKIP_JASON_Wtf",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 6673,
+   "end": 6733,
+   "clip": "TrappedLachrymosePotPlanking-u1Z1kfApYZhWh572",
+   "status": "rejected",
+   "reason": "rambling, no hook"
+  },
+  {
+   "name": "SKIP_CLIX_Sbsbs",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 1524,
+   "end": 1539,
+   "clip": "SpicyVivaciousMoosePraiseIt-ehFyHMGA1NVwHpuY",
+   "status": "rejected",
+   "reason": "swearing, no hook"
+  },
+  {
+   "name": "SKIP_MIKKAA_PS5",
+   "streamer": "missmikkaa",
+   "vod": "2933682633",
+   "start": 1404,
+   "end": 1434,
+   "clip": "BusySullenJuiceThunBeast-H-yV1SOaWJaDEjgV",
+   "status": "rejected",
+   "reason": "real-life chat (tax bill), no GTA moment"
+  },
+  {
+   "name": "SKIP_KREEK_K3",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 14830,
+   "end": 14890,
+   "clip": "PeppyBravePhoneFloof-7zH7sD559J4Wq3m-",
+   "status": "rejected",
+   "reason": "giveaway talk, no hook"
+  },
+  {
+   "name": "SKIP_KREEK_Jic",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 10603,
+   "end": 10620,
+   "clip": "WrongGrossFungusStoneLightning-YFhtR1QrwMxmRA1L",
+   "status": "rejected",
+   "reason": "no reaction"
+  },
+  {
+   "name": "SKIP_KREEK_Bruh",
+   "streamer": "kreekcraft",
+   "clip": "FantasticFrigidAubergineBabyRage-kAc_ssX2V75xXnRE",
+   "status": "rejected",
+   "reason": "streamer says 'don't clip that'; bat brawl + swearing"
+  },
+  {
+   "name": "SKIP_KREEK_LuciaCamera",
+   "streamer": "kreekcraft",
+   "clip": "GoldenLachrymoseTofuRaccAttack-G7SRDOubDBegOIeV",
+   "status": "rejected",
+   "reason": "suggestive camera joke"
+  },
+  {
+   "name": "SKIP_KREEK_Boat",
+   "streamer": "kreekcraft",
+   "clip": "PricklyHedonisticWallabyRickroll-IdwUZcPsz3bqZfBe",
+   "status": "rejected",
+   "reason": "weak, no payoff"
+  },
+  {
+   "name": "SKIP_KREEK_RobberyCCTV2",
+   "streamer": "kreekcraft",
+   "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+   "status": "rejected",
+   "reason": "same moment as KREEK_CCTV_v2"
+  },
+  {
+   "name": "SKIP_JASON_Ayooo",
+   "streamer": "jasontheween",
+   "clip": "AbrasivePatientMageRaccAttack-buWjiUiqf-LAh40B",
+   "status": "rejected",
+   "reason": "crude/sexual swearing"
+  },
+  {
+   "name": "SKIP_JASON_Toast",
+   "streamer": "jasontheween",
+   "clip": "HandsomeVibrantDragonflyBlargNaut-sbUK_d4H79LtyxOI",
+   "status": "rejected",
+   "reason": "chat banter, no payoff"
+  },
+  {
+   "name": "SKIP_AJ_DidNotExpect",
+   "streamer": "asianjeff",
+   "clip": "OnerousArtsyKimchiStinkyCheese-pw3DaAkM0zTR4k-K",
+   "status": "rejected",
+   "reason": "swear-heavy driving, no clear payoff"
+  },
+  {
+   "name": "SKIP_AJ_Scared",
+   "streamer": "asianjeff",
+   "clip": "FilthyAliveGrasshopperArsonNoSexy-qlCwixvkI9_WnZ-B",
+   "status": "rejected",
+   "reason": "weak, mostly navigation talk"
+  },
+  {
+   "name": "SKIP_AJ_J",
+   "streamer": "asianjeff",
+   "clip": "CourteousVivaciousWaterPanicVis-IxXboU7ujGNU7Snh",
+   "status": "rejected",
+   "reason": "opens with a sexual line"
+  },
+  {
+   "name": "SKIP_AJ_Gta6",
+   "streamer": "asianjeff",
+   "clip": "BlatantExquisiteMonitorGrammarKing-KZJb61NKnli7x9PO",
+   "status": "rejected",
+   "reason": "crude opener; L3 follow-up covered by AJ_L3"
+  },
+  {
+   "name": "SKIP_AJ_Robbery",
+   "streamer": "asianjeff",
+   "clip": "PeppyAcceptablePrariedogOneHand-VVoAxrYolZNsiHzV",
+   "status": "rejected",
+   "reason": "hook is a swear, unclear mid line"
+  },
+  {
+   "name": "SKIP_AJ_CaughtIn4k",
+   "streamer": "asianjeff",
+   "clip": "ResoluteBlazingYamOSfrog-7_rVk6N6zeaIrCxt",
+   "status": "rejected",
+   "reason": "no usable speech"
+  },
+  {
+   "name": "SKIP_BOBBY_TrunkRun",
+   "streamer": "bobby_vanriper",
+   "clip": "AnnoyingLightLettuceWow-NfAG0IdopmzS28NR",
+   "status": "rejected",
+   "reason": "swearing, weak payoff"
+  },
+  {
+   "name": "SKIP_BOBBY_Tigers",
+   "streamer": "bobby_vanriper",
+   "clip": "ResoluteGrossPineapplePJSugar-foZmQUHh-1MwG1r9",
+   "status": "rejected",
+   "reason": "dark footage, weak reaction"
+  },
+  {
+   "name": "SKIP_BOBBY_Shark",
+   "streamer": "bobby_vanriper",
+   "clip": "DirtyHeartlessSharkEleGiggle-HaEOarVxhHEr9cqV",
+   "status": "rejected",
+   "reason": "no real reaction"
+  },
+  {
+   "name": "SKIP_BOBBY_SoReal",
+   "streamer": "bobby_vanriper",
+   "clip": "DelightfulBombasticTildePMSTwin-kC_I7gcj8nNdZNjs",
+   "status": "rejected",
+   "reason": "rambling, crude word"
+  },
+  {
+   "name": "SKIP_BOBBY_Realistic",
+   "streamer": "bobby_vanriper",
+   "clip": "AlluringSavoryAlligatorDoggo-2OvXcKq-SmwhBrjn",
+   "status": "rejected",
+   "reason": "cutscene dialogue"
+  },
+  {
+   "name": "SKIP_LACY_StripClubCaught",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 4508,
+   "end": 4568,
+   "clip": "TiredDeafJuiceUncleNox-CD_q5QQDwhv_jCLj",
+   "status": "rejected",
+   "reason": "strip club, nudity on screen"
+  },
+  {
+   "name": "SKIP_LACY_Wild",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 1745,
+   "end": 1765,
+   "clip": "EmpathicFrozenAntRalpherZ-Q2h_kaLuAlVszBH8",
+   "status": "rejected",
+   "reason": "sexual dialogue"
+  },
+  {
+   "name": "SKIP_LACY_StripClubDance",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 4260,
+   "end": 4290,
+   "clip": "FilthyRefinedSkirretLeeroyJenkins-fIZvW74IyvHXhDQD",
+   "status": "rejected",
+   "reason": "strip club scene"
+  },
+  {
+   "name": "SKIP_KREEK_PhoneFeed",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 20477,
+   "end": 20496,
+   "clip": "WrongPrettyStingrayCopyThis-OaA0mEH3WgpoxP4o",
+   "status": "rejected",
+   "reason": "no hook, garbled speech"
+  },
+  {
+   "name": "SKIP_KATIE_Menace",
+   "streamer": "realkatieb",
+   "vod": "2934036021",
+   "start": 2025,
+   "end": 2045,
+   "clip": "JoyousGrossGoshawkJKanStyle-GQbZai1cnzvmw7Yq",
+   "status": "rejected",
+   "reason": "no reaction audio"
+  },
+  {
+   "name": "SKIP_CLIX_Ruthless",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 6029,
+   "end": 6088,
+   "clip": "PiliableAmazingMangetoutCoolCat-hO5E4JjoLJfMSEuq",
+   "status": "rejected",
+   "reason": "nonstop swearing"
+  },
+  {
+   "name": "SKIP_JASON_Hole",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 12907,
+   "end": 12937,
+   "clip": "FunnyCogentAntelopeJKanStyle-fEz-zuDrkS2yIeS5",
+   "status": "rejected",
+   "reason": "sexual song lyrics"
+  },
+  {
+   "name": "SKIP_JASON_LostProgress",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 42177,
+   "end": 42237,
+   "clip": "RacyWiseTaroStinkyCheese-qdP3REhe8QY_8d0K",
+   "status": "rejected",
+   "reason": "cam-only, no gameplay; PS5Off story already posted"
+  },
+  {
+   "name": "SKIP_JASON_Mail",
+   "streamer": "jasontheween",
+   "vod": "2932190650",
+   "start": 56131,
+   "end": 56155,
+   "clip": "LongSleepyPancakeJonCarnage-gzW7hwiPcM3UZinC",
+   "status": "rejected",
+   "reason": "banter/insults, no gameplay hook"
+  },
+  {
+   "name": "SKIP_CLIX_Pool",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 24622,
+   "end": 24652,
+   "clip": "AnnoyingAbstruseDragonfruitKlappa-RxW4SrI4K1luWR6u",
+   "status": "rejected",
+   "reason": "swearing + shooting threat"
+  },
+  {
+   "name": "SKIP_CLIX_Five",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 64481,
+   "end": 64503,
+   "clip": "FineSeductiveMagpieSmoocherZ-h3Rk_00ssKPzJF1A",
+   "status": "rejected",
+   "reason": "Diddy joke"
+  },
+  {
+   "name": "SKIP_AJ_Shark",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 13885,
+   "end": 13915,
+   "clip": "DifferentArtisticTurnipThisIsSparta-eu-TErHWzTnV3RJw",
+   "status": "rejected",
+   "reason": "weak reaction for 10K-view campaign"
+  },
+  {
+   "name": "SKIP_AJ_LuciaThoughts",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 966,
+   "end": 991,
+   "clip": "AntsyKathishCurryM4xHeh-DWF2tqfzyNNr3J-8",
+   "status": "rejected",
+   "reason": "thirst comments, no mechanic"
+  },
+  {
+   "name": "SKIP_AJ_ChatGPT",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 6718,
+   "end": 6747,
+   "clip": "OriginalOnerousGnatNerfBlueBlaster-f9stReBsGYUCsKlE",
+   "status": "rejected",
+   "reason": "weak, rambling"
+  },
+  {
+   "name": "KREEK_MomGTA6",
+   "streamer": "kreekcraft",
+   "vod": "2933758895",
+   "start": 34195,
+   "end": 34252,
+   "clip": null,
+   "status": "posted",
+   "date": "2026-11-19 19:58",
+   "caption": "viewer's mom asked what GTA 6 is about, rescue cats from trees",
+   "platforms": [
+    "tiktok",
+    "instagram"
+   ]
+  },
+  {
+   "name": "KREEK_TowerEasterEgg_v2",
+   "streamer": "kreekcraft",
+   "vod": "2933758895",
+   "start": 34331,
+   "end": 34473,
+   "clip": null,
+   "status": "queued",
+   "date": "2026-11-19 20:22",
+   "caption": "tallest tower easter egg"
+  },
+  {
+   "name": "SKIP_LACY_Haha",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 22800,
+   "end": 22822,
+   "clip": "KnottyHorribleMeatloafWoofer-qHCrPk1hx8_Kk1gQ",
+   "status": "rejected",
+   "reason": "crude (diarrhea talk), no moment"
+  },
+  {
+   "name": "SKIP_LACY_Wind",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 12244,
+   "end": 12266,
+   "clip": "SillyBoxyMangetoutCharlieBitMe-FGIt2ONN82dQJHnR",
+   "status": "rejected",
+   "reason": "no speech, nothing happens"
+  },
+  {
+   "name": "SKIP_LACY_Ricky",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 2561,
+   "end": 2576,
+   "clip": "SparklingMoistMosquitoTakeNRG-9lJMbP7SZ54Gtd2H",
+   "status": "rejected",
+   "reason": "no speech, weak"
+  },
+  {
+   "name": "SKIP_LACY_Shower",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 11464,
+   "end": 11494,
+   "clip": "DignifiedAmazingRatTheRinger-upfFJV5_t6pIsjr1",
+   "status": "rejected",
+   "reason": "shower scene, suggestive"
+  },
+  {
+   "name": "SKIP_LACY_Scarred",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 21172,
+   "end": 21186,
+   "clip": "ResourcefulGloriousGalagoOSsloth-_0dMFWRmNfnetD_d",
+   "status": "rejected",
+   "reason": "sexual joke"
+  },
+  {
+   "name": "SKIP_BP_Dog",
+   "streamer": "theburntpeanut",
+   "vod": "2934030540",
+   "start": 13016,
+   "end": 13046,
+   "clip": "CovertVainNoodleOMGScoots-RIIREObUlkrw-aZz",
+   "status": "rejected",
+   "reason": "dark garage, unclear what happens, possible animal harm"
+  },
+  {
+   "name": "SKIP_JASON_Asta",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 36889,
+   "end": 36916,
+   "clip": "AbstemiousLazyArugulaPhilosoraptor-PKSkSsjAoCRU-xIf",
+   "status": "rejected",
+   "reason": "cutscene, no reaction"
+  },
+  {
+   "name": "SKIP_JASON_CrossFall",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 38867,
+   "end": 38897,
+   "clip": "BashfulRelatedJamCopyThis-tIOVRITdhEoyZvUS",
+   "status": "rejected",
+   "reason": "gore (head split open), heavy swearing"
+  },
+  {
+   "name": "SKIP_JASON_Jumped",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 38950,
+   "end": 38968,
+   "clip": "FunnyCoyCocoaBrainSlug-0wMcxC8HhC4nJrHc",
+   "status": "rejected",
+   "reason": "gore, swearing"
+  },
+  {
+   "name": "SKIP_JASON_BroHow",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 29230,
+   "end": 29255,
+   "clip": "PowerfulDistinctReubenJebaited-6DMgt1QMlugZYMdM",
+   "status": "rejected",
+   "reason": "weak"
+  },
+  {
+   "name": "SKIP_JASON_KilledBro",
+   "streamer": "jasontheween",
+   "vod": "2933588799",
+   "start": 57940,
+   "end": 58020,
+   "clip": null,
+   "status": "rejected",
+   "reason": "swearing, unclear moment"
+  },
+  {
+   "name": "SKIP_KATIE_BigMoment",
+   "streamer": "realkatieb",
+   "vod": "2934036021",
+   "start": 12373,
+   "end": 12392,
+   "clip": "FrozenSmilingFoxTBCheesePull-jgs3gSAsgrBsjUyq",
+   "status": "rejected",
+   "reason": "strip club"
+  },
+  {
+   "name": "SKIP_KREEK_LostWords",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 30278,
+   "end": 30300,
+   "clip": "ThirstyTubularPanAllenHuhu-p4a7NUx0GngWin-l",
+   "status": "rejected",
+   "reason": "nudity (bra off)"
+  },
+  {
+   "name": "SKIP_KREEK_Shirley",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 15565,
+   "end": 15589,
+   "clip": "FamousCourageousAlbatrossCharlietheUnicorn-Q4hXz7z3yIBUiEWt",
+   "status": "rejected",
+   "reason": "cutscene dialogue"
+  },
+  {
+   "name": "SKIP_CLIX_Restart",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 21137,
+   "end": 21175,
+   "clip": "SnappyEphemeralSmoothieBatChest-yBH4mZP0I24ZMjcM",
+   "status": "rejected",
+   "reason": "weak, swearing"
+  },
+  {
+   "name": "SKIP_CLIX_Ferrari",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 46790,
+   "end": 46870,
+   "clip": null,
+   "status": "rejected",
+   "reason": "hook is a swear rant"
+  },
+  {
+   "name": "SKIP_CLIX_Buster",
+   "streamer": "clix",
+   "vod": "2933739024",
+   "start": 46230,
+   "end": 46310,
+   "clip": null,
+   "status": "rejected",
+   "reason": "weak"
+  },
+  {
+   "name": "SKIP_MIKKAA_PolarBear",
+   "streamer": "missmikkaa",
+   "vod": "2933682633",
+   "start": 24635,
+   "end": 24695,
+   "clip": "PerfectKindDogeChocolateRain-01M67AZSfBFnh0dz",
+   "status": "rejected",
+   "reason": "same random event as LACY_PolarBear, mostly NPC dialogue"
+  },
+  {
+   "name": "SKIP_RAGE_CarBoom",
+   "streamer": "yourragegaming",
+   "vod": "2934505601",
+   "start": 5120,
+   "end": 5200,
+   "clip": null,
+   "status": "rejected",
+   "reason": "slur at start, muddy audio"
+  },
+  {
+   "name": "AJ_Plane",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 3701,
+   "end": 3731,
+   "clip": "HedonisticFunTriangleOMGScoots-y9eMrbY7gnClYQlF",
+   "status": "scheduled",
+   "date": "2026-11-23 20:10",
+   "caption": "held L2 to land a seaplane smooth as butter",
+   "platforms": "TT"
+  },
+  {
+   "name": "AJ_NotScared",
+   "streamer": "asianjeff",
+   "vod": "2933231152",
+   "start": 3990,
+   "end": 4048,
+   "clip": "TentativeOutstandingTaroAliens-9it_KQjYIGpwfPkh",
+   "status": "scheduled",
+   "date": "2026-11-25 18:10",
+   "caption": "NPC isn't scared of his gun / couldn't get in the car",
+   "platforms": "YT"
+  },
+  {
+   "name": "LIVE_MIKKAA_Tracker",
+   "streamer": "missmikkaa",
+   "vod": null,
+   "start": null,
+   "end": null,
+   "clip": "clipspeed:c422385b/8349a551",
+   "status": "scheduled",
+   "date": "2026-11-25 15:10",
+   "caption": "GTA 6 cars can have a tracker on them - MissMikkaa found out after breaking in",
+   "platforms": "FB"
+  },
+  {
+   "name": "CLIX_HouseRobbery",
+   "streamer": "clix",
+   "vod": "2932204601",
+   "start": 9580,
+   "end": 9610,
+   "clip": "CoyExpensiveVampireSquadGoals-lHC2B6wVD6vdCIC-",
+   "status": "scheduled",
+   "date": "2026-11-26 18:10",
+   "caption": "Clix found out GTA 6 homeowners fight back when you rob their house",
+   "platforms": "YT"
+  }
+ ],
+ "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."
 }
