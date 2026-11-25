@@ -1,237 +1,247 @@
 {
-  "_note": "Settings for scripts/fresh_scan.py (daily fresh pick, route A, from 11-20). The Analyst tunes the weights from real results; log each change in README 'Fresh pick'.",
-  "game_name": "Grand Theft Auto VI",
-  "hours": 24,
-  "top": 5,
-  "roster": {
-    "kreekcraft": {
-      "campaign": "KreekCraft",
-      "weight": 0.6,
-      "platforms": [
-        "tiktok",
-        "youtube"
-      ],
-      "note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X; 11-24 Justin: KreekCraft doesn't perform for us (best 101 views vs the 3K/clip minimum, and his rules keep him off Facebook, our best platform) -> weight 1.3 -> 0.6, exceptional mechanic moments only"
-    },
-    "lacy": {
-      "campaign": "LACY",
-      "weight": 1.3,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook",
-        "x"
-      ]
-    },
-    "clix": {
-      "campaign": "Clix",
-      "weight": 1.2,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook",
-        "x"
-      ]
-    },
-    "yourragegaming": {
-      "campaign": "YourRAGE",
-      "weight": 1.2,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook"
-      ],
-      "note": "check the transcript for slurs"
-    },
-    "jasontheween": {
-      "campaign": "JasonTheWeen",
-      "weight": 1.1,
-      "until": "2026-11-30",
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook"
-      ]
-    },
-    "asianjeff": {
-      "campaign": "AsianJeff",
-      "weight": 0.9,
-      "until": "2026-11-26",
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "x"
-      ],
-      "note": "pays only past 10K views/clip; never Facebook; no logos"
-    },
-    "bobby_vanriper": {
-      "campaign": "BobbyVanRiper",
-      "weight": 0.5,
-      "platforms": [
-        "tiktok",
-        "youtube"
-      ]
-    },
-    "theburntpeanut": {
-      "campaign": "growth",
-      "weight": 1.1,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook"
-      ],
-      "note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted)"
-    },
-    "missmikkaa": {
-      "campaign": "growth",
-      "weight": 0.7,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook"
-      ]
-    },
-    "realkatieb": {
-      "campaign": "growth",
-      "weight": 1.0,
-      "platforms": [
-        "tiktok",
-        "youtube",
-        "facebook"
-      ],
-      "note": "11-24 night (Analyst): 0.9 -> 1.0 - 'worst GTA 6 gameplay' 1,633 FB = best Reel ever (growth, Facebook 15:10 first)"
-    }
+ "_note": "Settings for scripts/fresh_scan.py (daily fresh pick, route A, from 11-20). The Analyst tunes the weights from real results; log each change in README 'Fresh pick'.",
+ "game_name": "Grand Theft Auto VI",
+ "hours": 24,
+ "top": 5,
+ "roster": {
+  "kreekcraft": {
+   "campaign": "KreekCraft",
+   "weight": 0.6,
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "note": "per-view $1/1K, 3K views/clip minimum; logo overlay + caption line required; never Facebook or X; 11-24 Justin: KreekCraft doesn't perform for us (best 101 views vs the 3K/clip minimum, and his rules keep him off Facebook, our best platform) -> weight 1.3 -> 0.6, exceptional mechanic moments only"
   },
-  "expired_weight": 0.6,
-  "hook_words": {
-    "mechanic": [
-      "found out",
-      "find out",
-      "discover",
-      "you can",
-      "can you",
-      "didn't know",
-      "didnt know",
-      "new feature",
-      "mechanic",
-      "gas",
-      "fuel",
-      "money",
-      "cost",
-      "bill",
-      "price",
-      "$",
-      "repair",
-      "cops",
-      "police",
-      "wanted",
-      "jail",
-      "arrest",
-      "hospital",
-      "toll",
-      "tax",
-      "gym",
-      "workout",
-      "phone",
-      "text",
-      "instagram",
-      "heist",
-      "robbery",
-      "rob ",
-      "bank",
-      "easter egg",
-      "secret",
-      "hidden",
-      "glitch",
-      "physics",
-      "realistic",
-      "ai ",
-      "npc",
-      "wildlife",
-      "alligator",
-      "gator",
-      "shark",
-      "plane",
-      "boat",
-      "first time",
-      "first ever",
-      "never seen",
-      "teeth",
-      "brush",
-      "shower",
-      "sleep",
-      "dying",
-      "died",
-      "lose all",
-      "lost all",
-      "real life",
-      "beat the game",
-      "run out",
-      "ran out",
-      "npcs",
-      "wanted level",
-      "max wanted",
-      "tip",
-      "how to",
-      "guide",
-      "lore",
-      "theory"
-    ],
-    "story": [
-      "explain",
-      "mom",
-      "dad",
-      "chat",
-      "reaction",
-      "rage",
-      "scream",
-      "crying",
-      "lost it",
-      "can't stop",
-      "funniest",
-      "lmao",
-      "lol",
-      "bro",
-      "why"
-    ]
+  "lacy": {
+   "campaign": "LACY",
+   "weight": 1.3,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook",
+    "x"
+   ]
   },
-  "skip_words": [
-    "nsfw",
-    "naked",
-    "nude",
-    "strip",
-    "boob",
-    "sex",
-    "giveaway",
-    "sub goal",
-    "subathon",
-    "donation",
-    "dono",
-    "ad break",
-    "sponsor",
-    "cutscene",
-    "ending spoiler",
-    "music",
-    "song",
-    "dj",
-    "bikini",
-    "swimsuit",
-    "swimwear",
-    "lingerie",
-    "twerk",
-    "booty",
-    "thong",
-    "onlyfans",
-    " ass ",
-    " ass!",
-    " ass?",
-    " ass.",
-    " ass,",
-    "a$$"
+  "clix": {
+   "campaign": "Clix",
+   "weight": 1.2,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook",
+    "x"
+   ]
+  },
+  "yourragegaming": {
+   "campaign": "YourRAGE",
+   "weight": 1.2,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "note": "check the transcript for slurs"
+  },
+  "jasontheween": {
+   "campaign": "JasonTheWeen",
+   "weight": 1.1,
+   "until": "2026-11-30",
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ]
+  },
+  "asianjeff": {
+   "campaign": "AsianJeff",
+   "weight": 0.9,
+   "until": "2026-11-26",
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "x"
+   ],
+   "note": "pays only past 10K views/clip; never Facebook; no logos"
+  },
+  "bobby_vanriper": {
+   "campaign": "BobbyVanRiper",
+   "weight": 0.5,
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ]
+  },
+  "theburntpeanut": {
+   "campaign": "growth",
+   "weight": 1.2,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted) | 11-25 Justin: \"burnt peanut gets views\" -> 1.1 -> 1.2; Live Clipper may spend credits on him (README ClipSpeed live route)."
+  },
+  "kaicenat": {
+   "campaign": "growth",
+   "weight": 1.4,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them."
+  },
+  "missmikkaa": {
+   "campaign": "growth",
+   "weight": 0.7,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ]
+  },
+  "realkatieb": {
+   "campaign": "growth",
+   "weight": 1.0,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "note": "11-24 night (Analyst): 0.9 -> 1.0 - 'worst GTA 6 gameplay' 1,633 FB = best Reel ever (growth, Facebook 15:10 first)"
+  }
+ },
+ "expired_weight": 0.6,
+ "hook_words": {
+  "mechanic": [
+   "found out",
+   "find out",
+   "discover",
+   "you can",
+   "can you",
+   "didn't know",
+   "didnt know",
+   "new feature",
+   "mechanic",
+   "gas",
+   "fuel",
+   "money",
+   "cost",
+   "bill",
+   "price",
+   "$",
+   "repair",
+   "cops",
+   "police",
+   "wanted",
+   "jail",
+   "arrest",
+   "hospital",
+   "toll",
+   "tax",
+   "gym",
+   "workout",
+   "phone",
+   "text",
+   "instagram",
+   "heist",
+   "robbery",
+   "rob ",
+   "bank",
+   "easter egg",
+   "secret",
+   "hidden",
+   "glitch",
+   "physics",
+   "realistic",
+   "ai ",
+   "npc",
+   "wildlife",
+   "alligator",
+   "gator",
+   "shark",
+   "plane",
+   "boat",
+   "first time",
+   "first ever",
+   "never seen",
+   "teeth",
+   "brush",
+   "shower",
+   "sleep",
+   "dying",
+   "died",
+   "lose all",
+   "lost all",
+   "real life",
+   "beat the game",
+   "run out",
+   "ran out",
+   "npcs",
+   "wanted level",
+   "max wanted",
+   "tip",
+   "how to",
+   "guide",
+   "lore",
+   "theory"
   ],
-  "min_duration": 12,
-  "ideal_duration": [
-    20,
-    60
+  "story": [
+   "explain",
+   "mom",
+   "dad",
+   "chat",
+   "reaction",
+   "rage",
+   "scream",
+   "crying",
+   "lost it",
+   "can't stop",
+   "funniest",
+   "lmao",
+   "lol",
+   "bro",
+   "why"
   ]
+ },
+ "skip_words": [
+  "nsfw",
+  "naked",
+  "nude",
+  "strip",
+  "boob",
+  "sex",
+  "giveaway",
+  "sub goal",
+  "subathon",
+  "donation",
+  "dono",
+  "ad break",
+  "sponsor",
+  "cutscene",
+  "ending spoiler",
+  "music",
+  "song",
+  "dj",
+  "bikini",
+  "swimsuit",
+  "swimwear",
+  "lingerie",
+  "twerk",
+  "booty",
+  "thong",
+  "onlyfans",
+  " ass ",
+  " ass!",
+  " ass?",
+  " ass.",
+  " ass,",
+  "a$$"
+ ],
+ "min_duration": 12,
+ "ideal_duration": [
+  20,
+  60
+ ]
 }
