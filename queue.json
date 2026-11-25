@@ -340,7 +340,9 @@
       ],
       "status": "ready",
       "slot": null,
-      "added": "2026-11-19T18:40Z"
+      "added": "2026-11-19T18:40Z",
+      "x_slot": "2026-11-25 11:10 (by hand)",
+      "stale_note": "Scheduler 11-24: reaction from 11-19, >5 d (no TikTok) and >7 d from 11-26 (hold); YT full 11-25; X by hand only before the campaign ends 11/26"
     },
     {
       "name": "AJ_NotScared",
@@ -409,11 +411,15 @@
       "start": 9580,
       "end": 9610,
       "clip": "CoyExpensiveVampireSquadGoals-lHC2B6wVD6vdCIC-",
-      "status": "ready",
-      "slot": null,
+      "status": "scheduled",
+      "slot": "2026-11-26 18:10",
       "added": "2026-11-19T22:05Z",
       "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/CLIX_HouseRobbery_TT/CLIX_HouseRobbery_TT_HQ.mp4",
-      "tiktok_explain": true
+      "tiktok_explain": true,
+      "platforms_scheduled": "YT",
+      "metricool_uuid": "2984519968498402321",
+      "x_slot": "2026-11-25 18:10 (by hand)",
+      "note_yt": "YouTube direct-upload test day 3 (5:45 PM check-in) will likely take this YouTube post for Justin to upload from the app"
     },
     {
       "name": "BP_DriverFightsBack_v2",
@@ -551,10 +557,14 @@
         "facebook"
       ],
       "hook_type": "mechanic",
-      "status": "ready",
+      "status": "scheduled",
       "added": "2026-11-24T20:32:22Z",
       "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip 8349a551; slur at 13 s cut out with segments, mute auto, explainer card",
-      "note": "growth mechanic clip, 13 s; explainer baked in (TikTok-ready)"
+      "note": "growth mechanic clip, 13 s; explainer baked in (TikTok-ready)",
+      "slot": "2026-11-25 15:10",
+      "platforms_scheduled": "FB",
+      "metricool_uuid": "-2197847440434183938",
+      "fb_media_note": "explainer version on FB (facebook.route.originality)"
     }
   ]
 }

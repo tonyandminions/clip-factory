@@ -1291,6 +1291,30 @@
       "date": "2026-11-25 18:10",
       "caption": "NPC isn't scared of his gun / couldn't get in the car",
       "platforms": "YT"
+    },
+    {
+      "name": "LIVE_MIKKAA_Tracker",
+      "streamer": "missmikkaa",
+      "vod": null,
+      "start": null,
+      "end": null,
+      "clip": "clipspeed:c422385b/8349a551",
+      "status": "scheduled",
+      "date": "2026-11-25 15:10",
+      "caption": "GTA 6 cars can have a tracker on them - MissMikkaa found out after breaking in",
+      "platforms": "FB"
+    },
+    {
+      "name": "CLIX_HouseRobbery",
+      "streamer": "clix",
+      "vod": "2932204601",
+      "start": 9580,
+      "end": 9610,
+      "clip": "CoyExpensiveVampireSquadGoals-lHC2B6wVD6vdCIC-",
+      "status": "scheduled",
+      "date": "2026-11-26 18:10",
+      "caption": "Clix found out GTA 6 homeowners fight back when you rob their house",
+      "platforms": "YT"
     }
   ],
   "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."
