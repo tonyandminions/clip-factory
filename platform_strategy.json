@@ -13,7 +13,7 @@
  ],
  "tiktok": {
   "health_metric": "For You share per post (Metricool TKPO16). Healthy >= 0.7. Under 0.3 on most posts = account throttled.",
-  "status": "recovering (11-24 night): 2nd organic For You hit in a row - AJ_Plane (11-23 20:10, explainer card, tip framing 'hold L2 to land a seaplane') For You 0.94, 105 views, 8 s avg of 18 s; Speed P2 before it 0.99 (now 615). SEGA #Ad between them is a paid partnership (0.46, not counted). Experiment rule 'back up after 2 posts in a row with For You >= 0.6' is met -> recommend Justin raises TikTok 1 -> 2/day (safety ramp allows 2 once For You >= 0.6; 3 h gap). Small sample (2 posts); if the next 2 posts fall under 0.3, back to throttled. 11-24 LACY stray dog (Justin native) not ingested yet.",
+  "status": "11-25: cap raised to 2/day by Justin (\"tiktok 2\"). Back to 1 if two organic posts in a row get For You < 0.6. | recovering (11-24 night): 2nd organic For You hit in a row - AJ_Plane (11-23 20:10, explainer card, tip framing 'hold L2 to land a seaplane') For You 0.94, 105 views, 8 s avg of 18 s; Speed P2 before it 0.99 (now 615). SEGA #Ad between them is a paid partnership (0.46, not counted). Experiment rule 'back up after 2 posts in a row with For You >= 0.6' is met -> recommend Justin raises TikTok 1 -> 2/day (safety ramp allows 2 once For You >= 0.6; 3 h gap). Small sample (2 posts); if the next 2 posts fall under 0.3, back to throttled. 11-24 LACY stray dog (Justin native) not ingested yet.",
   "what_works": [
    "15-20 s clips with a GTA 6 mechanic/frustration stated plainly and a reaction in second 1: 'LACY can't steal cars the old way' (15 s, 250 views, 9 s avg watch, 93% For You); 'Burnt Peanut vs GTA 6 traffic' (30 s, 227 views, 10 s avg).",
    "11-19: KreekCraft 'a viewer's mom asked what GTA 6 is… rescue cats from trees' 41 views, 1 like, 1 comment (28 s, word captions) - best TikTok post since the throttle (median 7). Funny 'explaining GTA 6' story, small sample.",
@@ -47,7 +47,7 @@
    "skip_streamers": [
     "ishowspeed"
    ],
-   "per_day": 1,
+   "per_day": 2,
    "throttled_per_day": 1,
    "caption_rule": "first line = the searchable GTA 6 fact in the words people type as a question: an everyday/real-life action + 'in GTA 6' ('brushing your teeth in GTA 6', 'dying in GTA 6 takes your money', 'GTA 6 cars run out of gas'); streamer name early, 1 emoji, then the quote; 3-4 hashtags incl. #gta6. Avoid 'first time'/'bet'/'tried to' openers - they aren't searched (2-14 views, 11-21). | 11-21: include 'GTA 6 gameplay' (3.1M searches) in the first line or #gta6gameplay; tip/guide or 'GTA 6 NPCs are insane' framing when it fits."
   },

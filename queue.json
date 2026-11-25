@@ -626,9 +626,9 @@
    "status": "scheduled",
    "added": "2026-11-24T20:32:22Z",
    "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip 8349a551; slur at 13 s cut out with segments, mute auto, explainer card",
-   "note": "growth mechanic clip, 13 s; explainer baked in (TikTok-ready) | 11-25: rebuilt as _v2 (run-107) with hand-checked captions; auto captions said \"LAMB\" for \"BAM, BRO\". FB post media swapped.",
+   "note": "growth mechanic clip, 13 s; explainer baked in (TikTok-ready) | 11-25: rebuilt as _v2 (run-107) with hand-checked captions; auto captions said \"LAMB\" for \"BAM, BRO\". FB post media swapped. | 11-25 08:50: TikTok added to the 15:10 post (cap now 2/day).",
    "slot": "2026-11-25 15:10",
-   "platforms_scheduled": "FB",
+   "platforms_scheduled": "FB TT",
    "metricool_uuid": "-2197847440434183938",
    "fb_media_note": "explainer version on FB (facebook.route.originality)",
    "point": {
