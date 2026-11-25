@@ -1,0 +1,71 @@
+[
+ {
+  "name": "LIVE_MIKKAA_Tracker_v2",
+  "url": "https://cdn.clipspeed.ai/clips/d564ca72-d615-4ac5-b381-83491a4d6345/captioned_8349a551-2da5-490b-8825-4c6971f75bb0_1795541115459.mp4",
+  "csband": true,
+  "segments": [
+   [
+    0.0,
+    4.2
+   ],
+   [
+    19.9,
+    28.95
+   ]
+  ],
+  "title": [
+   "MissMikkaa stole a car",
+   "*that had a tracker on it"
+  ],
+  "captions": [
+   [
+    0.18,
+    1.32,
+    "THIS CAR, LOOK AT"
+   ],
+   [
+    1.32,
+    2.44,
+    "*THIS ONE!"
+   ],
+   [
+    3.12,
+    4.52,
+    "BAM, BRO!"
+   ],
+   [
+    5.26,
+    6.66,
+    "GOT A FREAKING TRACKER"
+   ],
+   [
+    6.66,
+    7.56,
+    "*BRO"
+   ],
+   [
+    8.58,
+    10.26,
+    "IT'S SO COOL THOUGH"
+   ],
+   [
+    10.4,
+    11.86,
+    "IS IT NORMAL TRACKERS?"
+   ],
+   [
+    11.86,
+    12.76,
+    "*ARE THEY BAD?"
+   ]
+  ],
+  "mute": "auto",
+  "style": 2,
+  "explain": {
+   "t": 4.9,
+   "dur": 1.8,
+   "head": "GTA 6 mechanic",
+   "text": "Some cars you break into have a tracker on them."
+  }
+ }
+]
