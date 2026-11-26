@@ -1315,6 +1315,42 @@
    "date": "2026-11-26 18:10",
    "caption": "Clix found out GTA 6 homeowners fight back when you rob their house",
    "platforms": "YT"
+  },
+  {
+   "name": "KREEK_CCTV_v2",
+   "streamer": "kreekcraft",
+   "vod": "2932147800",
+   "start": 67183,
+   "end": 67243,
+   "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
+   "status": "scheduled",
+   "date": "2026-11-26 12:10",
+   "caption": "KreekCraft found out you have to destroy the CCTV footage to rob a store in GTA 6",
+   "platforms": "TT"
+  },
+  {
+   "name": "MIKKAA_GatorFight_v2",
+   "streamer": "missmikkaa",
+   "vod": "2933682633",
+   "start": 3272,
+   "end": 3303,
+   "clip": "IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
+   "status": "scheduled",
+   "date": "2026-11-26 16:10",
+   "caption": "MissMikkaa found out GTA 6 alligators fight each other in the wild",
+   "platforms": "FB"
+  },
+  {
+   "name": "LACY_PolarBear",
+   "streamer": "lacy",
+   "vod": "2933767012",
+   "start": 44643,
+   "end": 44718,
+   "clip": null,
+   "status": "scheduled",
+   "date": "2026-11-27 10:10",
+   "caption": "LACY found out GTA 6 has a random event where you can free a polar bear",
+   "platforms": "YT FB; TT 12:10"
   }
  ],
  "_note_x": "X (@tonyandminions, native-scheduled) is its own platform: a moment already on TT/IG/YT/FB can go on X once. 'x' = when it went/goes on X. Never post a moment on X twice."

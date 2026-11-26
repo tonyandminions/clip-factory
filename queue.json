@@ -308,8 +308,8 @@
    "start": 67183,
    "end": 67243,
    "clip": "CleverRealChoughImGlitch-ZTZJKpkoH-HL05Ll",
-   "status": "ready",
-   "slot": null,
+   "status": "scheduled",
+   "slot": "2026-11-26 12:10",
    "added": "2026-11-19T18:07Z",
    "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/KREEK_CCTV_TT/KREEK_CCTV_TT_HQ.mp4",
    "tiktok_explain": true,
@@ -317,7 +317,12 @@
     "type": "tip",
     "line": "To rob a store clean in GTA 6 you have to wipe the CCTV tapes."
    },
-   "priority": 3
+   "priority": 3,
+   "scheduled_platforms": [
+    "tiktok"
+   ],
+   "metricool_uuid": "8812101891487778919",
+   "note": "Scheduler 11-25 night: TikTok only (explainer card version), 11-26 12:10"
   },
   {
    "name": "MIKKAA_GatorFight_v2",
@@ -333,8 +338,8 @@
    "start": 3272,
    "end": 3303,
    "clip": "IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
-   "status": "ready",
-   "slot": null,
+   "status": "scheduled",
+   "slot": "2026-11-26 16:10",
    "added": "2026-11-19T18:07Z",
    "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/MIKKAA_GatorFight_TT/MIKKAA_GatorFight_TT_HQ.mp4",
    "tiktok_explain": true,
@@ -342,7 +347,12 @@
     "type": "funny",
     "line": "She narrates two gators fighting like a nature documentary, chat corrects her and she snaps back."
    },
-   "priority": 2
+   "priority": 2,
+   "scheduled_platforms": [
+    "facebook"
+   ],
+   "metricool_uuid": "8303636960221415370",
+   "note": "Scheduler 11-25 night: FB 11-26 16:10 (growth). TikTok card version still unused (mechanic, usable to ~12-03)"
   },
   {
    "name": "AJ_L3",
@@ -486,7 +496,8 @@
     "type": "wow",
     "line": "He steals a car and the driver drags him out and beats him up."
    },
-   "priority": 2
+   "priority": 2,
+   "note": "Scheduler 11-25 night: planned TikTok 11-27 18:10 (explainer version) but the Metricool create was blocked by this run's permission check; still ready."
   },
   {
    "name": "MIKKAA_HeliSteal",
@@ -573,17 +584,23 @@
    "start": 44643,
    "end": 44718,
    "clip": null,
-   "status": "ready",
-   "slot": null,
+   "status": "scheduled",
+   "slot": "2026-11-27 10:10 (YT+FB) / 12:10 (TT)",
    "added": "2026-11-20T04:35Z",
-   "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD. | 11-25 quality gate: strongest ready clip (paid streamer, rare event people search) - schedule it before the other ready clips.",
+   "note": "Clip Finder 11-20 overnight. 27 s, flash-forward open ('It's a bear!'), 6 segments, hand-checked captions, style 5. Found via chat-aware scan of LACY's live VOD. | 11-25 quality gate: strongest ready clip (paid streamer, rare event people search) - schedule it before the other ready clips. | Scheduler 11-25 night: strongest clip -> FB+YT 11-27 10:10, TikTok explainer version 12:10",
    "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/LACY_PolarBear_TT/LACY_PolarBear_TT_HQ.mp4",
    "tiktok_explain": true,
    "point": {
     "type": "wow",
     "line": "GTA 6 random event: he frees a caged polar bear and it turns on people."
    },
-   "priority": 1
+   "priority": 1,
+   "scheduled_platforms": [
+    "youtube",
+    "facebook",
+    "tiktok"
+   ],
+   "metricool_uuid": "-4937070235410545965 (YT+FB), -4378543057198756054 (TT)"
   },
   {
    "name": "LIVE_MIKKAA_SpikeStrip",
@@ -598,10 +615,10 @@
     "facebook"
    ],
    "hook_type": "reaction",
-   "status": "ready",
+   "status": "held",
    "added": "2026-11-24T20:23:16Z",
    "source": "ClipSpeed live (official connector) 11-24 test session c422385b, clip e92aabe9; already paid for",
-   "note": "growth clip, 12 s; Facebook 15:10 growth slot first",
+   "note": "growth clip, 12 s; Facebook 15:10 growth slot first | Scheduler 11-25 night: quality gate fail (rule 2.3/2.6) - the spike strip is never on screen (she runs on foot, then grabs a motorbike) but the title band says she ran into one. Not scheduled; fix title/cut or skip.",
    "point": {
     "type": "funny",
     "line": "Mid-escape she drives straight over a spike strip she never saw."
