@@ -282,6 +282,15 @@
    "what": "For streamers who aren't Speed/LACY, the title leads with the GTA 6 event or fact, streamer name second. First two: Clix house robbery (11-26 18:10), JasonTheWeen Instagram (11-27 15:10).",
    "compare": "views vs earlier '<Name> Found Out You Can...' Shorts (RAGE teeth 27, Jason PS5 6, KreekCraft croc 1)",
    "judge": "Analyst, after 5 fact-first Shorts have 48 h of data; keep whichever wins"
+  },
+  "direct_upload_test": {
+   "days": {
+    "2026-11-24": "LACY stray dog, direct (urAJKiWZRmo)",
+    "2026-11-25": "skipped (Justin dropped AsianJeff)",
+    "2026-11-26": "Clix house robbery, file sent for direct upload"
+   },
+   "verdict": "pending 11-26: Metricool YTVV lags (last video listed 11-22); need view counts from Justin's YouTube app",
+   "baseline_metricool_uploads": "11-20..11-22: 4, 49, 1 views"
   }
  },
  "x": {
