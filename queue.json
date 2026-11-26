@@ -373,7 +373,7 @@
     "youtube",
     "x"
    ],
-   "status": "ready",
+   "status": "held",
    "slot": null,
    "added": "2026-11-19T18:40Z",
    "x_slot": "2026-11-25 11:10 (by hand)",
@@ -382,7 +382,8 @@
     "type": "funny",
     "line": "The game says press L3 to run and he cannot find L3 on the controller."
    },
-   "priority": 3
+   "priority": 3,
+   "note": "11-26 held: Justin skipped AsianJeff (doesn't perform). AJ_NotScared's Metricool YouTube post stays a draft; the direct upload was not done."
   },
   {
    "name": "AJ_NotScared",
@@ -403,7 +404,7 @@
     "youtube",
     "x"
    ],
-   "status": "scheduled",
+   "status": "held",
    "slot": "2026-11-25 18:10",
    "added": "2026-11-19T18:40Z",
    "platforms_scheduled": "YT",
@@ -413,7 +414,7 @@
     "line": "He points a gun at an NPC who is not scared, then cannot work out how to get in the car."
    },
    "priority": 2,
-   "note": "11-25 17:46: YouTube direct-upload test day 2 - Metricool post set to draft, 1440p file sent to Justin for a direct upload ~18:10."
+   "note": "11-25 17:46: YouTube direct-upload test day 2 - Metricool post set to draft, 1440p file sent to Justin for a direct upload ~18:10. | 11-26 held: Justin skipped AsianJeff (doesn't perform). AJ_NotScared's Metricool YouTube post stays a draft; the direct upload was not done."
   },
   {
    "name": "AJ_Plane",

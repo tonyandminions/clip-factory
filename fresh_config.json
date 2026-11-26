@@ -55,14 +55,14 @@
   },
   "asianjeff": {
    "campaign": "AsianJeff",
-   "weight": 0.9,
+   "weight": 0.3,
    "until": "2026-11-26",
    "platforms": [
     "tiktok",
     "youtube",
     "x"
    ],
-   "note": "pays only past 10K views/clip; never Facebook; no logos"
+   "note": "pays only past 10K views/clip; never Facebook; no logos | 11-26 Justin: \"let's skip this AsianJeff, I don't think he performs very well\" -> 0.9 -> 0.3; no new AsianJeff clips (campaign also ends 11/26)."
   },
   "bobby_vanriper": {
    "campaign": "BobbyVanRiper",
