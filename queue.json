@@ -488,8 +488,8 @@
    "start": 5506,
    "end": 5556,
    "clip": "WiseSolidJuiceRuleFive-4CitvrkS30C-5KNR",
-   "status": "ready",
-   "slot": null,
+   "status": "scheduled",
+   "slot": "2026-11-28 12:10 (TT)",
    "added": "2026-11-19T22:05Z",
    "tiktok_media": "https://raw.githubusercontent.com/tonyandminions/clip-factory/out/run-97/BP_DriverFightsBack_TT/BP_DriverFightsBack_TT_HQ.mp4",
    "tiktok_explain": true,
@@ -498,7 +498,8 @@
     "line": "He steals a car and the driver drags him out and beats him up."
    },
    "priority": 2,
-   "note": "Scheduler 11-25 night: planned TikTok 11-27 18:10 (explainer version) but the Metricool create was blocked by this run's permission check; still ready."
+   "note": "Scheduler 11-25 night: planned TikTok 11-27 18:10 (explainer version) but the Metricool create was blocked by this run's permission check; still ready. | Scheduler 11-26 night: TikTok 11-28 12:10 (explainer version run-97), Metricool uuid -5667054557949243932. FB/YT still open for a later day.",
+   "platforms_scheduled": "TT"
   },
   {
    "name": "MIKKAA_HeliSteal",
@@ -514,14 +515,15 @@
    "start": 21663,
    "end": 21694,
    "clip": "BelovedWonderfulCardANELE-lLIU38mS_V8N1doz",
-   "status": "ready",
+   "status": "held",
    "slot": null,
    "added": "2026-11-19T22:05Z",
    "point": {
     "type": "wow",
     "line": "She runs at a helicopter taking off to steal it and gets wasted."
    },
-   "priority": 2
+   "priority": 2,
+   "note": "Scheduler 11-26 night: held - reaction moment from 11-19, over 7 days old (staleness rule)."
   },
   {
    "name": "KREEK_MomGTA6",
