@@ -167,8 +167,11 @@ def scan(cfg):
     gid = game[0]["id"]
     logins = list(cfg["roster"])
     users = {u["id"]: u["login"] for u in h.get("users", {"login": logins})["data"]}
-    live = {s["user_login"].lower(): s for s in h.get("streams", {"user_id": list(users), "first": 100})["data"]
-            if s.get("game_id") == gid}
+    streams = h.get("streams", {"user_id": list(users), "first": 100})["data"]
+    live = {s["user_login"].lower(): s for s in streams if s.get("game_id") == gid}
+    # trend watch (Justin 11-27: "start posting the next trend if GTA is slowing down and streamers are on the next thing")
+    TREND["live_all"] = [{"login": s["user_login"].lower(), "game": s.get("game_name") or "?",
+                          "viewers": s.get("viewer_count"), "title": s.get("title", "")[:90]} for s in streams]
     now = now_utc()
     start = (now - dt.timedelta(hours=cfg["hours"])).strftime("%Y-%m-%dT%H:%M:%SZ")
     clips = []
@@ -176,22 +179,42 @@ def scan(cfg):
         data = h.get("clips", {"broadcaster_id": uid, "started_at": start,
                                "ended_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "first": 50})["data"]
         for c in data:
+            TREND["clip_games"].setdefault(c.get("game_id") or "", []).append((login, c.get("view_count", 0)))
             if c.get("game_id") != gid:
                 continue
             c["broadcaster_login"] = login
             clips.append(c)
+    ids = [g for g in TREND["clip_games"] if g]
+    names = {}
+    for i in range(0, len(ids), 90):
+        names.update({g["id"]: g["name"] for g in h.get("games", {"id": ids[i:i + 90]})["data"]})
+    mix = []
+    for g, rows in TREND["clip_games"].items():
+        mix.append({"game": names.get(g, g or "no category"), "clips": len(rows), "clip_views": sum(v for _, v in rows),
+                    "streamers": sorted({l for l, _ in rows})})
+    mix.sort(key=lambda m: -m["clips"])
+    tot = sum(m["clips"] for m in mix) or 1
+    for m in mix:
+        m["share"] = round(m["clips"] / tot, 2)
+    TREND["game_mix"] = mix[:8]
     return clips, live, now
+
+
+TREND = {"live_all": [], "clip_games": {}, "game_mix": []}
 
 
 def write(out_dir, ranked, dropped, live, now, cfg):
     os.makedirs(out_dir, exist_ok=True)
     stamp = now.astimezone(dt.timezone(dt.timedelta(hours=-5))).strftime("%Y-%m-%d_%H%M")
     doc = {"scanned_at": now.isoformat(), "hours": cfg["hours"], "live_on_gta6": sorted(live),
+           "roster_live_now": TREND["live_all"], "roster_game_mix": TREND["game_mix"],
            "top": ranked[:cfg["top"]], "others": ranked[cfg["top"]:cfg["top"] + 15], "already_posted": dropped[:30]}
     for n in (f"{stamp}.json", "latest.json"):
         json.dump(doc, open(os.path.join(out_dir, n), "w"), indent=1)
     lines = [f"# Fresh pick shortlist {stamp} ET (last {cfg['hours']} h, Twitch official API)", "",
-             "Live on GTA 6 now: " + (", ".join(sorted(live)) or "nobody"), ""]
+             "Live on GTA 6 now: " + (", ".join(sorted(live)) or "nobody"),
+             "Roster live now (any game): " + (", ".join(f"{x['login']} - {x['game']} ({x['viewers']})" for x in TREND["live_all"]) or "nobody"),
+             "What the roster's clips are about (last %d h): " % cfg["hours"] + (", ".join(f"{m['game']} {int(m['share'] * 100)}% ({m['clips']})" for m in TREND["game_mix"]) or "no clips"), ""]
     for i, s in enumerate(ranked[:cfg["top"]], 1):
         lines.append(f"{i}. **{s['name']}** ({s['campaign']}{', ENDED' if s['campaign_expired'] else ''}) score {s['score']}: "
                      f"\"{s['title']}\" - {s['views']} views in {s['age_h']} h by {s['clippers']} clipper(s), "
