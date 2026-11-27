@@ -271,7 +271,6 @@
     "first": "16:10",
     "second": "10:10",
     "avoid": "after 19:00",
-    "direct_upload": "~18:10 (Justin uploads by hand)",
     "source": "Metricool best-time heat map 11-25 (week 11-25..12-01, ET); estimate, to be checked against our own views by hour"
    }
   },
@@ -291,9 +290,9 @@
    "days": {
     "2026-11-24": "LACY stray dog, direct (urAJKiWZRmo)",
     "2026-11-25": "skipped (Justin dropped AsianJeff)",
-    "2026-11-26": "Clix house robbery, file sent for direct upload"
+    "2026-11-26": "Clix house robbery: file sent but not uploaded; Metricool post rescheduled to 11-29 16:10"
    },
-   "verdict": "11-26 night (tentative): day 1 direct (LACY stray dog urAJKiWZRmo) 4 views in Metricool vs Metricool uploads 1-4 the same days; channel +25 views in 2 days total. Direct upload is not the fix. Final call after Clix 11-26 (direct) reads in Metricool; if it is also < 20 at 48 h, end the test and keep YouTube on Metricool.",
+   "verdict": "ENDED 11-27: direct upload is not the fix (LACY stray dog direct = 4 views at 3 days vs 0-4 for Metricool uploads). Justin: back to the scheduler, no manual uploads. All YouTube Shorts go through Metricool.",
    "baseline_metricool_uploads": "11-20..11-22: 4, 49, 1 views"
   }
  },
