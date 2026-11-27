@@ -1,20 +1,20 @@
 {
- "scanned_at": "2026-11-27T18:14:05.568433+00:00",
+ "scanned_at": "2026-11-27T19:35:54.501765+00:00",
  "hours": 24,
  "live_on_gta6": [],
  "roster_live_now": [
   {
    "login": "missmikkaa",
    "game": "Just Chatting",
-   "viewers": 5056,
+   "viewers": 4489,
    "title": "Dreamhack Stockholm w/ @Elajjaz | @Missmikkaa on Socials"
   }
  ],
  "roster_game_mix": [
   {
    "game": "Grand Theft Auto VI",
-   "clips": 166,
-   "clip_views": 3513,
+   "clips": 161,
+   "clip_views": 3461,
    "streamers": [
     "asianjeff",
     "bobby_vanriper",
@@ -23,16 +23,15 @@
     "kaicenat",
     "kreekcraft",
     "missmikkaa",
-    "realkatieb",
     "theburntpeanut",
     "yourragegaming"
    ],
-   "share": 0.51
+   "share": 0.5
   },
   {
    "game": "Just Chatting",
-   "clips": 108,
-   "clip_views": 15112,
+   "clips": 109,
+   "clip_views": 16092,
    "streamers": [
     "jasontheween",
     "kaicenat",
@@ -41,12 +40,12 @@
     "realkatieb",
     "yourragegaming"
    ],
-   "share": 0.33
+   "share": 0.34
   },
   {
    "game": "ROB RUN",
-   "clips": 35,
-   "clip_views": 3250,
+   "clips": 36,
+   "clip_views": 3481,
    "streamers": [
     "theburntpeanut"
    ],
@@ -54,17 +53,17 @@
   },
   {
    "game": "QSMP",
-   "clips": 11,
-   "clip_views": 13,
+   "clips": 12,
+   "clip_views": 18,
    "streamers": [
     "realkatieb"
    ],
-   "share": 0.03
+   "share": 0.04
   },
   {
    "game": "Fortnite",
    "clips": 6,
-   "clip_views": 30,
+   "clip_views": 31,
    "streamers": [
     "asianjeff",
     "clix"
@@ -74,7 +73,7 @@
   {
    "game": "no category",
    "clips": 1,
-   "clip_views": 8,
+   "clip_views": 9,
    "streamers": [
     "kaicenat"
    ],
@@ -83,7 +82,7 @@
  ],
  "top": [
   {
-   "score": 19.79,
+   "score": 18.89,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -97,10 +96,10 @@
    "hook_type": "mechanic",
    "title": "kai was up 500k and died",
    "all_titles": "kai was up 500k and died",
-   "views": 18,
+   "views": 24,
    "clippers": 1,
-   "age_h": 3.2,
-   "views_per_h": 6,
+   "age_h": 4.6,
+   "views_per_h": 5,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/ImpartialDifferentSwordPJSalt-ABHS8ykaYRatR_VW",
    "clip": "ImpartialDifferentSwordPJSalt-ABHS8ykaYRatR_VW",
@@ -110,16 +109,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/8a58744c-d3ed-4928-85f0-120a668567b9/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 8.16,
+    "velocity": 7.93,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.93
+   "fresh": 0.9
   },
   {
-   "score": 15.58,
+   "score": 15.59,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -133,9 +132,9 @@
    "hook_type": "mechanic",
    "title": "KAICENAT WENT TO ROB THE STORE\u2026 BUT ANOTHER LADY WAS ALREADY ROBBING IT! \ud83d\ude2d\ud83d\udc80 | GTA 6",
    "all_titles": "KAICENAT WENT TO ROB THE STORE\u2026 BUT ANOTHER LADY WAS ALREADY ROBBING IT! \ud83d\ude2d\ud83d\udc80 | GTA 6",
-   "views": 18,
+   "views": 25,
    "clippers": 1,
-   "age_h": 6.4,
+   "age_h": 7.7,
    "views_per_h": 3,
    "duration": 60,
    "url": "https://www.twitch.tv/kaicenat/clip/ExpensiveHealthyMomFeelsBadMan-DaPrIl10qqKoqpIf",
@@ -146,16 +145,52 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/086bc082-5949-40c6-9931-1ab25195877b/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 5.83,
+    "velocity": 6.27,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.87
+   "fresh": 0.84
   },
   {
-   "score": 10.93,
+   "score": 13.57,
+   "streamer": "kaicenat",
+   "name": "KaiCenat",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
+   "hook_type": "mechanic",
+   "title": "kai stretches before playing pool infront of lucia",
+   "all_titles": "kai stretches before playing pool infront of lucia",
+   "views": 4,
+   "clippers": 1,
+   "age_h": 3.3,
+   "views_per_h": 1,
+   "duration": 30,
+   "url": "https://www.twitch.tv/kaicenat/clip/NastyBashfulSquirrelTheRinger-4O2nerBblI2XLzwx",
+   "clip": "NastyBashfulSquirrelTheRinger-4O2nerBblI2XLzwx",
+   "vod": "2932305259",
+   "vod_offset": 21910,
+   "created_at": "2026-11-27T16:15:48Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/1fdb60f6-b721-4bdc-9ef5-12177d3a9682/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 3.42,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.93
+  },
+  {
+   "score": 10.68,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -169,9 +204,9 @@
    "hook_type": "mechanic",
    "title": "kai vs ishowspeed",
    "all_titles": "kai vs ishowspeed",
-   "views": 22,
+   "views": 26,
    "clippers": 1,
-   "age_h": 14.2,
+   "age_h": 15.5,
    "views_per_h": 2,
    "duration": 60,
    "url": "https://www.twitch.tv/kaicenat/clip/EnthusiasticDoubtfulLemurPastaThat-znsos4bhjlxfhPNi",
@@ -182,52 +217,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/47f8f2bd-0ba1-4049-b9d1-890aa7093733/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 4.07,
+    "velocity": 4.27,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.71
+   "fresh": 0.68
   },
   {
-   "score": 10.78,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
-   "hook_type": "mechanic",
-   "title": "Kai Cenat Watches a Witness Get a Flying Kick for Calling the Cops \ud83d\ude02",
-   "all_titles": "Kai Cenat Watches a Witness Get a Flying Kick for Calling the Cops \ud83d\ude02",
-   "views": 124,
-   "clippers": 1,
-   "age_h": 23.4,
-   "views_per_h": 5,
-   "duration": 30,
-   "url": "https://www.twitch.tv/kaicenat/clip/ResourcefulPleasantCasetteBIRB-o4dpCMlGWX1vzPry",
-   "clip": "ResourcefulPleasantCasetteBIRB-o4dpCMlGWX1vzPry",
-   "vod": "2932305259",
-   "vod_offset": 31540,
-   "created_at": "2026-11-26T18:51:54Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/321f769e-2a4d-4a98-ae84-8deff43f1c3a/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 8.0,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.51
-  },
-  {
-   "score": 10.25,
+   "score": 10.24,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -241,10 +240,10 @@
    "hook_type": "mechanic",
    "title": "kai dies moments after saying if you die you restart your momey",
    "all_titles": "kai dies moments after saying if you die you restart your momey",
-   "views": 20,
+   "views": 26,
    "clippers": 1,
-   "age_h": 15.1,
-   "views_per_h": 1,
+   "age_h": 16.4,
+   "views_per_h": 2,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/HonestEagerCougarKappaPride-uNz8OCQYT3U9KnlF",
    "clip": "HonestEagerCougarKappaPride-uNz8OCQYT3U9KnlF",
@@ -254,18 +253,18 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/fbd81309-a0d6-44f1-961e-d54c58126023/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 3.67,
+    "velocity": 4.12,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.69
+   "fresh": 0.66
   }
  ],
  "others": [
   {
-   "score": 9.67,
+   "score": 9.55,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -279,9 +278,9 @@
    "hook_type": "mechanic",
    "title": "Kai Cenat Brain Short-Circuited \ud83d\ude35\ud83d\udcab #KaiCenat",
    "all_titles": "Kai Cenat Brain Short-Circuited \ud83d\ude35\ud83d\udcab #KaiCenat",
-   "views": 12,
+   "views": 15,
    "clippers": 1,
-   "age_h": 13.8,
+   "age_h": 15.2,
    "views_per_h": 1,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/DarkCoweringPuddingHoneyBadger-gEFZ-cXXTAIUwgh8",
@@ -292,52 +291,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/3c0bf519-5bd1-496f-bb1e-ab4bf3bb50c9/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 2.71,
+    "velocity": 2.98,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.71
+   "fresh": 0.68
   },
   {
-   "score": 9.03,
-   "streamer": "yourragegaming",
-   "name": "yourragegaming",
-   "campaign": "YourRAGE",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "check the transcript for slurs",
-   "hook_type": "mechanic",
-   "title": "Police crash in GTA 6",
-   "all_titles": "Police crash in GTA 6",
-   "views": 5,
-   "clippers": 1,
-   "age_h": 8.2,
-   "views_per_h": 1,
-   "duration": 60,
-   "url": "https://www.twitch.tv/yourragegaming/clip/IntelligentCaringAlbatrossCoolStoryBob-23kFukr-dJnX-tgR",
-   "clip": "IntelligentCaringAlbatrossCoolStoryBob-23kFukr-dJnX-tgR",
-   "vod": "2941037224",
-   "vod_offset": 26156,
-   "created_at": "2026-11-27T10:02:18Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/51ec6e10-c7be-49f1-bc50-458fdd5e4ca6/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 2.07,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.83
-  },
-  {
-   "score": 8.93,
+   "score": 8.81,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -351,9 +314,9 @@
    "hook_type": "mechanic",
    "title": "kai cenat in leonida",
    "all_titles": "kai cenat in leonida",
-   "views": 24,
+   "views": 30,
    "clippers": 1,
-   "age_h": 19.0,
+   "age_h": 20.4,
    "views_per_h": 1,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/RoughBovinePterodactylThunBeast-XL10ZqkIQ-_xR_1c",
@@ -364,16 +327,52 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/7e7e0856-425d-488f-9e18-e53611a06857/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 3.55,
+    "velocity": 3.93,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.6
+   "fresh": 0.58
   },
   {
-   "score": 8.43,
+   "score": 8.76,
+   "streamer": "yourragegaming",
+   "name": "yourragegaming",
+   "campaign": "YourRAGE",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "check the transcript for slurs",
+   "hook_type": "mechanic",
+   "title": "Police crash in GTA 6",
+   "all_titles": "Police crash in GTA 6",
+   "views": 6,
+   "clippers": 1,
+   "age_h": 9.6,
+   "views_per_h": 1,
+   "duration": 60,
+   "url": "https://www.twitch.tv/yourragegaming/clip/IntelligentCaringAlbatrossCoolStoryBob-23kFukr-dJnX-tgR",
+   "clip": "IntelligentCaringAlbatrossCoolStoryBob-23kFukr-dJnX-tgR",
+   "vod": "2941037224",
+   "vod_offset": 26156,
+   "created_at": "2026-11-27T10:02:18Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/51ec6e10-c7be-49f1-bc50-458fdd5e4ca6/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 2.12,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.8
+  },
+  {
+   "score": 7.99,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -389,7 +388,7 @@
    "all_titles": "Fighting In Heels \u2014 Still DOMINATED! KAI CENAT \ud83d\ude24\ud83d\udd25 #KaiCenat",
    "views": 5,
    "clippers": 1,
-   "age_h": 13.5,
+   "age_h": 14.8,
    "views_per_h": 0,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/PlumpElatedOysterKreygasm-Zuw0yY4h4ngbc8HB",
@@ -400,16 +399,88 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4c4466a8-b784-484c-8dd5-9175724036d2/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 1.37,
+    "velocity": 1.26,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.72
+   "fresh": 0.69
   },
   {
-   "score": 8.3,
+   "score": 7.88,
+   "streamer": "jasontheween",
+   "name": "jasontheween",
+   "campaign": "JasonTheWeen",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "",
+   "hook_type": "mechanic",
+   "title": "Jasontheween Flew a plain to get away ftom the cops",
+   "all_titles": "Jasontheween Flew a plain to get away ftom the cops",
+   "views": 2,
+   "clippers": 1,
+   "age_h": 6.1,
+   "views_per_h": 0,
+   "duration": 26.1,
+   "url": "https://www.twitch.tv/jasontheween/clip/ResoluteFamousPidgeonKevinTurtle-WJjlPOm0qQ4VFH5_",
+   "clip": "ResoluteFamousPidgeonKevinTurtle-WJjlPOm0qQ4VFH5_",
+   "vod": "2933588799",
+   "vod_offset": 43107,
+   "created_at": "2026-11-27T13:27:07Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/658cf449-045d-4119-b041-26c89d50bb0e/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 1.22,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.87
+  },
+  {
+   "score": 7.82,
+   "streamer": "kaicenat",
+   "name": "KaiCenat",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
+   "hook_type": "mechanic",
+   "title": "robbery",
+   "all_titles": "robbery",
+   "views": 15,
+   "clippers": 1,
+   "age_h": 19.7,
+   "views_per_h": 1,
+   "duration": 30,
+   "url": "https://www.twitch.tv/kaicenat/clip/ChillyTameCrabPermaSmug-ijm5UgMF6__OPEkg",
+   "clip": "ChillyTameCrabPermaSmug-ijm5UgMF6__OPEkg",
+   "vod": "2935613960",
+   "vod_offset": 9320,
+   "created_at": "2026-11-26T23:55:30Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9580e544-7dee-48b2-a260-49641ee95afe/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 2.46,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.59
+  },
+  {
+   "score": 7.78,
    "streamer": "jasontheween",
    "name": "jasontheween",
    "campaign": "JasonTheWeen",
@@ -425,7 +496,7 @@
    "all_titles": "Jasontheween really hide from the Police by just standing behide a hotdog stand",
    "views": 2,
    "clippers": 1,
-   "age_h": 5.1,
+   "age_h": 6.5,
    "views_per_h": 0,
    "duration": 26.2,
    "url": "https://www.twitch.tv/jasontheween/clip/TsundereKindPangolinRuleFive-3zDZK26pAbhW7YMY",
@@ -436,52 +507,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/dd81aabd-50e6-4f08-ba47-c537b25a553d/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 1.44,
+    "velocity": 1.17,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.89
+   "fresh": 0.87
   },
   {
-   "score": 7.96,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
-   "hook_type": "mechanic",
-   "title": "robbery",
-   "all_titles": "robbery",
-   "views": 12,
-   "clippers": 1,
-   "age_h": 18.3,
-   "views_per_h": 1,
-   "duration": 30,
-   "url": "https://www.twitch.tv/kaicenat/clip/ChillyTameCrabPermaSmug-ijm5UgMF6__OPEkg",
-   "clip": "ChillyTameCrabPermaSmug-ijm5UgMF6__OPEkg",
-   "vod": "2935613960",
-   "vod_offset": 9320,
-   "created_at": "2026-11-26T23:55:30Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9580e544-7dee-48b2-a260-49641ee95afe/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 2.19,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.62
-  },
-  {
-   "score": 7.75,
+   "score": 7.4,
    "streamer": "missmikkaa",
    "name": "MissMikkaa",
    "campaign": "growth",
@@ -495,9 +530,9 @@
    "hook_type": "other",
    "title": "Alien Invasion",
    "all_titles": "Alien Invasion | a damn UFO",
-   "views": 575,
+   "views": 630,
    "clippers": 2,
-   "age_h": 20.8,
+   "age_h": 22.2,
    "views_per_h": 28,
    "duration": 30,
    "url": "https://www.twitch.tv/missmikkaa/clip/BetterDaintyQuailSoBayed-Dc5J7MMUCYWTgjxm",
@@ -508,16 +543,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/804b6713-4f57-48a5-ac3a-28d10fbcb11a/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 14.56,
+    "velocity": 14.68,
     "clippers": 4.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.57
+   "fresh": 0.54
   },
   {
-   "score": 7.61,
+   "score": 7.36,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -531,9 +566,9 @@
    "hook_type": "mechanic",
    "title": "gas station",
    "all_titles": "gas station",
-   "views": 19,
+   "views": 22,
    "clippers": 1,
-   "age_h": 21.3,
+   "age_h": 22.7,
    "views_per_h": 1,
    "duration": 30,
    "url": "https://www.twitch.tv/kaicenat/clip/CovertFaintHerbsRuleFive-8xoGKRBM6QKSYkGR",
@@ -544,88 +579,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/0f657457-f6ba-4c6b-b532-6cedbc85c979/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 2.77,
+    "velocity": 2.95,
     "clippers": 0.0,
     "hook": 6,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.56
+   "fresh": 0.53
   },
   {
-   "score": 7.34,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
-   "hook_type": "mechanic",
-   "title": "kai cenat gta gameplay as jason",
-   "all_titles": "kai cenat gta gameplay as jason",
-   "views": 9,
-   "clippers": 1,
-   "age_h": 19.0,
-   "views_per_h": 0,
-   "duration": 30,
-   "url": "https://www.twitch.tv/kaicenat/clip/BashfulAmorphousStinkbugDendiFace-9BXvY3jYnxkUXluD",
-   "clip": "BashfulAmorphousStinkbugDendiFace-9BXvY3jYnxkUXluD",
-   "vod": "2936683310",
-   "vod_offset": 5290,
-   "created_at": "2026-11-26T23:13:39Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/99e7d779-d9c1-428a-b556-b3545cda6b05/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 1.68,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.6
-  },
-  {
-   "score": 7.33,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
-   "hook_type": "mechanic",
-   "title": "kai cenat gta 6 gameplay",
-   "all_titles": "kai cenat gta 6 gameplay",
-   "views": 9,
-   "clippers": 1,
-   "age_h": 19.0,
-   "views_per_h": 0,
-   "duration": 30,
-   "url": "https://www.twitch.tv/kaicenat/clip/PiliableReliableSoybeanOhMyDog-NZ24rE6wonF1HSjK",
-   "clip": "PiliableReliableSoybeanOhMyDog-NZ24rE6wonF1HSjK",
-   "vod": "2939504732",
-   "vod_offset": 1940,
-   "created_at": "2026-11-26T23:11:57Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4589fdba-c8d2-48da-a302-45fa78b261b4/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 1.68,
-    "clippers": 0.0,
-    "hook": 6,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.6
-  },
-  {
-   "score": 6.75,
+   "score": 7.06,
    "streamer": "kaicenat",
    "name": "KaiCenat",
    "campaign": "growth",
@@ -639,10 +602,10 @@
    "hook_type": "other",
    "title": "Folk \ud83d\ude2d\ud83d\ude4f",
    "all_titles": "Folk \ud83d\ude2d\ud83d\ude4f",
-   "views": 20,
+   "views": 27,
    "clippers": 1,
-   "age_h": 9.3,
-   "views_per_h": 2,
+   "age_h": 10.7,
+   "views_per_h": 3,
    "duration": 23,
    "url": "https://www.twitch.tv/kaicenat/clip/GenerousSnappyGuanacoTwitchRaid-NmcU9z70WPWejE90",
    "clip": "GenerousSnappyGuanacoTwitchRaid-NmcU9z70WPWejE90",
@@ -652,16 +615,88 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/6a190e9f-28af-4579-a403-4a0a9840f4c1/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 4.98,
+    "velocity": 5.48,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.81
+   "fresh": 0.78
   },
   {
-   "score": 6.34,
+   "score": 7.04,
+   "streamer": "kaicenat",
+   "name": "KaiCenat",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
+   "hook_type": "mechanic",
+   "title": "kai cenat gta gameplay as jason",
+   "all_titles": "kai cenat gta gameplay as jason",
+   "views": 10,
+   "clippers": 1,
+   "age_h": 20.4,
+   "views_per_h": 0,
+   "duration": 30,
+   "url": "https://www.twitch.tv/kaicenat/clip/BashfulAmorphousStinkbugDendiFace-9BXvY3jYnxkUXluD",
+   "clip": "BashfulAmorphousStinkbugDendiFace-9BXvY3jYnxkUXluD",
+   "vod": "2936683310",
+   "vod_offset": 5290,
+   "created_at": "2026-11-26T23:13:39Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/99e7d779-d9c1-428a-b556-b3545cda6b05/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 1.73,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.58
+  },
+  {
+   "score": 7.03,
+   "streamer": "kaicenat",
+   "name": "KaiCenat",
+   "campaign": "growth",
+   "campaign_expired": false,
+   "platforms": [
+    "tiktok",
+    "youtube",
+    "facebook"
+   ],
+   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
+   "hook_type": "mechanic",
+   "title": "kai cenat gta 6 gameplay",
+   "all_titles": "kai cenat gta 6 gameplay",
+   "views": 10,
+   "clippers": 1,
+   "age_h": 20.4,
+   "views_per_h": 0,
+   "duration": 30,
+   "url": "https://www.twitch.tv/kaicenat/clip/PiliableReliableSoybeanOhMyDog-NZ24rE6wonF1HSjK",
+   "clip": "PiliableReliableSoybeanOhMyDog-NZ24rE6wonF1HSjK",
+   "vod": "2939504732",
+   "vod_offset": 1940,
+   "created_at": "2026-11-26T23:11:57Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4589fdba-c8d2-48da-a302-45fa78b261b4/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "live_now": false,
+   "points": {
+    "velocity": 1.73,
+    "clippers": 0.0,
+    "hook": 6,
+    "live": 0,
+    "length": 1
+   },
+   "fresh": 0.58
+  },
+  {
+   "score": 6.03,
    "streamer": "missmikkaa",
    "name": "MissMikkaa",
    "campaign": "growth",
@@ -675,9 +710,9 @@
    "hook_type": "other",
    "title": "abducted by aliens",
    "all_titles": "abducted by aliens",
-   "views": 274,
+   "views": 291,
    "clippers": 1,
-   "age_h": 16.0,
+   "age_h": 17.4,
    "views_per_h": 17,
    "duration": 59.7,
    "url": "https://www.twitch.tv/missmikkaa/clip/TangibleUnsightlyDragonfruitChocolateRain-prVUuJReyUZvxY-M",
@@ -688,16 +723,16 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/48acd430-c1fb-4b3d-afa0-2aacc582e0b5/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 12.58,
+    "velocity": 12.5,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.67
+   "fresh": 0.64
   },
   {
-   "score": 6.08,
+   "score": 5.85,
    "streamer": "missmikkaa",
    "name": "MissMikkaa",
    "campaign": "growth",
@@ -711,10 +746,10 @@
    "hook_type": "other",
    "title": "lotioning simulator",
    "all_titles": "lotioning simulator",
-   "views": 506,
+   "views": 566,
    "clippers": 1,
-   "age_h": 20.4,
-   "views_per_h": 25,
+   "age_h": 21.8,
+   "views_per_h": 26,
    "duration": 60,
    "url": "https://www.twitch.tv/missmikkaa/clip/GoldenSlipperyOrangeTinyFace-hIzk5pYgEnzIZbLP",
    "clip": "GoldenSlipperyOrangeTinyFace-hIzk5pYgEnzIZbLP",
@@ -724,85 +759,49 @@
    "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/98fa9124-0d86-4392-aa5b-23ecdb2f1b4e/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 14.11,
+    "velocity": 14.31,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.57
+   "fresh": 0.55
   },
   {
-   "score": 5.94,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
+   "score": 5.76,
+   "streamer": "yourragegaming",
+   "name": "yourragegaming",
+   "campaign": "YourRAGE",
    "campaign_expired": false,
    "platforms": [
     "tiktok",
     "youtube",
     "facebook"
    ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
+   "rule_note": "check the transcript for slurs",
    "hook_type": "other",
-   "title": "Kai/Jason and lucia enjoying the party",
-   "all_titles": "Kai/Jason and lucia enjoying the party",
-   "views": 3,
+   "title": "jhjh",
+   "all_titles": "jhjh",
+   "views": 7,
    "clippers": 1,
-   "age_h": 2.5,
-   "views_per_h": 1,
+   "age_h": 4.2,
+   "views_per_h": 2,
    "duration": 30,
-   "url": "https://www.twitch.tv/kaicenat/clip/BelovedProductiveCarrotFeelsBadMan-WQyBTGu9UMdqJhoy",
-   "clip": "BelovedProductiveCarrotFeelsBadMan-WQyBTGu9UMdqJhoy",
-   "vod": "2932305259",
-   "vod_offset": 21390,
-   "created_at": "2026-11-27T15:46:48Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e00f837b-a5f2-4d2c-a7d6-6f8e80778e17/landscape/thumb/thumb-0000000000-480x272.jpg",
+   "url": "https://www.twitch.tv/yourragegaming/clip/SmoothHardMomKlappa-E3rJIbHEs4VVhT7b",
+   "clip": "SmoothHardMomKlappa-E3rJIbHEs4VVhT7b",
+   "vod": "2936874294",
+   "vod_offset": 10427,
+   "created_at": "2026-11-27T15:23:29Z",
+   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/1f7226d2-a6ce-402a-8197-2634cb781575/landscape/thumb/thumb-0000000000-480x272.jpg",
    "live_now": false,
    "points": {
-    "velocity": 3.47,
+    "velocity": 4.26,
     "clippers": 0.0,
     "hook": 0,
     "live": 0,
     "length": 1
    },
-   "fresh": 0.95
-  },
-  {
-   "score": 5.82,
-   "streamer": "kaicenat",
-   "name": "KaiCenat",
-   "campaign": "growth",
-   "campaign_expired": false,
-   "platforms": [
-    "tiktok",
-    "youtube",
-    "facebook"
-   ],
-   "rule_note": "added 11-25 by Justin (\"let's not forget about Kai Cenat too if he posts\"). Biggest name on the list: a Kai GTA 6 clip elsewhere had 150.7K likes with the title 'Kai Cenat was SHOCKED that NPCs he fought earlier REMEMBERED him & tried to jump him in GTA 6'. Growth only, never submitted. Twitch login kaicenat. Check the transcript for slurs; cut them out, never post them.",
-   "hook_type": "other",
-   "title": "first to 1m",
-   "all_titles": "first to 1m",
-   "views": 4,
-   "clippers": 1,
-   "age_h": 3.3,
-   "views_per_h": 1,
-   "duration": 58.5,
-   "url": "https://www.twitch.tv/kaicenat/clip/SleepyYummyMushroomHumbleLife-MBMKgjNayIE_MQdb",
-   "clip": "SleepyYummyMushroomHumbleLife-MBMKgjNayIE_MQdb",
-   "vod": "2936683310",
-   "vod_offset": 22980,
-   "created_at": "2026-11-27T14:57:16Z",
-   "thumbnail": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ab069bfb-0deb-43a3-a79d-9ea5f145207d/landscape/thumb/thumb-0000000000-480x272.jpg",
-   "live_now": false,
-   "points": {
-    "velocity": 3.46,
-    "clippers": 0.0,
-    "hook": 0,
-    "live": 0,
-    "length": 1
-   },
-   "fresh": 0.93
+   "fresh": 0.91
   }
  ],
  "already_posted": [
