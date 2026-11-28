@@ -179,7 +179,8 @@
    "status": "scheduled",
    "slot": "2026-11-19 10:38",
    "added": "2026-11-19T04:20Z",
-   "platforms": "YT"
+   "platforms": "YT",
+   "x_slot": "2026-11-29 12:10 (by hand)"
   },
   {
    "name": "BP_ChopShop",
@@ -656,7 +657,8 @@
     "type": "tip",
     "line": "Some cars you break into in GTA 6 have a tracker on them."
    },
-   "priority": 2
+   "priority": 2,
+   "x_slot": "2026-11-29 18:10 (by hand)"
   }
  ]
 }
