@@ -75,13 +75,13 @@
   },
   "theburntpeanut": {
    "campaign": "growth",
-   "weight": 1.2,
+   "weight": 1.3,
    "platforms": [
     "tiktok",
     "youtube",
     "facebook"
    ],
-   "note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted) | 11-25 Justin: \"burnt peanut gets views\" -> 1.1 -> 1.2; Live Clipper may spend credits on him (README ClipSpeed live route)."
+   "note": "11-24 Justin: Burnt Peanut performs (launch-day 'vs GTA 6 traffic' 1,316 IG / 226 TT) -> weight 0.8 -> 1.1 (growth only, never submitted) | 11-25 Justin: \"burnt peanut gets views\" -> 1.1 -> 1.2; Live Clipper may spend credits on him (README ClipSpeed live route). | 11-27 night (Analyst): 1.2 -> 1.3 - 'found out you can sell stolen cars in GTA 6' TikTok 386, For You 0.97, 10 s avg of 23 s (best organic non-Speed TikTok since launch)."
   },
   "kaicenat": {
    "campaign": "growth",
@@ -95,12 +95,13 @@
   },
   "missmikkaa": {
    "campaign": "growth",
-   "weight": 0.7,
+   "weight": 0.8,
    "platforms": [
     "tiktok",
     "youtube",
     "facebook"
-   ]
+   ],
+   "note": "11-27 night (Analyst): 0.7 -> 0.8 - gator fight (nature-doc voice) FB 955 at ~31 h; tracker TikTok For You 0.87."
   },
   "realkatieb": {
    "campaign": "growth",
@@ -249,5 +250,5 @@
   20,
   60
  ],
- "_updated": "2026-11-26 Analyst: lacy 1.3 -> 1.4"
+ "_updated": "2026-11-27 Analyst: theburntpeanut 1.2 -> 1.3, missmikkaa 0.7 -> 0.8"
 }
